@@ -436,6 +436,36 @@
     }
     .time-icon { font-size: 0.75rem; opacity: 0.9; }
 
+    .share-btn-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .story-wa-btn {
+      background: #25d366;
+      border: 1px solid #1ebc59;
+      color: #ffffff;
+      font-size: 0.78rem;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 7px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-family: inherit;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .story-wa-btn:hover {
+      background: #1ebc59;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 8px rgba(37, 211, 102, 0.35);
+    }
+    .story-wa-btn .wa-icon {
+      font-size: 0.85rem;
+    }
+
     .story-share-btn {
       background: var(--card-sec);
       border: 1px solid var(--border);
@@ -1274,6 +1304,29 @@
         }
       }
 
+      window.shareToWhatsApp = function(uid) {
+        let it = null;
+        if (typeof filteredItemsCache !== "undefined" && filteredItemsCache.length) {
+          it = filteredItemsCache.find(x => x._uid === uid || x.id === uid);
+        }
+        if (!it && typeof globalTimeline !== "undefined" && globalTimeline.length) {
+          it = globalTimeline.find(x => x._uid === uid || x.id === uid);
+        }
+
+        const he = state.lang === "he";
+        const title = it ? `${hid(it.id, he)}. ${it.h[state.lang]}` : (he ? "עדכון טכנולוגיות הגנה" : "Defense Technology Digest");
+        const editionKey = it ? it._editionKey : (state.dateFilter || (feed.dates && feed.dates[0]) || "");
+        const itemId = it ? it.id : uid;
+        const lang = state.lang || "he";
+
+        // Dedicated static landing page with Open Graph image preview tags for WhatsApp
+        const previewUrl = `https://t4l-y3h0.github.io/defense-digest/s/${encodeURIComponent(editionKey)}/${encodeURIComponent(itemId)}-${lang}.html`;
+        const shareText = `*${title}*\n\n${previewUrl}`;
+
+        const waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
+        window.open(waUrl, "_blank");
+      };
+
       window.shareStory = async function(uid, btn) {
         let it = null;
         if (typeof filteredItemsCache !== "undefined" && filteredItemsCache.length) {
@@ -1286,9 +1339,12 @@
         const he = state.lang === "he";
         const title = it ? `${hid(it.id, he)}. ${it.h[state.lang]}` : (he ? "עדכון טכנולוגיות הגנה" : "Defense Technology Digest");
         const editionKey = it ? it._editionKey : (state.dateFilter || (feed.dates && feed.dates[0]) || "");
+        const itemId = it ? it.id : uid;
+        const lang = state.lang || "he";
 
-        const cleanOrigin = window.location.href.split("?")[0].split("#")[0];
-        const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(editionKey)}&lang=${state.lang}#story-${uid}`;
+        // Dedicated static landing page with Open Graph image preview tags
+        const previewUrl = `https://t4l-y3h0.github.io/defense-digest/s/${encodeURIComponent(editionKey)}/${encodeURIComponent(itemId)}-${lang}.html`;
+        const shareMessage = `*${title}*\n\n${previewUrl}`;
 
         let sharedViaNative = false;
         const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || ('ontouchstart' in window && window.innerWidth < 800);
@@ -1297,8 +1353,8 @@
           try {
             await navigator.share({
               title: title,
-              text: title,
-              url: shareUrl
+              text: `*${title}*`,
+              url: previewUrl
             });
             sharedViaNative = true;
           } catch (err) {
@@ -1310,9 +1366,9 @@
         }
 
         if (!sharedViaNative) {
-          const success = await copyToClipboard(shareUrl);
+          const success = await copyToClipboard(shareMessage);
           if (success) {
-            showToast(he ? "הקישור הועתק ללוח!" : "Link copied to clipboard!");
+            showToast(he ? "הודעה מוכנה לווטסאפ הועתקה ללוח!" : "WhatsApp-ready text & link copied!");
             if (btn) {
               const textSpan = btn.querySelector(".share-text") || btn;
               const iconSpan = btn.querySelector(".share-icon");
@@ -1328,7 +1384,7 @@
               }, 2000);
             }
           } else {
-            prompt(he ? "העתק את הקישור לידיעה:" : "Copy link to story:", shareUrl);
+            prompt(he ? "העתק את ההודעה לווטסאפ:" : "Copy message for WhatsApp:", shareMessage);
           }
         }
       };
@@ -1535,9 +1591,14 @@
                 <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
                 ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות" : "HIGH PRIORITY"}</span>` : ""}
               </div>
-              <button type="button" class="story-share-btn" onclick="shareStory('${it._uid}', this)" data-uid="${it._uid}" data-item-id="${it.id}" title="${he ? 'שתף' : 'Share'}">
-                <span class="share-icon">↗</span> <span class="share-text">${he ? "שתף" : "Share"}</span>
-              </button>
+              <div class="share-btn-group">
+                <button type="button" class="story-wa-btn" onclick="shareToWhatsApp('${it._uid}')" data-uid="${it._uid}" data-item-id="${it.id}" title="${he ? 'שתף ישירות בווטסאפ עם כותרת ותמונה' : 'Share to WhatsApp with picture preview'}">
+                  <span class="wa-icon">💬</span> <span>${he ? "ווטסאפ" : "WhatsApp"}</span>
+                </button>
+                <button type="button" class="story-share-btn" onclick="shareStory('${it._uid}', this)" data-uid="${it._uid}" data-item-id="${it.id}" title="${he ? 'שתף / העתק הודעה מוכנה לווטסאפ' : 'Share / Copy WhatsApp-ready link'}">
+                  <span class="share-icon">↗</span> <span class="share-text">${he ? "שתף" : "Share"}</span>
+                </button>
+              </div>
             </div>
 
             <h3 class="story-title">${esc(it.h[state.lang])}</h3>
