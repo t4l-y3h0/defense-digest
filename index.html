@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="he" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="referrer" content="no-referrer" />
   <meta name="color-scheme" content="light dark" />
-  <title>The Defense Brief — Neo-Editorial Edition</title>
+  <title>The Defense Brief — Continuous Intelligence Timeline</title>
 
-  <!-- Preconnect to Google Fonts for round Hebrew (Rubik) and Editorial English (Newsreader) -->
+  <!-- Google Fonts: Hebrew (Rubik) & Editorial English (Newsreader) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -26,9 +26,11 @@
       --text-sec: #565961;
       --text-ter: #8a8d98;
       --accent: #0066cc;
+      --accent-rgb: 0, 102, 204;
       --red: #d32f2f;
       --amber: #d97706;
-      --capsule-bg: rgba(26, 28, 33, 0.88);
+      --green: #10b981;
+      --capsule-bg: rgba(26, 28, 33, 0.9);
       --capsule-text: #ffffff;
       --capsule-border: rgba(255, 255, 255, 0.18);
       --radius: 18px;
@@ -55,9 +57,11 @@
         --text-sec: #9fa3b0;
         --text-ter: #686c78;
         --accent: #3b82f6;
+        --accent-rgb: 59, 130, 246;
         --red: #ef4444;
         --amber: #f59e0b;
-        --capsule-bg: rgba(18, 20, 26, 0.92);
+        --green: #10b981;
+        --capsule-bg: rgba(18, 20, 26, 0.94);
         --capsule-text: #ffffff;
         --capsule-border: rgba(255, 255, 255, 0.16);
         --shadow: 0 4px 22px rgba(0, 0, 0, 0.45);
@@ -66,11 +70,11 @@
     }
 
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-    html, body { overflow-x: clip; }
+    html, body { overflow-x: clip; scroll-behavior: smooth; }
 
     body {
       margin: 0;
-      font-family: var(--font-sans);
+      font-family: var(--font-hebrew);
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.55;
@@ -80,11 +84,9 @@
       padding-inline-end: env(safe-area-inset-right, 0px);
     }
 
-    /* Round Hebrew Typography across the entire page */
-    html[lang="he"] body,
-    html[dir="rtl"] body {
-      font-family: var(--font-hebrew);
-      letter-spacing: -0.01em;
+    html[lang="en"] body,
+    html[dir="ltr"] body {
+      font-family: var(--font-sans);
     }
 
     :where(a, code) { overflow-wrap: anywhere; word-break: break-word; }
@@ -107,7 +109,6 @@
       flex-wrap: wrap;
       gap: 0.35rem 0.65rem;
       font-size: 0.72rem;
-      font-family: var(--font-sans);
       font-weight: 700;
       letter-spacing: 0.06em;
       text-transform: uppercase;
@@ -118,8 +119,13 @@
       line-height: 1.25;
     }
 
-    .meta-tag {
-      white-space: nowrap;
+    .meta-tag { white-space: nowrap; }
+    .meta-tag.live-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--green);
+      font-weight: 800;
     }
 
     .meta-dot {
@@ -130,33 +136,28 @@
     }
 
     .masthead-title {
-      font-family: var(--font-serif);
-      font-size: 2.2rem;
-      font-weight: 900;
-      letter-spacing: -0.025em;
-      margin: 0 0 0.35rem 0;
-      line-height: 1.15;
-    }
-
-    /* Hebrew round title */
-    html[lang="he"] .masthead-title {
       font-family: var(--font-hebrew);
+      font-size: 2.1rem;
       font-weight: 900;
       letter-spacing: -0.02em;
-      font-size: 2rem;
+      margin: 0 0 0.35rem 0;
+      line-height: 1.18;
+    }
+
+    html[lang="en"] .masthead-title {
+      font-family: var(--font-serif);
+      font-size: 2.3rem;
+      letter-spacing: -0.025em;
     }
 
     .masthead-tagline {
-      font-size: 0.88rem;
+      font-size: 0.9rem;
       color: var(--text-sec);
-      font-style: italic;
       margin-bottom: 1rem;
-    }
-    html[lang="he"] .masthead-tagline {
-      font-style: normal;
+      line-height: 1.4;
     }
 
-    /* Underline Tabs */
+    /* Underline Domain Tabs */
     .editorial-tabs {
       display: flex;
       justify-content: center;
@@ -194,6 +195,83 @@
       padding: 1.25rem 1rem;
     }
 
+    /* Live Stream Header Ticker */
+    .live-stream-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1.1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .live-badge-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .live-dot-pulse {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background-color: var(--green);
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+      animation: pulseGreen 2s infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes pulseGreen {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    .live-title-text {
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--green);
+    }
+
+    .live-meta-desc {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-sec);
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .live-meta-desc strong {
+      color: var(--text);
+    }
+
+    .live-refresh-action {
+      background: var(--card-sec);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+      font-family: inherit;
+    }
+
+    .live-refresh-action:hover, .live-refresh-action:active {
+      background: var(--card-highlight);
+      border-color: var(--accent);
+    }
 
     /* Top Carousel */
     .carousel-section { margin-block-end: 2rem; }
@@ -209,7 +287,6 @@
       gap: 5px;
     }
     .section-label::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-
     .section-heading { font-size: 1.45rem; font-weight: 900; margin: 0 0 1rem 0; letter-spacing: -0.02em; }
 
     .carousel-track {
@@ -245,7 +322,7 @@
     .carousel-badge {
       position: absolute;
       top: 10px;
-      left: 10px;
+      right: 10px;
       background: var(--red);
       color: #fff;
       font-size: 0.65rem;
@@ -254,39 +331,110 @@
       border-radius: 6px;
       text-transform: uppercase;
     }
-    html[dir="rtl"] .carousel-badge { left: auto; right: 10px; }
+    html[dir="ltr"] .carousel-badge { right: auto; left: 10px; }
 
     .carousel-content { padding: 1rem; flex: 1; display: flex; flex-direction: column; }
-    .carousel-meta { font-size: 0.72rem; font-weight: 700; color: var(--text-sec); text-transform: uppercase; margin-bottom: 0.35rem; }
+    .carousel-meta { font-size: 0.72rem; font-weight: 700; color: var(--text-sec); text-transform: uppercase; margin-bottom: 0.35rem; display: flex; align-items: center; justify-content: space-between; }
     .carousel-title { margin: 0 0 0.45rem 0; font-size: 1.08rem; font-weight: 800; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
     .carousel-desc { font-size: 0.85rem; color: var(--text-sec); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
+    /* Timeline Edition Dividers */
+    .timeline-edition-divider {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-block: 2.5rem 1.4rem;
+      position: relative;
+    }
+    .timeline-edition-divider:first-of-type {
+      margin-block-start: 1rem;
+    }
+    .timeline-divider-line {
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .timeline-edition-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 7px 16px;
+      border-radius: 30px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text);
+      box-shadow: var(--shadow);
+      white-space: nowrap;
+    }
+    .timeline-edition-tag {
+      color: var(--accent);
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .timeline-edition-time {
+      font-size: 0.78rem;
+      color: var(--text-sec);
+      font-feature-settings: "tnum";
+      font-variant-numeric: tabular-nums;
+    }
+    .timeline-edition-count {
+      background: var(--card-sec);
+      color: var(--text-sec);
+      font-size: 0.74rem;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-weight: 800;
+    }
+
     /* Feed Grid / Cards */
-    .feed-grid { display: flex; flex-direction: column; gap: 1.35rem; }
+    .feed-grid { display: flex; flex-direction: column; gap: 1.4rem; }
     .story-card {
       background: var(--card);
       border-radius: var(--radius);
       border: 1px solid var(--border);
       box-shadow: var(--shadow);
       padding: 1.25rem;
-      transition: box-shadow 0.2s ease;
+      transition: box-shadow 0.2s ease, transform 0.15s ease;
+      position: relative;
     }
     .story-card:hover { box-shadow: var(--shadow-hover); }
     .story-card.high-priority { border-inline-start: 5px solid var(--red); }
 
-    .story-top-meta { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-block-end: 0.65rem; }
+    .story-top-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-block-end: 0.75rem; flex-wrap: wrap; }
     .meta-pills { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
     .mini-badge {
-      font-size: 0.72rem;
+      font-size: 0.74rem;
       font-weight: 700;
       padding: 3px 8px;
       border-radius: 6px;
       background: var(--card-sec);
       color: var(--text-sec);
       text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
-    .mini-badge.priority-high { background: rgba(211, 47, 47, 0.12); color: var(--red); }
-    .mini-badge.domain { background: rgba(0, 102, 204, 0.1); color: var(--accent); }
+    .mini-badge.priority-high { background: rgba(211, 47, 47, 0.12); color: var(--red); font-weight: 800; }
+    .mini-badge.domain { background: rgba(var(--accent-rgb), 0.1); color: var(--accent); }
+    
+    /* Dedicated Per-Item Date and Time Badge */
+    .mini-badge.timestamp-badge {
+      background: rgba(var(--accent-rgb), 0.08);
+      color: var(--accent);
+      border: 1px solid rgba(var(--accent-rgb), 0.22);
+      font-weight: 700;
+      font-feature-settings: "tnum";
+      font-variant-numeric: tabular-nums;
+      direction: ltr;
+    }
+    html[dir="rtl"] .mini-badge.timestamp-badge {
+      direction: rtl;
+    }
+    .time-icon { font-size: 0.75rem; opacity: 0.9; }
 
     .story-share-btn {
       background: var(--card-sec);
@@ -300,7 +448,9 @@
       display: inline-flex;
       align-items: center;
       gap: 4px;
+      font-family: inherit;
     }
+    .story-share-btn:hover { background: var(--card-highlight); }
 
     .story-title { margin: 0 0 0.85rem 0; font-size: 1.25rem; font-weight: 800; line-height: 1.35; letter-spacing: -0.015em; }
     .story-media-box { margin-block-end: 0.95rem; border-radius: var(--radius-sm); overflow: hidden; background: var(--card-sec); border: 1px solid var(--border-subtle); }
@@ -333,187 +483,53 @@
     .story-sources { margin-block-start: 0.95rem; padding-block-start: 0.65rem; border-block-start: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-sec); }
     .story-sources a { color: var(--accent); text-decoration: none; font-weight: 700; }
 
-    /* Floating Dynamic Island Capsule (Bottom Center) */
-    .floating-capsule {
-      position: fixed;
-      bottom: max(20px, env(safe-area-inset-bottom, 0px) + 8px);
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 900;
-      background: var(--capsule-bg);
-      backdrop-filter: blur(24px);
-      -webkit-backdrop-filter: blur(24px);
-      color: var(--capsule-text);
-      border: 1px solid var(--capsule-border);
-      border-radius: 35px;
-      padding: 5px 10px;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45);
-      font-family: var(--font-hebrew);
-      max-width: calc(100vw - 20px);
-      box-sizing: border-box;
+    /* Sentinel & Continuous Loader */
+    #feed-scroll-sentinel {
+      width: 100%;
+      height: 20px;
+      margin-block: 1rem;
     }
 
-    .capsule-btn {
-      background: transparent;
-      border: none;
-      color: #fff;
-      font-size: 0.8rem;
+    .feed-loader-box {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      color: var(--text-sec);
+      font-size: 0.88rem;
       font-weight: 700;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 6px 7px;
-      border-radius: 18px;
-      touch-action: manipulation;
-      font-family: inherit;
-      white-space: nowrap;
-      flex-shrink: 0;
-      transition: background 0.15s ease, color 0.15s ease;
-    }
-
-    .capsule-btn:active { background: rgba(255, 255, 255, 0.2); }
-
-    .capsule-btn.active-filter {
-      background: var(--accent);
-      color: #ffffff;
-      box-shadow: 0 0 12px rgba(0, 102, 204, 0.6);
-    }
-
-    .capsule-divider {
-      width: 1px;
-      height: 14px;
-      background: rgba(255, 255, 255, 0.22);
-      flex-shrink: 0;
-    }
-
-    /* Bottom Sheet (BLUF & Dates) */
-    .sheet-backdrop {
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.55);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      z-index: 1000;
-      display: none;
-      align-items: flex-end;
-      justify-content: center;
-    }
-    .sheet-backdrop.open { display: flex; }
-
-    .bottom-sheet {
-      background: var(--card);
-      border-radius: 22px 22px 0 0;
-      border: 1px solid var(--border);
-      width: 100%;
-      max-inline-size: 650px;
-      max-block-size: 80vh;
-      overflow-y: auto;
-      padding: 1.25rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom, 0px)) 1.25rem;
-      animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
-
-    .sheet-grabber { width: 38px; height: 4px; border-radius: 2px; background: var(--text-ter); margin: 0 auto 1rem auto; }
-    .sheet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
-    .sheet-title { font-size: 1.25rem; font-weight: 800; margin: 0; }
-    .sheet-close-btn { background: var(--card-sec); border: none; color: var(--text); font-weight: 700; padding: 6px 14px; border-radius: 12px; cursor: pointer; }
-
-    .bluf-sheet-list { margin: 0; padding-inline-start: 1.25rem; }
-    .bluf-sheet-list li { margin-block-end: 0.75rem; font-size: 0.95rem; line-height: 1.55; }
-
-    /* Country Sheet Styles */
-    .country-search-wrap {
-      margin-bottom: 0.85rem;
-    }
-    .country-search-field {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 10px 14px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      background: var(--card-sec);
-      color: var(--text);
-      font-size: 0.92rem;
-      font-family: inherit;
-      outline: none;
-      transition: border-color 0.15s ease;
-    }
-    .country-search-field:focus {
-      border-color: var(--accent);
-    }
-    .country-sheet-grid {
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
-      max-height: 55vh;
-      overflow-y: auto;
-      padding-inline-end: 2px;
-    }
-    .country-group-label {
-      font-size: 0.75rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--text-ter);
-      margin-top: 0.65rem;
-      margin-bottom: 0.35rem;
-    }
-    .country-chips-row {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      gap: 0.5rem;
-    }
-    .country-btn {
-      background: var(--card-sec);
-      border: 1px solid var(--border);
-      color: var(--text);
-      border-radius: 12px;
-      padding: 9px 12px;
-      font-size: 0.88rem;
-      font-weight: 600;
-      display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      cursor: pointer;
-      font-family: inherit;
-      transition: all 0.15s ease;
-      text-align: start;
+      gap: 10px;
     }
-    .country-btn:active, .country-btn:hover {
-      background: var(--card-highlight);
-      border-color: var(--accent);
+
+    .feed-spinner {
+      width: 28px;
+      height: 28px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
     }
-    .country-btn.active {
-      background: var(--text);
-      color: var(--bg);
-      border-color: var(--text);
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .archive-end-banner {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text-sec);
+      margin-block: 2rem;
     }
-    .country-btn .c-count {
-      background: rgba(0, 0, 0, 0.08);
-      font-size: 0.75rem;
-      padding: 2px 7px;
-      border-radius: 10px;
-      font-weight: 700;
-    }
-    .country-btn.active .c-count {
-      background: rgba(255, 255, 255, 0.25);
-      color: var(--bg);
-    }
-    @media (prefers-color-scheme: dark) {
-      .country-btn .c-count {
-        background: rgba(255, 255, 255, 0.12);
-      }
-    }
+    .archive-end-banner h4 { margin: 0 0 0.5rem 0; color: var(--text); font-size: 1.1rem; }
+    .archive-end-banner p { margin: 0 0 1rem 0; font-size: 0.88rem; }
+
+    /* Active Filter Banner */
     .active-filter-banner {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background: rgba(0, 102, 204, 0.08);
+      background: rgba(var(--accent-rgb), 0.08);
       border: 1px solid var(--border-accent);
       border-radius: 12px;
       padding: 9px 14px;
@@ -534,15 +550,199 @@
       font-family: inherit;
       white-space: nowrap;
     }
-    .empty-country-feed {
-      text-align: center;
-      padding: 2.5rem 1rem;
-      color: var(--text-sec);
+
+    /* Floating Capsule & Action Toast */
+    .floating-capsule {
+      position: fixed;
+      bottom: max(18px, env(safe-area-inset-bottom, 0px) + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 900;
+      background: var(--capsule-bg);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      color: var(--capsule-text);
+      border: 1px solid var(--capsule-border);
+      border-radius: 35px;
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45);
+      font-family: inherit;
+      max-width: calc(100vw - 20px);
+      box-sizing: border-box;
     }
-    .empty-country-feed p {
-      font-size: 1rem;
-      margin-bottom: 1rem;
+
+    .capsule-btn {
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 8px;
+      border-radius: 18px;
+      touch-action: manipulation;
+      font-family: inherit;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: background 0.15s ease, color 0.15s ease;
     }
+
+    .capsule-btn:active { background: rgba(255, 255, 255, 0.2); }
+    .capsule-btn.active-filter {
+      background: var(--accent);
+      color: #ffffff;
+      box-shadow: 0 0 12px rgba(0, 102, 204, 0.6);
+    }
+
+    .capsule-divider {
+      width: 1px;
+      height: 14px;
+      background: rgba(255, 255, 255, 0.22);
+      flex-shrink: 0;
+    }
+
+    /* Floating Scroll-to-Top Button */
+    .floating-top-btn {
+      position: fixed;
+      bottom: max(80px, env(safe-area-inset-bottom, 0px) + 70px);
+      left: 20px;
+      z-index: 850;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.2);
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.25s ease;
+    }
+    html[dir="rtl"] .floating-top-btn {
+      left: auto;
+      right: 20px;
+    }
+    .floating-top-btn.visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    /* Bottom Sheets */
+    .sheet-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 1000;
+      display: none;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .sheet-backdrop.open { display: flex; }
+
+    .bottom-sheet {
+      background: var(--card);
+      border-radius: 22px 22px 0 0;
+      border: 1px solid var(--border);
+      width: 100%;
+      max-inline-size: 650px;
+      max-block-size: 82vh;
+      overflow-y: auto;
+      padding: 1.25rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom, 0px)) 1.25rem;
+      animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+    .sheet-grabber { width: 38px; height: 4px; border-radius: 2px; background: var(--text-ter); margin: 0 auto 1rem auto; }
+    .sheet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+    .sheet-title { font-size: 1.25rem; font-weight: 800; margin: 0; }
+    .sheet-close-btn { background: var(--card-sec); border: none; color: var(--text); font-weight: 700; padding: 6px 14px; border-radius: 12px; cursor: pointer; }
+
+    .bluf-sheet-list { margin: 0; padding-inline-start: 1.25rem; }
+    .bluf-sheet-list li { margin-block-end: 0.75rem; font-size: 0.95rem; line-height: 1.55; }
+
+    /* Country Sheet */
+    .country-search-wrap { margin-bottom: 0.85rem; }
+    .country-search-field {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--card-sec);
+      color: var(--text);
+      font-size: 0.92rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+    .country-search-field:focus { border-color: var(--accent); }
+    .country-sheet-grid { display: flex; flex-direction: column; gap: 0.5rem; max-height: 55vh; overflow-y: auto; }
+    .country-group-label { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-ter); margin-top: 0.65rem; margin-bottom: 0.35rem; }
+    .country-chips-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.5rem; }
+    .country-btn {
+      background: var(--card-sec);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 9px 12px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s ease;
+      text-align: start;
+    }
+    .country-btn:active, .country-btn:hover { background: var(--card-highlight); border-color: var(--accent); }
+    .country-btn.active { background: var(--text); color: var(--bg); border-color: var(--text); }
+    .country-btn .c-count { background: rgba(0, 0, 0, 0.08); font-size: 0.75rem; padding: 2px 7px; border-radius: 10px; font-weight: 700; }
+    .country-btn.active .c-count { background: rgba(255, 255, 255, 0.25); color: var(--bg); }
+    @media (prefers-color-scheme: dark) {
+      .country-btn .c-count { background: rgba(255, 255, 255, 0.12); }
+    }
+
+    /* Date Sheet */
+    .date-sheet-list { display: flex; flex-direction: column; gap: 8px; max-height: 60vh; overflow-y: auto; padding-block: 4px; }
+    .date-jump-btn {
+      background: var(--card-sec);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 11px 14px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s ease;
+    }
+    .date-jump-btn:hover, .date-jump-btn:active { background: var(--card-highlight); border-color: var(--accent); }
+    .date-jump-btn.all-dates-btn {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .date-jump-btn.active { border-color: var(--accent); background: var(--card-highlight); }
 
     #capsule-toast {
       position: fixed;
@@ -570,33 +770,41 @@
     <div class="masthead-top-line">
       <span class="meta-tag">UNCLASSIFIED / OSINT</span>
       <span class="meta-dot">•</span>
-      <span class="meta-tag" id="ui-meta-date">NOVEMBER 18, 2026</span>
+      <span class="meta-tag live-indicator">
+        <span class="live-dot-pulse"></span>
+        <span id="ui-meta-live">LIVE CONTINUOUS FEED</span>
+      </span>
       <span class="meta-dot">•</span>
-      <span class="meta-tag" id="ui-meta-edition">DAILY BRIEF</span>
+      <span class="meta-tag" id="ui-meta-date">NOVEMBER 21, 2026</span>
     </div>
-    <h1 class="masthead-title" id="ui-brand-title">THE DEFENSE BRIEF</h1>
-    <div class="masthead-tagline" id="ui-brand-sub">Daily Strategic Weaponry, Procurement & Regional Implication Analysis</div>
+    <h1 class="masthead-title" id="ui-brand-title">סקירת טכנולוגיות ביטחוניות</h1>
+    <div class="masthead-tagline" id="ui-brand-sub">פיד מודיעין רציף · אמצעי לחימה, רכש ומשמעויות אסטרטגיות לפי ציר הזמן</div>
 
     <nav class="editorial-tabs" aria-label="Domain Tabs">
-      <button type="button" class="tab-item active" data-domain="all"><span id="tab-all-lbl">All Reports</span></button>
-      <button type="button" class="tab-item" data-domain="air"><span id="tab-air-lbl">Air Defense</span></button>
-      <button type="button" class="tab-item" data-domain="aerial"><span id="tab-aerial-lbl">Aerial</span></button>
-      <button type="button" class="tab-item" data-domain="strike"><span id="tab-strike-lbl">Strike</span></button>
-      <button type="button" class="tab-item" data-domain="naval"><span id="tab-naval-lbl">Naval</span></button>
+      <button type="button" class="tab-item active" data-domain="all"><span id="tab-all-lbl">כל הדיווחים</span></button>
+      <button type="button" class="tab-item" data-domain="air"><span id="tab-air-lbl">הגנה אווירית</span></button>
+      <button type="button" class="tab-item" data-domain="aerial"><span id="tab-aerial-lbl">אווירי</span></button>
+      <button type="button" class="tab-item" data-domain="strike"><span id="tab-strike-lbl">תקיפה</span></button>
+      <button type="button" class="tab-item" data-domain="naval"><span id="tab-naval-lbl">ימי</span></button>
     </nav>
   </header>
 
   <main class="editorial-main" id="app-main"></main>
 
+  <!-- Floating Scroll-to-Top Button -->
+  <button type="button" class="floating-top-btn" id="btn-scroll-top" title="למעלה / Top" aria-label="Scroll to top">
+    ↑
+  </button>
+
   <!-- Floating Dynamic Island Capsule -->
   <aside class="floating-capsule" role="navigation" aria-label="Quick Navigation">
-    <button type="button" class="capsule-btn" id="cap-lang" title="Toggle Language">🌐 <span id="cap-lang-text">עב</span></button>
+    <button type="button" class="capsule-btn" id="cap-lang" title="Toggle Language">🌐 <span id="cap-lang-text">EN</span></button>
     <div class="capsule-divider"></div>
-    <button type="button" class="capsule-btn" id="cap-date" title="Select Date">📅 <span id="cap-date-text">11/18</span></button>
+    <button type="button" class="capsule-btn" id="cap-date" title="Select Edition or Date">📅 <span id="cap-date-text">ציר זמן</span></button>
     <div class="capsule-divider"></div>
     <button type="button" class="capsule-btn" id="cap-country" title="Filter by Country">🌍 <span id="cap-country-text">מדינה</span></button>
     <div class="capsule-divider"></div>
-    <button type="button" class="capsule-btn" id="cap-bluf" title="View BLUF Summary">⚡ BLUF</button>
+    <button type="button" class="capsule-btn" id="cap-bluf" title="View Executive BLUF">⚡ BLUF</button>
   </aside>
 
   <!-- BLUF Bottom Sheet -->
@@ -604,22 +812,23 @@
     <div class="bottom-sheet">
       <div class="sheet-grabber"></div>
       <div class="sheet-header">
-        <h2 class="sheet-title" id="sheet-bluf-title">Executive Briefing (BLUF)</h2>
-        <button type="button" class="sheet-close-btn" id="close-bluf-sheet">Done</button>
+        <h2 class="sheet-title" id="sheet-bluf-title">תקציר מנהלים (BLUF)</h2>
+        <button type="button" class="sheet-close-btn" id="close-bluf-sheet">סגור</button>
       </div>
+      <div id="bluf-edition-selector" style="margin-bottom:12px;font-size:0.85rem;color:var(--text-sec);font-weight:700;"></div>
       <ul class="bluf-sheet-list" id="bluf-sheet-content"></ul>
     </div>
   </div>
 
-  <!-- Date Bottom Sheet -->
+  <!-- Date / Timeline Jump Bottom Sheet -->
   <div class="sheet-backdrop" id="date-sheet">
     <div class="bottom-sheet">
       <div class="sheet-grabber"></div>
       <div class="sheet-header">
-        <h2 class="sheet-title">Select Edition Date</h2>
-        <button type="button" class="sheet-close-btn" id="close-date-sheet">Done</button>
+        <h2 class="sheet-title" id="sheet-date-title">ציר זמן ומהדורות</h2>
+        <button type="button" class="sheet-close-btn" id="close-date-sheet">סגור</button>
       </div>
-      <div id="date-list-buttons" style="display:flex;flex-direction:column;gap:8px;padding-block:6px;"></div>
+      <div class="date-sheet-list" id="date-list-buttons"></div>
     </div>
   </div>
 
@@ -629,7 +838,7 @@
       <div class="sheet-grabber"></div>
       <div class="sheet-header">
         <h2 class="sheet-title" id="sheet-country-title">סינון לפי מדינה</h2>
-        <button type="button" class="sheet-close-btn" id="close-country-sheet">Done</button>
+        <button type="button" class="sheet-close-btn" id="close-country-sheet">סגור</button>
       </div>
       <div class="country-search-wrap">
         <input type="search" id="country-search-input" class="country-search-field" placeholder="חיפוש מדינה..." autocomplete="off" />
@@ -643,12 +852,9 @@
   <script src="./feed_bundle.js"></script>
   <script>
     (function () {
-      const feed = window.DEFENSE_BRIEF_FEED || { dates: [], digests: {} };
+      const feed = window.DEFENSE_BRIEF_FEED || { dates: [], digests: {}, updated_at: "" };
       const urlParams = new URLSearchParams(window.location.search);
-      let initialDate = feed.dates[0] || "";
-      if (urlParams.get("date") && feed.digests[urlParams.get("date")]) {
-        initialDate = urlParams.get("date");
-      }
+      
       let initialLang = "he";
       if (urlParams.get("lang") === "he" || urlParams.get("lang") === "en") {
         initialLang = urlParams.get("lang");
@@ -659,12 +865,21 @@
         } catch (e) {}
       }
 
+      // If user provided a specific date in URL params, isolate or scroll to it
+      let initialDateFilter = urlParams.get("date") || null;
+      if (initialDateFilter === "all" || !feed.digests[initialDateFilter]) {
+        initialDateFilter = null;
+      }
+
       let state = {
-        date: initialDate,
         lang: initialLang,
-        filter: "all",
-        country: null
+        domain: urlParams.get("domain") || "all",
+        country: urlParams.get("country") || null,
+        dateFilter: initialDateFilter, // null means FULL CONTINUOUS TIMELINE
+        renderedCount: 25 // incremental batch rendering
       };
+
+      const BATCH_SIZE = 25;
 
       const FLAG_MAP = {
         "israel": "🇮🇱", "ישראל": "🇮🇱",
@@ -688,7 +903,7 @@
         "czech republic": "🇨🇿", "צ'כיה": "🇨🇿",
         "switzerland": "🇨🇭", "שווייץ": "🇨🇭",
         "kuwait": "🇰🇼", "כווית": "כווית",
-        "bahrain": "🇧🇭", "בחריין": "🇧🇭",
+        "bahrain": "🇧🇭", "בחריין": "בחריין",
         "austria": "🇦🇹", "אוסטריה": "🇦🇹",
         "malaysia": "🇲🇾", "מלזיה": "מלזיה",
         "ghana": "🇬🇭", "גאנה": "גאנה",
@@ -708,36 +923,133 @@
         "japan": "🇯🇵", "יפן": "יפן"
       };
 
-      function formatHebrewDate(dateStr) {
-        if (!dateStr) return "";
-        const parts = dateStr.split("-");
-        if (parts.length < 3) return dateStr;
-        const monthsHe = {
-          "01": "בינואר", "02": "בפברואר", "03": "במרץ", "04": "באפריל",
-          "05": "במאי", "06": "ביוני", "07": "ביולי", "08": "באוגוסט",
-          "09": "בספטמבר", "10": "באוקטובר", "11": "בנובמבר", "12": "בדצמבר"
+      // Ensure dates are sorted chronologically descending (evening before main of same date)
+      function getEditionSortTime(key) {
+        const dig = feed.digests[key];
+        if (dig && dig.wend) {
+          const t = new Date(dig.wend).getTime();
+          if (!isNaN(t)) return t;
+        }
+        const base = key.replace("-evening", "");
+        const isEv = key.includes("evening");
+        const timePart = isEv ? "T18:50:00Z" : "T15:20:00Z";
+        return new Date(base + timePart).getTime() || 0;
+      }
+
+      const sortedDates = (feed.dates || []).slice().sort((a, b) => getEditionSortTime(b) - getEditionSortTime(a));
+
+      // Build unified continuous timeline items
+      const globalTimeline = [];
+      const editionsMeta = {};
+
+      sortedDates.forEach((dateKey) => {
+        const dig = feed.digests[dateKey];
+        if (!dig) return;
+        const isEvening = dateKey.includes("evening");
+        const baseDate = dateKey.replace("-evening", "");
+        const wendTimeMs = getEditionSortTime(dateKey);
+        const wendIso = dig.wend || new Date(wendTimeMs).toISOString();
+
+        editionsMeta[dateKey] = {
+          key: dateKey,
+          baseDate: baseDate,
+          isEvening: isEvening,
+          wend: wendIso,
+          wendTimeMs: wendTimeMs,
+          itemCount: (dig.items || []).length,
+          bluf: dig.digest?.bluf || {},
+          photos: dig.photos || {}
         };
-        const isEvening = dateStr.includes("evening");
+
+        (dig.items || []).forEach((it, idx) => {
+          globalTimeline.push({
+            ...it,
+            _uid: `${dateKey}__${it.id}`,
+            _editionKey: dateKey,
+            _baseDate: baseDate,
+            _isEvening: isEvening,
+            _wend: wendIso,
+            _timestampMs: wendTimeMs - idx * 1000, // micro-offset to preserve exact intra-edition priority order
+            _photos: dig.photos || {},
+            _indexInEdition: idx
+          });
+        });
+      });
+
+      // Sort all items strictly reverse-chronologically (newest on top)
+      globalTimeline.sort((a, b) => b._timestampMs - a._timestampMs);
+
+      // Date & Time formatting helpers
+      function formatHebrewDateTime(isoStr, isEvening) {
+        if (!isoStr) return "";
+        try {
+          const d = new Date(isoStr);
+          const day = d.getUTCDate();
+          const monthsHe = [
+            "בינואר", "בפברואר", "במרץ", "באפריל", "במאי", "ביוני",
+            "ביולי", "באוגוסט", "בספטמבר", "באוקטובר", "בנובמבר", "בדצמבר"
+          ];
+          const month = monthsHe[d.getUTCMonth()];
+          const year = d.getUTCFullYear();
+          
+          // Localized Israel Time (UTC+2)
+          const istH = String((d.getUTCHours() + 2) % 24).padStart(2, "0");
+          const istM = String(d.getUTCMinutes()).padStart(2, "0");
+          const timeStr = `${istH}:${istM}`;
+          const edTag = isEvening ? "ערב" : "ראשי";
+
+          return `${day} ${month} ${year} · ${timeStr} (${edTag})`;
+        } catch (e) {
+          return isoStr;
+        }
+      }
+
+      function formatEnglishDateTime(isoStr, isEvening) {
+        if (!isoStr) return "";
+        try {
+          const d = new Date(isoStr);
+          const monthsEn = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+          const day = d.getUTCDate();
+          const month = monthsEn[d.getUTCMonth()];
+          const year = d.getUTCFullYear();
+          
+          const utcH = String(d.getUTCHours()).padStart(2, "0");
+          const utcM = String(d.getUTCMinutes()).padStart(2, "0");
+          const timeStr = `${utcH}:${utcM} UTC`;
+          const edTag = isEvening ? "Evening" : "Main";
+
+          return `${month} ${day}, ${year} · ${timeStr} (${edTag})`;
+        } catch (e) {
+          return isoStr;
+        }
+      }
+
+      function formatEditionTitle(dateKey, he) {
+        const meta = editionsMeta[dateKey];
+        if (!meta) return dateKey;
+        const base = meta.baseDate;
+        const isEv = meta.isEvening;
+        const parts = base.split("-");
+        if (parts.length < 3) return dateKey;
         const day = parseInt(parts[2], 10);
-        const m = monthsHe[parts[1]] || parts[1];
-        return `${day} ${m} ${parts[0]}${isEvening ? " (ערב)" : ""}`;
+        if (he) {
+          const monthsHe = {
+            "01": "בינואר", "02": "בפברואר", "03": "במרץ", "04": "באפריל",
+            "05": "במאי", "06": "ביוני", "07": "ביולי", "08": "באוגוסט",
+            "09": "בספטמבר", "10": "באוקטובר", "11": "בנובמבר", "12": "בדצמבר"
+          };
+          return `${day} ${monthsHe[parts[1]] || parts[1]} ${parts[0]} · ${isEv ? "מהדורת ערב" : "מהדורה ראשית"}`;
+        } else {
+          const monthsEn = {
+            "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr",
+            "05": "May", "06": "Jun", "07": "Jul", "08": "Aug",
+            "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+          };
+          return `${monthsEn[parts[1]] || parts[1]} ${day}, ${parts[0]} · ${isEv ? "Evening Edition" : "Main Edition"}`;
+        }
       }
 
-      function formatEnglishDate(dateStr) {
-        if (!dateStr) return "";
-        const parts = dateStr.split("-");
-        if (parts.length < 3) return dateStr;
-        const monthsEn = {
-          "01": "JANUARY", "02": "FEBRUARY", "03": "MARCH", "04": "APRIL",
-          "05": "MAY", "06": "JUNE", "07": "JULY", "08": "AUGUST",
-          "09": "SEPTEMBER", "10": "OCTOBER", "11": "NOVEMBER", "12": "DECEMBER"
-        };
-        const isEvening = dateStr.includes("evening");
-        const m = monthsEn[parts[1]] || parts[1];
-        return `${m} ${parseInt(parts[2], 10)}, ${parts[0]}${isEvening ? " (EVENING)" : ""}`;
-      }
-
-      function getDigestCountries(items, isHe) {
+      function getTimelineCountries(items, isHe) {
         const counts = {};
         items.forEach(it => {
           const raw = isHe ? (it.countryHe || it.country) : (it.country || it.countryHe);
@@ -766,13 +1078,14 @@
 
       window.selectCountry = function(c) {
         state.country = c || null;
+        state.renderedCount = BATCH_SIZE;
         document.getElementById("country-sheet").classList.remove("open");
         render();
       };
 
       function populateCountrySheet(allItems, he) {
         const container = document.getElementById("country-sheet-content");
-        const countries = getDigestCountries(allItems, he);
+        const countries = getTimelineCountries(allItems, he);
 
         const focusNamesHe = ["ישראל", "גרמניה", "הודו", "ארצות הברית", "איחוד האמירויות", "אזרבייג'ן", "סינגפור", "מרוקו"];
         const focusNamesEn = ["Israel", "Germany", "India", "United States", "UAE", "Azerbaijan", "Singapore", "Morocco"];
@@ -783,7 +1096,7 @@
 
         let html = `
           <button type="button" class="country-btn all-btn ${!state.country ? "active" : ""}" onclick="selectCountry('')">
-            <span>🌐 ${he ? "כל המדינות (הצג הכל)" : "All Countries (Show All)"}</span>
+            <span>🌐 ${he ? "כל המדינות (הצג הכל ברצף)" : "All Countries (Full Stream)"}</span>
             <span class="c-count">${allItems.length}</span>
           </button>
         `;
@@ -830,9 +1143,71 @@
         };
       }
 
-      const mainEl = document.getElementById("app-main");
-      const capLangText = document.getElementById("cap-lang-text");
-      const capDateText = document.getElementById("cap-date-text");
+      function populateDateSheet(he) {
+        const container = document.getElementById("date-list-buttons");
+        let html = `
+          <button type="button" class="date-jump-btn all-dates-btn ${!state.dateFilter ? "active" : ""}" onclick="setDateFilter(null)">
+            <span>🌐 ${he ? "ציר זמן רציף מלא (כל המהדורות)" : "Full Continuous Timeline (All Editions)"}</span>
+            <span>${globalTimeline.length} ${he ? "דיווחים" : "reports"}</span>
+          </button>
+        `;
+
+        sortedDates.forEach((k) => {
+          const meta = editionsMeta[k];
+          if (!meta) return;
+          const isSelected = state.dateFilter === k;
+          const title = formatEditionTitle(k, he);
+          html += `
+            <button type="button" class="date-jump-btn ${isSelected ? "active" : ""}" onclick="jumpToOrFilterDate('${k}')">
+              <span>🗓️ ${title}</span>
+              <span style="font-size:0.78rem;opacity:0.8;">${meta.itemCount} ${he ? "פריטים" : "items"}</span>
+            </button>
+          `;
+        });
+        container.innerHTML = html;
+      }
+
+      window.setDateFilter = function(df) {
+        state.dateFilter = df;
+        state.renderedCount = BATCH_SIZE;
+        document.getElementById("date-sheet").classList.remove("open");
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+
+      window.jumpToOrFilterDate = function(k) {
+        document.getElementById("date-sheet").classList.remove("open");
+        if (state.dateFilter) {
+          // If already in isolated mode, switch filter
+          state.dateFilter = k;
+          state.renderedCount = BATCH_SIZE;
+          render();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          return;
+        }
+
+        // In continuous mode: ensure items up to this edition are rendered, then scroll to it
+        const targetEl = document.getElementById("edition-" + k);
+        if (targetEl) {
+          targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else {
+          // Find how many items exist before this edition and expand renderedCount
+          let countNeeded = 0;
+          for (let i = 0; i < filteredItemsCache.length; i++) {
+            countNeeded++;
+            if (filteredItemsCache[i]._editionKey === k) {
+              countNeeded += 10;
+              break;
+            }
+          }
+          state.renderedCount = Math.max(state.renderedCount, countNeeded);
+          render();
+          setTimeout(() => {
+            const el = document.getElementById("edition-" + k);
+            if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+          }, 60);
+        }
+      };
 
       function hid(id, he) {
         if (!he) return id;
@@ -854,9 +1229,9 @@
         setTimeout(() => t.classList.remove("show"), 2000);
       }
 
-      window.shareStory = function(id, title) {
+      window.shareStory = function(uid, title) {
         const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
-        const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(state.date)}&lang=${state.lang}#story-${id}`;
+        const shareUrl = `${cleanOrigin}?lang=${state.lang}#story-${uid}`;
         if (navigator.share) {
           navigator.share({ title: title || "Defense Brief", text: title, url: shareUrl }).catch(() => {});
         } else {
@@ -866,157 +1241,128 @@
         }
       };
 
-      function populateDateSheet() {
-        const dateContainer = document.getElementById("date-list-buttons");
-        dateContainer.innerHTML = feed.dates.map(d => `
-          <button type="button" class="tab-item ${d === state.date ? "active" : ""}" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:10px;font-size:0.9rem;" onclick="changeDate('${d}')">
-            ${d} ${d === feed.dates[0] ? "✨ (Latest)" : ""}
-          </button>
-        `).join("");
-      }
-
-      window.changeDate = function(newDate) {
-        state.date = newDate;
-        state.country = null;
-        document.getElementById("date-sheet").classList.remove("open");
-        render();
+      window.checkForNewNews = function() {
+        showToast(state.lang === "he" ? "מרענן פיד מודיעין..." : "Checking for updates...");
+        setTimeout(() => {
+          location.reload();
+        }, 500);
       };
 
-      function render() {
-        const d = feed.digests[state.date];
-        const he = state.lang === "he";
-        document.documentElement.lang = he ? "he" : "en";
-        document.documentElement.dir = he ? "rtl" : "ltr";
+      const mainEl = document.getElementById("app-main");
+      const capLangText = document.getElementById("cap-lang-text");
+      const capDateText = document.getElementById("cap-date-text");
+      const capCountryBtn = document.getElementById("cap-country");
+      const capCountryText = document.getElementById("cap-country-text");
+      const btnScrollTop = document.getElementById("btn-scroll-top");
 
-        populateDateSheet();
-
-        if (!d) {
-          mainEl.innerHTML = "<p>No digest loaded for this date.</p>";
-          return;
-        }
-
-        const allItems = d.items || [];
-
-        // Masthead copy
-        document.getElementById("ui-brand-title").textContent = he ? "סקירת טכנולוגיות ביטחוניות" : "THE DEFENSE BRIEF";
-        document.getElementById("ui-brand-sub").textContent = he
-          ? `מהדורת ${d.date} · ניתוח אמצעי לחימה, רכש ומשמעויות אזוריות`
-          : `Daily Strategic Weaponry, Procurement & Regional Implication Analysis · ${d.date}`;
-        
-        document.getElementById("ui-meta-date").textContent = he ? formatHebrewDate(d.date) : formatEnglishDate(d.date);
-        document.getElementById("ui-meta-edition").textContent = he ? (d.date.includes("evening") ? "מהדורת ערב" : "סקירה יומית") : (d.date.includes("evening") ? "EVENING DIGEST" : "DAILY BRIEF");
-
-        // Capsule text
-        capLangText.textContent = he ? "EN" : "עב";
-        capDateText.textContent = d.date.slice(5).replace("-", "/");
-
-        const capCountryBtn = document.getElementById("cap-country");
-        const capCountryText = document.getElementById("cap-country-text");
-        if (state.country) {
-          capCountryBtn.classList.add("active-filter");
-          capCountryText.textContent = state.country;
+      // Scroll listener for Top Button
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 400) {
+          btnScrollTop.classList.add("visible");
         } else {
-          capCountryBtn.classList.remove("active-filter");
-          capCountryText.textContent = he ? "מדינה" : "Country";
+          btnScrollTop.classList.remove("visible");
+        }
+      }, { passive: true });
+
+      btnScrollTop.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      let filteredItemsCache = [];
+      let scrollObserver = null;
+
+      function getFilteredItems() {
+        let items = globalTimeline;
+
+        // Filter by Date if single edition is isolated
+        if (state.dateFilter) {
+          items = items.filter(i => i._editionKey === state.dateFilter);
         }
 
-        // Country bottom sheet
-        document.getElementById("sheet-country-title").textContent = he ? "סינון לפי מדינה" : "Filter by Country";
-        document.getElementById("close-country-sheet").textContent = he ? "סגור" : "Done";
-        populateCountrySheet(allItems, he);
+        // Filter by Domain
+        if (state.domain !== "all") {
+          items = items.filter(i => i.domain === state.domain);
+        }
 
-        // Tab titles
-        document.getElementById("tab-all-lbl").textContent = he ? `כל הדיווחים (${allItems.length})` : `All Reports (${allItems.length})`;
-        document.getElementById("tab-air-lbl").textContent = he ? "הגנה אווירית" : "Air Defense";
-        document.getElementById("tab-aerial-lbl").textContent = he ? "אווירי" : "Aerial";
-        document.getElementById("tab-strike-lbl").textContent = he ? "תקיפה" : "Strike";
-        document.getElementById("tab-naval-lbl").textContent = he ? "ימי" : "Naval";
+        // Filter by Country
+        if (state.country) {
+          items = items.filter(i => itemMatchesCountry(i, state.country));
+        }
 
-        // BLUF sheet
-        const bluf = (d.digest && d.digest.bluf && d.digest.bluf[state.lang]) || [];
-        document.getElementById("sheet-bluf-title").textContent = he ? "תקציר מנהלים (BLUF)" : "Executive Briefing (BLUF)";
-        document.getElementById("bluf-sheet-content").innerHTML = bluf.map(b => `<li>${esc(b)}</li>`).join("");
+        return items;
+      }
 
+      function setupInfiniteScrollSentinel() {
+        if (scrollObserver) {
+          scrollObserver.disconnect();
+          scrollObserver = null;
+        }
+
+        const sentinel = document.getElementById("feed-scroll-sentinel");
+        if (!sentinel) return;
+
+        scrollObserver = new IntersectionObserver((entries) => {
+          if (entries[0].isIntersecting) {
+            if (state.renderedCount < filteredItemsCache.length) {
+              state.renderedCount = Math.min(state.renderedCount + BATCH_SIZE, filteredItemsCache.length);
+              renderFeedBatch();
+            }
+          }
+        }, { rootMargin: "600px" });
+
+        scrollObserver.observe(sentinel);
+      }
+
+      function renderFeedBatch() {
+        const feedGrid = document.getElementById("feed-grid-container");
+        if (!feedGrid) return;
+
+        const he = state.lang === "he";
         const domLabels = he
           ? { air: "הגנה אווירית", aerial: "אווירי", strike: "תקיפה", naval: "ימי" }
           : { air: "Air Defense", aerial: "Aerial", strike: "Strike", naval: "Naval" };
 
-        let filtered = allItems;
-        if (state.filter !== "all") {
-          filtered = allItems.filter(i => i.domain === state.filter);
-        }
-        if (state.country) {
-          filtered = filtered.filter(i => itemMatchesCountry(i, state.country));
-        }
+        const currentRenderedNodes = feedGrid.querySelectorAll(".story-card").length;
+        const targetItems = filteredItemsCache.slice(0, state.renderedCount);
+        const newSlice = targetItems.slice(currentRenderedNodes);
 
-        let html = "";
-
-        if (state.country) {
-          html += `
-            <div class="active-filter-banner">
-              <span>🌍 ${he ? "סינון מדינה:" : "Filtered by country:"} <strong>${esc(state.country)}</strong> (${filtered.length} ${he ? "דיווחים" : "reports"})</span>
-              <button type="button" class="clear-filter-btn" onclick="selectCountry('')">${he ? "✕ הצג הכל" : "✕ Clear"}</button>
-            </div>
-          `;
+        if (newSlice.length === 0) {
+          updateSentinelUI();
+          return;
         }
 
-        // Top Stories Carousel (Spotlight)
-        const highItems = allItems.filter(i => i.priority === "high");
-        const photos = d.photos || {};
+        let lastEditionKey = currentRenderedNodes > 0
+          ? targetItems[currentRenderedNodes - 1]._editionKey
+          : null;
 
-        if (state.filter === "all" && !state.country && highItems.length > 0) {
-          const carouselSlides = highItems.slice(0, 6).map((it) => {
-            const pinfo = photos[it.id];
-            const primarySrc = pinfo ? (pinfo.local_src || pinfo.url) : "";
-            const remoteUrl = pinfo ? (pinfo.url || "") : "";
-            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
-              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{this.style.display='none';}`
-              : `this.style.display='none';`;
+        const fragment = document.createDocumentFragment();
 
-            return `
-              <article class="carousel-slide" onclick="document.getElementById('story-${it.id}').scrollIntoView({behavior:'smooth',block:'center'});">
-                <div class="carousel-img-wrap">
-                  ${primarySrc ? `<img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />` : ""}
-                  <span class="carousel-badge">${he ? "עדיפות" : "High Priority"}</span>
-                </div>
-                <div class="carousel-content">
-                  <div class="carousel-meta">
-                    <span>${esc(domLabels[it.domain])}</span> · <span>${esc(he ? it.countryHe : it.country)}</span>
-                  </div>
-                  <h3 class="carousel-title">${esc(it.h[state.lang])}</h3>
-                  <p class="carousel-desc">${esc(it.what[state.lang])}</p>
-                </div>
-              </article>
-            `;
-          }).join("");
-
-          html += `
-            <section class="carousel-section">
-              <div class="section-label">${he ? "בחירת המערכת" : "Editor's Spotlight"}</div>
-              <h2 class="section-heading">${he ? "התפתחויות מפתח באמל\"ח עולמי" : "Key Strategic Breakthroughs"}</h2>
-              <div class="carousel-track">
-                ${carouselSlides}
+        newSlice.forEach((it) => {
+          // If we transitioned to a new edition and we are in full continuous timeline mode
+          if (!state.dateFilter && it._editionKey !== lastEditionKey) {
+            lastEditionKey = it._editionKey;
+            const edMeta = editionsMeta[it._editionKey] || {};
+            const dividerDiv = document.createElement("div");
+            dividerDiv.className = "timeline-edition-divider";
+            dividerDiv.id = `edition-${it._editionKey}`;
+            dividerDiv.innerHTML = `
+              <span class="timeline-divider-line"></span>
+              <div class="timeline-edition-badge">
+                <span class="timeline-edition-tag">🗓️ ${formatEditionTitle(it._editionKey, he)}</span>
+                <span class="timeline-edition-time">${he ? formatHebrewDateTime(edMeta.wend, edMeta.isEvening) : formatEnglishDateTime(edMeta.wend, edMeta.isEvening)}</span>
+                <span class="timeline-edition-count">${edMeta.itemCount || ""} ${he ? "דיווחים" : "reports"}</span>
               </div>
-            </section>
-          `;
-        }
+              <span class="timeline-divider-line"></span>
+            `;
+            fragment.appendChild(dividerDiv);
+          }
 
-        // Feed List
-        if (filtered.length === 0) {
-          html += `
-            <div class="empty-country-feed">
-              <p>${he ? `לא נמצאו דיווחים עבור <strong>${esc(state.country || "")}</strong>${state.filter !== 'all' ? ' בתחום זה' : ''}.` : `No reports found for <strong>${esc(state.country || "")}</strong>${state.filter !== 'all' ? ' in this domain' : ''}.`}</p>
-              <button type="button" class="clear-filter-btn" onclick="selectCountry('')">${he ? "הצג את כל המדינות" : "Show All Countries"}</button>
-            </div>
-          `;
-        } else {
-          html += `<section class="feed-section"><div class="feed-grid">`;
-
-        filtered.forEach((it) => {
+          const photos = it._photos || {};
           const pinfo = photos[it.id];
           const hasPhoto = Boolean(pinfo && (pinfo.url || pinfo.local_src));
           const isHigh = it.priority === "high";
 
+          // Photo Markup
           let mediaHtml = "";
           if (hasPhoto) {
             const primarySrc = pinfo.local_src || pinfo.url;
@@ -1037,6 +1383,7 @@
             `;
           }
 
+          // Deep Specs Markup
           const hasDeepSpecs = Boolean(it.figs || it.why || it.israel);
           let specsHtml = "";
           if (hasDeepSpecs) {
@@ -1076,45 +1423,270 @@
 
           const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
           const safeTitle = esc(shareTitle).replace(/'/g, "&#39;");
+          const itemFormattedTime = he
+            ? formatHebrewDateTime(it._wend, it._isEvening)
+            : formatEnglishDateTime(it._wend, it._isEvening);
 
-          html += `
-            <article class="story-card ${isHigh ? "high-priority" : ""}" id="story-${it.id}">
-              <div class="story-top-meta">
-                <div class="meta-pills">
-                  <span class="mini-badge">${esc(hid(it.id, he))}</span>
-                  <span class="mini-badge domain">${esc(domLabels[it.domain])}</span>
-                  <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
-                  ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות" : "HIGH PRIORITY"}</span>` : ""}
-                </div>
-                <button type="button" class="story-share-btn" onclick="shareStory('${it.id}', '${safeTitle}')" title="${he ? 'שתף' : 'Share'}">
-                  <span>↗</span> ${he ? "שתף" : "Share"}
-                </button>
+          const card = document.createElement("article");
+          card.className = `story-card ${isHigh ? "high-priority" : ""}`;
+          card.id = `story-${it._uid}`;
+          card.innerHTML = `
+            <div class="story-top-meta">
+              <div class="meta-pills">
+                <span class="mini-badge timestamp-badge" title="${he ? "זמן פרסום הדיווח" : "Publication Timestamp"}">
+                  <span class="time-icon">🕒</span>
+                  <span>${itemFormattedTime}</span>
+                </span>
+                <span class="mini-badge" style="font-weight:800;">${esc(hid(it.id, he))}</span>
+                <span class="mini-badge domain">${esc(domLabels[it.domain])}</span>
+                <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
+                ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות" : "HIGH PRIORITY"}</span>` : ""}
               </div>
+              <button type="button" class="story-share-btn" onclick="shareStory('${it._uid}', '${safeTitle}')" title="${he ? 'שתף' : 'Share'}">
+                <span>↗</span> ${he ? "שתף" : "Share"}
+              </button>
+            </div>
 
-              <h3 class="story-title">${esc(it.h[state.lang])}</h3>
+            <h3 class="story-title">${esc(it.h[state.lang])}</h3>
 
-              ${mediaHtml}
+            ${mediaHtml}
 
-              <p class="story-lead">${esc(it.what[state.lang])}</p>
+            <p class="story-lead">${esc(it.what[state.lang])}</p>
 
-              ${specsHtml}
+            ${specsHtml}
 
-              <div class="story-sources">
-                <strong>${he ? "מקורות: " : "Sources: "}</strong>${srcLinks}
-              </div>
-            </article>
+            <div class="story-sources">
+              <strong>${he ? "מקורות: " : "Sources: "}</strong>${srcLinks}
+            </div>
           `;
+          fragment.appendChild(card);
         });
 
-          html += `</div></section>`;
-        }
-        mainEl.innerHTML = html;
+        feedGrid.appendChild(fragment);
+        updateSentinelUI();
       }
 
-      // Capsule buttons
+      function updateSentinelUI() {
+        const sentinelBox = document.getElementById("feed-sentinel-wrapper");
+        if (!sentinelBox) return;
+
+        const he = state.lang === "he";
+        if (state.renderedCount >= filteredItemsCache.length) {
+          sentinelBox.innerHTML = `
+            <div class="archive-end-banner">
+              <h4>${he ? "🏁 הגעת לתחילת ציר הזמן" : "🏁 Beginning of Archive Reached"}</h4>
+              <p>${he ? `כל ${filteredItemsCache.length} הדיווחים נטענו ברצף.` : `All ${filteredItemsCache.length} reports loaded continuously.`}</p>
+              <button type="button" class="live-refresh-action" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+                ↑ ${he ? "חזרה לראש הפיד" : "Back to Top"}
+              </button>
+            </div>
+          `;
+          if (scrollObserver) {
+            scrollObserver.disconnect();
+          }
+        } else {
+          sentinelBox.innerHTML = `
+            <div class="feed-loader-box">
+              <div class="feed-spinner"></div>
+              <span>${he ? `טוען דיווחים נוספים מתוך ${filteredItemsCache.length}...` : `Loading more reports (${state.renderedCount}/${filteredItemsCache.length})...`}</span>
+            </div>
+            <div id="feed-scroll-sentinel"></div>
+          `;
+          setupInfiniteScrollSentinel();
+        }
+      }
+
+      function render() {
+        const he = state.lang === "he";
+        document.documentElement.lang = he ? "he" : "en";
+        document.documentElement.dir = he ? "rtl" : "ltr";
+
+        filteredItemsCache = getFilteredItems();
+
+        const latestEditionKey = sortedDates[0];
+        const latestMeta = editionsMeta[latestEditionKey] || {};
+        const latestTimeStr = he
+          ? formatHebrewDateTime(latestMeta.wend, latestMeta.isEvening)
+          : formatEnglishDateTime(latestMeta.wend, latestMeta.isEvening);
+
+        // Masthead Texts
+        document.getElementById("ui-brand-title").textContent = he
+          ? "סקירת טכנולוגיות ביטחוניות"
+          : "THE DEFENSE BRIEF";
+        document.getElementById("ui-brand-sub").textContent = he
+          ? "פיד מודיעין רציף · אמצעי לחימה, רכש ומשמעויות אסטרטגיות לפי ציר הזמן"
+          : "Continuous Real-Time Defense Tech Feed · Weapons, Procurement & Strategy";
+        document.getElementById("ui-meta-live").textContent = he ? "פיד רציף בזמן אמת" : "LIVE CONTINUOUS FEED";
+        document.getElementById("ui-meta-date").textContent = latestTimeStr.toUpperCase();
+
+        // Capsule Texts
+        capLangText.textContent = he ? "EN" : "עב";
+        if (state.dateFilter) {
+          capDateText.textContent = state.dateFilter.slice(5).replace("-", "/");
+          document.getElementById("cap-date").classList.add("active-filter");
+        } else {
+          capDateText.textContent = he ? "ציר זמן" : "Timeline";
+          document.getElementById("cap-date").classList.remove("active-filter");
+        }
+
+        if (state.country) {
+          capCountryBtn.classList.add("active-filter");
+          capCountryText.textContent = state.country;
+        } else {
+          capCountryBtn.classList.remove("active-filter");
+          capCountryText.textContent = he ? "מדינה" : "Country";
+        }
+
+        // Tab Labels with Counts across the continuous stream
+        const countByDomain = {
+          all: globalTimeline.length,
+          air: globalTimeline.filter(i => i.domain === "air").length,
+          aerial: globalTimeline.filter(i => i.domain === "aerial").length,
+          strike: globalTimeline.filter(i => i.domain === "strike").length,
+          naval: globalTimeline.filter(i => i.domain === "naval").length
+        };
+
+        document.getElementById("tab-all-lbl").textContent = he ? `כל הדיווחים (${countByDomain.all})` : `All Reports (${countByDomain.all})`;
+        document.getElementById("tab-air-lbl").textContent = he ? `הגנה אווירית (${countByDomain.air})` : `Air Defense (${countByDomain.air})`;
+        document.getElementById("tab-aerial-lbl").textContent = he ? `אווירי (${countByDomain.aerial})` : `Aerial (${countByDomain.aerial})`;
+        document.getElementById("tab-strike-lbl").textContent = he ? `תקיפה (${countByDomain.strike})` : `Strike (${countByDomain.strike})`;
+        document.getElementById("tab-naval-lbl").textContent = he ? `ימי (${countByDomain.naval})` : `Naval (${countByDomain.naval})`;
+
+        // Sheets content
+        populateCountrySheet(globalTimeline, he);
+        populateDateSheet(he);
+
+        // BLUF content from latest edition
+        const latestDig = feed.digests[latestEditionKey] || {};
+        const bluf = (latestDig.digest && latestDig.digest.bluf && latestDig.digest.bluf[state.lang]) || [];
+        document.getElementById("sheet-bluf-title").textContent = he ? "תקציר מנהלים (BLUF)" : "Executive Briefing (BLUF)";
+        document.getElementById("close-bluf-sheet").textContent = he ? "סגור" : "Done";
+        document.getElementById("bluf-edition-selector").textContent = he
+          ? `תקציר עבור מהדורה אחרונה: ${formatEditionTitle(latestEditionKey, he)}`
+          : `Executive summary for latest edition: ${formatEditionTitle(latestEditionKey, he)}`;
+        document.getElementById("bluf-sheet-content").innerHTML = bluf.map(b => `<li>${esc(b)}</li>`).join("");
+
+        // Build Main Layout HTML
+        let html = "";
+
+        // 1. Live Ticker / Real-time status bar
+        html += `
+          <div class="live-stream-header">
+            <div class="live-badge-group">
+              <span class="live-dot-pulse"></span>
+              <span class="live-title-text">${he ? "פיד רציף בזמן אמת" : "LIVE CONTINUOUS FEED"}</span>
+            </div>
+            <div class="live-meta-desc">
+              ${he ? "עדכון אחרון:" : "Latest Update:"} <strong>${latestTimeStr}</strong> · <span>${sortedDates.length} ${he ? "מהדורות" : "editions"} · ${globalTimeline.length} ${he ? "דיווחים" : "reports"}</span>
+            </div>
+            <button type="button" class="live-refresh-action" onclick="checkForNewNews()" title="${he ? 'רענן פיד' : 'Refresh Feed'}">
+              <span>🔄</span> <span>${he ? "רענן" : "Refresh"}</span>
+            </button>
+          </div>
+        `;
+
+        // 2. Active filter indicator banner
+        if (state.country || state.dateFilter) {
+          html += `<div class="active-filter-banner"><span>`;
+          if (state.country) {
+            html += `🌍 ${he ? "סינון מדינה:" : "Country filter:"} <strong>${esc(state.country)}</strong> · `;
+          }
+          if (state.dateFilter) {
+            html += `🗓️ ${he ? "מהדורה:" : "Edition:"} <strong>${esc(formatEditionTitle(state.dateFilter, he))}</strong> · `;
+          }
+          html += `(${filteredItemsCache.length} ${he ? "דיווחים" : "reports"})</span>`;
+          html += `<button type="button" class="clear-filter-btn" onclick="clearAllFilters()">${he ? "✕ הצג את כל הפיד הרציף" : "✕ Show All Continuous"}</button></div>`;
+        }
+
+        // 3. Editor's Spotlight Carousel (Shows breaking High-Priority from latest edition)
+        const spotlightItems = globalTimeline.filter(i => i.priority === "high");
+        if (state.domain === "all" && !state.country && !state.dateFilter && spotlightItems.length > 0) {
+          const domLabels = he
+            ? { air: "הגנה אווירית", aerial: "אווירי", strike: "תקיפה", naval: "ימי" }
+            : { air: "Air Defense", aerial: "Aerial", strike: "Strike", naval: "Naval" };
+
+          const carouselSlides = spotlightItems.slice(0, 6).map((it) => {
+            const photos = it._photos || {};
+            const pinfo = photos[it.id];
+            const primarySrc = pinfo ? (pinfo.local_src || pinfo.url) : "";
+            const remoteUrl = pinfo ? (pinfo.url || "") : "";
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{this.style.display='none';}`
+              : `this.style.display='none';`;
+
+            const itemTime = he
+              ? formatHebrewDateTime(it._wend, it._isEvening)
+              : formatEnglishDateTime(it._wend, it._isEvening);
+
+            return `
+              <article class="carousel-slide" onclick="document.getElementById('story-${it._uid}').scrollIntoView({behavior:'smooth',block:'center'});">
+                <div class="carousel-img-wrap">
+                  ${primarySrc ? `<img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />` : ""}
+                  <span class="carousel-badge">${he ? "עדיפות עליונה" : "Breaking"}</span>
+                </div>
+                <div class="carousel-content">
+                  <div class="carousel-meta">
+                    <span>${esc(domLabels[it.domain])} · ${esc(he ? it.countryHe : it.country)}</span>
+                    <span style="font-feature-settings:'tnum';opacity:0.85;">🕒 ${itemTime}</span>
+                  </div>
+                  <h3 class="carousel-title">${esc(it.h[state.lang])}</h3>
+                  <p class="carousel-desc">${esc(it.what[state.lang])}</p>
+                </div>
+              </article>
+            `;
+          }).join("");
+
+          html += `
+            <section class="carousel-section">
+              <div class="section-label">${he ? "בחירת המערכת · עדכונים חמים" : "Editor's Spotlight · Breaking Updates"}</div>
+              <h2 class="section-heading">${he ? "התפתחויות מפתח באמל\"ח עולמי" : "Key Strategic Milestones"}</h2>
+              <div class="carousel-track">
+                ${carouselSlides}
+              </div>
+            </section>
+          `;
+        }
+
+        // 4. Feed Grid Container + Sentinel
+        if (filteredItemsCache.length === 0) {
+          html += `
+            <div class="archive-end-banner">
+              <h4>${he ? "לא נמצאו דיווחים התואמים לסינון" : "No Reports Found"}</h4>
+              <p>${he ? "נסה לשנות את תחום הסינון או את המדינה שנבחרה." : "Try clearing domain or country filters."}</p>
+              <button type="button" class="clear-filter-btn" onclick="clearAllFilters()">${he ? "הצג את כל הפיד הרציף" : "Show Full Continuous Feed"}</button>
+            </div>
+          `;
+        } else {
+          html += `
+            <section class="feed-section">
+              <div class="feed-grid" id="feed-grid-container"></div>
+              <div id="feed-sentinel-wrapper"></div>
+            </section>
+          `;
+        }
+
+        mainEl.innerHTML = html;
+
+        if (filteredItemsCache.length > 0) {
+          renderFeedBatch();
+        }
+      }
+
+      window.clearAllFilters = function() {
+        state.country = null;
+        state.dateFilter = null;
+        state.domain = "all";
+        state.renderedCount = BATCH_SIZE;
+        document.querySelectorAll(".editorial-tabs .tab-item").forEach(b => {
+          b.classList.toggle("active", b.getAttribute("data-domain") === "all");
+        });
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+
+      // Capsule Event Handlers
       document.getElementById("cap-lang").addEventListener("click", () => {
         state.lang = state.lang === "en" ? "he" : "en";
-        state.country = null;
         try { localStorage.setItem("defense_brief_lang", state.lang); } catch (e) {}
         render();
       });
@@ -1140,13 +1712,15 @@
         document.getElementById("bluf-sheet").classList.remove("open");
       });
 
-      // Tabs
+      // Domain Tabs Event Handlers
       document.querySelectorAll(".tab-item").forEach((btn) => {
         btn.addEventListener("click", () => {
           document.querySelectorAll(".editorial-tabs .tab-item").forEach(b => b.classList.remove("active"));
           btn.classList.add("active");
-          state.filter = btn.getAttribute("data-domain");
+          state.domain = btn.getAttribute("data-domain");
+          state.renderedCount = BATCH_SIZE;
           render();
+          window.scrollTo({ top: 0, behavior: "smooth" });
         });
       });
 
@@ -1157,6 +1731,7 @@
         });
       });
 
+      // Initial Render
       render();
     })();
   </script>
