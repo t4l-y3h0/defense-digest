@@ -449,8 +449,24 @@
       align-items: center;
       gap: 4px;
       font-family: inherit;
+      transition: all 0.2s ease;
     }
     .story-share-btn:hover { background: var(--card-highlight); }
+    .story-share-btn.copied {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .story-card.highlight-target {
+      animation: targetPulse 2.5s ease-out;
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+    @keyframes targetPulse {
+      0% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.7); }
+      50% { box-shadow: 0 0 20px 4px rgba(0, 113, 227, 0.4); }
+      100% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0); }
+    }
 
     .story-title { margin: 0 0 0.85rem 0; font-size: 1.25rem; font-weight: 800; line-height: 1.35; letter-spacing: -0.015em; }
     .story-media-box { margin-block-end: 0.95rem; border-radius: var(--radius-sm); overflow: hidden; background: var(--card-sec); border: 1px solid var(--border-subtle); }
@@ -1226,18 +1242,94 @@
         if (!t) return;
         t.textContent = msg;
         t.classList.add("show");
-        setTimeout(() => t.classList.remove("show"), 2000);
+        setTimeout(() => t.classList.remove("show"), 2200);
       }
 
-      window.shareStory = function(uid, title) {
-        const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
-        const shareUrl = `${cleanOrigin}?lang=${state.lang}#story-${uid}`;
-        if (navigator.share) {
-          navigator.share({ title: title || "Defense Brief", text: title, url: shareUrl }).catch(() => {});
-        } else {
-          navigator.clipboard.writeText(shareUrl).then(() => {
-            showToast(state.lang === "he" ? "הקישור הועתק" : "Link copied");
-          });
+      async function copyToClipboard(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+          try {
+            await navigator.clipboard.writeText(text);
+            return true;
+          } catch (e) {
+            console.warn("navigator.clipboard.writeText failed:", e);
+          }
+        }
+        try {
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.top = "-9999px";
+          ta.style.left = "-9999px";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.focus();
+          ta.select();
+          const ok = document.execCommand("copy");
+          document.body.removeChild(ta);
+          return ok;
+        } catch (err) {
+          console.warn("execCommand copy fallback failed:", err);
+          return false;
+        }
+      }
+
+      window.shareStory = async function(uid, btn) {
+        let it = null;
+        if (typeof filteredItemsCache !== "undefined" && filteredItemsCache.length) {
+          it = filteredItemsCache.find(x => x._uid === uid || x.id === uid);
+        }
+        if (!it && typeof globalTimeline !== "undefined" && globalTimeline.length) {
+          it = globalTimeline.find(x => x._uid === uid || x.id === uid);
+        }
+
+        const he = state.lang === "he";
+        const title = it ? `${hid(it.id, he)}. ${it.h[state.lang]}` : (he ? "עדכון טכנולוגיות הגנה" : "Defense Technology Digest");
+        const editionKey = it ? it._editionKey : (state.dateFilter || (feed.dates && feed.dates[0]) || "");
+
+        const cleanOrigin = window.location.href.split("?")[0].split("#")[0];
+        const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(editionKey)}&lang=${state.lang}#story-${uid}`;
+
+        let sharedViaNative = false;
+        const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || ('ontouchstart' in window && window.innerWidth < 800);
+
+        if (isMobile && navigator.share) {
+          try {
+            await navigator.share({
+              title: title,
+              text: title,
+              url: shareUrl
+            });
+            sharedViaNative = true;
+          } catch (err) {
+            if (err.name === "AbortError") {
+              return; // User cancelled share dialog
+            }
+            console.warn("navigator.share failed, falling back to clipboard:", err);
+          }
+        }
+
+        if (!sharedViaNative) {
+          const success = await copyToClipboard(shareUrl);
+          if (success) {
+            showToast(he ? "הקישור הועתק ללוח!" : "Link copied to clipboard!");
+            if (btn) {
+              const textSpan = btn.querySelector(".share-text") || btn;
+              const iconSpan = btn.querySelector(".share-icon");
+              const origText = textSpan.textContent;
+              const origIcon = iconSpan ? iconSpan.textContent : "";
+              if (iconSpan) iconSpan.textContent = "✓";
+              textSpan.textContent = he ? "הועתק!" : "Copied!";
+              btn.classList.add("copied");
+              setTimeout(() => {
+                if (iconSpan) iconSpan.textContent = origIcon;
+                textSpan.textContent = origText;
+                btn.classList.remove("copied");
+              }, 2000);
+            }
+          } else {
+            prompt(he ? "העתק את הקישור לידיעה:" : "Copy link to story:", shareUrl);
+          }
         }
       };
 
@@ -1421,8 +1513,6 @@
             .map(s => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
             .join(" · ");
 
-          const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
-          const safeTitle = esc(shareTitle).replace(/'/g, "&#39;");
           const itemFormattedTime = he
             ? formatHebrewDateTime(it._wend, it._isEvening)
             : formatEnglishDateTime(it._wend, it._isEvening);
@@ -1430,6 +1520,9 @@
           const card = document.createElement("article");
           card.className = `story-card ${isHigh ? "high-priority" : ""}`;
           card.id = `story-${it._uid}`;
+          card.setAttribute("data-uid", it._uid);
+          card.setAttribute("data-item-id", it.id);
+          card.setAttribute("data-edition", it._editionKey);
           card.innerHTML = `
             <div class="story-top-meta">
               <div class="meta-pills">
@@ -1442,8 +1535,8 @@
                 <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
                 ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות" : "HIGH PRIORITY"}</span>` : ""}
               </div>
-              <button type="button" class="story-share-btn" onclick="shareStory('${it._uid}', '${safeTitle}')" title="${he ? 'שתף' : 'Share'}">
-                <span>↗</span> ${he ? "שתף" : "Share"}
+              <button type="button" class="story-share-btn" onclick="shareStory('${it._uid}', this)" data-uid="${it._uid}" data-item-id="${it.id}" title="${he ? 'שתף' : 'Share'}">
+                <span class="share-icon">↗</span> <span class="share-text">${he ? "שתף" : "Share"}</span>
               </button>
             </div>
 
@@ -1731,8 +1824,57 @@
         });
       });
 
+      function scrollToHashTarget() {
+        const hash = window.location.hash;
+        if (!hash) return;
+        const targetRaw = hash.replace(/^#/, "");
+        if (!targetRaw) return;
+
+        let el = document.getElementById(targetRaw);
+        if (!el) {
+          const clean = targetRaw.replace(/^(story-|item-)/, "");
+          el = document.getElementById("story-" + clean) ||
+               document.getElementById("item-" + clean) ||
+               document.querySelector(`[data-uid="${clean}"]`) ||
+               document.querySelector(`[data-item-id="${clean}"]`);
+        }
+
+        if (!el && typeof filteredItemsCache !== "undefined") {
+          const clean = targetRaw.replace(/^(story-|item-)/, "");
+          const idx = filteredItemsCache.findIndex(x => x._uid === clean || x.id === clean || x._uid.endsWith("__" + clean));
+          if (idx >= 0) {
+            state.renderedCount = Math.max(state.renderedCount, idx + 10);
+            render();
+            const targetUid = filteredItemsCache[idx]._uid;
+            el = document.getElementById("story-" + targetUid) || document.querySelector(`[data-uid="${targetUid}"]`);
+          } else if (typeof globalTimeline !== "undefined") {
+            const foundInGlobal = globalTimeline.find(x => x._uid === clean || x.id === clean || x._uid.endsWith("__" + clean));
+            if (foundInGlobal) {
+              state.dateFilter = foundInGlobal._editionKey;
+              state.renderedCount = 100;
+              render();
+              el = document.getElementById("story-" + foundInGlobal._uid) || document.querySelector(`[data-uid="${foundInGlobal._uid}"]`);
+            }
+          }
+        }
+
+        if (el) {
+          setTimeout(() => {
+            el.scrollIntoView({ behavior: "smooth", block: "center" });
+            el.classList.add("highlight-target");
+            setTimeout(() => {
+              el.classList.remove("highlight-target");
+            }, 2500);
+          }, 150);
+        }
+      }
+
       // Initial Render
       render();
+      if (window.location.hash) {
+        setTimeout(scrollToHashTarget, 100);
+      }
+      window.addEventListener("hashchange", scrollToHashTarget);
     })();
   </script>
 </body>

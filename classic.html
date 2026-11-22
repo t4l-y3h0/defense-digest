@@ -516,6 +516,11 @@
       background: var(--border);
       color: var(--text);
     }
+    .share-btn.copied {
+      background: var(--brand);
+      color: #fff;
+      border-color: var(--brand);
+    }
 
     .item-top-bar {
       display: flex;
@@ -879,13 +884,11 @@
             .map((s) => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
             .join(" · ");
 
-          const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
-          const safeShareTitle = esc(shareTitle).replace(/'/g, "&#39;");
           html += `
-            <article class="item-card ${highClass}" id="item-${it.id}">
+            <article class="item-card ${highClass}" id="item-${it.id}" data-id="${it.id}">
               <div class="item-top-bar">
                 <div class="badges">${badges.join("")}</div>
-                <button type="button" class="share-btn" onclick="shareItem('${it.id}', '${safeShareTitle}')" title="${he ? 'שתף ידיעה' : 'Share story'}">🔗 ${he ? 'שיתוף' : 'Share'}</button>
+                <button type="button" class="share-btn" onclick="shareItem('${it.id}', this)" data-id="${it.id}" title="${he ? 'שתף ידיעה' : 'Share story'}">🔗 <span class="share-text">${he ? 'שיתוף' : 'Share'}</span></button>
               </div>
               <h3 class="item-header">${esc(hid(it.id, he))}. ${esc(it.h[state.lang])}</h3>
               <div class="item-body ${hasPhoto ? "has-photo" : ""}">
@@ -928,19 +931,79 @@
         setTimeout(() => t.classList.remove("show"), 2000);
       }
 
-      window.shareItem = function(id, title) {
-        const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
+      async function copyToClipboard(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+          try {
+            await navigator.clipboard.writeText(text);
+            return true;
+          } catch (e) {
+            console.warn("navigator.clipboard failed:", e);
+          }
+        }
+        try {
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.top = "-9999px";
+          ta.style.left = "-9999px";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.focus();
+          ta.select();
+          const ok = document.execCommand("copy");
+          document.body.removeChild(ta);
+          return ok;
+        } catch (err) {
+          console.warn("execCommand copy fallback failed:", err);
+          return false;
+        }
+      }
+
+      window.shareItem = async function(id, btn) {
+        let it = null;
+        if (feed && feed.digests && feed.digests[state.date] && feed.digests[state.date].items) {
+          it = feed.digests[state.date].items.find(x => x.id === id);
+        }
+        const he = state.lang === "he";
+        const title = it ? `${hid(it.id, he)}. ${it.h[state.lang]}` : "Defense Technology Digest";
+        const cleanOrigin = window.location.href.split("?")[0].split("#")[0];
         const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(state.date)}&lang=${state.lang}#item-${id}`;
-        if (navigator.share) {
-          navigator.share({
-            title: title || "Defense Technology Digest",
-            text: title,
-            url: shareUrl
-          }).catch(() => {});
-        } else {
-          navigator.clipboard.writeText(shareUrl).then(() => {
-            showToast(state.lang === "he" ? "הקישור הועתק ללוח!" : "Link copied to clipboard!");
-          });
+
+        let sharedViaNative = false;
+        const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || ('ontouchstart' in window && window.innerWidth < 800);
+
+        if (isMobile && navigator.share) {
+          try {
+            await navigator.share({
+              title: title,
+              text: title,
+              url: shareUrl
+            });
+            sharedViaNative = true;
+          } catch (err) {
+            if (err.name === "AbortError") return;
+            console.warn("navigator.share failed, falling back to clipboard:", err);
+          }
+        }
+
+        if (!sharedViaNative) {
+          const success = await copyToClipboard(shareUrl);
+          if (success) {
+            showToast(he ? "הקישור הועתק ללוח!" : "Link copied to clipboard!");
+            if (btn) {
+              const textSpan = btn.querySelector(".share-text") || btn;
+              const origText = textSpan.textContent;
+              textSpan.textContent = he ? "הועתק!" : "Copied!";
+              btn.classList.add("copied");
+              setTimeout(() => {
+                textSpan.textContent = origText;
+                btn.classList.remove("copied");
+              }, 2000);
+            }
+          } else {
+            prompt(he ? "העתק את הקישור לידיעה:" : "Copy link to story:", shareUrl);
+          }
         }
       };
 

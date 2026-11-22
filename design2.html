@@ -280,6 +280,24 @@
       padding: 3px 8px;
       border-radius: 6px;
       cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s ease;
+    }
+    .story-share-btn.copied {
+      background: var(--accent);
+      color: #fff;
+    }
+    .story-card.highlight-target {
+      animation: targetPulse 2.5s ease-out;
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+    @keyframes targetPulse {
+      0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.7); }
+      50% { box-shadow: 0 0 20px 4px rgba(37, 99, 235, 0.4); }
+      100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
     }
 
     .story-title { margin: 0 0 0.65rem 0; font-size: 1.18rem; font-weight: 800; line-height: 1.35; }
@@ -589,15 +607,79 @@
         setTimeout(() => t.classList.remove("show"), 2000);
       }
 
-      window.shareStory = function(id, title) {
-        const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
+      async function copyToClipboard(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+          try {
+            await navigator.clipboard.writeText(text);
+            return true;
+          } catch (e) {
+            console.warn("navigator.clipboard failed:", e);
+          }
+        }
+        try {
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          ta.setAttribute("readonly", "");
+          ta.style.position = "fixed";
+          ta.style.top = "-9999px";
+          ta.style.left = "-9999px";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.focus();
+          ta.select();
+          const ok = document.execCommand("copy");
+          document.body.removeChild(ta);
+          return ok;
+        } catch (err) {
+          console.warn("execCommand copy fallback failed:", err);
+          return false;
+        }
+      }
+
+      window.shareStory = async function(id, btn) {
+        let it = null;
+        if (feed && feed.digests && feed.digests[state.date] && feed.digests[state.date].items) {
+          it = feed.digests[state.date].items.find(x => x.id === id);
+        }
+        const he = state.lang === "he";
+        const title = it ? `${hid(it.id, he)}. ${it.h[state.lang]}` : "Defense Brief";
+        const cleanOrigin = window.location.href.split("?")[0].split("#")[0];
         const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(state.date)}&lang=${state.lang}#story-${id}`;
-        if (navigator.share) {
-          navigator.share({ title: title || "Defense Brief", text: title, url: shareUrl }).catch(() => {});
-        } else {
-          navigator.clipboard.writeText(shareUrl).then(() => {
-            showToast(state.lang === "he" ? "הקישור הועתק" : "Link copied");
-          });
+
+        let sharedViaNative = false;
+        const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || ('ontouchstart' in window && window.innerWidth < 800);
+
+        if (isMobile && navigator.share) {
+          try {
+            await navigator.share({ title: title, text: title, url: shareUrl });
+            sharedViaNative = true;
+          } catch (err) {
+            if (err.name === "AbortError") return;
+            console.warn("navigator.share failed, falling back to clipboard:", err);
+          }
+        }
+
+        if (!sharedViaNative) {
+          const success = await copyToClipboard(shareUrl);
+          if (success) {
+            showToast(he ? "הקישור הועתק ללוח!" : "Link copied to clipboard!");
+            if (btn) {
+              const textSpan = btn.querySelector(".share-text") || btn;
+              const iconSpan = btn.querySelector(".share-icon");
+              const origText = textSpan.textContent;
+              const origIcon = iconSpan ? iconSpan.textContent : "";
+              if (iconSpan) iconSpan.textContent = "✓";
+              textSpan.textContent = he ? "הועתק!" : "Copied!";
+              btn.classList.add("copied");
+              setTimeout(() => {
+                if (iconSpan) iconSpan.textContent = origIcon;
+                textSpan.textContent = origText;
+                btn.classList.remove("copied");
+              }, 2000);
+            }
+          } else {
+            prompt(he ? "העתק את הקישור לידיעה:" : "Copy link to story:", shareUrl);
+          }
         }
       };
 
@@ -800,11 +882,8 @@
             .map(s => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
             .join(" · ");
 
-          const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
-          const safeTitle = esc(shareTitle).replace(/'/g, "&#39;");
-
           html += `
-            <article class="story-card ${isHigh ? "high-priority" : ""}" id="story-${it.id}">
+            <article class="story-card ${isHigh ? "high-priority" : ""}" id="story-${it.id}" data-id="${it.id}">
               <div class="story-top-meta">
                 <div class="meta-pills">
                   <span class="mini-badge">${esc(hid(it.id, he))}</span>
@@ -812,8 +891,8 @@
                   <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
                   ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות" : "HIGH PRIORITY"}</span>` : ""}
                 </div>
-                <button type="button" class="story-share-btn" onclick="shareStory('${it.id}', '${safeTitle}')" title="${he ? 'שתף' : 'Share'}">
-                  <span>↗</span> ${he ? "שתף" : "Share"}
+                <button type="button" class="story-share-btn" onclick="shareStory('${it.id}', this)" data-id="${it.id}" title="${he ? 'שתף' : 'Share'}">
+                  <span class="share-icon">↗</span> <span class="share-text">${he ? "שתף" : "Share"}</span>
                 </button>
               </div>
 
@@ -894,7 +973,36 @@
         });
       });
 
+      function scrollToHashTarget() {
+        const hash = window.location.hash;
+        if (!hash) return;
+        const targetRaw = hash.replace(/^#/, "");
+        if (!targetRaw) return;
+
+        let el = document.getElementById(targetRaw);
+        if (!el) {
+          const clean = targetRaw.replace(/^(story-|item-)/, "");
+          el = document.getElementById("story-" + clean) ||
+               document.getElementById("item-" + clean) ||
+               document.querySelector(`[data-id="${clean}"]`);
+        }
+
+        if (el) {
+          setTimeout(() => {
+            el.scrollIntoView({ behavior: "smooth", block: "center" });
+            el.classList.add("highlight-target");
+            setTimeout(() => {
+              el.classList.remove("highlight-target");
+            }, 2500);
+          }, 150);
+        }
+      }
+
       render();
+      if (window.location.hash) {
+        setTimeout(scrollToHashTarget, 100);
+      }
+      window.addEventListener("hashchange", scrollToHashTarget);
     })();
   </script>
 </body>
