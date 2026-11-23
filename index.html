@@ -969,12 +969,17 @@
         "japan": "🇯🇵", "יפן": "יפן"
       };
 
-      // Ensure dates are sorted chronologically descending (evening before main of same date)
+      // Ensure dates are sorted chronologically descending (4x daily slots & evening before main of same date)
       function getEditionSortTime(key) {
         const dig = feed.digests[key];
         if (dig && dig.wend) {
           const t = new Date(dig.wend).getTime();
           if (!isNaN(t)) return t;
+        }
+        const mSlot = key.match(/^(\d{4}-\d{2}-\d{2})-(0500|1130|1800|2200)$/);
+        if (mSlot) {
+          const slotMap = { "0500": "T03:00:00Z", "1130": "T09:30:00Z", "1800": "T16:00:00Z", "2200": "T20:00:00Z" };
+          return new Date(mSlot[1] + slotMap[mSlot[2]]).getTime() || 0;
         }
         const base = key.replace("-evening", "");
         const isEv = key.includes("evening");
@@ -991,14 +996,17 @@
       sortedDates.forEach((dateKey) => {
         const dig = feed.digests[dateKey];
         if (!dig) return;
-        const isEvening = dateKey.includes("evening");
-        const baseDate = dateKey.replace("-evening", "");
+        const mSlot = dateKey.match(/^(\d{4}-\d{2}-\d{2})-(0500|1130|1800|2200)$/);
+        const slotTag = mSlot ? mSlot[2] : (dig.slot || null);
+        const isEvening = dateKey.includes("evening") || slotTag === "2200";
+        const baseDate = mSlot ? mSlot[1] : dateKey.replace("-evening", "");
         const wendTimeMs = getEditionSortTime(dateKey);
         const wendIso = dig.wend || new Date(wendTimeMs).toISOString();
 
         editionsMeta[dateKey] = {
           key: dateKey,
           baseDate: baseDate,
+          slot: slotTag,
           isEvening: isEvening,
           wend: wendIso,
           wendTimeMs: wendTimeMs,
@@ -1075,23 +1083,38 @@
         if (!meta) return dateKey;
         const base = meta.baseDate;
         const isEv = meta.isEvening;
+        const slot = meta.slot;
         const parts = base.split("-");
         if (parts.length < 3) return dateKey;
         const day = parseInt(parts[2], 10);
+        const slotLabelsHe = {
+          "0500": "עדכון 05:00",
+          "1130": "עדכון 11:30",
+          "1800": "מהדורת 18:00",
+          "2200": "עדכון 22:00"
+        };
+        const slotLabelsEn = {
+          "0500": "05:00 Update",
+          "1130": "11:30 Update",
+          "1800": "18:00 Edition",
+          "2200": "22:00 Update"
+        };
         if (he) {
           const monthsHe = {
             "01": "בינואר", "02": "בפברואר", "03": "במרץ", "04": "באפריל",
             "05": "במאי", "06": "ביוני", "07": "ביולי", "08": "באוגוסט",
             "09": "בספטמבר", "10": "באוקטובר", "11": "בנובמבר", "12": "בדצמבר"
           };
-          return `${day} ${monthsHe[parts[1]] || parts[1]} ${parts[0]} · ${isEv ? "מהדורת ערב" : "מהדורה ראשית"}`;
+          const edLabel = (slot && slotLabelsHe[slot]) ? slotLabelsHe[slot] : (isEv ? "מהדורת ערב" : "מהדורה ראשית");
+          return `${day} ${monthsHe[parts[1]] || parts[1]} ${parts[0]} · ${edLabel}`;
         } else {
           const monthsEn = {
             "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr",
             "05": "May", "06": "Jun", "07": "Jul", "08": "Aug",
             "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
           };
-          return `${monthsEn[parts[1]] || parts[1]} ${day}, ${parts[0]} · ${isEv ? "Evening Edition" : "Main Edition"}`;
+          const edLabel = (slot && slotLabelsEn[slot]) ? slotLabelsEn[slot] : (isEv ? "Evening Edition" : "Main Edition");
+          return `${monthsEn[parts[1]] || parts[1]} ${day}, ${parts[0]} · ${edLabel}`;
         }
       }
 
