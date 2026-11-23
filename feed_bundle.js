@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-23",
+ "updated_at": "2026-11-23-evening",
  "dates": [
+  "2026-11-23-evening",
   "2026-11-23",
   "2026-11-22-evening",
   "2026-11-22",
@@ -49,6 +50,629 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-23-evening": {
+   "date": "2026-11-23_evening",
+   "doc_id": "2026-11-23-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-23T15:20:00Z",
+   "wend": "2026-11-23T18:54:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel",
+     "countryHe": "ישראל",
+     "type": "Quantum Defense Tech / C4I & Cyber",
+     "typeHe": "טכנולוגיה קוונטית ביטחונית / תקשוב וסייבר",
+     "date": "2026-11-23",
+     "h": {
+      "en": "Elbit Systems C4I & Cyber and Quantum X Labs sign joint quantum defense technology R&D agreement",
+      "he": "אלביט מערכות תקשוב וסייבר ו-Quantum X Labs חתמו על הסכם מו\"פ משותף לטכנולוגיות קוונטיות ביטחוניות"
+     },
+     "what": {
+      "en": "Israeli quantum technology firm Quantum X Labs (NASDAQ: QXL) announced on November 23 (reported by TechTime at 18:09Z and Funder.co.il) that it has entered a joint research and development program agreement with Elbit Systems' C4I & Cyber division (headed by Haim Delmar, developer of Torch-X command-and-control systems and E-LynX tactical radios). The collaboration combines Quantum X Labs' quantum sensing, computing, and AI-assisted error-correction portfolio with Elbit's defense systems engineering to explore integration into military systems operating in contested environments requiring high precision, jamming resilience, and secure communications. Financial terms, timelines, and specific subsystem targets—such as Quantum X Labs' ME-Nav atomic-spin GPS-denied quantum gyroscope under parallel development with Maris-Tech—were not disclosed.",
+      "he": "חברת הטכנולוגיה הקוונטית הישראלית Quantum X Labs (נאסד\"ק: QXL) הודיעה ב-23 בנובמבר (סוקר ב-TechTime ב-18:09Z וב-Funder.co.il) על חתימת הסכם לתוכנית מחקר ופיתוח משותפת עם חטיבת התקשוב והסייבר (C4I & Cyber) של אלביט מערכות בראשות חיים דלמר (המפתחת את מערכות השו\"ב Torch-X ומערכות הקשר הטקטיות E-LynX). במסגרת השותפות ישלבו החברות את יכולות החישה והמחשוב הקוונטי ותיקון השגיאות של Quantum X Labs עם יכולות ההנדסה והאינטגרציה של אלביט לבחינת פתרונות לסביבות מבצעיות מורכבות הדורשות דיוק גבוה, עמידות לשיבושים ואבטחת מידע. היקף כספי, לוחות זמנים ותחומי הפיתוח המדויקים (ובהם זיקה אפשרית לגירוסקופ הקוונטי ME-Nav לניווט ללא GPS) לא נחשפו."
+     },
+     "figs": {
+      "en": "Seller/Developer: Quantum X Labs (NASDAQ: QXL). Partner: Elbit Systems C4I & Cyber. Scope: Joint quantum R&D framework (not yet a production/commercial order). Contract Value / Timeline: Not disclosed. Related Quantum X Labs Program: ME-Nav atomic-spin GPS-denied gyroscope (USD 1M JV with Maris-Tech, March 2026) and >50-qubit neutral-atom platform.",
+      "he": "מפתחת: ‏Quantum X Labs (נאסד\"ק: QXL). שותפה: אלביט מערכות תקשוב וסייבר. מהות: תוכנית מו\"פ משותפת (טרם הזמנה מסחרית). שווי ולו\"ז: לא פורסמו. רקע קשור: גירוסקופ קוונטי לניווט ללא GPS מדגם ME-Nav (מיזם של כמיליון דולר עם Maris-Tech) ופלטפורמת מחשוב של מעל 50 קיוביטים."
+     },
+     "why": {
+      "en": "Pairing Israel's premier tactical C4I, EW, and digital-army integrator with a domestic quantum sensing and computing developer positions Elbit early for next-generation GPS-denied inertial navigation, quantum-resilient tactical communications, and electronic-warfare resilience.",
+      "he": "שילוב חטיבת התקשוב והסייבר של אלביט עם מפתחת חישה ומחשוב קוונטי מקומית ממקם את אלביט בחזית הפיתוח העתידי של ניווט אינרציאלי חסין שיבוש GPS, תקשורת מאובטחת ועמידות בלוחמה אלקטרונית."
+     },
+     "israel": {
+      "en": "Directly involves Elbit Systems and Israeli quantum defense supplier Quantum X Labs, strengthening sovereign Israeli R&D in GPS-denied navigation and quantum-hardened tactical C4I networks.",
+      "he": "עסקה ישראלית ישירה בין אלביט מערכות ל-Quantum X Labs המחזקת את יכולות המו\"פ הריבוניות של ישראל בניווט ללא GPS ובתקשורת צבאית מוקשחת."
+     },
+     "src": [
+      {
+       "t": "TechTime",
+       "u": "https://techtime.co.il/2026/11/23/quantum-x-labs-4/"
+      },
+      {
+       "t": "Funder.co.il",
+       "u": "https://www.funder.co.il/article/215636"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Corroborated by TechTime and Funder.co.il citing Quantum X Labs' official Nov 23 disclosure (GlobeNewswire release returned HTTP 403 to automated verification; generic TechTime stock graphic omitted cleanly).",
+      "he": "מאומת — מאושר ב-TechTime וב-Funder.co.il המצטטים את הודעת Quantum X Labs מ-23 בנובמבר (הודעת GlobeNewswire החזירה שגיאת 403 לבדיקה האוטומטית; איור הארכיון ב-TechTime הושמט)."
+     },
+     "s": {
+      "en": "Quantum X Labs signed a joint R&D agreement with Elbit Systems C4I & Cyber to explore integrating quantum sensing and computing into jamming-resilient military systems.",
+      "he": "חברת Quantum X Labs חתמה על הסכם מו\"פ משותף עם אלביט מערכות תקשוב וסייבר לבחינת שילוב טכנולוגיות קוונטיות במערכות ביטחוניות עמידות שיבוש."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "UPDATE",
+      "CONFIRMED"
+     ],
+     "country": "Germany / Ukraine",
+     "countryHe": "גרמניה / אוקראינה",
+     "type": "Counter-UAS / Interceptor Drone",
+     "typeHe": "יירוט כטב\"מים / רחפן יירוט",
+     "date": "2026-11-23",
+     "h": {
+      "en": "UPDATE: German-Ukrainian JV Quantum WIY Industries' SPYS interceptor drone sets 520 km/h payload speed record in witnessed trial",
+      "he": "עדכון: מיירט ה-SPYS של המיזם הגרמני-אוקראיני Quantum WIY Industries קבע שיא מהירות של 520 קמ\"ש בניסוי מתועד"
+     },
+     "what": {
+      "en": "What is new since today's main run (A6): Following its claimed combat intercept of a Russian Geran-5 K5-K jet mini-missile, German-Ukrainian joint venture Quantum WIY Industries (Germany's Quantum Systems and Ukraine's WIY Drones) invited Militarnyi journalists to witness a certified speed-record trial on November 23 (published 18:28Z; also reported by Ukrainska Pravda). Flying two-way passes at 200 m altitude from a ground launchpad—with tailwind and against a 15 m/s headwind—the upgraded production-spec WIY SPYS interceptor achieved a 520 km/h average speed carrying a 500-gram dummy warhead (peaking at 558 km/h tailwind) and 527.5 km/h unladen, shattering last year's 426 km/h Ukrainian record. Company officials disclosed 75% Ukrainian-manufactured components and ongoing development of mother-drone, jet-booster, launch-box, and drone-lift deployment modes against Russian jet-powered attack UAVs.",
+      "he": "מה חדש מאז המהדורה הראשית (א6): בהמשך לדיווח על יירוט טיל השיוט הזעיר הרוסי Geran-5 K5-K, הזמין המיזם המשותף הגרמני-אוקראיני Quantum WIY Industries (איחוד Quantum Systems הגרמנית ו-WIY Drones האוקראינית) את כתבי Militarnyi לתיעוד ניסוי שיא מהירות רשמי ב-23 בנובמבר (פורסם ב-18:28Z; סוקר גם ב-Ukrainska Pravda). בטיסות דו-כיווניות בגובה 200 מ' מכן שיגור (עם רוח גב ומול רוח נגדית של 15 מ'/ש'), הגיע המיירט המשודרג WIY SPYS למהירות ממוצעת של 520 קמ\"ש עם מטע\"ד דמה של 500 גרם (שיא 558 קמ\"ש עם רוח גב) ול-527.5 קמ\"ש ללא מטע\"ד — שיפור חד משיא ה-426 קמ\"ש מהשנה שעברה. בחברה ציינו כי 75% מהרכיבים מיוצרים באוקראינה וכי מפותחות שיטות שיגור ממטוסי-אם, מאיצי סילון ותיבות שיגור נגד כטב\"מי סילון רוסיים."
+     },
+     "figs": {
+      "en": "Developer: Quantum WIY Industries (Germany/Ukraine JV). Payload-Carrying Speed (500 g dummy warhead): 520 km/h average (558 km/h peak tailwind). Unladen Speed: 527.5 km/h (vs. 426 km/h prior 2025 record). Altitude / Wind: 200 m AGL, 15 m/s headwind/tailwind passes. Domestic Content: 75% Ukrainian components. Certification: National Register of Records of Ukraine.",
+      "he": "יצרן: ‏Quantum WIY Industries (גרמניה/אוקראינה). מהירות עם מטע\"ד (500 גרם דמה): ממוצע 520 קמ\"ש (שיא 558 קמ\"ש ברוח גב). מהירות ללא מטע\"ד: 527.5 קמ\"ש (מול 426 קמ\"ש ב-2025). גובה ורוח: 200 מ', רוח נגדית/גב של 15 מ'/ש'. תכולה מקומית: 75% רכיבים אוקראיניים."
+     },
+     "why": {
+      "en": "Independently witnessing >520 km/h speed in a combat-weight configuration validates that low-cost, mass-producible Ukrainian-German electric/hybrid interceptor drones now possess the kinematic margin required to chase and engage subsonic turbojet strike drones like Russia's Geran-4 and Geran-5.",
+      "he": "תיעוד עצמאי של מהירות מעל 520 קמ\"ש בתצורת משקל מבצעית מוכיח כי רחפני יירוט זולים לייצור המוני מתוצרת משותפת אוקראינית-גרמנית מחזיקים כעת ביתרון מהירות המאפשר לרדוף וליירט כטב\"מי תקיפה סילוניים כמו Geran-4 ו-Geran-5."
+     },
+     "israel": {
+      "en": "Highly relevant benchmark for Israeli border C-UAS defense (where the MoD just allocated NIS 150–200M for December interceptor demos): shows mature, >500 km/h attritable kinetic interceptors at a fraction of missile cost.",
+      "he": "אמת מידה רלוונטית ישירות לתחרות ההגנה מפני כטב\"מים בגבולות ישראל (תקציב 150–200 מיליון ש\"ח של משרד הביטחון לדצמבר): מדגימה מיירטים קינטיים מתכלים במהירות מעל 500 קמ\"ש בשבריר מעלות טיל מיירט."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/quantum-wiy-industries-new-ukrainian-record-spys-drone-over-500-km-h/"
+      },
+      {
+       "t": "Ukrainska Pravda",
+       "u": "https://www.pravda.com.ua/eng/news/2026/11/23/8064245/"
+      }
+     ],
+     "note": {
+      "en": "UPDATE / CONFIRMED — Directly witnessed on-site by a Militarnyi journalist and registered by the National Register of Records of Ukraine, corroborated by Ukrainska Pravda.",
+      "he": "עדכון / מאומת — תועד ישירות בשטח בידי כתבת Militarnyi ונרשם במרשם השיאים הלאומי של אוקראינה, במקביל לדיווח Ukrainska Pravda."
+     },
+     "s": {
+      "en": "German-Ukrainian JV Quantum WIY Industries' SPYS interceptor drone set a witnessed 520 km/h average speed record carrying a 500 g dummy warhead (558 km/h peak) to counter Russian jet UAVs.",
+      "he": "רחפן היירוט SPYS של המיזם הגרמני-אוקראיני Quantum WIY Industries קבע שיא מהירות מתועד של 520 קמ\"ש עם מטע\"ד דמה של 500 גרם (שיא 558 קמ\"ש) נגד כטב\"מי סילון רוסיים."
+     },
+     "photo": "img/j/A2.jpg"
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "UPDATE",
+      "CONFIRMED"
+     ],
+     "country": "Poland / NATO",
+     "countryHe": "פולין / נאט\"ו",
+     "type": "Airborne Early Warning / Air Defense",
+     "typeHe": "התרעה מוקדמת אווירית / הגנה אווירית",
+     "date": "2026-11-23",
+     "h": {
+      "en": "Briefly noted (UPDATE): NATO allies deploy airborne early warning aircraft to bolster Polish airspace defense after Russian Kh-101 incursion",
+      "he": "בקצרה (עדכון): בעלות ברית בנאט\"ו פרסו מטוסי התרעה מוקדמת להגנת המרחב האווירי של פולין בעקבות חדירת טילי Kh-101"
+     },
+     "what": {
+      "en": "Update to 2026-11-20 C1 and 2026-11-21 A8: Polish Defence Minister Władysław Kosiniak-Kamysz announced on November 23 (~15:27Z; reported by Ukrainska Pravda at 17:10Z) that allied NATO airborne early warning (AEW) aircraft have arrived and are actively reinforcing Polish ground-based air defenses, Polish F-16s, and NATO fighter patrols following the November 20 incursion of three Russian Kh-101 cruise missiles and a drone into southeastern Poland.",
+      "he": "עדכון לפריטים 2026-11-20 C1 ו-2026-11-21 A8: שר ההגנה הפולני ולדיסלב קוסיניאק-קמיש הודיע ב-23 בנובמבר (~15:27Z; סוקר ב-Ukrainska Pravda ב-17:10Z) כי מטוסי התרעה מוקדמת (AEW) של בעלות ברית בנאט\"ו נפרסו וכבר מתגברים את מערכי ההגנה האווירית הקרקעיים, מטוסי ה-F-16 הפולניים וסיורי הקרב של הברית בעקבות חדירת שלושה טילי שיוט רוסיים מסוג Kh-101 וכטב\"ם לדרום-מזרח פולין ב-20 בנובמבר."
+     },
+     "figs": {
+      "en": "Action: Allied NATO AEW deployment over Poland confirmed Nov 23, 2026. Prior Trigger: Nov 20 incursion by 3 Russian Kh-101 cruise missiles and 1 drone.",
+      "he": "פעולה: פריסת מטוסי התרעה מוקדמת של נאט\"ו מעל פולין אושרה ב-23 בנובמבר 2026 בעקבות חדירת 3 טילי Kh-101 וכטב\"ם ב-20 בנובמבר."
+     },
+     "why": {
+      "en": "Briefly noted in the digest per reader profile (operational force-posture update executing Poland's Nov 20–21 request without new weapon procurement or contract specifics).",
+      "he": "מסוכם בקצרה בהתאם לפרופיל הקורא (עדכון פריסה מבצעי של בעלות הברית ללא עסקת רכש או מערכת חדשה)."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Ukrainska Pravda (citing Polish MoD)",
+       "u": "https://www.pravda.com.ua/eng/news/2026/11/23/8064278/"
+      }
+     ],
+     "note": {
+      "en": "UPDATE / CONFIRMED — Based on Polish Defence Minister Kosiniak-Kamysz's official Nov 23 announcement as reported by European/Ukrainska Pravda (illustrative Saab GlobalEye archive photo omitted cleanly).",
+      "he": "עדכון / מאומת — מבוסס על הודעת שר ההגנה הפולני מ-23 בנובמבר בדיווח Ukrainska Pravda (תצלום ארכיון להמחשה של Saab GlobalEye הושמט)."
+     },
+     "s": {
+      "en": "Polish Defence Minister Kosiniak-Kamysz confirmed allied NATO airborne early warning aircraft have deployed to reinforce Polish air defenses after Russia's Nov 20 Kh-101 incursion.",
+      "he": "שר ההגנה הפולני אישר כי מטוסי התרעה מוקדמת של בעלות ברית בנאט\"ו נפרסו לחיזוק ההגנה האווירית של פולין לאחר חדירת טילי Kh-101 הרוסיים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "UPDATE",
+      "UNCONFIRMED"
+     ],
+     "country": "Israel",
+     "countryHe": "ישראל",
+     "type": "Tactical ISR UAV",
+     "typeHe": "כטב\"ם איסוף ומודיעין טקטי",
+     "date": "2026-11-23",
+     "h": {
+      "en": "UPDATE: Israeli firm Aero Sentinel claims 16 km one-way / 32 km total flight record for backpack SeniX ISR drone without external antennas",
+      "he": "עדכון: חברת Aero Sentinel הישראלית טוענת לשיא טווח של 16 ק\"מ לכיוון ו-32 ק\"מ סה\"כ לכטב\"ם הגב SeniX ללא אנטנות חיצוניות"
+     },
+     "what": {
+      "en": "Update to 2026-11-19 A2: Defence Blog reported on November 23 (18:26Z) that Petach Tikva-based Aero Sentinel (a subsidiary of Tel Aviv-listed Veloryx) announced via CMO Ofir Avram that its backpack-portable SeniX tactical ISR drone completed a single-sortie flight reaching 16 km one-way operational range and 32 km total distance without external ground directional antennas. When unveiled on November 12 at UVID 2026, SeniX—built from 40% carbon-fiber-reinforced injection-molded polymer and already fielded with a specialized IDF unit—was rated for >70 minutes endurance and up to 10 km datalink range, with GPS-denied visual navigation slated for 2027. Aero Sentinel did not disclose test date or location, and Defence Blog could not independently verify the figures.",
+      "he": "עדכון לפריט 2026-11-19 A2: אתר Defence Blog דיווח ב-23 בנובמבר (18:26Z) כי חברת Aero Sentinel מפתח תקווה (חברה-בת של Veloryx הנסחרת בת\"א) הודיעה באמצעות סמנכ\"ל השיווק אופיר אברם כי כטב\"ם המודיעין הנישא בגב מדגם SeniX השלים טיסה של 16 ק\"מ לכל כיוון ו-32 ק\"מ במצטבר ללא אנטנות קרקע כיווניות חיצוניות. בעת חשיפתו ב-12 בנובמבר בכנס UVID 2026 הוצהר על טווח קישוריות של עד 10 ק\"מ וזמן שהייה של מעל 70 דקות, לצד שילוב עתידי של ניווט חזותי ללא GPS ב-2027 ושימוש מבצעי קיים ביחידה מיוחדת בצה\"ל. החברה לא מסרה מיקום או תאריך מדויק, ו-Defence Blog ציין כי לא אימת עצמאית את הנתונים."
+     },
+     "figs": {
+      "en": "Platform: SeniX backpack ISR drone (Aero Sentinel / Veloryx). Claimed Flight: 16 km one-way / 32 km round-trip, no external ground antennas (vs. 10 km baseline spec). Endurance: >70 min. Airframe: Injection-molded 40% carbon-fiber polymer (target output ~1,000 units/year by 2029).",
+      "he": "פלטפורמה: ‏SeniX נישא בגב (Aero Sentinel / Veloryx). נתון מוצהר: 16 ק\"מ לכיוון / 32 ק\"מ סה\"כ ללא אנטנות חיצוניות (לעומת מפרט בסיס של 10 ק\"מ). שהייה: מעל 70 דקות. מבנה: פולימר מחוזק ב-40% סיבי פחמן (יעד ייצור ~1,000 יחידות בשנה עד 2029)."
+     },
+     "why": {
+      "en": "Extending organic line-of-sight tactical ISR reach to 16 km without bulky mast-mounted directional antennas meaningfully widens small-unit beyond-line-of-sight reconnaissance and Spike-relay utility if corroborated in independent military testing.",
+      "he": "הארכת טווח איסוף טקטי נישא-לוחם ל-16 ק\"מ ללא תלות באנטנות קרקע חיצוניות מגדילה משמעותית את גמישות היחידות המיוחדות בהכוונת אש ובשילוב מערכות כמו Spike — אם הנתון יאומת בניסויים עצמאיים."
+     },
+     "israel": {
+      "en": "Direct Israeli defense-tech update: SeniX is developed in Petach Tikva by Aero Sentinel (Veloryx), already in operational use with an IDF special unit, and previously demonstrated in NATO Spike-relay drills.",
+      "he": "עדכון ישראלי ישיר: SeniX מפותח בפתח תקווה בידי Aero Sentinel (Veloryx), נמצא בשימוש מבצעי ביחידה מיוחדת בצה\"ל ושולב לאחרונה עם טילי Spike בתרגיל נאט\"ו."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/israeli-firm-says-its-new-spy-drone-broke-range-record/"
+      },
+      {
+       "t": "Aero Sentinel (Launch Specs)",
+       "u": "https://www.aero-sentinel.com/press-releases/senix-launch-uvid-2026/"
+      }
+     ],
+     "note": {
+      "en": "UPDATE / UNCONFIRMED — single source: Based on an Aero Sentinel executive post on Nov 23; Defence Blog stated it could not independently verify the claimed range figures.",
+      "he": "עדכון / לא מאומת — מקור יחיד: מבוסס על פרסום של בכיר ב-Aero Sentinel מ-23 בנובמבר; Defence Blog ציין כי לא הצליח לאמת עצמאית את נתוני הטווח."
+     },
+     "s": {
+      "en": "Israeli firm Aero Sentinel claimed its backpack-sized SeniX ISR drone flew 16 km out and 16 km back on a single flight without external ground antennas.",
+      "he": "חברת Aero Sentinel הישראלית טענה כי כטב\"ם ה-ISR הנישא SeniX טס 16 ק\"מ לכל כיוון (32 ק\"מ סה\"כ) בטיסה אחת ללא אנטנות קרקע חיצוניות."
+     },
+     "photo": "img/j/B1.jpg"
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Space ISR / SAR Satellites",
+     "typeHe": "מודיעין חלל / לווייני מכ\"ם SAR",
+     "date": "2026-11-23",
+     "h": {
+      "en": "Umbra debuts 200-kg 'Freetail' 5-cm resolution SAR satellite platform for 2028 launch",
+      "he": "חברת Umbra חשפה את פלטפורמת לוויין המכ\"ם Freetail במשקל 200 ק\"ג ורזולוציית 5 ס\"מ לשיגור ב-2028"
+     },
+     "what": {
+      "en": "Breaking Defense (17:20Z) and PR Newswire reported on November 23 that California-based Umbra unveiled Freetail, a new U.S.-built 200-kg-class multi-mission synthetic aperture radar (SAR) satellite line led by Freetail 5 (FT-05), slated for launch readiness in Q1 2028 and midyear commercial availability. Featuring a 5-meter patented mesh antenna, sharply higher radar transmit power, improved geolocation accuracy, and software-defined onboard processing, Freetail targets 5 cm ground resolution—an order-of-magnitude advance over the ~25 cm industry norm and ahead of Finnish competitor ICEYE's Nov 16 Gen5 announcement (11 cm government / 16 cm commercial) for U.S. and allied military intelligence customers.",
+      "he": "אתר Breaking Defense (17:20Z) ו-PR Newswire דיווחו ב-23 בנובמבר כי חברת Umbra מקליפורניה חשפה את משפחת לווייני המכ\"ם מפתח סינתטי (SAR) החדשה Freetail מתוצרת ארה\"ב, בראשות הדגם הראשון Freetail 5 (FT-05) המתוכנן למוכנות שיגור ברבעון הראשון של 2028. הפלטפורמה, במשקל של כ-200 ק\"ג ועם אנטנת רשת של 5 מ', הספק שידור מוגדל ועיבוד מוגדר-תוכנה על הסיפון, מיועדת להפקת דימות מכ\"ם ברזולוציה של עד 5 ס\"מ — שיפור חד מהתקן הנפוץ של כ-25 ס\"מ ומול דור Gen5 של ICEYE הפינית שהוצג ב-16 בנובמבר (11 ס\"מ ממשלתי / 16 ס\"מ מסחרי)."
+     },
+     "figs": {
+      "en": "Platform: Umbra Freetail / Freetail 5 (FT-05). Spacecraft Class: 200 kg. Antenna: 5 m mesh antenna. Target Resolution: 5 cm SAR (vs. ~25 cm baseline; ICEYE Gen5 11 cm gov / 16 cm commercial). Schedule: Q1 2028 launch-ready; mid-2028 commercial service.",
+      "he": "פלטפורמה: ‏Umbra Freetail 5 (FT-05). משקל לוויין: כ-200 ק\"ג. אנטנה: אנטנת רשת 5 מ'. רזולוציית יעד: 5 ס\"מ SAR (לעומת ~25 ס\"מ כיום ו-11/16 ס\"מ ב-ICEYE Gen5). לו\"ז: מוכנות שיגור Q1 2028."
+     },
+     "why": {
+      "en": "Sub-decimeter (5 cm) all-weather, day/night commercial SAR resolution in a 200-kg bus allows defense and intelligence agencies to identify individual weapon subsystems, TEL decoys, and naval damage through cloud cover at persistent revisit rates.",
+      "he": "רזולוציית מכ\"ם של 5 ס\"מ בכל מזג אוויר ובלילה מלוויין קטן במשקל 200 ק\"ג מאפשרת לגופי מודיעין זיהוי ממוקד של תתי-מערכות אמל\"ח, דמיי משגרים ונזק ימי מבעד לעננות."
+     },
+     "israel": {
+      "en": "Raises the commercial space-ISR benchmark alongside IAI's SAR constellation offerings (such as TECSAR / Offeq SAR lines) and underscores growing sovereign competition in ultra-high-resolution tactical radar imagery.",
+      "he": "מציב רף חדש בשוק לווייני ה-SAR המסחריים מול פתרונות ה-SAR של התעשייה האווירית וממחיש את התחרות הגוברת במודיעין מכ\"ם טקטי ברזולוציה אולטרה-גבוהה."
+     },
+     "src": [
+      {
+       "t": "PR Newswire (Umbra)",
+       "u": "https://www.prnewswire.com/news-releases/umbra-introduces-freetail-a-next-generation-us-built-satellite-platform-enabling-a-new-era-of-space-based-sar-imaging-intelligence-and-multi-mission-operations-302948268.html"
+      },
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/umbra-iceye-tout-higher-resolution-radar-imaging-with-new-satellites/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Announced via Umbra's official PR Newswire release and analyzed in Breaking Defense.",
+      "he": "מאומת — פורסם בהודעה הרשמית של Umbra ב-PR Newswire וסוקר ב-Breaking Defense."
+     },
+     "s": {
+      "en": "Umbra unveiled its 200-kg Freetail SAR satellite family targeting 5 cm ground resolution and a Q1 2028 launch-ready debut for U.S. and allied intelligence customers.",
+      "he": "חברת Umbra חשפה את משפחת לווייני ה-SAR מדגם Freetail במשקל 200 ק\"ג, המכוונת לרזולוציה של 5 ס\"מ ולשיגור ב-2028."
+     },
+     "photo": "img/j/B2.jpg"
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Netherlands / Ukraine",
+     "countryHe": "הולנד / אוקראינה",
+     "type": "Unmanned Navigation / AI Software",
+     "typeHe": "ניווט ללא GPS / תוכנת AI",
+     "date": "2026-11-23",
+     "h": {
+      "en": "Briefly noted: Ukrainian-Estonian Farsight Vision signs MoU with BSS Holland to adapt combat AI drone/UGV navigation for Dutch defense market",
+      "he": "בקצרה: חברת Farsight Vision חתמה על מזכר הבנות עם BSS Holland להתאמת ניווט AI קרבי לכטב\"מים ולרובוטים בהולנד"
+     },
+     "what": {
+      "en": "Militarnyi reported on November 23 (17:22Z) that Ukrainian-Estonian developer Farsight Vision—whose AI terrain-mapping and GNSS-denied navigation suite is used by more than 170 Ukrainian Armed Forces units and integrates with DELTA, ATAK, Kropyva, and ComBat Vision—signed a memorandum of cooperation with Dutch defense integrator BSS Holland (which operates a Field Lab in Kyiv) to jointly adapt and promote unmanned, C-UAS, and AI reconnaissance solutions for the Netherlands Armed Forces.",
+      "he": "אתר Militarnyi דיווח ב-23 בנובמבר (17:22Z) כי החברה האוקראינית-אסטונית Farsight Vision — שמערכות מיפוי השטח והניווט מבוססות ה-AI שלה בסביבה משובשת GNSS פועלות ביותר מ-170 יחידות בצבא אוקראינה ומשתלבות עם מערכות DELTA, ATAK, Kropyva ו-ComBat Vision — חתמה על מזכר שיתוף פעולה עם האינטגרטורית ההולנדית BSS Holland (המפעילה מעבדת שדה בקייב) להתאמת פתרונות כטב\"מים, כלים קרקעיים בלתי מאוישים ו-C-UAS לכוחות הולנד."
+     },
+     "figs": {
+      "en": "Partners: Farsight Vision (Ukraine/Estonia) & BSS Holland (Netherlands). Ukrainian Adoption: >170 military units. Integration: DELTA, ATAK, Kropyva, ComBat Vision. Agreement Type: Memorandum of Cooperation (value/contracts TBD).",
+      "he": "שותפות: ‏Farsight Vision (אוקראינה/אסטוניה) ו-BSS Holland (הולנד). שימוש באוקראינה: מעל 170 יחידות צבאיות. אינטגרציה: ‏DELTA, ATAK, Kropyva, ComBat Vision. מסגרת: מזכר הבנות ללא היקף כספי מוצהר."
+     },
+     "why": {
+      "en": "Briefly noted in the digest per reader profile (industrial cooperation MoU without disclosed procurement contract value or immediate fielding timeline).",
+      "he": "מסוכם בקצרה בהתאם לפרופיל הקורא (מזכר הבנות תעשייתי ללא חוזה רכש או סכום מוגדר)."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/ukrainian-farsight-vision-adapt-combat-technologies-netherlands/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Direct company disclosure reported by Militarnyi.",
+      "he": "מאומת — הודעה ישירה של החברה שסוקרה ב-Militarnyi."
+     },
+     "s": {
+      "en": "Ukrainian-Estonian firm Farsight Vision signed a cooperation MoU with BSS Holland to adapt its combat-fielded GNSS-denied AI navigation tools for Dutch unmanned systems.",
+      "he": "חברת Farsight Vision חתמה על מזכר הבנות עם BSS Holland להתאמת מערכות הניווט הקרביות שלה ללא GPS לשוק הכטב\"מים והרובוטיקה ההולנדי."
+     },
+     "photo": "img/j/B3.jpg"
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Rocket Artillery / Munitions Testing",
+     "typeHe": "ארטילריה רקטית / ניסוי חימוש",
+     "date": "2026-11-23",
+     "h": {
+      "en": "Lockheed Martin completes third flight test of 24-round Joint Reduced Range Rocket (JR3) HIMARS training salvo at Yuma",
+      "he": "לוקהיד מרטין השלימה ניסוי טיסה שלישי במטח מלא של 24 רקטות אימון JR3 ממשגר HIMARS ביומה"
+     },
+     "what": {
+      "en": "Lockheed Martin and Defense WarRoom (16:24Z) reported on November 23 that Lockheed Martin completed its third successful flight test—and first full 24-round salvo—of the Joint Reduced Range Rocket (JR3) from an M142 HIMARS launcher at U.S. Army Yuma Proving Ground, Arizona. Designed as a low-cost replacement for the Army's Reduced Range Practice Rocket (RRPR), JR3 pairs a mature rocket motor with a non-explosive marking payload inside a reloadable, reusable 24-round pod compatible with HIMARS and M270 MLRS—quadrupling live-fire rounds per upload from 6 to 24 on HIMARS (and 12 to 48 on M270) ahead of a Q3 FY2027 Army down-select against RTX's competing DeepStrike JR3.",
+      "he": "חברת לוקהיד מרטין ואתר Defense WarRoom (16:24Z) דיווחו ב-23 בנובמבר כי החברה השלימה את ניסוי הטיסה השלישי — והמטח המלא הראשון של 24 רקטות — של רקטת האימון המשותפת JR3 (Joint Reduced Range Rocket) ממשגר M142 HIMARS במטווח יומה באריזונה. המערכת מפותחת כתחליף חסכוני לרקטות האימון הוותיקות RRPR ומשלבת מנוע רקטי זול ורש\"ק סימון לא-נפיץ בתוך פוד שיגור רב-פעמי ל-24 רקטות התואם ל-HIMARS ול-M270 — ובכך מכפילה פי 4 את נפח האימון לטעינה (24 במקום 6 ב-HIMARS, ו-48 במקום 12 ב-M270) לקראת בחירת צבא ארה\"ב ברבעון השלישי של FY2027 מול DeepStrike JR3 של RTX."
+     },
+     "figs": {
+      "en": "Contractor: Lockheed Martin. Test Date / Site: Reported Nov 23, 2026 at Yuma Proving Ground, Arizona (3rd test; 1st full 24-round salvo). Upload Capacity: 24 rounds/pod (HIMARS) or 48 rounds (M270), vs. 6/12 standard. Pod: Reloadable/reusable launch pod. Program Milestone: U.S. Army down-select scheduled Q3 FY2027.",
+      "he": "מפתחת: ‏Lockheed Martin. אתר ומועד: דווח ב-23 בנובמבר 2026 במטווח יומה, אריזונה (ניסוי שלישי ומטח ראשון של 24 רקטות). תכולת פוד: 24 רקטות ל-HIMARS / 48 ל-M270 (לעומת 6/12). פוד שיגור: רב-פעמי וניתן לטעינה חוזרת. אבן דרך: החלטת בחירה של צבא ארה\"ב ברבעון Q3 FY2027."
+     },
+     "why": {
+      "en": "Moving to a reusable 24-round pod quadruples crew live-fire repetitions per reload while cutting per-shot training expenditure and range-footprint requirements—critical as U.S. and allied GMLRS/PrSM operators expand artillery readiness.",
+      "he": "מעבר לפוד רב-פעמי של 24 רקטות מכפיל פי ארבעה את תפוקת האש החיה לאימון צוותי HIMARS/M270 ומצמצם עלויות ושטחי בטיחות בעת הרחבת מערכי הארטילריה הרקטית."
+     },
+     "israel": {
+      "en": "Relevant operational benchmark for IDF and Elbit Systems' PULS precision rocket artillery training ecosystems, where high-density reusable sub-caliber training pods preserve combat warstock and cut crew qualification costs.",
+      "he": "אמת מידה מעניינת למערכי האימון של משגרי PULS של אלביט מערכות וצה\"ל, שבהם פודי אימון רב-פעמיים מרובי-קנים חוסכים במלאי חימוש מבצעי ובעלויות הכשרת צוותים."
+     },
+     "src": [
+      {
+       "t": "Lockheed Martin Newsroom",
+       "u": "https://news.lockheedmartin.com/2026-11-23-Lockheed-Martin-Completes-Third-Successful-JR3-Test-Developing-Affordable-Army-Training-and-Readiness"
+      },
+      {
+       "t": "Defense WarRoom",
+       "u": "https://defensewarroom.com/2026/11/23/lockheed-martin-jr3-training-rocket-salvo/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official Lockheed Martin news release corroborated by Defense WarRoom.",
+      "he": "מאומת — הודעה רשמית של לוקהיד מרטין שאומתה בדיווח Defense WarRoom."
+     },
+     "s": {
+      "en": "Lockheed Martin fired a full 24-round HIMARS salvo in the third flight test of its reusable-pod JR3 training rocket at Yuma Proving Ground ahead of a Q3 FY2027 U.S. Army down-select.",
+      "he": "לוקהיד מרטין ביצעה מטח מלא של 24 רקטות אימון JR3 ממשגר HIMARS בניסוי השלישי במטווח יומה, לקראת בחירת צבא ארה\"ב ב-2027."
+     },
+     "photo": "img/j/C1.jpg"
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / Ukraine",
+     "countryHe": "ארצות הברית / אוקראינה",
+     "type": "Unmanned Surface Vessels / Drone Carrier",
+     "typeHe": "כלי שיט בלתי מאוישים / נושאת כטב\"מים",
+     "date": "2026-11-23",
+     "h": {
+      "en": "Powerus unveils 'Blue Sky Horizon' boat-to-USV drone-carrier retrofit as Ukraine's 40th Marine Brigade shows USV heavy-drone strikes",
+      "he": "חברת Powerus חשפה ערכת הסבה לנושאת כטב\"מים בלתי מאוישת במקביל לתיעוד שיגור כטב\"מים כבדים מכלי שיט באוקראינה"
+     },
+     "what": {
+      "en": "Defence Blog reported on November 23 (18:13Z), citing an afternoon announcement by U.S. drone and autonomy developer Powerus (~17:21Z) and November 23 combat footage from Ukraine's 40th Separate Marine Brigade, that Powerus is marketing Blue Sky Horizon—a retrofit conversion turning existing crewed commercial boats, workboats, and naval craft into remotely piloted or autonomous crewless drone carriers equipped with bow launch rails for long-range ISR and strike UAVs. In parallel, the 40th Marine Brigade's Barracuda unit—operating alongside the 12 Friends of Ocean unit and HUR's International Legion—released video showing uncrewed surface vessels ferrying heavy strike drones and FPVs across open water to launch overland strikes against Russian shelters and logistics depots.",
+      "he": "אתר Defence Blog דיווח ב-23 בנובמבר (18:13Z), בהתבסס על פרסום חברת Powerus האמריקאית (~17:21Z) ועל תיעוד קרבי שפרסמה באותו יום חטיבת הנחתים הנפרדת ה-40 של אוקראינה, כי Powerus מציעה את ערכת Blue Sky Horizon להסבת סירות עבודה, כלי שיט מסחריים וסירות קרב קיימות לנושאות כטב\"מים בלתי מאוישות עם מסילות שיגור בחרטום להארכת טווח פעולה יבשתי. במקביל פרסמה יחידת Barracuda של החטיבה ה-40 (בשיתוף יחידת 12 Friends of Ocean והלגיון הבינלאומי של המודיעין הצבאי HUR) תיעוד של כלי שיט בלתי מאוישים הנושאים כטב\"מי תקיפה כבדים ורחפני FPV אל נקודות שיגור לתקיפת מחסני לוגיסטיקה ומחסות רוסיים."
+     },
+     "figs": {
+      "en": "U.S. System: Powerus Blue Sky Horizon (autonomy/remote-control retrofit + bow UAV launch rails for existing hulls). Ukrainian Combat Employment: 40th Separate Marine Brigade Barracuda USVs ferrying heavy strike drones and FPVs (Nov 23, 2026 release).",
+      "he": "מערכת אמריקאית: ‏Powerus Blue Sky Horizon (הסבה אוטונומית לסירות קיימות עם מסילות שיגור בחרטום). שימוש מבצעי באוקראינה: כלי שיט בלתי מאוישים של יחידת Barracuda (חטיבה 40) המשגרים כטב\"מי תקיפה כבדים ורחפני FPV."
+     },
+     "why": {
+      "en": "Both commercial USV conversion kits and active Ukrainian combat launches show how attritable sea-to-air motherships bypass bespoke hull procurement timelines and extend tactical drone strike reach deep inland from littoral waters.",
+      "he": "המקבילה בין ערכות הסבה מסחריות לשימוש המבצעי באוקראינה ממחישה כיצד סירות-אם בלתי מאוישות חוסכות בניית גופים ייעודיים ומרחיבות משמעותית את טווח התקיפה של כטב\"מים טקטיים מהים אל עומק החוף."
+     },
+     "israel": {
+      "en": "Highlights dual-sided relevance for Israeli naval defense: low-signature commercial hulls converted into USV drone carriers pose a littoral infiltration threat in the Mediterranean/Red Sea, while modular USV-UAV mothership kits offer force-multiplication options.",
+      "he": "משמעות כפולה לישראל: סירות אזרחיות מוסבות לנושאות כטב\"מי תקיפה מהוות איום חדירה חופי בזירה הימית, ומנגד תצורת כלי-שיט-אם מודולרית מספקת מכפיל כוח לפעילות ימית-אווירית."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/powerus-turns-existing-boats-into-crewless-drone-launchers/"
+      },
+      {
+       "t": "Powerus Blue Sky",
+       "u": "https://www.power.us/systems/blue-sky"
+      },
+      {
+       "t": "40th Marine Brigade (Telegram)",
+       "u": "https://t.me/s/official40obrmp/1482"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Corroborated by Powerus product documentation, Defence Blog, and the Ukrainian 40th Separate Marine Brigade's official Nov 23 Telegram release.",
+      "he": "מאומת — מגובה במסמכי המוצר של Powerus, בדיווח Defence Blog ובהודעת הטלגרם הרשמית של חטיבת הנחתים ה-40 מ-23 בנובמבר."
+     },
+     "s": {
+      "en": "Powerus unveiled its Blue Sky Horizon USV drone-carrier hull retrofit as Ukraine's 40th Marine Brigade released Nov 23 video of USVs launching heavy strike drones toward Russian positions.",
+      "he": "חברת Powerus חשפה את ערכת ההסבה Blue Sky Horizon לנושאות כטב\"מים בלתי מאוישות במקביל לתיעוד חדש של הנחתים האוקראינים המשגרים כטב\"מי תקיפה מכלי שיט."
+     },
+     "photo": "img/j/D1.jpg"
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany / United States",
+     "countryHe": "גרמניה / ארצות הברית",
+     "type": "Subsea / Combat Diving Systems",
+     "typeHe": "ציוד צלילה קרבי / מבצעים מיוחדים",
+     "date": "2026-11-23",
+     "h": {
+      "en": "German firm Dräger's LAR 8000 combat diving rebreather earns U.S. Navy Authorized for Navy Use (ANU) clearance",
+      "he": "מערכת הנשימה הקרבית Dräger LAR 8000 של היצרנית הגרמנית הוסמכה לרשימת הציוד המאושר של הצי האמריקאי"
+     },
+     "what": {
+      "en": "German safety technology manufacturer Dräger announced via PR Newswire (17:02Z) and Defence Blog (18:09Z) on November 23 that the oxygen (O2) variant of its LAR 8000 tactical diving rebreather passed U.S. Navy design safety reviews, testing, and evaluation to earn placement on the Authorized for Navy Use (ANU) list. Designed for submarine lockouts, swimmer delivery vehicle (SDV) missions, and covert open-water insertions as successor to the 1980s Dräger LAR V (U.S. Navy MK 25), the ~14-kg, non-magnetic (STANAG 2897 Class A) system operates tool-free in bubble-free closed-circuit pure oxygen mode (up to 240 minutes to 10 m depth) or semi-closed nitrox mode (to 24 m).",
+      "he": "יצרנית טכנולוגיות הבטיחות הגרמנית Dräger הודיעה ב-23 בנובמבר ב-PR Newswire (17:02Z) וב-Defence Blog (18:09Z) כי גרסת החמצן (O2) של מערכת הנשימה הקרבית LAR 8000 עברה את בדיקות הבטיחות והניסויים של הצי האמריקאי והוכנסה לרשימת הציוד המאושר לשימוש (ANU). המערכת, הממשיכה את מורשת ה-LAR V (MK 25) בכוחות המבצעים המיוחדים של ארה\"ב, שוקלת כ-14 ק\"ג, עומדת בתקן אנטי-מגנטי STANAG 2897 Class A ומאפשרת צלילה שקטה ללא בועות במעגל סגור עד 240 דקות (עומק 10 מ') או במעגל חצי-סגור עם נייטרוקס (עד 24 מ') עבור גיחות מצוללות וכלי שייט תת-ימיים."
+     },
+     "figs": {
+      "en": "Manufacturer: Dräger (Germany / Houston U.S. subsidiary). Milestone: U.S. Navy Authorized for Navy Use (ANU) listing (O2 variant, Nov 23, 2026). Endurance / Depth: Up to 240 min to 10 m (closed-circuit O2); up to 24 m (semi-closed nitrox). Weight / Standard: ~14 kg out of water, neutrally buoyant; NATO STANAG 2897 Class A non-magnetic.",
+      "he": "יצרן: ‏Dräger (גרמניה). אבן דרך: כניסה לרשימת ANU של הצי האמריקאי (23 בנובמבר 2026). ביצועים: עד 240 דקות לעומק 10 מ' במעגל סגור (חמצן), ועד 24 מ' במעגל חצי-סגור (נייטרוקס). משקל ותקן: כ-14 ק\"ג, תקן אנטי-מגנטי STANAG 2897 Class A."
+     },
+     "why": {
+      "en": "ANU clearance clears the formal U.S. Navy and SOCOM evaluation pathway to replace aging MK 25 rebreathers with a dual-mode, non-magnetic German system following SOCOM's May 2026 solicitation for longer-endurance covert diving rigs.",
+      "he": "כניסת המערכת לרשימת ANU פותחת את המסלול הרשמי לצי האמריקאי ול-SOCOM לבחון החלפת מערכות MK 25 ותיקות במערכת דו-מצבית אנטי-מגנטית בעקבות פניית הרכש של SOCOM במאי 2026."
+     },
+     "israel": {
+      "en": "Relevant to Israeli naval special operations (Shayetet 13) equipment benchmarking and underwater stealth standards against mine-actuation and surface-bubble detection.",
+      "he": "רלוונטי להשוואת אמות מידה וציוד צלילה חשאי עבור יחידות קומנדו ימי ולוחמה תת-מימית נגד חיישנים מגנטיים וגילוי בועות."
+     },
+     "src": [
+      {
+       "t": "PR Newswire (Dräger)",
+       "u": "https://www.prnewswire.com/news-releases/dragers-lar-8000-rebreather-earns-us-navy-anu-listing-302948467.html"
+      },
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/u-s-navy-clears-german-lar-8000-combat-diving-rebreather/"
+      },
+      {
+       "t": "Dräger LAR 8000 Product Page",
+       "u": "https://www.draeger.com/en-us_us/Products/LAR-8000"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official Dräger announcement via PR Newswire corroborated by Defence Blog and Dräger technical documentation.",
+      "he": "מאומת — הודעה רשמית של Dräger ב-PR Newswire שאומתה ב-Defence Blog ובמפרט הטכני של היצרן."
+     },
+     "s": {
+      "en": "German manufacturer Dräger's LAR 8000 O2 combat diving rebreather earned U.S. Navy Authorized for Navy Use (ANU) listing for bubble-free submarine lockout and SDV operations.",
+      "he": "מערכת הנשימה הקרבית Dräger LAR 8000 מתוצרת גרמניה נכנסה לרשימת ANU המאושרת של הצי האמריקאי לצלילה חשאית ללא בועות."
+     },
+     "photo": "img/j/D2.jpg"
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "Elbit Systems & Quantum X Labs Quantum R&D Pact (Israel): Israeli developer Quantum X Labs signed a joint R&D program agreement with Elbit Systems' C4I & Cyber division to explore quantum sensing, computing, and error-correction integration for jamming-resilient military systems (A1), while Aero Sentinel claimed a 16 km one-way / 32 km total flight record without external antennas for its backpack SeniX ISR drone (B1, UNCONFIRMED).",
+      "Quantum WIY Industries SPYS Interceptor Sets 520 km/h Record (UPDATE / HIGH PRIORITY / Germany Focus): In a Militarnyi-witnessed trial, German-Ukrainian JV Quantum WIY Industries' upgraded SPYS interceptor averaged 520 km/h carrying a 500 g dummy warhead (558 km/h peak tailwind; 527.5 km/h unladen), built with 75% Ukrainian components to counter Russian jet-powered UAVs (A2).",
+      "Lockheed Martin Fires Full 24-Round JR3 HIMARS Salvo (HIGH PRIORITY): Lockheed Martin completed its third flight test of the Joint Reduced Range Rocket (JR3) at Yuma Proving Ground, launching a full 24-round reusable-pod training salvo from HIMARS ahead of a Q3 FY2027 U.S. Army down-select against RTX's DeepStrike JR3 (C1).",
+      "USV Drone-Carriers & German LAR 8000 Navy Clearance (HIGH PRIORITY / Germany Focus): Powerus unveiled its Blue Sky Horizon hull-conversion kit turning existing boats into autonomous drone carriers as Ukraine's 40th Marine Brigade Barracuda unit released footage of USVs launching heavy strike drones (D1), while German firm Dräger's LAR 8000 O2 combat diving rebreather earned U.S. Navy ANU clearance (D2).",
+      "Space SAR, NATO Polish AEW & Dutch AI Navigation: Umbra debuted its 200-kg Freetail 5-cm SAR satellite platform for 2028 launch (B2), NATO deployed allied AEW aircraft to protect Polish airspace following the Nov 20 Russian Kh-101 incursion (A3), and Ukrainian-Estonian Farsight Vision signed a Dutch defense adaptation MoU with BSS Holland (B3)."
+     ],
+     "he": [
+      "אלביט מערכות ו-Quantum X Labs בהסכם מו\"פ קוונטי (ישראל): חברת Quantum X Labs חתמה על הסכם מחקר ופיתוח משותף עם חטיבת התקשוב והסייבר (C4I & Cyber) של אלביט מערכות לבחינת שילוב טכנולוגיות קוונטיות במערכות ביטחוניות עמידות לשיבוש (א1), בעוד Aero Sentinel הישראלית טענה לשיא טווח של 16 ק\"מ לכיוון ו-32 ק\"מ סה\"כ ללא אנטנות חיצוניות לכטב\"ם הגב SeniX (ב1, לא מאומת).",
+      "מיירט ה-SPYS של Quantum WIY קבע שיא מהירות של 520 קמ\"ש (עדכון / עדיפות גבוהה / מיקוד גרמניה): בניסוי מתועד בנוכחות כתב Militarnyi, המיירט המשודרג של המיזם הגרמני-אוקראיני Quantum WIY Industries השיג ממוצע של 520 קמ\"ש עם מטע\"ד דמה של 500 גרם (שיא 558 קמ\"ש ברוח גב; 527.5 קמ\"ש ללא מטע\"ד) עם 75% רכיבים מתוצרת אוקראינה (א2).",
+      "לוקהיד מרטין השלימה מטח מלא של 24 רקטות אימון JR3 ממשגר HIMARS (עדיפות גבוהה): בניסוי הטיסה השלישי במטווח יומה באריזונה הדגימה החברה פוד שיגור רב-פעמי ל-24 רקטות במקום 6, לקראת החלטת בחירה של צבא ארה\"ב ברבעון השלישי של FY2027 מול DeepStrike JR3 של RTX (ג1).",
+      "סירות-אם בלתי מאוישות ואישור הצי האמריקאי ל-Dräger LAR 8000 (עדיפות גבוהה / מיקוד גרמניה): חברת Powerus חשפה את ערכת Blue Sky Horizon להסבת סירות קיימות לנושאות כטב\"מים בלתי מאוישות במקביל לתיעוד חטיבת הנחתים ה-40 האוקראינית המשגרת כטב\"מי תקיפה כבדים מכלי שיט בלתי מאוישים (ד1), ומערכת הנשימה הסגורה Dräger LAR 8000 של היצרנית הגרמנית הוסמכה לרשימת ANU של הצי האמריקאי (ד2).",
+      "מכ\"ם לווייני 5 ס\"מ, מטוסי התרעה בנאט\"ו ושיתוף פעולה הולנדי: חברת Umbra חשפה את פלטפורמת הלוויין Freetail במשקל 200 ק\"ג ורזולוציית SAR של 5 ס\"מ לשיגור ב-2028 (ב2), נאט\"ו פרסה מטוסי התרעה מוקדמת להגנת שמי פולין בעקבות חדירת טילי Kh-101 הרוסיים (א3), ו-Farsight Vision חתמה על מזכר הבנות עם BSS Holland להתאמת ניווט AI ללא GPS בהולנד (ב3)."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "This evening digest covers open-source defense disclosures between 2026-11-23T15:20:00Z and 2026-11-23T18:54:00Z on 23 November 2026. Every cited source URL passed live HTTP 200 GET verification (verify_digest_integrity.py --strict); GlobeNewswire returned HTTP 403 to automated verification and was replaced by verified TechTime and Funder.co.il coverage for A1. Gmail MCP lacked an OAuth token in this session (matching the main run). All currency values use ISO notation (no dollar-sign character). Seven authentic, event-specific source images are embedded (A2, B1, B2, B3, C1, D1, D2); A1 and A3 omit generic/archival file images cleanly. Analysis lines ('Why it matters' and 'Israel implications') represent analytical assessment."
+    ],
+    "he": [
+     "מהדורת ערב זו מכסה פרסומי ביטחון וטכנולוגיה ממקורות גלויים בין השעות ‪2026-11-23T15:20:00Z‬ ל-‪2026-11-23T18:54:00Z‬ ב-23 בנובמבר 2026. כל כתובות המקור אומתו עצמאית בבדיקת HTTP 200 חיה; אתר GlobeNewswire החזיר שגיאת HTTP 403 לבדיקה האוטומטית והוחלף בדיווחים המאומתים של TechTime ו-Funder.co.il בפריט א1. חיבור Gmail MCP לא היה מאומת בסשן זה (בדומה למהדורה הראשית). שבע תמונות מקור אותנטיות הוטמעו (א2, ב1, ב2, ב3, ג1, ד1, ד2); בפריטים א1 ו-א3 הושמטו תמונות ארכיון/המחשה. כל הסכומים מוצגים בסימון מטבע תקני (ללא סימן דולר)."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-23T15:20:00Z – 2026-11-23T18:54:00Z. Reader profile applied: 7 full items, 2 briefly noted.",
+     "Country focus: Germany 2, UAE 0, Azerbaijan 0, Singapore 0, India 0, Morocco 0.",
+     "Watchdog check: Main [AGY] log verified in Drive (1xfO0XgJ_3-2bSWQVzXYE7VWfPzgPRgMJ) and Telegram delivery confirmed complete (digest/2026-11-23/sent_2026-11-23.json). Minimum search gate satisfied: 28 targeted web queries, RSS/API/HTML listing sweeps across 58 trade/prime/MoD portals, 46-account X harvest (25 candidate tweets), and Gmail lead check attempted (unauthenticated OAuth). All cited URLs verified HTTP 200; 7 authentic source photos embedded."
+    ],
+    "he": [
+     "מהדורת ערב [AGY]. חלון זמן מכוסה: ‪2026-11-23T15:20:00Z – 2026-11-23T18:54:00Z‬. פרופיל קורא יושם: 7 פריטים מלאים, 2 בקצרה.",
+     "מיקוד מדינות: גרמניה 2, איחוד האמירויות 0, אזרבייג'ן 0, סינגפור 0, הודו 0, מרוקו 0.",
+     "בדיקת Watchdog: יומן [AGY] הראשי אומת בדרייב (1xfO0XgJ_3-2bSWQVzXYE7VWfPzgPRgMJ) ומסירת הטלגרם הושלמה (sent_2026-11-23.json). שער החיפוש המינימלי הושלם: 28 שאילתות חיפוש, סריקת RSS/API/רשימות ב-58 אתרי ביטחון/תעשייה/משרדי הגנה, איסוף מ-46 חשבונות X (25 ציוצים) וניסיון בדיקת Gmail. כל הקישורים אומתו HTTP 200; 7 תצלומי מקור אותנטיים הוטמעו."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Follow technical domain disclosures, pilot deliverables, and any follow-on procurement contracts under the Elbit Systems C4I & Cyber–Quantum X Labs quantum R&D agreement.",
+     "Track Quantum WIY Industries SPYS interceptor integration with mother drones and jet boosters as well as Bundeswehr / Ukrainian serial orders.",
+     "Monitor Aero Sentinel SeniX 2027 visual GPS-denied navigation trials and independent verification of its 16 km one-way datalink claim.",
+     "Track the U.S. Army Q3 FY2027 JR3 down-select competition between Lockheed Martin's 24-round reusable pod and RTX's DeepStrike JR3.",
+     "Watch for U.S. military or allied customer adoption of Powerus Blue Sky Horizon USV drone-carrier retrofits and further Ukrainian 40th Marine Brigade Barracuda USV-UAV operations."
+    ],
+    "he": [
+     "מעקב אחר חשיפת תחומי הפיתוח הספציפיים, אבני הדרך והזמנות המשך במסגרת הסכם המו\"פ הקוונטי בין אלביט מערכות תקשוב וסייבר ל-Quantum X Labs.",
+     "מעקב אחר שילוב מיירטי SPYS של Quantum WIY Industries בכטב\"מי-אם ומאיצים רקטיים והזמנות סדרתיות באוקראינה ובגרמניה.",
+     "מעקב אחר ניסויי הניווט החזותי ללא GPS של כטב\"ם SeniX של Aero Sentinel ב-2027 ואימות עצמאי של טווח ה-16 ק\"מ.",
+     "מעקב אחר החלטת הבחירה של צבא ארה\"ב ברבעון השלישי של FY2027 בתוכנית JR3 בין לוקהיד מרטין ל-RTX.",
+     "מעקב אחר רכש אמריקאי או של בעלות ברית לערכות הסבת כלי השיט Blue Sky Horizon של Powerus והמשך פעילות יחידת Barracuda האוקראינית."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1vrcPc5fguw9PPW_t5ocZ7vlVxn6MKDuZq4WwW45Du_I/edit",
+    "he": "https://docs.google.com/document/d/1LLx3cnUgTfJTg-G6hZr4s9HEz2wXp_D22qK19D39GkU/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-23_evening_AGY_EN.pdf": "1ww9HiEesmumZG46A_0wwFkxfehwulsAj",
+    "Defense_Tech_Digest_2026-11-23_evening_AGY_HE.pdf": "1-BtVRrRCeta9kmue8YzvCbeo65TQRFG5",
+    "Defense_Team_Brief_2026-11-23_evening_AGY_EN.pdf": "1gy6OUtOUAvawKK07rLExa67yV7FyMZgm",
+    "Defense_Team_Brief_2026-11-23_evening_AGY_HE.pdf": "1sL9YG741udxZkOvSF4vaEXTIezxNGHG8"
+   },
+   "photos": {
+    "A2": {
+     "file": "A2.jpg",
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/WIY-SPYS_6-1.jpg",
+     "outlet": "Militarnyi",
+     "caption_en": "Quantum WIY Industries WIY SPYS interceptor drone photographed by Militarnyi during its Nov 23, 2026 520 km/h payload speed-record flight test.",
+     "caption_he": "רחפן היירוט WIY SPYS של Quantum WIY Industries בצילום Militarnyi בניסוי שיא המהירות (520 קמ\"ש עם מטע\"ד) ב-23 בנובמבר 2026.",
+     "credit_en": "Photo: Militarnyi",
+     "credit_he": "צילום: Militarnyi",
+     "local_src": "img/2026-11-23-evening/A2.jpg"
+    },
+    "B1": {
+     "file": "B1.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3749.jpg",
+     "outlet": "Aero Sentinel (via Defence Blog)",
+     "caption_en": "Aero Sentinel SeniX tactical backpack ISR drone during its claimed 16 km one-way / 32 km total range flight.",
+     "caption_he": "כטב\"ם המודיעין הטקטי SeniX של Aero Sentinel במהלך טיסת השיא המוצהרת ל-16 ק\"מ לכיוון (32 ק\"מ סה\"כ).",
+     "credit_en": "Photo: Aero Sentinel, via Defence Blog",
+     "credit_he": "צילום: Aero Sentinel, דרך Defence Blog",
+     "local_src": "img/2026-11-23-evening/B1.jpg"
+    },
+    "B2": {
+     "file": "B2.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Umbra-Future-Launch-Release-Image-11.16.2026-1024x535.png",
+     "outlet": "Umbra (via Breaking Defense)",
+     "caption_en": "Artist rendering of Umbra's 200-kg Freetail synthetic aperture radar (SAR) satellite platform unveiled Nov 23, 2026.",
+     "caption_he": "הדמיית פלטפורמת לוויין המכ\"ם Freetail במשקל 200 ק\"ג של חברת Umbra שנחשפה ב-23 בנובמבר 2026.",
+     "credit_en": "Image: Umbra, via Breaking Defense",
+     "credit_he": "דימוי: Umbra, דרך Breaking Defense",
+     "local_src": "img/2026-11-23-evening/B2.jpg"
+    },
+    "B3": {
+     "file": "B3.jpg",
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/NRK-Navigatsiya-interfejs-Farsight-Vision.jpg",
+     "outlet": "Farsight Vision (via Militarnyi)",
+     "caption_en": "User interface of Farsight Vision's GNSS-denied UGV navigation and terrain-mapping module.",
+     "caption_he": "ממשק המשתמש של מודול הניווט ללא GNSS ומיפוי השטח של Farsight Vision לכלי רכב קרקעיים בלתי מאוישים.",
+     "credit_en": "Photo: Farsight Vision, via Militarnyi",
+     "credit_he": "דימוי: Farsight Vision, דרך Militarnyi",
+     "local_src": "img/2026-11-23-evening/B3.jpg"
+    },
+    "C1": {
+     "file": "C1.jpg",
+     "url": "https://news.lockheedmartin.com/file.php/184251/jr3-test-900.jpg",
+     "outlet": "Lockheed Martin / U.S. Army",
+     "caption_en": "Lockheed Martin Joint Reduced Range Rocket (JR3) launching from an M142 HIMARS during the 24-round salvo flight test at Yuma Proving Ground, Arizona.",
+     "caption_he": "שיגור רקטת האימון JR3 של לוקהיד מרטין ממשגר M142 HIMARS בניסוי המטח בן 24 הרקטות במטווח יומה, אריזונה.",
+     "credit_en": "Photo: U.S. Army, via Lockheed Martin",
+     "credit_he": "צילום: צבא ארה\"ב, דרך לוקהיד מרטין",
+     "local_src": "img/2026-11-23-evening/C1.jpg"
+    },
+    "D1": {
+     "file": "D1.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3746.jpg",
+     "outlet": "Powerus (via Defence Blog)",
+     "caption_en": "Powerus Blue Sky Horizon converted uncrewed surface vessel carrying long-range drones on bow launch rails.",
+     "caption_he": "כלי שיט בלתי מאויש מוסב מדגם Powerus Blue Sky Horizon הנושא כטב\"מים ארוכי טווח על מסילות שיגור בחרטום.",
+     "credit_en": "Image: Powerus, via Defence Blog",
+     "credit_he": "דימוי: Powerus, דרך Defence Blog",
+     "local_src": "img/2026-11-23-evening/D1.jpg"
+    },
+    "D2": {
+     "file": "D2.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3745.jpg",
+     "outlet": "Dräger (via Defence Blog)",
+     "caption_en": "Combat diver using the German Dräger LAR 8000 closed/semi-closed tactical diving rebreather cleared for the U.S. Navy ANU list.",
+     "caption_he": "צוללן קרבי עם מערכת הנשימה הטקטית Dräger LAR 8000 הגרמנית שאושרה לרשימת ANU של הצי האמריקאי.",
+     "credit_en": "Photo: Dräger, via Defence Blog",
+     "credit_he": "צילום: Dräger, דרך Defence Blog",
+     "local_src": "img/2026-11-23-evening/D2.jpg"
+    }
+   }
+  },
   "2026-11-23": {
    "date": "2026-11-23",
    "doc_id": "2026-11-23",
