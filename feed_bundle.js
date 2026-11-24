@@ -437,18 +437,18 @@ window.DEFENSE_BRIEF_FEED = {
    "date": "2026-11-25",
    "slot": "1800",
    "wstart": "2026-11-24T23:34:00Z",
-   "wend": "2026-11-24T23:38:00Z",
+   "wend": "2026-11-24T23:50:00Z",
    "digest": {
     "bluf": {
      "en": [
-      "Elbit Systems demonstrates automated Sensor-to-Shooter link integrating Indian Army Swathi weapon-locating radar with SkyStriker loitering munitions in Pokhran trials.",
-      "Germany's BAAINBw awards EUR 420M contract to Airbus Defence and Diehl for FCAS Remote Carrier Light flight test demonstrators.",
-      "UAE's EDGE Group subsidiary AL TARIQ initiates integration of extended-range precision guidance kits onto Royal Moroccan Air Force F-16 Block 72 fighters."
+      "IAI secures USD 310M contract with Indian Navy for Barak MX air defense systems integration on Next-Generation Corvettes.",
+      "Diehl Defence delivers first IRIS-T SLX long-range air defense battery to German Bundeswehr for operational testing.",
+      "Elbit Systems unveils Hermes 900 Block 2 MALE UAV featuring enhanced satcom links and multi-drone swarming autonomy."
      ],
      "he": [
-      "אלביט מערכות מציגה סגירת מעגל חיישן-לזיווד אוטומטית המקשרת בין מכ״ם איתור המטרות 'סוואתי' של צבא הודו לחימוש המשוטט SkyStriker בניסוי בפוקראן.",
-      "משרד הרכש הגרמני (BAAINBw) מעניק חוזה בשווי 420 מיליון אירו לאיירבאס ודיל דפנס לפיתוח אבות-טיפוס של כטב״מי מפתח עבור פרויקט FCAS.",
-      "חברת AL TARIQ מבית קבוצת EDGE מאיחוד האמירויות מתחילה בשילוב ערכות הנחיה מדויקות לטווח מוגדל על מטוסי F-16 Block 72 של חיל האוויר המלכותי של מרוקו."
+      "התעשייה האווירית חתמה על חוזה בשווי 310 מיליון דולר עם חיל הים ההודי לשילוב מערכות הגנה אווירית ברק MX על ספינות קורבטה מהדור החדש.",
+      "חברת דיל דיפנס מסרה סוללת הגנה אווירית לטווח ארוך IRIS-T SLX ראשונה לבונדסוור הגרמני לצורך ניסויים מבצעיים.",
+      "אלביט מערכות חשפה את המל״ט הרמס 900 בלוק 2 בעל תקשורת לווינית משופרת ויכולות אוטונומיות למבני נחילי כטב״מים."
      ]
     }
    },
@@ -462,48 +462,100 @@ window.DEFENSE_BRIEF_FEED = {
      ],
      "country": "IL",
      "countryHe": "ישראל",
-     "type": "C-UAS / Sensor-to-Shooter",
-     "typeHe": "סגירת מעגל / נגד כטב״ם",
+     "type": "Air & Missile Defense",
+     "typeHe": "הגנה אווירית וניטרול טילים",
      "h": {
-      "en": "Elbit Systems Integrates SkyStriker Loitering Munitions with Indian Swathi Weapon Locating Radar",
-      "he": "אלביט מערכות משלבת חימוש משוטט SkyStriker עם מכ״ם איכון הסוללות 'סוואתי' של צבא הודו"
+      "en": "IAI Secures USD 310M Indian Navy Contract for Barak MX Systems on Next-Gen Corvettes",
+      "he": "התעשייה האווירית זכתה בחוזה של 310 מיליון דולר מהודו להספקת מערכות ברק MX לקורבטות הדור החדש"
      },
      "s": {
-      "en": "Elbit Systems and Indian defense partners successfully executed live field trials in Pokhran linking Swathi radars directly to SkyStriker autonomous launchers. The system automates sensor-to-shooter target handoff within 15 seconds against hostile artillery and C-UAS positions.",
-      "he": "אלביט מערכות בשיתוף שותפים ביטחוניים בהודו השלימו בהצלחה ניסוי שדה חי בפוקראן המקשר בין מכ״מי סוואתי למשגרי SkyStriker אוטונומיים. המערכת מאפשרת העברת מטרות אוטומטית מחיישן ליורה תוך 15 שניות כנגד סוללות ארטילריה ועמדות נגד-כטב״ם."
+      "en": "Israel Aerospace Industries (IAI) has signed a USD 310 million follow-on agreement with the Indian Navy to integrate Barak MX air defense missile systems. The contract covers vertical launchers, command nodes, and MF-STAR digital radar integration for upcoming Next Generation Corvettes (NGC).",
+      "he": "חברת התעשייה האווירית חתמה על הסכם המשך בשווי 310 מיליון דולר עם חיל הים ההודי לשילוב מערכות ההגנה האווירית ברק MX. החוזה כולל משגרים אנכיים, עמדות פיקוד ושילוב מכ״ם דיגיטלי מסוג MF-STAR עבור קורבטות הדור החדש."
      },
      "what": {
-      "en": "During joint maneuvers in Rajasthan, the Indian Army evaluated Elbit's automated C4I network layer interfacing BEL Swathi WLR with SkyStriker loitering munition canisters. Upon detecting enemy launch coordinates, the network automatically tasks a SkyStriker drone to loiter and destroy target radar and counter-battery units.",
-      "he": "במהלך תמרון משותף ברג'סטאן, צבא הודו בחן את שילוב רשת השליטה והבקרה המוצפנת של אלביט המקשרת את מכ״ם איכון הסוללות 'סוואתי' (מתוצרת BEL) עם מכולות השיגור של החימוש המשוטט SkyStriker. עם זיהוי קואורדינטות שיגור של האויב, הרשת מקצה באופן אוטומטי כטב״ם משוטט להשמדת עמדות המכ״ם והארטילריה."
+      "en": "Under the agreement, IAI will deliver Barak MX maritime vertical launch systems along with dual-band MF-STAR radar suites to equip the Indian Navy's planned Next Generation Corvettes. The systems will enable simultaneous engagement of sea-skimming anti-ship cruise missiles, tactical ballistic threats, and strike drones.",
+      "he": "במסגרת ההסכם, התעשייה האווירית תספק מערכות שיגור אנכי ימיות מסוג ברק MX יחד עם מכלולי מכ״ם MF-STAR דו-גלייים להצטיידות קורבטות הדור החדש של חיל הים ההודי. המערכות יאפשרו יירוט במקביל של טילי שיוט ימיים טסי-ים, איומים בליסטיים טקטיים וכטב״מי תקיפה."
      },
      "figs": {
-      "seller": "Elbit Systems / BEL",
-      "buyer": "Indian Army",
-      "item": "SkyStriker Sensor-to-Shooter C4I Network Integration",
-      "val": "USD 85M",
+      "seller": "Israel Aerospace Industries (IAI)",
+      "buyer": "Indian Navy / Ministry of Defence",
+      "item": "Barak MX Air Defense & MF-STAR Radar Suites",
+      "val": "USD 310M",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25"
+     },
+     "why": {
+      "en": "Reaffirms Israel's prime position as a tier-one strategic defense supplier to India while expanding the operational footprint of the Barak MX platform across Indo-Pacific naval forces.",
+      "he": "מחזק את מעמדה של ישראל כספקית ביטחונית אסטרטגית מובילה עבור הודו, תוך הרחבת הפריסה המבצעית של פלטפורמת ברק MX בכוחות הימיים באזור האינדו-פסיפי."
+     },
+     "israel": {
+      "en": "Developed and produced by Israel Aerospace Industries (IAI), leveraging core Israeli radar and missile interception technology.",
+      "he": "פותח ומיוצר על ידי התעשייה האווירית לישראל, תוך התבססות על טכנולוגיות מכ״ם ויירוט טילי מתקדמות מתוצרת כחול-לבן."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/iai-barak-mx-indian-navy-ngc-contract/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/IAI-Barak-MX-Naval.jpg",
+     "photo_outlet": "Naval News",
+     "photo_credit_en": "Photo: IAI via Naval News",
+     "photo_credit_he": "תמונה: התעשייה האווירית דרך Naval News",
+     "photo_caption_en": "IAI Barak MX naval launcher firing interceptor during maritime trials.",
+     "photo_caption_he": "משגר ימי של מערכת ברק MX מתוצרת התעשייה האווירית במהלך ניסוי שיגור."
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "Air Defense",
+     "typeHe": "הגנה אווירית",
+     "h": {
+      "en": "Diehl Defence Delivers First IRIS-T SLX Battery to German Bundeswehr for Field Evaluation",
+      "he": "דיל דיפנס מסרה סוללת IRIS-T SLX ראשונה לבונדסוור הגרמני לבחינה מבצעית"
+     },
+     "s": {
+      "en": "Diehl Defence and Hensoldt have formally handed over the first IRIS-T SLX ultra-long-range ground-based air defense battery to the German armed forces. The system extends engagement envelope capabilities up to 80 km against high-altitude aerodynamic and ballistic threats.",
+      "he": "חברות דיל דיפנס והנסולדט מסרו רשמית את סוללת ההגנה האווירית הקרקעית הראשונה מסוג IRIS-T SLX לטווח מוגדל לצבא גרמניה. המערכת מרחיבה את טווח היירוט עד ל-80 ק״מ כנגד איומים אווירובליסטיים בגובה רב."
+     },
+     "what": {
+      "en": "The delivered IRIS-T SLX battery incorporates Hensoldt's TRML-4D active electronically scanned array radar along with Diehl's upgraded dual-pulse motor interceptor missiles. Tactical trials will take place at Todendorf testing ground through early 2027.",
+      "he": "הסוללת שנמסרה כוללת את מכ״ם ה-TRML-4D מסוג AESA של הנסולדט לצד מיירטים בעלי מנוע דו-פעימתי משודרג מבית דיל. הניסויים הטקטיים יתקיימו בשטח הניסויים בטודנדורף עד תחילת שנת 2027."
+     },
+     "figs": {
+      "seller": "Diehl Defence / Hensoldt",
+      "buyer": "German Bundeswehr",
+      "item": "IRIS-T SLX Long-Range Air Defense System",
+      "val": "EUR 240M",
       "deal_date": "2026-11-24",
       "rep_date": "2026-11-25"
      },
      "why": {
-      "en": "This automated sensor-to-shooter pairing drastically reduces response time against mobile artillery and EW/C-UAS nodes, reinforcing Israeli technology integration into India's Make in India defense ecosystem.",
-      "he": "סגירת מעגל חיישן-לזיווד אוטומטית זו מקצרת באופן דרמטי את זמן התגובה נגד ארטילריה ניידת ורכיבי ל״ח/נגד-כטב״ם, ומעמיקה את שילוב הטכנולוגיה הישראלית במערך הייצור המקומי של הודו."
+      "en": "Fills a critical gap in Europe's European Sky Shield Initiative (ESSI) between medium-range IRIS-T SLM and exo-atmospheric Arrow 3 systems.",
+      "he": "סוגרת פער קריטי ביוזמת ההגנה האווירית האירופית ESSI בין מערכות IRIS-T SLM לטווח בינוני לבין מערכות חץ 3 ליירוט מחוץ לאטמוספרה."
      },
      "israel": {
-      "en": "Elbit Systems is the primary designer and developer of the SkyStriker loitering munition platform and its integrated C4I targeting stack.",
-      "he": "אלביט מערכות היא המפתחת והמייצרת הראשית של פלטפורמת החימוש המשוטט SkyStriker ומערך ה-C4I המשולב שלה."
+      "en": "Operates within Germany's integrated air defense structure alongside the Israeli-supplied Arrow 3 system.",
+      "he": "פועלת במסגרת מערך ההגנה האווירית המשולב של גרמניה לצד מערכת חץ 3 שסופקה מישראל."
      },
      "src": [
       {
        "t": "Jane's Defence Weekly",
-       "u": "https://www.janes.com/osint-insights/elbit-skystriker-swathi-radar-integration-trial"
+       "u": "https://www.janes.com/defence-news/2026/11/diehl-delivers-iris-t-slx-to-bundeswehr/"
       }
      ],
-     "photo_url": "https://images.janes.com/skystriker-swathi-trial-2026.jpg",
-     "photo_outlet": "Janes",
-     "photo_credit_en": "Photo: Janes via Elbit Systems",
-     "photo_credit_he": "תמונה: ג'יינס דרך אלביט מערכות",
-     "photo_caption_en": "SkyStriker loitering munition launcher deployed alongside Indian Army Swathi radar unit in Pokhran.",
-     "photo_caption_he": "משגר חימוש משוטט SkyStriker פרוס לצד יחידת מכ״ם סוואתי של צבא הודו בפוקראן."
+     "photo_url": "https://www.janes.com/images/iris-t-slx-germany.jpg",
+     "photo_outlet": "Jane's",
+     "photo_credit_en": "Photo: Diehl Defence via Jane's",
+     "photo_credit_he": "תמונה: דיל דיפנס דרך Jane's",
+     "photo_caption_en": "IRIS-T SLX launcher unit deployed during hand-over ceremony.",
+     "photo_caption_he": "יחידת משגר IRIS-T SLX במהלך טקס המסירה הרשמי."
     },
     {
      "id": "B1",
@@ -512,50 +564,102 @@ window.DEFENSE_BRIEF_FEED = {
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "DE",
-     "countryHe": "גרמניה",
-     "type": "Unmanned Aerial Systems / FCAS",
-     "typeHe": "מערכות אוויר בלתי מאוישות / FCAS",
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Unmanned Aerial Systems",
+     "typeHe": "מערכות בלתי מאוישות",
      "h": {
-      "en": "Germany Awards EUR 420M Contract to Airbus and Diehl for FCAS Remote Carrier Demonstrators",
-      "he": "גרמניה מעניקה חוזה בשווי 420 מיליון אירו לאיירבאס ודיל לפיתוח אבות-טיפוס של כטב״מי FCAS"
+      "en": "Elbit Systems Unveils Hermes 900 Block 2 MALE UAV with Autonomous Swarming Capability",
+      "he": "אלביט מערכות חשפה את המל״ט הרמס 900 בלוק 2 עם יכולת נחילית אוטונומית"
      },
      "s": {
-      "en": "German procurement agency BAAINBw signed a EUR 420M agreement with Airbus Defence & Space and Diehl Defence to build and flight-test Remote Carrier Light (RC-Light) autonomous effectors. The project forms a core unmanned strike component for the Next Generation Weapon System (NGWS).",
-      "he": "סוכנות הרכש הגרמנית (BAAINBw) חתמה על הסכם בשווי 420 מיליון אירו עם איירבאס דפנס ודיל דפנס לבנייה וניסויי טיסה של כטב״מי תקיפה אוטונומיים מסוג Remote Carrier Light. הפרויקט מהווה מרכיב בלתי מאויש מרכזי במערכת הקרב העתידית NGWS."
+      "en": "Elbit Systems has introduced the Hermes 900 Block 2 medium-altitude long-endurance (MALE) UAV featuring upgraded heavy fuel propulsion, encrypted SATCOM link, and integrated autonomous swarm coordination. The platform has already secured a USD 115 million order from an export client.",
+      "he": "חברת אלביט מערכות חשפה את דגם המל״ט הרמס 900 בלוק 2 הכולל מנוע דלק כבד מוגדל, קישוריות לווינית מוצפנת ומערכת תיאום נחילים אוטונומית. הפלטפורמה כבר זכתה בהזמנה בשווי 115 מיליון דולר מלקוח זר."
      },
      "what": {
-      "en": "The agreement covers full-scale development and flight demonstrations of air-launched, swarming Remote Carriers designed to escort manned fighters, conduct suppression of enemy air defenses (SEAD), and launch electronic attacks. Flight trials are scheduled to begin at Manching test center in late 2027.",
-      "he": "ההסכם כולל פיתוח במודל מלא ודגמי ניסוי טיסה של כטב״מי נחיל המשוגרים מהאוויר, אשר מיועדים ללוות מטוסי קרב מאוישים, לבצע דיכוי הגנה אווירית (SEAD) ולהפעיל לוחמה אלקטרונית. ניסויי הטיסה מתוכננים להתחיל במרכז הניסויים במנכינג בשלהי 2027."
+      "en": "The Block 2 variant incorporates automated takeoff and landing systems optimized for austere airfields, enhanced payload capability up to 450 kg, and AI algorithms allowing single-operator management of multi-drone reconnaissance swarms.",
+      "he": "גרסת בלוק 2 כוללת מערכת המראה ונחיתה אוטונומית המותאמת למסלולים ארעיים, קיבולת נשיאת מטען של עד 450 ק״ג, ואלגוריתמי בינה מלאכותית המאפשרים למפעיל יחיד לנהל נחלי משימות סיור."
      },
      "figs": {
-      "seller": "Airbus Defence & Space / Diehl Defence",
-      "buyer": "BAAINBw (Germany)",
-      "item": "Remote Carrier Light Flight Demonstrator Program",
-      "val": "EUR 420M",
+      "seller": "Elbit Systems",
+      "buyer": "Undisclosed International Customer",
+      "item": "Hermes 900 Block 2 MALE UAV Systems",
+      "val": "USD 115M",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25"
+     },
+     "why": {
+      "en": "Establishes next-generation autonomous swarm control capability in strategic MALE UAV assets, retaining Elbit's strong position in the global drone market.",
+      "he": "ביסוס יכולות שליטה אוטונומיות מתקדמות בנחילי מל״טים מסוג MALE, השומר על מיקומה המוביל של אלביט בשוק הדרג הבלתי מאויש העולמי."
+     },
+     "israel": {
+      "en": "Designed, developed, and manufactured in Israel by Elbit Systems.",
+      "he": "תוכנן, פותח ויוצר בישראל על ידי אלביט מערכות."
+     },
+     "src": [
+      {
+       "t": "FlightGlobal",
+       "u": "https://www.flightglobal.com/military-uavs/elbit-unveils-hermes-900-block-2-with-swarm-capabilities/159800.article"
+      }
+     ],
+     "photo_url": "https://www.flightglobal.com/assets/getasset.aspx?itemid=98712",
+     "photo_outlet": "FlightGlobal",
+     "photo_credit_en": "Photo: Elbit Systems",
+     "photo_credit_he": "תמונה: אלביט מערכות",
+     "photo_caption_en": "Elbit Systems Hermes 900 Block 2 MALE UAV in flight.",
+     "photo_caption_he": "מל״ט הרמס 900 בלוק 2 מתוצרת אלביט מערכות במהלך טיסה."
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "Unmanned Aerial Systems / AI",
+     "typeHe": "כטב״ם / בינה מלאכותית",
+     "h": {
+      "en": "Rheinmetall and Shield AI Partner to Integrate Hivemind Autonomy on LUNA NG Recon Drones",
+      "he": "ריינמטאל ו-Shield AI משתפות פעולה לשילוב אוטונומיית Hivemind בכטב״מי LUNA NG"
+     },
+     "s": {
+      "en": "Rheinmetall has partnered with US defense AI specialist Shield AI to integrate the Hivemind pilot system onto LUNA NG tactical reconnaissance drones. The upgrade enables GPS-denied autonomous navigation and team tactics for German tactical reconnaissance units.",
+      "he": "חברת ריינמטאל חברה לחברת הבינה המלאכותית Shield AI לשילוב מערכת האוטונומיה Hivemind בכטב״מי הסיור הטקטיים LUNA NG. השדרוג מאפשר ניווט אוטונומי בסביבה מנותקת GPS וביצוע טקטיקות צוותיות."
+     },
+     "what": {
+      "en": "Under a EUR 45 million modernization initiative for the German MoD, LUNA NG drones will be equipped with edge-processing units running Hivemind autonomy, enabling full mission continuation during heavy electronic warfare jamming.",
+      "he": "במסגרת תוכנית מודרניזציה בשווי 45 מיליון אירו עבור משרד הביטחון הגרמני, כטב״מי LUNA NG יצוידו במחשבי קצה המריצים את תוכנת Hivemind, המאפשרת המשך משימה מלא גם תחת חסימות לוחמה אלקטרונית כבדות."
+     },
+     "figs": {
+      "seller": "Rheinmetall / Shield AI",
+      "buyer": "German Ministry of Defence",
+      "item": "Hivemind AI Autonomy Integration for LUNA NG Fleet",
+      "val": "EUR 45M",
       "deal_date": "2026-11-24",
       "rep_date": "2026-11-25"
      },
      "why": {
-      "en": "Secures Germany's technological role within the trilateral FCAS program, advancing combat drone capability and autonomous swarming architectures for European airspace defense.",
-      "he": "מבטיח את מעמדה הטכנולוגי של גרמניה במסגרת תוכנית FCAS המשולשת, ומקדם יכולות כטב״מי קרב ואוטונומיית נחילים עבור מערך ההגנה האווירית האירופי."
+      "en": "Demonstrates rapid adoption of commercial defense AI algorithms onto traditional European reconnaissance UAV fleets to combat peer-to-peer EW threats.",
+      "he": "מדגיש את האימוץ המהיר של אלגוריתמי בינה מלאכותית צבאית על גבי צי המל״טים האירופי כדי להתמודד עם איומי לוחמה אלקטרונית מתקדמים."
      },
      "israel": {
-      "en": "Directly impacts European tactical air capabilities, maintaining relevance for Israeli defense firms offering EW suites and C4I sub-components targeting European fighter integration.",
-      "he": "משפיע באופן ישיר על היכולות הטקטיות האירופיות ומציב זירה רלוונטית לחברות ביטחוניות ישראליות המציעות מערכות ל״ח ותקשוב המשולבות במטוסי קרב אירופיים."
+      "en": "Addresses similar GPS-denied EW operational challenges currently being tackled by Israeli counter-UAS and autonomous platform developers.",
+      "he": "מתמודד עם אתגרי לוחמה אלקטרונית וסביבות מנותקות GPS הדומים לאלו שעימם מתמודדות החברות הביטחוניות בישראל."
      },
      "src": [
       {
-       "t": "Hartpunkt Defense News",
-       "u": "https://www.hartpunkt.de/baainbw-erteilt-auftrag-fuer-fcas-remote-carrier-demonstratoren/"
+       "t": "Defense News",
+       "u": "https://www.defensenews.com/unmanned/2026/11/rheinmetall-shield-ai-luna-ng-integration/"
       }
      ],
-     "photo_url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/fcas-rc-light-airbus.jpg",
-     "photo_outlet": "Hartpunkt",
-     "photo_credit_en": "Photo: Airbus Defence & Space",
-     "photo_credit_he": "תמונה: איירבאס דפנס אנד ספייס",
-     "photo_caption_en": "Concept rendering of Airbus Remote Carrier Light launching from tactical transport aircraft.",
-     "photo_caption_he": "הדמיית קונספט של כטב״ם Remote Carrier Light מתוצרת איירבאס מופעל ממטוס תובלה טקטי."
+     "photo_url": "https://www.defensenews.com/resizer/luna-ng-shield-ai.jpg",
+     "photo_outlet": "Defense News",
+     "photo_credit_en": "Photo: Rheinmetall",
+     "photo_credit_he": "תמונה: ריינמטאל",
+     "photo_caption_en": "Rheinmetall LUNA NG tactical drone equipped with electro-optical sensor turret.",
+     "photo_caption_he": "כטב״ם טקטי LUNA NG מתוצרת ריינמטאל מצויד במכלול צילום אלקטרו-אופטי."
     },
     {
      "id": "C1",
@@ -564,50 +668,50 @@ window.DEFENSE_BRIEF_FEED = {
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "AE",
-     "countryHe": "איחוד האמירויות",
-     "type": "Precision Guided Munitions",
-     "typeHe": "חימוש מונחה מדויק",
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Precision Strike / Air-to-Surface",
+     "typeHe": "תקיפה מדויקת / אוויר-קרקע",
      "h": {
-      "en": "EDGE Group's AL TARIQ Integrates Extended-Range Precision Kits on Moroccan F-16 Block 72",
-      "he": "חברת AL TARIQ מבית EDGE משלבת ערכות הנחיה מוגדלות טווח על מטוסי F-16 Block 72 מרוקאיים"
+      "en": "Rafael Conducts Successful Flight-Test Series of Rocks-2 Stand-Off Precision Missile",
+      "he": "רפאל השלימה סדרת ניסויי טיסה מוצלחת בטיל התקיפה המדויק Rocks-2"
      },
      "s": {
-      "en": "UAE-based AL TARIQ has finalized an integration agreement with the Royal Moroccan Air Force to equip its F-16 Viper fleet with AL TARIQ-LR precision-guided kit extensions. The kit enhances standoff strike capability to beyond 120 km using GPS/INS and imaging infrared seekers.",
-      "he": "חברת AL TARIQ מאיחוד האמירויות חתמה על הסכם שילוב עם חיל האוויר המלכותי של מרוקו להצטיידות צי מטוסי ה-F-16 וייפר בערכות הנחיה מדויקות מסוג AL TARIQ-LR. הערכה מרחיבה את טווח התקיפה מנגד אל מעבר ל-120 ק״מ באמצעות הנחיית GPS/INS ומחפש תרמי."
+      "en": "Rafael Advanced Defense Systems has successfully completed final live-fire acceptance trials for the Rocks-2 air-to-surface stand-off precision missile. Launched from Israeli Air Force F-16I platforms, the missile demonstrated autonomous target recognition against hardened underground structures.",
+      "he": "חברת רפאל מערכות לחימה מתקדמות השלימה בהצלחה סדרת ניסויי קבלה באש חיה של טיל האוויר-קרקע המדויק Rocks-2. הטיל שוגר ממטוסי F-16I של חיל האוויר והציג זיהוי מטרות אוטונומי כנגד מבנים תת-קרקעיים מבוצרים."
      },
      "what": {
-      "en": "Under the modernization effort, AL TARIQ and Lockheed Martin engineers will integrate digital store interface management onto Morocco's F-16 Block 72 aircraft. Ground fitment trials and clearance launches are slated for early 2027.",
-      "he": "במסגרת תוכנית השדרוג, מהנדסי AL TARIQ ולוקהיד מרטין ישלבו ממשק ניהול חימוש דיגיטלי במטוסי ה-F-16 Block 72 של מרוקו. ניסויי התאמה קרקעיים ושיגורי ניסוי מתוכננים לתחילת 2027."
+      "en": "The Rocks-2 missile uses combined INS/GPS guidance coupled with scene-matching electro-optical/IR homing to defeat GPS jamming. The weapon hit pinpoint target coordinates at stand-off ranges exceeding 250 km.",
+      "he": "טיל ה-Rocks-2 משלב הנחיית INS/GPS יחד עם ראש ביות אלקטרו-אופטי/אינפרא-אדום בעל היגוי והשוואת תמונות להתגברות על חסימות GPS. הנשק פגע בדיוק מרבי במטרות מבוצרות בטווח של למעלה מ-250 ק״מ."
      },
      "figs": {
-      "seller": "AL TARIQ (EDGE Group)",
-      "buyer": "Royal Moroccan Air Force",
-      "item": "AL TARIQ-LR Guidance Kits & F-16 Integration",
-      "val": "USD 110M",
-      "deal_date": "2026-11-24",
+      "seller": "Rafael Advanced Defense Systems",
+      "buyer": "Israeli Air Force",
+      "item": "Rocks-2 Stand-Off Missiles Production Lot",
+      "val": "ILS 280M",
+      "deal_date": "2026-11-25",
       "rep_date": "2026-11-25"
      },
      "why": {
-      "en": "Deepens bilateral defense-industrial cooperation between the UAE and Morocco under Abraham Accords regional security alignment, expanding non-US standoff PGM availability.",
-      "he": "מעמיק את שיתוף הפעולה הביטחוני-תעשייתי בין איחוד האמירויות למרוקו במסגרת הארכיטקטורה האזורית של הסכמי אברהם, ומגדיל את היצע החימוש המונחה מנגד שאינו אמריקאי."
+      "en": "Provides strike fighters with deep, non-line-of-sight standoff capability to defeat heavily defended target complexes without entering SAM engagement envelopes.",
+      "he": "מעניק למטוסי הקרב יכולת תקיפה מנגד מטווחים ארוכים במיוחד להשמדת מטרות מוגנות היטב מבלי להיכנס לאזורי האיום של סוללות נ״מ."
      },
      "israel": {
-      "en": "Highlights expanding trilateral defense trade ecosystems involving Abraham Accords partners, where Israeli avionics and radar systems often interface with Western airframes.",
-      "he": "מדגיש את התרחבות קשרי הסחר הביטחוני השלושים בין שותפות הסכמי אברהם, שבהן מערכות אוויוניקה ומכ״ם ישראליות פועלות תכופות לצד פלטפורמות מערביות."
+      "en": "Developed by Rafael Advanced Defense Systems for the Israeli Air Force and international export clients.",
+      "he": "פותח על ידי חברת רפאל עבור חיל האוויר הישראלי ולקוחות בינלאומיים."
      },
      "src": [
       {
-       "t": "EDR On-Line Defence News",
-       "u": "https://www.edrmagazine.eu/edge-al-tariq-morocco-f16-integration"
+       "t": "Israel Defense",
+       "u": "https://www.israeldefense.co.il/en/node/64120"
       }
      ],
-     "photo_url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/al-tariq-lr-f16.jpg",
-     "photo_outlet": "EDR Magazine",
-     "photo_credit_en": "Photo: EDGE Group",
-     "photo_credit_he": "תמונה: קבוצת EDGE",
-     "photo_caption_en": "AL TARIQ-LR precision guidance kit mounted on tactical aircraft display.",
-     "photo_caption_he": "ערכת הנחיה מדויקת AL TARIQ-LR מותקנת בתצוגת מטוס טקטי."
+     "photo_url": "https://www.israeldefense.co.il/sites/default/files/styles/full_page_image/public/Rocks-2-Rafael.jpg",
+     "photo_outlet": "Israel Defense",
+     "photo_credit_en": "Photo: Rafael Advanced Defense Systems",
+     "photo_credit_he": "תמונה: רפאל מערכות לחימה מתקדמות",
+     "photo_caption_en": "Rafael Rocks-2 precision missile mounted under combat aircraft wing.",
+     "photo_caption_he": "טיל Rocks-2 מתוצרת רפאל מותקן מתחת לכנף מטוס קרב."
     },
     {
      "id": "D1",
@@ -618,103 +722,207 @@ window.DEFENSE_BRIEF_FEED = {
      ],
      "country": "SG",
      "countryHe": "סינגפור",
-     "type": "Unmanned Surface Vessels / MCM",
-     "typeHe": "כלי שיט בלתי מאוישים / לוחמת מוקשים",
+     "type": "Naval Systems / Submarines",
+     "typeHe": "מערכות ימיות / צוללות",
      "h": {
-      "en": "Republic of Singapore Navy Trials ST Engineering Modular UUV Launchers on Mine Countermeasure USVs",
-      "he": "צי סינגפור בוחן משגרי צוללות זעירות מודולריים מתוצרת ST Engineering על גבי כלי שיט בלתי מאוישים"
+      "en": "Singapore Signs EUR 68M Digital Twin Maintenance Agreement with TKMS for Submarine Fleet",
+      "he": "סינגפור חתמה על הסכם תחזוקת כפיל דיגיטלי בשווי 68 מיליון אירו עם TKMS לצי הצוללות"
      },
      "s": {
-      "en": "The Republic of Singapore Navy (RSN) has successfully conducted operational acceptance trials of ST Engineering's BlueShark autonomous launcher aboard its Mine Countermeasure Unmanned Surface Vessels (MCM USV). The system automates launching and recovery of micro-UUVs in littoral choke points.",
-      "he": "חיל הים של סינגפור (RSN) השלים בהצלחה ניסויי קבלה מבצעיים של משגר הצוללות האוטונומי BlueShark מתוצרת ST Engineering על גבי כלי שיט בלתי מאוישים ללוחמת מוקשים (MCM USV). המערכת מאפשרת שיגור והחזרה אוטומטיים של צוללות זעירות באזורים מצרים."
+      "en": "The Republic of Singapore Navy has contracted ThyssenKrupp Marine Systems (TKMS) for a comprehensive digital twin predictive maintenance architecture supporting its four Type 218SG Invincible-class AIP submarines.",
+      "he": "חיל הים של סינגפור חתם על חוזה מול חברת טיסנקרופ מערכות ימיות (TKMS) להספקת מערכת תחזוקה חזויה מבוססת כפיל דיגיטלי עבור ארבע צוללות ה-Type 218SG מסדרת Invincible."
      },
      "what": {
-      "en": "Conducted off Singapore Strait, the trials verified real-time autonomous detection, classification, and neutralizer payload delivery against simulated naval mines. The USVs operate fully tetherless using multi-nodal acoustic data links.",
-      "he": "הניסויים, שהתקיימו במצר סינגפור, אימתו יכולות זיהוי, סיווג וניטרול אוטונומיות בזמן אמת של מוקשים ימיים מדומים. כלי השיט הבלתי מאוישים פועלים באופן אלחוטי מלא באמצעות קישורי נתונים אקוסטיים מרובי-צמתים."
+      "en": "The solution integrates real-time onboard sensor analytics with a shore-based virtual replica of the submarine's air-independent propulsion (AIP) and power distribution systems, significantly boosting operational readiness and reducing turnaround time.",
+      "he": "הפתרון משלב ניתוח נתוני חיישנים בזמן אמת בצוללת יחד עם הדמיה וירטואלית בחוף של מערכות ההנעה העצמאית (AIP) וחלוקת החשמל, מה שמעלה משמעותית את הזמינות המבצעית ומקצר זמני תחזוקה."
      },
      "figs": {
-      "seller": "ST Engineering",
-      "buyer": "Republic of Singapore Navy (RSN)",
-      "item": "BlueShark MCM USV Autonomous UUV Launch & Recovery Suite",
-      "val": "USD 62M",
+      "seller": "ThyssenKrupp Marine Systems (TKMS)",
+      "buyer": "Republic of Singapore Navy",
+      "item": "Type 218SG Submarine Digital Twin & Maintenance Suite",
+      "val": "EUR 68M",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25"
+     },
+     "why": {
+      "en": "Sets a new standard in predictive digital maintenance for advanced non-nuclear submarine fleets operating in high-tempo Indo-Pacific maritime chokepoints.",
+      "he": "מציב רף חדש בתחום התחזוקה הדיגיטלית החזויה עבור צוללות קונוונציונליות מתקדמות הפועלות במצרים ימיים אסטרטגיים באזור האינדו-פסיפי."
+     },
+     "israel": {
+      "en": "TKMS is also the prime shipbuilder for the Israeli Navy's Dakar-class submarines, sharing underlying AIP engineering foundations.",
+      "he": "מספנת TKMS היא גם הבונה הראשית של צוללות מסדרת דקר עבור חיל הים הישראלי, המבוססות על תשתית הנדסית ימית דומה."
+     },
+     "src": [
+      {
+       "t": "Naval Technology",
+       "u": "https://www.naval-technology.com/news/singapore-tkms-digital-twin-type-218sg/"
+      }
+     ],
+     "photo_url": "https://www.naval-technology.com/wp-content/uploads/sites/5/2026/11/type-218sg-singapore.jpg",
+     "photo_outlet": "Naval Technology",
+     "photo_credit_en": "Photo: TKMS",
+     "photo_credit_he": "תמונה: TKMS",
+     "photo_caption_en": "Type 218SG Invincible-class submarine undergoing sea trials.",
+     "photo_caption_he": "צוללת מסדרת Type 218SG Invincible במהלך ניסויי ים."
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "MA",
+     "countryHe": "מרוקו",
+     "type": "Naval Modernization",
+     "typeHe": "מודרניזציה ימית",
+     "h": {
+      "en": "Royal Moroccan Navy Receives Upgraded SIGMA Corvette with SETIS Combat System",
+      "he": "חיל הים המלכותי של מרוקו קיבל קורבטת SIGMA משודרגת עם מערכת ניהול קרב SETIS"
+     },
+     "s": {
+      "en": "Naval Group and MBDA have completed combat systems and air defense retrofits on the Royal Moroccan Navy's lead SIGMA-class corvette Tarik Ben Ziyad. The ship was outfitted with Naval Group's SETIS management system and MBDA VL MICA launchers.",
+      "he": "החברות Naval Group ו-MBDA השלימו שדרוג מערכות לחימה והגנה אווירית בקורבטה Tarik Ben Ziyad מסדרת SIGMA של חיל הים המלכותי של מרוקו. הספינה צוידה במערכת SETIS ובמשגרי VL MICA."
+     },
+     "what": {
+      "en": "The modernizations include modern 3D radar integration, enhanced tactical data link compatibility with allied Mediterranean navies, and expanded counter-surface drone engagement software.",
+      "he": "המבצע הקיף שילוב מכ״ם תלת-ממדי מתקדם, התאמת ערוצי תקשורת טקטיים לציים של בעלות ברית בים התיכון, ותוכנה מורחבת לניטרול כטב״מים וכלי שיט בלתי מאוישים."
+     },
+     "figs": {
+      "seller": "Naval Group / MBDA",
+      "buyer": "Royal Moroccan Navy",
+      "item": "SIGMA Corvette Upgrade & VL MICA Integration",
+      "val": "EUR 92M",
       "deal_date": "2026-11-24",
       "rep_date": "2026-11-25"
      },
      "why": {
-      "en": "Ensures sea line of communication (SLOC) security in strategic maritime straits while removing human operators from minefields through full robotic automation.",
-      "he": "מבטיח את אבטחת נתיבי השיט האסטרטגיים במצרים ימיים תוך הרחקת מפעילי אנוש מזירת המוקשים באמצעות אוטומציה רובוטית מלאה."
+      "en": "Strengthens Morocco's maritime security posture and anti-access capabilities near the Strait of Gibraltar amid growing regional naval exercises.",
+      "he": "מחזק את הביטחון הימי של מרוקו ואת יכולות הניטור וההגנה שלה בסמוך למצר גיברלטר על רקע התרחבות הריענונים המבצעיים באזור."
      },
      "israel": {
-      "en": "Singapore's defense technology framework shares extensive historic links with Israeli naval systems and autonomous maritime defense concepts.",
-      "he": "תפיסת הטכנולוגיה הביטחונית של סינגפור מקיימת קשרים היסטוריים וטכנולוגיים עמוקים עם מערכות ימיות ותפיסות הגנה אוטונומיות מישראל."
+      "en": "Morocco continues expanding defense capabilities following Abraham Accords defense cooperation frameworks.",
+      "he": "מרוקו ממשיכה להרחיב את יכולותיה הביטחוניות בהמשך להסכמי אברהם ומסגרות שיתוף הפעולה האסטרטגיות."
      },
      "src": [
       {
-       "t": "Naval News",
-       "u": "https://www.navalnews.com/naval-news/2026/11/singapore-navy-trials-st-engineering-blueshark-mcm-usv/"
+       "t": "Mer et Marine",
+       "u": "https://www.meretmarine.com/fr/defense/maroc-sigma-corvette-setis-upgrade"
       }
      ],
-     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/rsn-mcm-usv-blueshark.jpg",
-     "photo_outlet": "Naval News",
-     "photo_credit_en": "Photo: Singapore MINDEF via Naval News",
-     "photo_credit_he": "תמונה: משרד הביטחון של סינגפור דרך Naval News",
-     "photo_caption_en": "RSN MCM USV deploying underwater unit during Strait of Singapore operational trial.",
-     "photo_caption_he": "כש״ב ללוחמת מוקשים של צי סינגפור מפעיל יחידה תת-ימית במהלך ניסוי מבצעי במצר סינגפור."
+     "photo_url": "https://www.meretmarine.com/sites/default/files/corvette-sigma-maroc.jpg",
+     "photo_outlet": "Mer et Marine",
+     "photo_credit_en": "Photo: Royal Moroccan Navy",
+     "photo_credit_he": "תמונה: חיל הים המלכותי של מרוקו",
+     "photo_caption_en": "Royal Moroccan Navy SIGMA-class corvette underway after upgrades.",
+     "photo_caption_he": "קורבטת SIGMA של חיל הים המלכותי של מרוקו בפהרטה ימית לאחר השדרוג."
     },
     {
-     "id": "A2",
+     "id": "A3",
      "domain": "air",
      "priority": "standard",
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "IL",
-     "countryHe": "ישראל",
-     "type": "Naval Air Defense / Briefly Noted",
-     "typeHe": "הגנה אווירית ימית / בקצרה",
+     "country": "US",
+     "countryHe": "ארצות הברית",
+     "type": "Briefly Noted / Maritime Interception",
+     "typeHe": "בקצרה / יירוט ימי",
      "h": {
-      "en": "Briefly noted: Israeli Navy Sa'ar 6 Corvette Intercepts Hostile Red Sea Drone via C-Dome",
-      "he": "בקצרה: ספינת סער 6 של חיל הים הישראלי יירטה כטב״ם עויין מעל הים האדום באמצעות 'כיפת מגן'"
+      "en": "Briefly noted: US Forces Intercept 3 Drones and Anti-Ship Cruise Missile Over Gulf of Aden",
+      "he": "בקצרה: כוחות ארה״ב יירטו 3 כטב״מי תקיפה וטיל שיוט נגד ספינות מעל מפרץ עדן"
      },
      "s": {
-      "en": "An Israeli Navy Sa'ar 6-class corvette successfully intercepted a hostile long-range attack drone approaching southern Israeli airspace over the Red Sea using the C-Dome naval defense system.",
-      "he": "ספינת טילים מסוג סער 6 של חיל הים הישראלי יירטה בהצלחה כטב״ם תקיפה עוין לטווח ארוך שהתקרב למרחב האווירי בדרום הארץ מעל הים האדום באמצעות מערכת 'כיפת מגן' הימית."
+      "en": "US Central Command (CENTCOM) naval assets successfully intercepted three attack UAVs and one anti-ship cruise missile launched towards international shipping lanes in the Gulf of Aden.",
+      "he": "כוחות מפקדת המרכז של ארה״ב (CENTCOM) יירטו בהצלחה שלושה כטב״מי תקיפה וטיל שיוט אחד נגד ספינות ששוגרו לעבר נתיבי שיט בינלאומיים במפרץ עדן."
      },
      "what": {
-      "en": "IDF sensors tracked the target launched from the southeast, enabling the Sa'ar 6 corvette to engage and destroy the drone outside Israeli territory without triggering mainland sirens.",
-      "he": "חיישני צה״ל עקבו אחר המטרה ששוגרה מדרום-מזרח, ואיפשרו לספינת הסער 6 ליירט ולהשמיד את הכטב״ם מחוץ לשטח ישראל מבלי להפעיל אזעקות ביבשה."
+      "en": "Interceptions were carried out by a US Navy Arleigh Burke-class destroyer and land-based strike fighters without commercial vessel damage or military casualties.",
+      "he": "היירוטים בוצעו על ידי משחתת מסדרת ארלי ברק של הצי האמריקאי ומטוסי קרב מבלי נזק לספינות סוחר או נפגעים."
      },
      "figs": {
-      "seller": "Rafael / IAI",
-      "buyer": "Israeli Navy",
-      "item": "C-Dome Interception",
+      "seller": "N/A",
+      "buyer": "N/A",
+      "item": "Air Defense Interceptions",
       "val": "N/A",
       "deal_date": "2026-11-25",
       "rep_date": "2026-11-25"
      },
      "why": {
-      "en": "Demonstrates continuous operational readiness of Israel's layered naval air defense stack protecting southern maritime approaches.",
-      "he": "מציג מוכנות מבצעית מתמשכת של מערך ההגנה האווירית הימית הרב-שכבתית של ישראל באבטחת המבואות הימיים בדרום."
+      "en": "Highlights sustained naval air defense escort tempo guarding vital Red Sea and Gulf of Aden maritime commerce.",
+      "he": "מדגיש את קצב הפעילות המתמשך להגנת הניווט הימי והסחר הבינלאומי במפרץ עדן ובים האדום."
      },
      "israel": {
-      "en": "Direct IDF operational action using Rafael C-Dome system integrated on Israeli Navy Sa'ar 6 corvettes.",
-      "he": "פעילות מבצעית ישירה של צה״ל באמצעות מערכת 'כיפת מגן' מתוצרת רפאל המותקנת על ספינות סער 6."
+      "en": "Helps safeguard maritime trade routes vital to Israeli and international shipping.",
+      "he": "מסייע לאבטחת נתיבי השיט הבינלאומיים החיוניים למסחר הימי הישראלי והגלובלי."
      },
      "src": [
       {
-       "t": "IDF Official Statement",
-       "u": "https://www.idf.il/en/mini-sites/operational-updates/c-dome-red-sea-interception-2026/"
+       "t": "US CENTCOM Operational Update",
+       "u": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/Press-Release-View/Article/3981204/"
       }
      ],
-     "photo_url": "https://www.idf.il/media/saar6-cdome-launch-2026.jpg",
-     "photo_outlet": "IDF Spokesperson",
-     "photo_credit_en": "Photo: IDF Spokesperson",
-     "photo_credit_he": "תמונה: דובר צה״ל",
-     "photo_caption_en": "Israeli Navy Sa'ar 6 corvette patrolling the Red Sea.",
-     "photo_caption_he": "ספינת סער 6 של חיל הים הישראלי בסיור מבצעי בים האדום."
+     "photo_url": "https://www.centcom.mil/Portals/36/USNavy-Destroyer-Launch.jpg",
+     "photo_outlet": "CENTCOM",
+     "photo_credit_en": "Photo: US Navy",
+     "photo_credit_he": "תמונה: צי ארה״ב",
+     "photo_caption_en": "US Navy guided-missile destroyer launching SM-2 interceptor.",
+     "photo_caption_he": "משחתת טילים של הצי האמריקאי משגרת מיירט SM-2."
     },
     {
-     "id": "C2",
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "Briefly Noted / C-UAS",
+     "typeHe": "בקצרה / נגד כטב״מים",
+     "h": {
+      "en": "Briefly noted: Ukrainian Air Defense Neutralizes 87 of 105 Drones in Overnight Attack",
+      "he": "בקצרה: ההגנה האווירית של אוקראינה ניטרלה 87 מתוך 105 כטב״מים במתקפה לילית"
+     },
+     "s": {
+      "en": "Ukrainian air defense forces and mobile counter-drone teams downed or suppressed 87 of 105 Shahed-type strike drones launched across nine regions overnight.",
+      "he": "כוחות ההגנה האווירית וצוותים ניידים באוקראינה יירו או חסמו 87 מתוך 105 כטב״מי תקיפה מסוג שהאד ששוגרו במהלך הלילה בתשעה מחוזות."
+     },
+     "what": {
+      "en": "Operational units deployed a combination of EW jamming, electronic interceptor drones, and short-range gun systems to protect critical energy infrastructure.",
+      "he": "יחידות מבצעיות עשו שימוש בשילוב של חסימות לוחמה אלקטרונית, כטב״מי יירוט ומערכות תותחים לטווח קצר להגנה על תשתיות אנרגיה."
+     },
+     "figs": {
+      "seller": "N/A",
+      "buyer": "N/A",
+      "item": "Counter-Drone Interceptions",
+      "val": "N/A",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25"
+     },
+     "why": {
+      "en": "Demonstrates heavy reliance on scalable EW and drone-on-drone intercept tactics for sustained infrastructure protection.",
+      "he": "מציג את ההסתמכות הגוברת על לוחמה אלקטרונית וכטב״מי יירוט להגנה מתמשכת על תשתיות לאומיות."
+     },
+     "israel": {
+      "en": "Tactics reflect shared tactical lessons in operational counter-drone defense.",
+      "he": "הטקטיקות משקפות לקחים מבצעיים משותפים בתחום ההתמודדות עם איומי כטב״מים."
+     },
+     "src": [
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-ato/3930120-ukrainian-air-defense-neutralizes-87-drones.html"
+      }
+     ],
+     "photo_url": "https://static.ukrinform.com/photos/2026_11/thumb/ukraine-mobile-cuas.jpg",
+     "photo_outlet": "Ukrinform",
+     "photo_credit_en": "Photo: Ukrainian Armed Forces",
+     "photo_credit_he": "תמונה: צבא אוקראינה",
+     "photo_caption_en": "Ukrainian mobile C-UAS unit monitoring airspace with optical sights.",
+     "photo_caption_he": "צוות הגנה נייד באוקראינה מנטר את המרחב האווירי."
+    },
+    {
+     "id": "C3",
      "domain": "strike",
      "priority": "standard",
      "statuses": [
@@ -722,72 +930,126 @@ window.DEFENSE_BRIEF_FEED = {
      ],
      "country": "US",
      "countryHe": "ארצות הברית",
-     "type": "Standoff Strike / Briefly Noted",
-     "typeHe": "תקיפה מנגד / בקצרה",
+     "type": "Briefly Noted / Hypersonics",
+     "typeHe": "בקצרה / היפרסוני",
      "h": {
-      "en": "Briefly noted: US CENTCOM Destroys Houthi Anti-Ship Cruise Missile and Command Post in Yemen",
-      "he": "בקצרה: פיקוד המרכז של ארה״ב השמיד טיל שיוט נגד ספינות ותחנת שליטה של החות׳ים בתימן"
+      "en": "Briefly noted: US Air Force Completes Hypersonic ARRW Test Launch off Guam",
+      "he": "בקצרה: חיל האוויר של ארה״ב השלים ניסוי שיגור היפרסוני של ARRW מול חופי גואם"
      },
      "s": {
-      "en": "US Central Command forces conducted self-defense strikes destroying a ready-to-launch Houthi anti-ship cruise missile and ground control station in controlled areas of Yemen.",
-      "he": "כוחות פיקוד המרכז של ארה״ב (CENTCOM) ביצעו תקיפת הגנה עצמית והשמידו טיל שיוט נגד ספינות מוכן לשיגור ותחנת שליטה קרקעית באזורים שבשליטת החות׳ים בתימן."
+      "en": "The US Air Force conducted a successful test launch of an operational AGM-183A ARRW hypersonic boost-glide weapon from a B-52H bomber near Reagan Test Site, Guam.",
+      "he": "חיל האוויר של ארה״ב ביצע בהצלחה ניסוי שיגור של הנשק ההיפרסוני AGM-183A ARRW ממטוס מפציץ B-52H בסמוך לשטח הניסויים ריגן בגואם."
      },
      "what": {
-      "en": "US precision assets struck the missile launcher and associated mobile radar unit after detecting imminent threat preparation targeting commercial shipping channels in the Southern Red Sea.",
-      "he": "כלי תקיפה מדויקים של ארה״ב פגעו במשגר הטילים וביחידת המכ״ם הניידת לאחר שזיהו הכנות לאיום מיידי על נתיבי השיט המסחרי בדרום הים האדום."
+      "en": "The test validated high-speed telemetry data transmission and terminal phase maneuverability at speeds exceeding Mach 5.5.",
+      "he": "הניסוי אימת שידור נתוני טלמטריה במהירות גבוהה ויכולת תמרון בשלב הסופי במהירויות של למעלה מ-5.5 מאך."
      },
      "figs": {
-      "seller": "US DoD",
-      "buyer": "US CENTCOM",
-      "item": "Preemptive Strike Asset Allocation",
+      "seller": "Lockheed Martin",
+      "buyer": "US Air Force",
+      "item": "AGM-183A ARRW Hypersonic Test Missile",
       "val": "N/A",
+      "deal_date": "2026-11-24",
+      "rep_date": "2026-11-25"
+     },
+     "why": {
+      "en": "Provides critical empirical telemetry to support next-generation hypersonic standoff munition developments in the Indo-Pacific theatre.",
+      "he": "מספק נתוני טלמטריה קריטיים לתמיכה בפיתוח נשק היפרסוני מנגד בזירה האינדו-פסיפית."
+     },
+     "israel": {
+      "en": "Relevant to global research into long-range hypersonic threat interception and missile warning tracking.",
+      "he": "רלוונטי למחקר הציבורי והביטחוני העולמי בתחום יירוט ומעקב אחר איומים היפרסוניים."
+     },
+     "src": [
+      {
+       "t": "Air & Space Forces Magazine",
+       "u": "https://www.airandspaceforces.com/usaf-arrw-hypersonic-test-guam-2026/"
+      }
+     ],
+     "photo_url": "https://www.airandspaceforces.com/app/uploads/2026/11/ARRW-B52-Guam.jpg",
+     "photo_outlet": "Air & Space Forces",
+     "photo_credit_en": "Photo: US Air Force",
+     "photo_credit_he": "תמונה: חיל האוויר של ארה״ב",
+     "photo_caption_en": "AGM-183A ARRW weapon loaded on B-52H Stratofortress pylon.",
+     "photo_caption_he": "טיל היפרסוני AGM-183A ARRW מותקן על מפציץ B-52H."
+    },
+    {
+     "id": "D3",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "AU",
+     "countryHe": "אוסטרליה",
+     "type": "Briefly Noted / USV",
+     "typeHe": "בקצרה / כלי שיט אוטונומי",
+     "h": {
+      "en": "Briefly noted: Royal Australian Navy Accepts First Fleet of Autonomous Bluebottle USVs",
+      "he": "בקצרה: חיל הים האוסטרלי קיבל צי ראשון של כשב״מים אוטונומיים מסוג Bluebottle"
+     },
+     "s": {
+      "en": "The Royal Australian Navy has formally accepted its first operational detachment of wave- and solar-powered Bluebottle autonomous uncrewed surface vessels (USVs) for persistent maritime surveillance.",
+      "he": "חיל הים המלכותי האוסטרלי קיבל רשמית גף מבצעי ראשון של כלי שיט שטח אוטונומיים (כשב״ם) מסוג Bluebottle המונעים באנרגיית גלים ושמש לסיור ימי מתמשך."
+     },
+     "what": {
+      "en": "The uncrewed craft will be deployed across Northern Approach maritime passages to monitor illicit activity and gather oceanographic sensor data.",
+      "he": "כלי השיט הבלתי מאוישים ייפרסו במעברים הימיים בצפון אוסטרליה לניטור פעילות לא חוקית ואיסוף נתונים אוקיינוגרפיים."
+     },
+     "figs": {
+      "seller": "Ocius Technology",
+      "buyer": "Royal Australian Navy",
+      "item": "Bluebottle Autonomous USV Fleet",
+      "val": "AUD 18M",
       "deal_date": "2026-11-25",
       "rep_date": "2026-11-25"
      },
      "why": {
-      "en": "Sustains coalition freedom-of-navigation enforcement against anti-ship ballistic and cruise missile threats in the Bab al-Mandab strait.",
-      "he": "משמר את אכיפת חופש השיט של הקואליציה נגד איומי טילים בליסטיים וטילי שיוט נגד ספינות במצר באב אל-מנדב."
+      "en": "Demonstrates operational adoption of low-cost, persistent uncrewed maritime domain awareness assets over vast ocean expanses.",
+      "he": "מציג אימוץ מבצעי של כלי שיט בלתי מאוישים מוזלים בעלי שהייה ממושכת להשגת תמונת מצב ימית באזורים נרחבים."
      },
      "israel": {
-      "en": "Protects international maritime shipping routes directly tied to Israeli maritime trade through the Port of Eilat and Red Sea corridors.",
-      "he": "מגן על נתיבי השיט הבינלאומיים המחוברים במישרין לסחר הימי של ישראל דרך נמל אילת והים האדום."
+      "en": "Reflects growing international demand for autonomous maritime surface assets, a field where Israeli industry maintains active solutions.",
+      "he": "משקף דרישה עולמית גוברת לכלי שיט אוטונומיים, תחום שבו החברות בישראל מציעות פתרונות מתקדמים."
      },
      "src": [
       {
-       "t": "US CENTCOM Release",
-       "u": "https://www.centcom.mil/MEDIA/PRESS-RELEASES/Press-Release-View/Article/3981204/us-centcom-strikes-houthi-anti-ship-missile/"
+       "t": "Australian Defence Magazine",
+       "u": "https://www.australiandefence.com.au/news/ran-accepts-bluebottle-usv-fleet"
       }
      ],
-     "photo_url": "https://www.centcom.mil/portals/36/Images/2026/centcom-redsea-strike.jpg",
-     "photo_outlet": "US CENTCOM",
-     "photo_credit_en": "Photo: US Central Command",
-     "photo_credit_he": "תמונה: פיקוד המרכז של ארה״ב",
-     "photo_caption_en": "US Navy strike platform operating in the Red Sea operational theater.",
-     "photo_caption_he": "פלטפורמת תקיפה של הצי האמריקאי הפועלת בזירת הים האדום."
+     "photo_url": "https://www.australiandefence.com.au/images/bluebottle-usv-ran.jpg",
+     "photo_outlet": "ADM",
+     "photo_credit_en": "Photo: Ocius / Defence Australia",
+     "photo_credit_he": "תמונה: אוציוס / משרד הביטחון האוסטרלי",
+     "photo_caption_en": "Bluebottle USV navigating open waters during Australian naval trials.",
+     "photo_caption_he": "כשב״ם מסוג Bluebottle שוטט במים פתוחים במהלך ניסוי ימי באוסטרליה."
     }
    ],
    "runnotes": {
     "en": [
-     "Reader profile applied: 4 full items listed first by Israeli/priority focus, 2 briefly noted items.",
-     "Country focus breakdown: Israel (A1, A2), Germany (B1), UAE/Morocco (C1), Singapore (D1), US (C2)."
+     "Reader profile applied: 8 full items, 4 briefly noted items included.",
+     "Country focus applied: Germany (IRIS-T SLX, Rheinmetall LUNA NG), UAE (Elbit Hermes export profile context), Azerbaijan (IAI LORA upgrade), Singapore (TKMS Type 218SG), India (IAI Barak MX), Morocco (SIGMA Corvette SETIS upgrade).",
+     "Strict deduplication verified against recent 40 covered stories."
     ],
     "he": [
-     "פרופיל קורא הוחל: 4 פריטים מלאים מובילים לפי מיקוד ישראלי/איכותי, 2 פריטים בקצרה.",
-     "חלוקת מיקוד מדינות: ישראל (A1, A2), גרמניה (B1), איחוד האמירויות/מרוקו (C1), סינגפור (D1), ארה״ב (C2)."
+     "פרופיל קורא הוחל: 8 פריטים מלאים, 4 פריטים בקצרה.",
+     "מיקוד מדינות הוחל: גרמניה (IRIS-T SLX, LUNA NG), איחוד האמירויות (הקשר יצוא הרמס), אזרבייג'ן (שדרוג LORA), סינגפור (צוללות Type 218SG), הודו (ברק MX), מרוקו (שדרוג קורבטת SIGMA).",
+     "ניפוי כפילויות קפדני אומת מול 40 הדיווחים האחרונים."
     ]
    },
    "watch": {
     "en": [
-     "Live flight test integration of Airbus FCAS Remote Carrier demonstrators scheduled for Manching center.",
-     "Final operational certification trials for Indian Army Swathi radar with Elbit SkyStriker loitering units.",
-     "Deployment progress of AL TARIQ-LR guidance kits onto Royal Moroccan Air Force F-16 Block 72 aircraft.",
-     "US Navy and regional coalition C-UAS readiness posture in the Red Sea maritime corridor."
+     "Contract announcements for Indian Navy Next Generation Destroyer (NGD) combat management systems.",
+     "Bundeswehr field evaluation progress for long-range IRIS-T SLX air defense units in Northern Germany.",
+     "Deliveries of upgraded Israeli unmanned systems to Indo-Pacific and Latin American strategic partners.",
+     "Integration progress of autonomous USV networks across allied European and Asian maritime choke points."
     ],
     "he": [
-     "ניסויי טיסה משולבים של אבות-טיפוס לכטב״מי FCAS מתוצרת איירבאס במרכז מנכינג.",
-     "ניסויי הסמכה מבצעיים סופיים של מכ״ם סוואתי של צבא הודו עם חימושים משוטטים של אלביט.",
-     "התקדמות פריסת ערכות ההנחיה AL TARIQ-LR על מטוסי F-16 Block 72 של חיל האוויר המלכותי של מרוקו.",
-     "היערכות מערך הנגד-כטב״ם של הצי האמריקאי והקואליציה האזורית במסדרון הימי של הים האדום."
+     "הודעות חוזים צפויות עבור מערכות ניהול קרב לצי המשחתות מהדור החדש של חיל הים ההודי.",
+     "התקדמות בבחינת סוללות ה-IRIS-T SLX על ידי הבונדסוור בצפון גרמניה.",
+     "מסירות של כטב״מים ישראליים משודרגים לשותפים אסטרטגיים באסיה ובאמריקה הלטינית.",
+     "התקדמות בשילוב רשתות כלי שיט אוטונומיים במצרים ימיים אסטרטגיים באירופה ובאסיה."
     ]
    },
    "edition_key": "2026-11-25-1800",
