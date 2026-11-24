@@ -1,7 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-24-0500",
+ "updated_at": "2026-11-24-1130",
  "dates": [
-  "2026-11-24-0500",
+  "2026-11-24-1130",
   "2026-11-23",
   "2026-11-22",
   "2026-11-21-evening",
@@ -49,22 +49,22 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
-  "2026-11-24-0500": {
+  "2026-11-24-1130": {
    "date": "2026-11-24",
-   "slot": "0500",
+   "slot": "1130",
    "wstart": "2026-11-23T15:20:00Z",
-   "wend": "2026-11-24T04:36:00Z",
+   "wend": "2026-11-24T13:51:00Z",
    "digest": {
     "bluf": {
      "en": [
-      "Elbit Systems secures USD 115M contract with Singapore MINDEF for specialized DIRCM and electronic counter-drone warfare suites.",
-      "German Army receives first Spike ER2-armed Airbus H145M LKH light attack helicopters for operational qualification.",
-      "Morocco operationalizes its first long-range missile brigade with IAI LORA quasi-ballistic systems, while Azerbaijan orders Turkey-built Hisar-class naval patrol vessels."
+      "Elbit Systems and Rafael secure combined USD 320M in European and Asian contracts for Iron Fist APS and Sea Breaker autonomous long-range precision strike missiles.",
+      "Germany expands tactical ground-based air defense capacity with a EUR 380M BAAINBw order for additional Hensoldt TRML-4D radars and Diehl IRIS-T SLM firing units.",
+      "UAE's EDGE Group supplies AL TARIQ long-range precision kits to Morocco, while Azerbaijan accepts a new Caspian fast attack craft featuring Elbit naval EW components."
      ],
      "he": [
-      "אלביט מערכות זכתה בחוזה בשווי 115 מיליון דולר מסינגפור לאספקת מערכות הגנה נגד כטב״מים ומערכות דירק״ם מתקדמות.",
-      "צבא גרמניה קיבל את מסוקי התקיפה הקלים הראשונים בדגם H145M LKH המצוידים בטילי ׳ספייק ER2׳ מתוצרת רפאל.",
-      "מרוקו הקימה חטיבת טילים מבצעית ראשונה המבוססת על טילי לורה (LORA) מתוצרת התעשייה האווירית, בעוד אזרבייג׳ן הוציאה לפועל רכש ספינות סיור מטורקיה."
+      "אלביט מערכות ורפאל מבטיחות חוזים בהיקף כולל של 320 מיליון דולר באירופה ובאסיה עבור מערכת הגנה אקטיבית 'אגרוף פלדה' וטילי 'שביט ימי' (Sea Breaker).",
+      "גרמניה מרחיבה את קיבולת ההגנה האווירית הטקטית בהזמנת BAAINBw בהיקף 380 מיליון אירו עבור מכ״ם TRML-4D של הנסולדט ומשגרי IRIS-T SLM של דיל.",
+      "קבוצת EDGE מאיחוד האמירויות מספקת ערכות הנחיה מדויקות אל-טארק למרוקו, בעוד אזרבייג׳ן קולטת ספינת סיור מהירה בים הכספי המצוידת במערכות לוחמה אלקטרונית מבית אלביט."
      ]
     }
    },
@@ -78,204 +78,100 @@ window.DEFENSE_BRIEF_FEED = {
      ],
      "country": "IL",
      "countryHe": "ישראל",
-     "type": "C-UAS & Airborne Protection",
-     "typeHe": "הגנה אווירית ונגד כטב״מים",
+     "type": "Active Protection Systems",
+     "typeHe": "מערכות הגנה אקטיבית",
      "h": {
-      "en": "Elbit Systems Awarded USD 115M Singapore Defense Contract for Airborne DIRCM and C-UAS EW Suites",
-      "he": "אלביט מערכות זכתה בחוזה בשווי 115 מיליון דולר בסינגפור למערכות הגנה אוויריות ורכיבי ל״ח נגד כטב״מים"
+      "en": "Elbit Systems Secures USD 140M European NATO Contract for Iron Fist Light Decoupled APS",
+      "he": "אלביט מערכות זכתה בחוזה אירופי בנאט״ו בהיקף 140 מיליון דולר לאספקת 'אגרוף פלדה'"
      },
      "s": {
-      "en": "Elbit Systems has been awarded a USD 115 million contract to supply advanced Direct Infrared Countermeasures (DIRCM) and specialized soft-kill counter-drone electronic warfare suites to the Singapore Armed Forces. The integration will cover both fixed-wing transport aircraft and key strategic fixed assets.",
-      "he": "חברת אלביט מערכות זכתה בחוזה בשווי 115 מיליון דולר לאספקת מערכות הגנה אלקטרו-אופטיות מבוססות לייזר (DIRCM) ומכלולי לוחמה אלקטרונית נגד כטב״מים עבור צבא סינגפור. המערכות יותקנו על גבי מטוסים ללא טייס, מטוסי תובלה ומתקנים אסטרטגיים."
+      "en": "Elbit Systems has been awarded a USD 140 million contract to supply its Iron Fist Light Decoupled (IFLD) Active Protection System for an unnamed European NATO nation's armored fighting vehicle fleet. Deliveries will run through 2029.",
+      "he": "אלביט מערכות זכתה בחוזה בסך 140 מיליון דולר לאספקת מערכת ההגנה האקטיבית 'אגרוף פלדה' (IFLD) עבור צי נגמ״שים ורק״ם של מדינה חברה בנאט״ו באירופה. האספקות יימשכו עד שנת 2029."
      },
      "what": {
-      "en": "Under the multi-year agreement, Elbit Systems will deliver its flagship MUSIC DIRCM self-protection systems alongside active RF electronic warfare jammer pods tailored for low-altitude counter-UAS intercept operations. Deliveries are scheduled to commence in late 2027.",
-      "he": "במסגרת ההסכם הרב-שנתי, אלביט תספק את מערכות הגנת הלייזר ממשפחת MUSIC לצד מוצרי לוחמה אלקטרונית ושיבוש תדרים המיועדים ליירוט ונטרול נחילי כטב״מים בגובה נמוך. האספקות צפויות להתחיל בשלהי שנת 2027."
+      "en": "Elbit Systems announced a USD 140M order to integrate the Iron Fist Light Decoupled (IFLD) APS onto mechanized infantry fighting vehicles for a European NATO end-user. The system utilizes optical trackers, dual-band radar sensors, and explosive counter-munitions to intercept anti-tank guided missiles (ATGMs), RPGs, and loitering munitions at safe stand-off distances without compromising vehicle structural armor integrity.",
+      "he": "חברת אלביט מערכות הודיעה על הזמנה בסך 140 מיליון דולר לשילוב מערכת ההגנה האקטיבית 'אגרוף פלדה' (IFLD) על גבי נגמ״שי לחימה עבור מדינת נאט״ו באירופה. המערכת משלבת חיישנים אופטיים, מכ״ם דו-תדרי ומיירטים נפיצים להשמדת טילי נ״ט, רקטות RPG וכטב״מים משוטטים במרחק בטוח מהרכב המשוריין."
      },
      "figs": {
       "seller": "Elbit Systems",
-      "buyer": "Singapore Ministry of Defence",
-      "item": "DIRCM suites and C-UAS EW systems",
-      "val": "USD 115M",
-      "deal_date": "2026-11-23",
+      "buyer": "Undisclosed European NATO Country",
+      "item": "Iron Fist Light Decoupled (IFLD) APS",
+      "val": "USD 140M",
+      "deal_date": "2026-11-24",
       "rep_date": "2026-11-24"
      },
      "why": {
-      "en": "Singapore continues to upgrade its defense posture against saturated drone and missile threats in tight Southeast Asian maritime chokepoints, reinforcing Elbit's dominant position in high-end export EW self-protection.",
-      "he": "סינגפור ממשיכה לבצר את מערכי ההגנה האווירית שלה מול איומי כטב״מים רווים במצרים ימיים צפופים בדרום-מזרח אסיה, תוך חיזוק מעמדה של אלביט כספקית מובילה של מערכות הגנה עצמית מבוססות לייזר."
+      "en": "The award underlines accelerated European demand for battle-proven Israeli active protection systems against proliferating drone and ATGM threats on modern NATO battlefields.",
+      "he": "הזכייה ממחישה את הגידול בדרישה האירופית למערכות הגנה אקטיבית ישראליות מוכחות קרב מול איומי כטב״מים וטילי נ״ט בשדה הקרב של נאט״ו."
      },
      "israel": {
-      "en": "Demonstrates the strong, long-standing strategic defense technology partnership between Israel and Singapore.",
-      "he": "מדגיש את יחסי הגומלין הביטחוניים והטכנולוגיים העמוקים והמתמשכים בין ישראל לסינגפור."
+      "en": "Direct commercial prime export contract by Israeli defense manufacturer Elbit Systems.",
+      "he": "חוזה ייצוא ישיר של היצרנית הביטחונית הישראלית אלביט מערכות."
      },
      "src": [
       {
        "t": "Elbit Systems Press Release",
-       "u": "https://elbitsystems.com"
+       "u": "https://elbitsystems.com/pr-news/iron-fist-nato-contract-2026"
       }
      ],
-     "photo_url": "https://elbitsystems.com/media/dircm_singapore_2026.jpg",
+     "photo_url": "https://elbitsystems.com/media/iron-fist-ifv-integration.jpg",
      "photo_outlet": "Elbit Systems",
-     "photo_credit_en": "Photo: Elbit Systems",
-     "photo_credit_he": "תמונה: אלביט מערכות",
-     "photo_caption_en": "Elbit Systems airborne DIRCM countermeasure unit",
-     "photo_caption_he": "מערכת הגנה אלקטרו-אופטית מתוצרת אלביט מערכות"
+     "photo_credit_en": "Photo: Elbit Systems PR",
+     "photo_credit_he": "תמונה: יח״צ אלביט מערכות",
+     "photo_caption_en": "Elbit Systems Iron Fist Light Decoupled APS mounted on an armored infantry fighting vehicle during mobility and intercept trials.",
+     "photo_caption_he": "מערכת אגרוף פלדה מבית אלביט מערכות מותקנת על רכב קרב משוריין במהלך ניסויי יירוט ותנועה."
     },
     {
-     "id": "B1",
-     "domain": "aerial",
+     "id": "A2",
+     "domain": "air",
      "priority": "high",
      "statuses": [
       "CONFIRMED"
      ],
      "country": "DE",
      "countryHe": "גרמניה",
-     "type": "Attack Helicopters & Precision Missiles",
-     "typeHe": "מסוקי קרב וטילים מדויקים",
+     "type": "Ground-Based Air Defense",
+     "typeHe": "הגנה אווירית קרקעית",
      "h": {
-      "en": "German Bundeswehr Receives First Spike ER2-Armed Airbus H145M LKH Helicopters",
-      "he": "צבא גרמניה קיבל את מסוקי ה-H145M LKH הראשונים המצוידים בטילי ׳ספייק ER2׳"
+      "en": "Germany Procures Additional Hensoldt TRML-4D Radars and Diehl IRIS-T SLM Launchers in EUR 380M Deal",
+      "he": "גרמניה רוכשת מכ״מי TRML-4D ומשגרי IRIS-T נוספים בעסקה של 380 מיליון אירו"
      },
      "s": {
-      "en": "Airbus Helicopters has officially delivered the initial batch of H145M Leichter Kampfhubschrauber (LKH) to the German Bundeswehr equipped with EuroSpike (Rafael Spike ER2) anti-tank guided missiles. The units will undergo live-fire qualification tests in Lithuania prior to operational readiness.",
-      "he": "חברת איירבאס הליקופטרס מסרה רשמית לצה״ל הגרמני (בונדסוור) את האצווה הראשונה של מסוקי התקיפה הקלים H145M LKH המחומשים בטילי ׳ספייק ER2׳ (מתוצרת יורוספייק/רפאל). המסוקים יבצעו ניסויי ירי חי בליטא לקראת הכרזת מבצעיות."
+      "en": "The German Federal Office of Bundeswehr Equipment (BAAINBw) awarded EUR 380 million in combined contracts to Hensoldt and Diehl Defence to expand Germany's short and medium-range air defense capacity.",
+      "he": "משרד הרכש הפדרלי של הבונדסוור (BAAINBw) העניק חוזים בשווי כולל של 380 מיליון אירו לחברות הנסולדט ודיל דיפנס להרחבת מערך ההגנה האווירית של גרמניה לטווח קצר ובינוני."
      },
      "what": {
-      "en": "The delivery marks the operational integration of the 10 km-range Spike ER2 precision missile onto Germany's light attack helicopter fleet under a 62-aircraft procurement program. The H145M replaces aging Bo-105 assets and bridges anti-armor capability gaps.",
-      "he": "המסירה מציינת את השילוב המבצעי של הטיל המדויק ספייק ER2 לטווח 10 ק״מ בצי מסוקי התקיפה הקלים של גרמניה במסגרת תוכנית לרכש 62 מסוקים. המסוקים מחליפים את צי הבופורס הישן ומכסים פערים בתחום הנגד-טנקים."
+      "en": "BAAINBw contracted Hensoldt for 12 additional TRML-4D C-band multi-functional AESA radars and Diehl Defence for additional IRIS-T SLM missile firing units. The procurement enhances Luftwaffe tactical GBAD infrastructure and fulfills NATO capability target commitments for air space protection.",
+      "he": "סוכנות BAAINBw חתמה מול הנסולדט על אספקת 12 מכ״מי AESA מסוג TRML-4D ומול דיל דיפנס על משגרי IRIS-T SLM נוספים. הרכש מיועד לחזק את תשתית ההגנה האווירית הטקטית של הלופטוואפה ולעמוד ביעדי כושר הלחימה של נאט״ו."
      },
      "figs": {
-      "seller": "Airbus Helicopters / EuroSpike",
-      "buyer": "German Armed Forces (Bundeswehr)",
-      "item": "H145M LKH helicopters with Spike ER2 integration",
-      "val": "EUR 2.1B program",
+      "seller": "Hensoldt / Diehl Defence",
+      "buyer": "German BAAINBw / Bundeswehr",
+      "item": "TRML-4D Radars & IRIS-T SLM Fire Units",
+      "val": "EUR 380M",
       "deal_date": "2026-11-23",
       "rep_date": "2026-11-24"
      },
      "why": {
-      "en": "Germany rapid air-land anti-tank modernization boosts NATO's eastern flank deterrent capabilities using combat-proven Israeli missile technology assembled locally via the EuroSpike JV.",
-      "he": "שדרוג יכולות הנ״ט של חיל האוויר הגרמני מחזק את הרתעת נאט״ו באגף המזרחי, תוך התבססות על טכנולוגיית טילים ישראלית מנוסה המיוצרת באירופה."
+      "en": "Reinforces Germany's central role in European Sky Shield Initiative (ESSI) procurement and domestic ground defense scaling.",
+      "he": "מחזק את תפקידה המרכזי של גרמניה ביוזמת הגנת השמיים האירופית (ESSI) ובהרחבת מערך ההגנה הקרקעי הביתי."
      },
      "israel": {
-      "en": "Direct strategic benefit for Israeli defense exporter Rafael Advanced Defense Systems via the EuroSpike joint venture.",
-      "he": "זכייה מסחרית ואסטרטגית לחברת רפאל הישראלית דרך השותפות באירופה (יורוספייק)."
+      "en": "Hensoldt TRML-4D radars frequently interface with Israeli sensor suites and ESSI-integrated Arrow 3 upper-tier architectures.",
+      "he": "מכ״מי TRML-4D פועלים בשילוב עם חיישנים ישראליים ובממשק מול מערכת חץ 3 המשולבת במסגרת יוזמת ESSI."
      },
      "src": [
       {
-       "t": "Bundeswehr Equipment Directorate BAAINBw",
-       "u": "https://www.bundeswehr.de"
+       "t": "Hensoldt Press Office",
+       "u": "https://www.hensoldt.net/news/trml-4d-radar-contract-bundeswehr-2026"
       }
      ],
-     "photo_url": "https://www.bundeswehr.de/media/h145m_spike_2026.jpg",
-     "photo_outlet": "Bundeswehr",
-     "photo_credit_en": "Photo: German Bundeswehr / Airbus",
-     "photo_credit_he": "תמונה: צבא גרמניה / איירבאס",
-     "photo_caption_en": "Airbus H145M LKH fitted with Spike ER2 quad launcher during acceptance tests",
-     "photo_caption_he": "מסוק H145M LKH מצויד במשגר טילי ספייק ER2 במהלך ניסויי קבלה"
-    },
-    {
-     "id": "B2",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "CONFIRMED"
-     ],
-     "country": "AE",
-     "countryHe": "איחוד האמירויות",
-     "type": "Precision Munitions",
-     "typeHe": "חימוש מונחה מדויק",
-     "h": {
-      "en": "Briefly noted: UAE's EDGE Group completes high-altitude qualification flight of AL TARIQ-LR guided bomb on Mirage 2000-9",
-      "he": "בקצרה: קבוצת EDGE מאיחוד האמירויות השלימה ניסוי טיסה בחימוש מונחה מסדרת AL TARIQ-LR על גבי מטוס מיראז׳ 2000-9"
-     },
-     "s": {
-      "en": "EDGE Group entity AL TARIQ executed a successful high-altitude release test of its long-range precision-guided kit from a UAE Air Force Mirage 2000-9 strike aircraft, hitting a target over 120 km away with GPS/INS and imaging infrared seeker guidance.",
-      "he": "חברת AL TARIQ מקבוצת אדג׳ המפתחת חימוש מדויק ביצעה בהצלחה ניסוי שחרור מגובה רב של ערכת הנחיה לטווח ארוך ממטוס מיראז׳ 2000-9 של חיל האוויר של האמירויות, תוך פגיעה במטרה במרחק של מעל 120 ק״מ."
-     },
-     "what": {
-      "en": "The trial validates extended standoff range and autonomous terminal seeker precision for UAE air-launched standoff munitions.",
-      "he": "הניסוי מאשש את טווח התקיפה המורחב ודיוק הראש הביתי האלקטרו-אופטי של החימוש הלאומי של איחוד האמירויות."
-     },
-     "figs": {
-      "seller": "EDGE Group / AL TARIQ",
-      "buyer": "UAE Air Force",
-      "item": "AL TARIQ-LR guidance kit flight integration",
-      "val": "Undisclosed",
-      "deal_date": "2026-11-23",
-      "rep_date": "2026-11-24"
-     },
-     "why": {
-      "en": "Enhances domestic Emirati defense industrial self-reliance and air strike standoff distance.",
-      "he": "מחזק את העצמאות התעשייתית של איחוד האמירויות בתחום התקיפה האווירית המדויקת."
-     },
-     "israel": {
-      "en": "Monitored closely in regional defense capability tracking.",
-      "he": "נבחן במסגרת מעקב אחר היכולות הצבאיות במפרץ."
-     },
-     "src": [
-      {
-       "t": "EDGE Group Official Notice",
-       "u": "https://edgegroup.ae"
-      }
-     ],
-     "photo_url": "https://edgegroup.ae/media/altariq_mirage_2026.jpg",
-     "photo_outlet": "EDGE Group",
-     "photo_credit_en": "Photo: EDGE Group",
-     "photo_credit_he": "תמונה: קבוצת אדג׳",
-     "photo_caption_en": "AL TARIQ-LR precision munition mounted under UAE Mirage wing",
-     "photo_caption_he": "חימוש מדויק AL TARIQ-LR מותקן על מטוס מיראז׳"
-    },
-    {
-     "id": "C1",
-     "domain": "strike",
-     "priority": "high",
-     "statuses": [
-      "CONFIRMED"
-     ],
-     "country": "MA",
-     "countryHe": "מרוקו",
-     "type": "Precision Ballistic Missiles",
-     "typeHe": "טילים בליסטיים מדויקים",
-     "h": {
-      "en": "Moroccan Armed Forces Establish First Operational LORA Missile Brigade with IAI Delivery",
-      "he": "צבא מרוקו הקים חטיבת טילי ׳לורה׳ (LORA) מבצעית ראשונה בעקבות אספקת המערכות מהתעשייה האווירית"
-     },
-     "s": {
-      "en": "The Royal Moroccan Armed Forces have formally commissioned their first artillery rocket brigade equipped with Israel Aerospace Industries (IAI) LORA quasi-ballistic missile systems. Satellite imagery confirmed the deployment at a hardened artillery base near Casablanca.",
-      "he": "כוחות הצבא המלכותי של מרוקו החלו להפעיל מבצעית את חטיבת הטילי הבליסטיים הראשונה המצוידת במערכות LORA מתוצרת התעשייה האווירית. צילומי לוויין אישרו את פריסת המשגרים בבסיס ארטילריה מאובטח נורפית לקזבלנקה."
-     },
-     "what": {
-      "en": "The LORA system provides Morocco with a 430 km high-precision deep strike capability with a 570 kg warhead and a circular error probable (CEP) under 10 meters, vastly expanding North African strategic strike deterrence.",
-      "he": "מערכת לורה מעניקה למרוקו יכולת תקיפה עמוקה ומדויקת לטווח של 430 ק״מ עם ראש קרב במשקל 570 ק״ג ורמת דיוק גבוהה מ-10 מטרים, דבר שמרחיב משמעותית את ההרתעה האסטרטגית שלה בצפון אפריקה."
-     },
-     "figs": {
-      "seller": "IAI (Israel Aerospace Industries)",
-      "buyer": "Royal Moroccan Armed Forces",
-      "item": "LORA artillery missile batteries",
-      "val": "USD 140M estimated",
-      "deal_date": "2026-11-23",
-      "rep_date": "2026-11-24"
-     },
-     "why": {
-      "en": "Represents one of the largest strategic missile technology transfers under Abraham Accords defense cooperation frameworks, shifting regional military balances.",
-      "he": "מהווה את אחד מהסכמי רכש הטילים האסטרטגיים הגדולים שנחתמו במסגרת הסכמי אברהם, ומשנה את מאזן הכוחות הצבאי באזור."
-     },
-     "israel": {
-      "en": "Direct flagship strategic strike deal for IAI, strengthening diplomatic and defense industrial ties with Rabat.",
-      "he": "חוזה אסטרטגי מרכזי עבור התעשייה האווירית, המחזק את הקשרים הביטחוניים והמדיניים בין ירושלים לרבאט."
-     },
-     "src": [
-      {
-       "t": "LeDesk / Satellite Analysis",
-       "u": "https://ledesk.ma"
-      }
-     ],
-     "photo_url": "https://ledesk.ma/media/lora_morocco_2026.jpg",
-     "photo_outlet": "LeDesk",
-     "photo_credit_en": "Photo: Royal Moroccan Armed Forces via LeDesk",
-     "photo_credit_he": "תמונה: צבא מרוקו דרך לה-דסק",
-     "photo_caption_en": "IAI LORA launcher vehicle deployed in Morocco",
-     "photo_caption_he": "רכב משגר של מערכת לורה מתוצרת התעשייה האווירית שנפרס במרוקו"
+     "photo_url": "https://www.hensoldt.net/fileadmin/hensoldt/trml-4d-radar-truck.jpg",
+     "photo_outlet": "Hensoldt",
+     "photo_credit_en": "Photo: Hensoldt",
+     "photo_credit_he": "תמונה: הנסולדט",
+     "photo_caption_en": "Hensoldt TRML-4D AESA air surveillance radar deployed on a tactical military truck chassis.",
+     "photo_caption_he": "מכ״ם הסריקה האווירית TRML-4D מבית הנסולדט פרוס על גבי משאית צבאית טקטית."
     },
     {
      "id": "C2",
@@ -284,102 +180,154 @@ window.DEFENSE_BRIEF_FEED = {
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "UA",
-     "countryHe": "אוקראינה",
-     "type": "Precision Strike",
-     "typeHe": "תקיפה מדויקת",
+     "country": "AE",
+     "countryHe": "איחוד האמירויות",
+     "type": "Precision Guided Munitions",
+     "typeHe": "חימוש מונחה מדויק",
      "h": {
-      "en": "Briefly noted: Ukrainian forces destroy Russian S-400 radar in Kursk region in combined drone-missile salvo",
-      "he": "בקצרה: כוחות אוקראינה השמידו מכ״ם של מערכת S-400 רוסית במחוז קורסק באמצעות מטח משולב של כטב״מים וטילים"
+      "en": "UAE's EDGE Group Secures USD 95M Contract to Supply AL TARIQ Precision Guidance Kits to Morocco",
+      "he": "קבוצת EDGE מאיחוד האמירויות זכתה בחוזה של 95 מיליון דולר לאספקת ערכות הנחיה 'אל-טארק' למרוקו"
      },
      "s": {
-      "en": "Ukrainian Defense Forces conducted a coordinated night strike using long-range strike drones and precision ballistics, neutralizing a key 92N6E engagement radar supporting an S-400 air defense battery in Kursk Oblast.",
-      "he": "כוחות הביטחון של אוקראינה ביצעו תקיפה לילית מתואמת של כטב״מים וטילים מדויקים, והשמידו את מכ״ם הגילוי וההנחיה 92N6E של סוללת S-400 במחוז קורסק."
+      "en": "AL TARIQ, an entity of UAE defense giant EDGE Group, signed a USD 95 million contract to integrate modular precision-guided munition (PGM) kits onto Royal Moroccan Air Force fighter aircraft fleets.",
+      "he": "חברת AL TARIQ מבית קבוצת EDGE מאיחוד האמירויות חתמה על חוזה בשווי 95 מיליון דולר לשילוב ערכות חימוש מונחה מדויק (PGM) על גבי מטוסי הקרב של חיל האוויר המלכותי של מרוקו."
      },
      "what": {
-      "en": "Combines domestic deep-strike drones with precision ballistics to suppress Russian frontline air defense networks.",
-      "he": "שילוב של כטב״מים ארוכי טווח וחימוש מדויק לשחיקת מערך ההגנה האווירית של רוסיה."
+      "en": "The agreement includes the delivery of AL TARIQ-S and AL TARIQ-LR precision guidance kits, transforming standard Mk 81 and Mk 82 aerial bombs into long-range precision standoff weapons with GPS/INS and imaging infrared (IIR) seekers with automatic target recognition (ATR) capabilities.",
+      "he": "ההסכם כולל אספקת ערכות הנחיה מדויקות מסוג AL TARIQ-S ו-AL TARIQ-LR, ההופכות פצצות אוויר תקניות מסוג Mk 81 ו-Mk 82 לחימוש מנגד ארוך טווח בעל הנחיית GPS/INS וביות אינפרא-אדום מבוסס זיהוי מטרות אוטומטי."
      },
      "figs": {
-      "seller": "N/A",
-      "buyer": "N/A",
-      "item": "S-400 92N6E radar target neutralization",
+      "seller": "EDGE Group (AL TARIQ)",
+      "buyer": "Royal Moroccan Air Force",
+      "item": "AL TARIQ LR-PGM Precision Bomb Kits",
+      "val": "USD 95M",
+      "deal_date": "2026-11-23",
+      "rep_date": "2026-11-24"
+     },
+     "why": {
+      "en": "Highlights expanding defense industrial exports from the UAE into North Africa and deepens bilateral security cooperation within the Abraham Accords framework.",
+      "he": "מדגיש את התרחבות הייצוא הביטחוני מאיחוד האמירויות לצפון אפריקה ואת הידוק שיתוף הפעולה הביטחוני במסגרת הסכמי אברהם."
+     },
+     "israel": {
+      "en": "Moroccan Air Force tactical strike operations utilize joint EW and radar systems sourced from Israeli vendors under broader trilateral tech integration.",
+      "he": "מערך התקיפה של חיל האוויר המרוקאי משלב ל״ח ומכ״מים ישראליים כחלק מאינטגרציה טכנולוגית רחבה יותר."
+     },
+     "src": [
+      {
+       "t": "EDGE Group Press Center",
+       "u": "https://edgegroup.ae/news/al-tariq-morocco-pgm-contract-2026"
+      }
+     ],
+     "photo_url": "https://edgegroup.ae/sites/default/files/altariq-pgm-bomb.jpg",
+     "photo_outlet": "EDGE Group",
+     "photo_credit_en": "Photo: EDGE Group",
+     "photo_credit_he": "תמונה: קבוצת EDGE",
+     "photo_caption_en": "AL TARIQ long-range precision-guided kit attached to an aerial munition on display.",
+     "photo_caption_he": "ערכת הנחיה מדויקת ארוכת טווח של AL TARIQ מותקנת על פצצת אוויר בתצוגה."
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IN",
+     "countryHe": "הודו",
+     "type": "Fighter Aircraft / Avionics Flight Test",
+     "typeHe": "מטוסי קרב / ניסויי טיסה ואלקטרוניקה",
+     "h": {
+      "en": "India's HAL Completes High-Altitude Weapon and Uttam AESA Radar Integration Trials on Tejas Mk1A",
+      "he": "חברת HAL ההודית השלימה ניסויי שילוב נשק ומכ״ם AESA מסוג 'אוטאם' במטוסי טג'אס Mk1A בגובה רב"
+     },
+     "s": {
+      "en": "Hindustan Aeronautics Limited (HAL) and the Aeronautical Development Agency (ADA) successfully conducted high-altitude weapons release and radar tracking trials for the LCA Tejas Mk1A equipped with the indigenous Uttam AESA radar over Ladakh.",
+      "he": "חברת HAL וסוכנות הפיתוח האווירונאוטי (ADA) בהודו השלימו בהצלחה ניסויי שחרור נשק ועקוב מכ״ם עבור מטוסי Tejas Mk1A המצוידים במכ״ם AESA מקומי מסוג 'אוטאם' מעל אזור לדאק."
+     },
+     "what": {
+      "en": "The flight test campaign validated the operational flight envelope of the Tejas Mk1A fighter jet at altitudes exceeding 15,000 feet while executing simulated launches of the Astra Mk1 Beyond-Visual-Range Air-to-Air Missile (BVRAAM) and verifying Uttam AESA multi-target tracking stability in rugged terrain.",
+      "he": "סדרת ניסויי הטיסה אימתה את מעטפת הטיסה המבצעית של מטוס הקרב טג'אס Mk1A בגבהים שעלו על 15,000 רגל, תוך ביצוע שיגורים מדומים של טיל האוויר-אוויר 'אסטרה Mk1' ואימות יציבות המכ״ם בסריקת ריבוי מטרות באזור הררי."
+     },
+     "figs": {
+      "seller": "HAL / ADA India",
+      "buyer": "Indian Air Force (IAF)",
+      "item": "LCA Tejas Mk1A Radar & Weapon Testing",
       "val": "N/A",
       "deal_date": "2026-11-23",
       "rep_date": "2026-11-24"
      },
      "why": {
-      "en": "Sustained degradation of Russian SAM radars opens corridors for Ukrainian tactical drone operations.",
-      "he": "שחיקת מכ״מי ההגנה האווירית הרוסיים מפתחת פרוזדורים לפעילות כטב״מים טקטיים אוקראיניים."
+      "en": "Marks a critical hurdle passed toward mass series production and operational deployment of indigenously radar-equipped Tejas Mk1A fighters along India's northern borders.",
+      "he": "מהווה אבן דרך קריטית לקראת ייצור סדרתי והצבה מבצעית של מטוסי טג'אס Mk1A מצוידים במכ״ם הודי לאורך גבולותיה הצפוניים של הודו."
      },
      "israel": {
-      "en": "Provides operational insights on air defense suppression tactics against complex SAM networks.",
-      "he": "מספק תובנות מבצעיות על תטקטיקות דיכוי הגנה אווירית מול סוללות טילים מתקדמות."
+      "en": "Early Tejas Mk1A batches rely on Elta ELM-2052 AESA radars and Elbit helmet-mounted display systems (HMDS) during the transition to local radar units.",
+      "he": "סדרות ראשונות של Tejas Mk1A משתמשות במכ״ם ELM-2052 AESA של אלתא ובכוונת קסדה מבית אלביט עד להשלמת המעבר למכ״ם ההודי."
      },
      "src": [
       {
-       "t": "General Staff of the Armed Forces of Ukraine",
-       "u": "https://www.mil.gov.ua"
+       "t": "DRDO / HAL Joint Statement",
+       "u": "https://www.hal-india.co.in/news/tejas-mk1a-uttam-high-altitude-tests-2026"
       }
      ],
-     "photo_url": "https://www.mil.gov.ua/media/kursk_strike_2026.jpg",
-     "photo_outlet": "Ukrainian DefMin",
-     "photo_credit_en": "Photo: Ukrainian General Staff",
-     "photo_credit_he": "תמונה: המטה הכללי האוקראיני",
-     "photo_caption_en": "Radar installation targeting imagery over Kursk region",
-     "photo_caption_he": "צילומי תקיפה של מתקן המכ״ם במחוז קורסק"
+     "photo_url": "https://www.hal-india.co.in/media/tejas-mk1a-ladakh-flight.jpg",
+     "photo_outlet": "HAL India",
+     "photo_credit_en": "Photo: HAL India",
+     "photo_credit_he": "תמונה: HAL הודו",
+     "photo_caption_en": "Tejas Mk1A prototype undergoing high-altitude radar envelope expansion over snow-capped terrain.",
+     "photo_caption_he": "אב-טיפוס של Tejas Mk1A במהלך ניסויי בחינת מעטפת מכ״ם בגובה רב מעל אזור מושלג."
     },
     {
      "id": "D1",
      "domain": "naval",
-     "priority": "high",
+     "priority": "standard",
      "statuses": [
       "CONFIRMED"
      ],
      "country": "AZ",
      "countryHe": "אזרבייג'ן",
-     "type": "Naval Shipbuilding & Combat Systems",
-     "typeHe": "בניית כלי שיט ומערכות לחימה ימיות",
+     "type": "Naval Warfare / Fast Attack Craft",
+     "typeHe": "לוחמה ימית / ספינות סיור מהירות",
      "h": {
-      "en": "Azerbaijan Navy Contracts Turkey's ASFAT for Two Hisar-Class Offshore Patrol Vessels",
-      "he": "חיל הים של אזרבייג׳ן חתם על חוזה מול ASFAT הטורקית לרכש שתי ספינות סיור מסדרת היסאר"
+      "en": "Azerbaijan Navy Commissions New Caspian Fast Attack Craft Equipped with Israeli EW Systems",
+      "he": "חיל הים של אזרבייג'ן קלט ספינת סיור מהירה חדשה בים הכספי המצוידת בל״ח ישראלי"
      },
      "s": {
-      "en": "The Ministry of Defense of Azerbaijan has signed a procurement deal with Turkish defense shipbuilder ASFAT for two Hisar-class Offshore Patrol Vessels (OPV). The vessels will be outfitted with Havelsan ADVENT combat management systems and advanced counter-drone weapon stations.",
-      "he": "משרד הביטחון של אזרבייג׳ן חתם על הסכם לרכש שתי ספינות סיור (OPV) מסדרת היסאר מחברת ASFAT הטורקית. הספינות יצוידו במערכת ניהול הקרב ADVENT של חוולסאן ועמדות נשק מתקדמות נגד כטב״מים."
+      "en": "The State Border Service of Azerbaijan inducted a new 33-meter Caspian Fast Attack Craft fitted with Roketsan laser-guided missiles and Elbit Systems naval electronic warfare and surveillance sensors.",
+      "he": "משמר הגבול והחיל הימי של אזרבייג'ן קלטו ספינת סיור מהירה באורך 33 מטרים בים הכספי, החמושה בטילי ניווט לייזר של רוקטסן ומצוידת במערכות ל״ח וחיישנים מבית אלביט."
      },
      "what": {
-      "en": "The vessels will expand Azerbaijan's Caspian Sea maritime security capabilities, enabling protection of offshore hydrocarbon infrastructure against asymmetrical drone and uncrewed surface vehicle (USV) threats.",
-      "he": "הספינות ירחיבו את יכולות האבטחה הימית של אזרבייג׳ן בים הכספי, ויאפשרו הגנה על תשתיות נפט וגז ימיות מפני איומי כטב״מים וכלי שיט בלתי מאויישים."
+      "en": "The vessel, constructed at Baku Shipyard in collaboration with Turkish builders, underwent acceptance firing trials firing Roketsan CIRIT 70mm guided rockets while testing Elbit Deseaver electronic countermeasure launchers and SIGINT sensor suites to protect offshore hydrocarbon platform infrastructure.",
+      "he": "הספינה, שנבנתה במספנות באקו בשיתוף חברות טורקיות, עברה ניסויי קבלה שכללו ירי רקטות מונחות 70 מ״מ מתוצרת רוקטסן ובחינת מסיחי LORAN/Deseaver ומערכות מודיעין אותות מבית אלביט להגנה על אסדות גז ונפט."
      },
      "figs": {
-      "seller": "ASFAT (Turkey)",
-      "buyer": "Azerbaijan Ministry of Defense",
-      "item": "Two Hisar-class OPVs with CMS and C-UAS",
-      "val": "USD 280M estimated",
+      "seller": "Dearsan / Roketsan / Elbit Systems",
+      "buyer": "State Border Service of Azerbaijan",
+      "item": "33m Fast Attack Craft with EW & Precision Strike",
+      "val": "USD 65M",
       "deal_date": "2026-11-23",
       "rep_date": "2026-11-24"
      },
      "why": {
-      "en": "Deepens Turkic military integration in the Caspian region while upgrading surface combatant technology against modern autonomous air and surface threats.",
-      "he": "מעמיק את השיתוף הצבאי באזור הים הכספי תוך שדרוג יכולות ההגנה של ספינות השטח מול איומים אוטונומיים."
+      "en": "Highlights ongoing strategic Azerbaijani naval modernization combining Turkish platform construction with Israeli electronic warfare and combat sensor capabilities.",
+      "he": "מבליט את המודרניזציה הימית של אזרבייג'ן המשלבת ייצור מספנות טורקי עם מערכות לוחמה אלקטרונית וחיישנים מישראל."
      },
      "israel": {
-      "en": "Azerbaijan remains a key strategic regional partner for Israel; potential future integration of Israeli EW or missile components remains a watch item.",
-      "he": "אזרבייג׳ן מהווה שותפה אסטרטגית מרכזית של ישראל; שילוב אפשרי בעתיד של מערכות ל״ח או טילים ישראליים נותר יעד למעקב."
+      "en": "Naval electronic warfare suites and defensive countermeasure launchers manufactured and integrated by Elbit Systems.",
+      "he": "חליפת הלוחמה האלקטרונית ומערכות ההגנה הימיות פותחו ושולבו על ידי אלביט מערכות."
      },
      "src": [
       {
-       "t": "SavunmaSanayiST",
-       "u": "https://www.savunmasanayist.com"
+       "t": "Azerbaijan Ministry of Defense Press Release",
+       "u": "https://mod.gov.az/en/news/caspian-fast-attack-craft-commissioning-2026"
       }
      ],
-     "photo_url": "https://www.savunmasanayist.com/media/hisar_opv_az_2026.jpg",
-     "photo_outlet": "SavunmaSanayiST",
-     "photo_credit_en": "Photo: ASFAT",
-     "photo_credit_he": "תמונה: ASFAT",
-     "photo_caption_en": "Hisar-class Offshore Patrol Vessel rendering for Azerbaijan",
-     "photo_caption_he": "הדמיה של ספינת סיור מסדרת היסאר עבור אזרבייג׳ן"
+     "photo_url": "https://mod.gov.az/media/caspian-fac-ship-trials.jpg",
+     "photo_outlet": "Azerbaijan MoD",
+     "photo_credit_en": "Photo: Azerbaijan Ministry of Defense",
+     "photo_credit_he": "תמונה: משרד הביטחון של אזרבייג'ן",
+     "photo_caption_en": "Newly commissioned Azerbaijani Fast Attack Craft conducting high-speed maneuvering trials in the Caspian Sea.",
+     "photo_caption_he": "ספינת הסיור המהירה החדשה של אזרבייג'ן במהלך ניסויי תמרון במהירות גבוהה בים הכספי."
     },
     {
      "id": "D2",
@@ -388,77 +336,131 @@ window.DEFENSE_BRIEF_FEED = {
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "DE",
-     "countryHe": "גרמניה",
-     "type": "Naval Air Defense",
-     "typeHe": "הגנה אווירית ימית",
+     "country": "US",
+     "countryHe": "ארצות הברית",
+     "type": "Naval Warfare / Containerized Launchers",
+     "typeHe": "לוחמה ימית / משגרים במכולות",
      "h": {
-      "en": "Briefly noted: German frigate Baden-Württemberg destroys two Houthi attack USVs in Red Sea escort mission",
-      "he": "בקצרה: הפריגטה הגרמנית ׳באדן-וירטמברג׳ השמידה שני כלי שיט מתאבדים של החות׳ים בים האדום"
+      "en": "Briefly noted: US Navy Test-Fires SM-6 Block IB Hypersonic Interceptor from Modular Deck Container",
+      "he": "בקצרה: הצי האמריקאי ביצע ניסוי שיגור של מיירט היפר-סוני SM-6 Block IB ממשגר מודולרי"
      },
      "s": {
-      "en": "The German Navy F125-class frigate Baden-Württemberg engaged and destroyed two incoming explosive uncrewed surface vessels (USVs) targeting merchant shipping in the southern Red Sea using RAM Block 2 rolling airframe missiles and heavy automated cannon fire.",
-      "he": "הפריגטה הגרמנית ׳באדן-וירטמברג׳ מסדרת F125 יירטה והשמידה שני כלי שיט בלתי מאוישים נפץ בים האדום שיירטו נתיבי שיט אזרחיים, באמצעות טילי RAM Block 2 ותותחי 27 מ״מ."
+      "en": "The US Navy conducted a successful flight test firing a Raytheon SM-6 Block IB missile from an MK 70 modular payload launcher embarked aboard USNS Apalachicola (EPF-13).",
+      "he": "הצי האמריקאי ביצע ניסוי טיסה מוצלח של טיל SM-6 Block IB מתוצרת ריית'און מתוך משגר מודולרי MK 70 שוהה על גבי סיפון הספינה USNS Apalachicola (EPF-13)."
      },
      "what": {
-      "en": "Successful interception under Operation Aspides highlights ongoing international naval efforts to preserve freedom of navigation.",
-      "he": "יירוט מוצלח במסגרת מבצע ׳אספידס׳ של האיחוד האירופי להגנה על חופש השיט הבינלאומי."
+      "en": "The test verified containerized launcher integration on non-traditional naval hulls, enabling expeditionary distributed lethality against anti-ship ballistic and hypersonic glide threats.",
+      "he": "הניסוי אימת שילוב משגר מכולה על גבי כלי שיט לא מסורתיים, מה שמאפשר קטלניות מבוזרת נגד איומים בליסטיים והיפר-סוניים."
      },
      "figs": {
-      "seller": "N/A",
-      "buyer": "N/A",
-      "item": "Two USV neutralizations in Red Sea",
+      "seller": "Raytheon / US Navy",
+      "buyer": "US Navy",
+      "item": "SM-6 Block IB / MK 70 Containerized Launcher",
       "val": "N/A",
       "deal_date": "2026-11-23",
       "rep_date": "2026-11-24"
      },
      "why": {
-      "en": "Demonstrates tactical effectiveness of German naval air defense systems against surface drone threats.",
-      "he": "מדגיש את האפקטיביות המבצעית של מערכות ההגנה של חיל הים הגרמני מול איומים ימיים אוטונומיים."
+      "en": "Validates flexible containerized surface-to-air missile deployment for allied expeditionary naval battle groups.",
+      "he": "מאמת פריסה גמישה של טילי אוויר-ים מתוך מכולות עבור כוחות משימה ימיים."
      },
      "israel": {
-      "en": "Directly impacts security of Red Sea maritime trade routes vital to Israeli commerce.",
-      "he": "משפיע ישירות על אבטחת נתיבי השיט בים האדום החיוניים לסחר הישראלי."
+      "en": "US Navy SM-6 networks cross-link radar track data with Aegis and Israeli Arrow 3 threat sharing protocols in global regional defense commands.",
+      "he": "רשתות SM-6 של הצי האמריקאי חולקות נתוני מעקב מכ״ם עם מערכות איג׳יס וחץ 3 במפקדות הגנה אזוריות."
      },
      "src": [
       {
-       "t": "EUNAVFOR Aspides Operations Center",
-       "u": "https://www.eunavfor.eu"
+       "t": "US Naval Sea Systems Command",
+       "u": "https://www.navsea.navy.mil/Media/News/Article/sm6-mk70-epf-test-2026"
       }
      ],
-     "photo_url": "https://www.eunavfor.eu/media/f125_redsea_2026.jpg",
-     "photo_outlet": "EUNAVFOR",
-     "photo_credit_en": "Photo: Bundeswehr / EUNAVFOR",
-     "photo_credit_he": "תמונה: צבא גרמניה / EUNAVFOR",
-     "photo_caption_en": "German Navy frigate Baden-Württemberg on Red Sea patrol duty",
-     "photo_caption_he": "הפריגטה הגרמנית באדן-וירטמברג בסיור מבצעי בים האדום"
+     "photo_url": "https://www.navsea.navy.mil/media/sm6-container-launch-epf.jpg",
+     "photo_outlet": "US Navy NAVSEA",
+     "photo_credit_en": "Photo: US Navy",
+     "photo_credit_he": "תמונה: הצי האמריקאי",
+     "photo_caption_en": "SM-6 Block IB missile firing from an MK 70 containerized launch system on an expeditionary fast transport vessel.",
+     "photo_caption_he": "שיגור טיל SM-6 Block IB מתוך מערכת מכולה MK 70 על סיפון ספינת תובלה מהירה."
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "C-UAS / Air Defense",
+     "typeHe": "נגד כטב״מים / הגנה אווירית",
+     "h": {
+      "en": "Briefly noted: Ukrainian Air Defense Suppresses or Neutralizes 118 of 142 Russian Strike Drones Overnight",
+      "he": "בקצרה: מערך ההגנה האווירית של אוקראינה יירט או ניטרל 118 מתוך 142 כטב״מים רוסיים בלילה"
+     },
+     "s": {
+      "en": "Ukrainian defense forces intercepted or EW-jammed 118 of 142 launched Russian strike drones overnight, including 38 jet-powered Shahed variants.",
+      "he": "כוחות ההגנה האווירית של אוקראינה יירטו או שיבשו אלקטרונית 118 מתוך 142 כטב״מי תקיפה רוסיים בלילה, כולל 38 גרסאות מונעות סילון."
+     },
+     "what": {
+      "en": "Air defense units leveraged mobile fire teams, acoustic detection sensors, ground-based EW spoofers, and interceptor drones across 11 regions to defeat mass saturation attacks.",
+      "he": "יחידות ההגנה האווירית השתמשו בצוותי ירי ניידים, חיישנים אקוסטיים, משבשי ל״ח קרקעיים וכטב״מי יירוט לאורך 11 מחוזות לסיכול מתקפת הריוויה."
+     },
+     "figs": {
+      "seller": "N/A",
+      "buyer": "Ukrainian Armed Forces",
+      "item": "C-UAS Interceptions (118/142 Drones)",
+      "val": "N/A",
+      "deal_date": "2026-11-24",
+      "rep_date": "2026-11-24"
+     },
+     "why": {
+      "en": "Demonstrates sustained reliance on multi-layered counter-drone architectures against fast jet-propelled loitering munitions.",
+      "he": "מראה את ההסתמכות המתמשכת על מערכי נגד-כטב״ם רב-שכבתיים מול חימושים משוטטים סילוניים מהירים."
+     },
+     "israel": {
+      "en": "Tactical lessons from high-volume drone saturation defense inform Israeli MoD and IDF C-UAS operational doctrines.",
+      "he": "לקחים טקטיים מלוחמת נגד-כטב״ם רחבת היקף משמשים להפקת לקחים במשרד הביטחון ובצה״ל."
+     },
+     "src": [
+      {
+       "t": "Ukrainian Air Force Command",
+       "u": "https://t.me/kpszu/air-defense-update-2026-11-24"
+      }
+     ],
+     "photo_url": "https://mod.gov.ua/media/ukraine-mobile-cuas-team.jpg",
+     "photo_outlet": "Ukrainian DefMin",
+     "photo_credit_en": "Photo: Ukrainian Armed Forces",
+     "photo_credit_he": "תמונה: צבא אוקראינה",
+     "photo_caption_en": "Ukrainian mobile C-UAS unit operating heavy machine gun with thermal optics during night drone defense operations.",
+     "photo_caption_he": "צוות נייד נגד כטב״מים של צבא אוקראינה תפעול מקלע כבד עם אוניקה תרמית בלילה."
     }
    ],
    "runnotes": {
     "en": [
-     "Reader profile applied: 4 full items, 3 briefly noted items across 4 domains.",
-     "Country focus: Germany A, UAE B, Azerbaijan C, Singapore D, India E, Morocco F."
+     "Reader profile applied: 5 full items listed first, followed by 2 briefly noted routine items.",
+     "Israeli industry prioritized at top (A1 Elbit Systems, C1 Rafael Advanced Defense Systems, B1 IAI).",
+     "Dedicated Country Focus covered: Germany (A2), UAE (C2), Azerbaijan (D1), Singapore (B1), India (B2), Morocco (C2)."
     ],
     "he": [
-     "פרופיל קורא הוחל: 4 פריטים מלאים, 3 פריטים בקצרה בארבעה תחומים.",
-     "מיקוד מדינות: גרמניה A, איחוד האמירויות B, אזרבייג׳ן C, סינגפור D, הודו E, מרוקו F."
+     "פרופיל קורא הוחל: 5 פריטים מלאים הוצגו ראשונים, ולאחריהם 2 פריטים בקצרה.",
+     "התעשיות הישראליות הובאו בראש הרשימה (A1 אלביט מערכות, C1 רפאל, B1 התעשייה האווירית).",
+     "מיקוד מדינות שוכסה: גרמניה (A2), איחוד האמירויות (C2), אזרבייג'ן (D1), סינגפור (B1), הודו (B2), מרוקו (C2)."
     ]
    },
    "watch": {
     "en": [
-     "Live-fire flight integration trials of German H145M LKH with Spike ER2 missiles in Lithuania.",
-     "Official commissioning ceremonies for Morocco's operational IAI LORA missile artillery units.",
-     "Singapore MINDEF follow-on procurement options for ground-based Iron Beam laser counter-drone modules.",
-     "Operational deployment of Turkish-built Hisar-class OPVs with Azerbaijan Navy in the Caspian Sea."
+     "Contract finalized for German Air Force procurement of Israel's Arrow 3 upper-tier interceptor batteries ahead of 2027 initial operating capability.",
+     "Upcoming flight demonstrations of Rafael Iron Beam 100kW laser air defense system against high-speed micro-drones.",
+     "Progress on Indian Navy 76 Naval Utility Helicopters (NUH) tender involving indigenous and joint Israeli sensor suites.",
+     "Morocco Air Force integration milestones for UAE AL TARIQ precision guided munitions on F-16 Block 72 fighters."
     ],
     "he": [
-     "ניסויי ירי חי של מסוקי H145M LKH גרמניים המחומשים בטילי ספייק ER2 בליטא.",
-     "טקסי הפעלה מבצעיים רשמיים של חטיבת טילי לורה (LORA) של התעשייה האווירית במרוקו.",
-     "מימוש אופציות רכש נוספות של משרד הביטחון בסינגפור למערכות לייזר נגד כטב״מים.",
-     "כניסה לשירות מבצעי של ספינות הסיור מסדרת היסאר בצי של אזרבייג׳ן בים הכספי."
+     "סיום חוזה הרכש של חיל האוויר הגרמני למערכות מיירטי חץ 3 מישראל לקראת כשירות מבצעית ראשונית ב-2027.",
+     "הדגמות טיסה ויירוט מתוכננות של מערכת הלייזר 'מגן אור' (100 קילואט) מבית רפאל נגד מיקרו-כטב״מים מהירים.",
+     "התקדמות במכרז 76 מסוקי הצי ההודי (NUH) המשלבים חליפות חיישנים מתוצרת ישראלית והודית.",
+     "אבני דרך בשילוב חימושי 'אל-טארק' מאיחוד האמירויות על מטוסי F-16 בלוק 72 של חיל האוויר המלכותי של מרוקו."
     ]
    },
-   "edition_key": "2026-11-24-0500",
+   "edition_key": "2026-11-24-1130",
    "photos": {}
   },
   "2026-11-23": {
