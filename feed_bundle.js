@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-24",
+ "updated_at": "2026-11-24-evening",
  "dates": [
+  "2026-11-24-evening",
   "2026-11-24",
   "2026-11-23-evening",
   "2026-11-23",
@@ -51,6 +52,1031 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-24-evening": {
+   "date": "2026-11-24_evening",
+   "doc_id": "2026-11-24-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-24T15:22:00Z",
+   "wend": "2026-11-24T18:51:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Poland / United Kingdom",
+     "countryHe": "פולין / בריטניה",
+     "type": "Air & Missile Defense / Bilateral Development",
+     "typeHe": "הגנה אווירית / פיתוח דו-לאומי",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Poland and UK sign intergovernmental agreement to jointly develop >100 km CAMM-MR air defense missile",
+      "he": "פולין ובריטניה חתמו על הסכם בין-ממשלתי לפיתוח משותף של טיל ההגנה האווירית CAMM-MR לטווח מעל 100 ק\"מ"
+     },
+     "what": {
+      "en": "Poland's Armament Agency, Defence Blog (16:43Z), and Altair announced on November 24 that Warsaw and London signed an intergovernmental agreement in Gdynia launching joint development of the CAMM-MR (Medium-Range) air defense missile with a planned engagement range exceeding 100 km. Polish Deputy Defense Minister Magdalena Sobkowiak-Czarnecka and UK Defence Procurement Minister Luke Pollard signed the framework, which establishes legal and financial terms ahead of an executive design contract dividing workshare between MBDA, its Polish entities, and state-owned PGZ. Deliveries are slated to align with the completion of Poland's three Miecznik-class frigates while also supporting land-based Narew air-defense batteries.",
+      "he": "סוכנות החימוש הפולנית, Defence Blog (16:43Z) ו-Altair דיווחו ב-24 בנובמבר כי פולין ובריטניה חתמו בגדיניה על הסכם בין-ממשלתי לפיתוח משותף של טיל ההגנה האווירית CAMM-MR (טווח בינוני-ארוך) שנועד לטווחים של מעל 100 ק\"מ. על ההסכם חתמו סגנית שר ההגנה הפולנית מגדלנה סובקוביאק-צ'רנצקה ושר הרכש הביטחוני הבריטי לוק פולארד, והוא קובע את התנאים המשפטיים והמימוניים לקראת חוזה ביצועי לתכנון מפורט בין MBDA, שלוחתה הפולנית וקבוצת PGZ. אספקת הטילים תותאם להשלמת שלוש הפריגטות מסדרת Miecznik ולשילוב במערך Narew היבשתי."
+     },
+     "figs": {
+      "en": "Parties: Poland Ministry of National Defence & UK MoD (industrial partners: MBDA UK, PGZ). System: CAMM-MR (>100 km / >62 mi range). Scope: Intergovernmental legal/financial framework; executive design contract and production award to follow (cost undisclosed). Platforms: Miecznik frigates & Narew SAM batteries.",
+      "he": "צדדים: משרדי ההגנה של פולין ובריטניה (שותפים תעשייתיים: MBDA UK ו-PGZ). מערכת: ‏CAMM-MR (טווח מעל 100 ק\"מ). היקף: הסכם מסגרת בין-ממשלתי לקראת חוזה תכנון ואספקה עתידי (שווי לא פורסם). פלטפורמות: פריגטות Miecznik וסוללות Narew."
+     },
+     "why": {
+      "en": "CAMM-MR bridges the gap between 25–45 km CAMM/CAMM-ER interceptors and costly PAC-3 MSE rounds, creating a dual-domain Anglo-Polish effector for both naval VLS cells and mobile NATO integrated air defense.",
+      "he": "טיל ה-CAMM-MR מגשר על הפער בין מיירטי CAMM/CAMM-ER (25–45 ק\"מ) לבין טילי PAC-3 MSE היקרים, ומבסס מיירט ימי ויבשתי משותף לאגף המזרחי של נאט\"ו."
+     },
+     "israel": {
+      "en": "Relevant export-market benchmark alongside Rafael's SPYDER-MR/LR and IAI's Barak MX / LRAD in European medium-to-long-range SAM competitions.",
+      "he": "רלוונטי להשוואת תחרותיות מול Barak MX של התעשייה האווירית ו-SPYDER של רפאל במכרזי הגנה אווירית באירופה."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/poland-uk-sign-deal-to-develop-camm-mr-missile/"
+      },
+      {
+       "t": "Wojsko Polskie (Polish Armament Agency)",
+       "u": "https://www.wojsko-polskie.pl/au/aktualnosci/polsko-brytyjskie-pociski-na-dobrym-kursie/"
+      },
+      {
+       "t": "Altair (Poland)",
+       "u": "https://www.altair.com.pl/porozumienie-ws-camm-mr"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Corroborated by official Polish Armament Agency statement, Defence Blog, and Polish trade press (Altair / Nasz Dziennik).",
+      "he": "מאומת — אומת בהודעת סוכנות החימוש הפולנית, Defence Blog והעיתונות הביטחונית בפולין."
+     },
+     "s": {
+      "en": "Poland and the UK signed an intergovernmental agreement to jointly develop the >100 km CAMM-MR air-defense missile with MBDA and PGZ for Miecznik frigates and Narew.",
+      "he": "פולין ובריטניה חתמו על הסכם בין-ממשלתי לפיתוח משותף של טיל ה-CAMM-MR לטווח >100 ק\"מ עבור פריגטות Miecznik ומערך Narew."
+     },
+     "photo": "img/j/A1.jpg"
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Missile Defense / Defense Budget Anomalies",
+     "typeHe": "הגנה מטילים / תקציב ביטחון",
+     "date": "2026-11-24",
+     "h": {
+      "en": "White House seeks USD 5 billion stopgap anomaly for Golden Dome missile defense and faster PAC-3, SM, and strike missile spending",
+      "he": "הבית הלבן מבקש החרגה של 5 מיליארד דולר בתקציב הזמני ל-Golden Dome והאצת הוצאה לטילי PAC-3, SM ותקיפה"
+     },
+     "what": {
+      "en": "Breaking Defense (16:30Z) and MLQ/Politico-cited reporting disclosed on November 24 that the White House sent Capitol Hill an anomalies list of nearly two dozen defense programs requiring funding exemptions if Congress passes another continuing resolution (CR) before the current stopgap expires on December 11. The request seeks USD 5 billion to keep the Golden Dome missile defense shield in production—warning it has no new CR funding and would halt without the exemption—plus advance procurement authority for the Trump-class battleship (BBG(X)). It also seeks 'spend faster' obligation authorities to accelerate production ramps for PAC-3, Standard Missile, Tomahawk, JASSM, LRASM, and Precision Strike Missile (PrSM).",
+      "he": "ב-Breaking Defense (16:30Z) ובדיווחים נוספים ב-24 בנובמבר נחשף כי הבית הלבן העביר לקונגרס רשימת חריגים לכ-20 תוכניות ביטחוניות אם יאושר תקציב זמני נוסף (CR) לקראת פקיעת הנוכחי ב-11 בדצמבר. הבקשה כוללת 5 מיליארד דולר להמשך הייצור של מערך ההגנה מטילים Golden Dome—באזהרה כי בלעדיהם ייעצר הייצור—לצד הרשאות רכש מוקדם לאוניית המערכה מסדרת Trump (BBG(X)). בנוסף מבוקשות סמכויות \"הוצאה מואצת\" להגדלת קצבי הייצור של טילי PAC-3, Standard Missile, Tomahawk, JASSM, LRASM ו-PrSM."
+     },
+     "figs": {
+      "en": "Buyer: U.S. DoD / White House OMB request to Congress. Golden Dome Request: USD 5B CR anomaly. Naval: Advance procurement authority for Trump-class battleship (BBG(X)). Munitions 'Spend Faster' List: PAC-3, Standard Missile family, Tomahawk, JASSM, LRASM, PrSM. Deadline: Dec 11, 2026 CR expiration.",
+      "he": "מבקש: הבית הלבן והפנטגון מול הקונגרס. Golden Dome: בקשת חריג של 5 מיליארד דולר. ימי: הרשאת רכש מוקדם ל-BBG(X). חימושים בהאצה: ‏PAC-3, Standard Missile, Tomahawk, JASSM, LRASM, PrSM. מועד יעד: פקיעת התקציב הזמני ב-‪11 בדצמבר 2026‬."
+     },
+     "why": {
+      "en": "Continuing resolutions normally freeze new starts and production surges; securing USD 5B for Golden Dome and fast-obligation authority for interceptors and standoff missiles is critical to sustaining U.S. munitions industrial-base momentum into 2027.",
+      "he": "תקציבי המשך זמניים מקפיאים תוכניות חדשות והאצות ייצור; אישור החריגים חיוני לשמירה על רצף הייצור של Golden Dome והרחבת מלאי המיירטים וטילי התקיפה הארוכים של ארה\"ב."
+     },
+     "israel": {
+      "en": "High-rate PAC-3, Standard Missile, and Golden Dome architecture investments directly affect U.S. interceptor availability and joint U.S.–Israel missile-defense industrial synergy.",
+      "he": "האצת ייצור טילי PAC-3 ו-Standard Missile והשקעת 5 מיליארד הדולר ב-Golden Dome משפיעות ישירות על זמינות מיירטים אמריקאיים ושיתופי הפעולה עם תעשיית ההגנה הישראלית."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap/"
+      },
+      {
+       "t": "MLQ / Capitol Hill CR Coverage",
+       "u": "https://mlq.ai/news/white-house-asks-congress-for-golden-dome-battleship-and-2-billion-artemis-exemptions-in-the-next-stopgap/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Reported by Breaking Defense and corroborated by congressional budget coverage citing the White House anomalies list.",
+      "he": "מאומת — דווח ב-Breaking Defense ואומת בדיווחי תקציב מהקונגרס."
+     },
+     "s": {
+      "en": "The White House requested a USD 5B CR anomaly for Golden Dome missile defense alongside BBG(X) advance procurement and 'spend faster' authorities for PAC-3, SM, Tomahawk, JASSM, LRASM, and PrSM.",
+      "he": "הבית הלבן ביקש מהקונגרס חריג תקציבי של 5 מיליארד דולר ל-Golden Dome לצד הרשאות האצת ייצור לטילי PAC-3, SM, Tomahawk, JASSM, LRASM ו-PrSM."
+     },
+     "photo": "img/j/A2.jpg"
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Norway / Ukraine",
+     "countryHe": "נורווגיה / אוקראינה",
+     "type": "Combat Management / Air-Space Situational Awareness",
+     "typeHe": "שו\"ב ומודעות מצבית / שיתוף פעולה",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Norway signs letter of intent to test Ukraine's DELTA combat ecosystem following Oslo defense talks",
+      "he": "נורווגיה חתמה על הצהרת כוונות לבחינת מערכת השו\"ב הקרבית DELTA האוקראינית"
+     },
+     "what": {
+      "en": "Ukraine's Ministry of Defense, Militarnyi (15:53Z), and Nordic Defence Sector reported on November 24 that Norwegian Defense Minister Tore O. Sandvik and Ukrainian Defense Minister Yevhenii Khmara signed a letter of intent in Oslo allowing Norway's armed forces to test and evaluate Ukraine's DELTA digital combat ecosystem. Following Germany's parallel DELTA pact covered earlier today, the Oslo framework grants Norway access to DELTA Lab components to assess adaptation for national command-and-control and counter-drone air picture integration, while explicitly excluding any exchange of live operational combat data.",
+      "he": "משרד ההגנה האוקראיני, Militarnyi (15:53Z) ו-Nordic Defence Sector דיווחו ב-24 בנובמבר כי שר ההגנה של נורווגיה תורה סנדוויק ושר ההגנה של אוקראינה יבגני חמארה חתמו באוסלו על הצהרת כוונות שתאפשר לכוחות המזוינים של נורווגיה לבחון ולהעריך את מערכת ניהול הקרב הדיגיטלית DELTA. בהמשך להסכם המקביל של גרמניה שדווח מוקדם יותר היום, המסגרת החדשה מעניקה לנורווגיה גישה לרכיבי DELTA Lab לצורך בחינת אינטגרציה במערכי שו\"ב והתרעה, ללא העברת נתונים מבצעיים חיים."
+     },
+     "figs": {
+      "en": "Parties: Norwegian MoD & Ukrainian MoD. System: DELTA digital battle-management & situational-awareness ecosystem (DELTA Lab test access). Condition: No exchange of live operational data. Date: Nov 24, 2026 (Oslo).",
+      "he": "צדדים: משרדי ההגנה של נורווגיה ואוקראינה. מערכת: מערכת ניהול הקרב הדיגיטלית DELTA. תנאי: ללא חילופי מידע מבצעי חי. תאריך: ‪24 בנובמבר 2026‬."
+     },
+     "why": {
+      "en": "Following Germany and now Norway signing DELTA agreements on the same day, Ukraine is emerging as an exporter of combat-proven C2 software architectures to NATO's northern and central flanks.",
+      "he": "חתימת גרמניה ונורווגיה על הסכמי DELTA באותו יום ממחישה כי אוקראינה הופכת ליצואנית של ארכיטקטורות שו\"ב ותמונת קרב מנוסות לצבאות נאט\"ו."
+     },
+     "israel": {
+      "en": "No direct implication; relevant benchmark for modular C4I architectures alongside Elbit Systems' Torch-X battle-management systems.",
+      "he": "אין השלכה ישירה; אמת מידה רלוונטית למערכות שו\"ב מודולריות דוגמת Torch-X של אלביט מערכות."
+     },
+     "src": [
+      {
+       "t": "Ministry of Defense of Ukraine",
+       "u": "https://mod.gov.ua/en/news/norway-support-for-ukraine-2027-7-billion"
+      },
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/norway-will-test-the-ukrainian-delta-system/"
+      },
+      {
+       "t": "Nordic Defence Sector",
+       "u": "https://nordicdefencesector.com/en/article/norway-signs-letter-of-intent-to-test-ukraines-delta-system"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official Ukrainian MoD release corroborated by Militarnyi and Nordic Defence Sector.",
+      "he": "מאומת — הודעה רשמית של משרד ההגנה האוקראיני שאומתה ב-Militarnyi וב-Nordic Defence Sector."
+     },
+     "s": {
+      "en": "Norway signed a letter of intent in Oslo to test Ukraine's DELTA battle-management ecosystem without sharing live operational data.",
+      "he": "נורווגיה חתמה באוסלו על הצהרת כוונות לבחינת מערכת ניהול הקרב האוקראינית DELTA ללא העברת מידע מבצעי חי."
+     },
+     "photo": "img/j/A3.jpg"
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / Europe",
+     "countryHe": "ארצות הברית / אירופה",
+     "type": "Space Defense Industry M&A / Autonomous Aircraft",
+     "typeHe": "מיזוגים בתעשיית החלל / כטב\"מים אוטונומיים",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Cerberus agrees to acquire Airbus U.S. Space Systems business as Airbus doubles down on autonomous aircraft",
+      "he": "קרן Cerberus רוכשת את חטיבת הלוויינים האמריקאית של Airbus, שתמקד פעילותה בארה\"ב בכטב\"מים אוטונומיים"
+     },
+     "what": {
+      "en": "Cerberus Capital Management and Breaking Defense (16:49Z) announced on November 24 that Cerberus has agreed to acquire the U.S. Space Systems business of Airbus U.S. Space & Defense, with closing expected by the end of 2026 for an undisclosed sum. Located in a 200,000-square-foot satellite facility near Kennedy Space Center in Merritt Island, Florida, the unit has built and launched more than 650 national-security and commercial satellites and will operate as an independent, U.S.-owned spacecraft platform backed by former Space Force Chief Gen. John W. 'Jay' Raymond. Airbus U.S. said the divestiture allows it to double down on its core aviation business and expand autonomous aircraft and drone production.",
+      "he": "קרן ההשקעות Cerberus Capital Management ו-Breaking Defense (16:49Z) הודיעו ב-24 בנובמבר כי Cerberus חתמה על הסכם לרכישת חטיבת מערכות החלל האמריקאית של Airbus U.S. Space & Defense, בעסקה הצפויה להיסגר עד סוף 2026 תמורת סכום שלא נמסר. היחידה, המפעילה מתקן בשטח כ-18,500 מ\"ר בסמוך למרכז החלל קנדי בפלורידה וייצרה מעל 650 לוויינים, תהפוך לפלטפורמה אמריקאית עצמאית בליווי מפקד כוח החלל לשעבר גנרל ג'יי ריימונד. מנגד מסרה Airbus U.S. כי המהלך נועד למקד אותה בהרחבת ייצור מטוסים אוטונומיים וכטב\"מים."
+     },
+     "figs": {
+      "en": "Buyer: Cerberus Capital Management. Seller: Airbus U.S. Space & Defense. Asset: Airbus Space Systems (Merritt Island, FL; ~200,000 sq ft; >650 satellites launched). Price: Not disclosed. Expected Close: End of 2026.",
+      "he": "רוכשת: ‏Cerberus Capital Management. מוכרת: Airbus U.S. Space & Defense. נכס: מתקן ייצור הלוויינים במריט איילנד, פלורידה (מעל 650 לוויינים ששוגרו). מחיר: לא נמסר. סגירה צפויה: סוף 2026."
+     },
+     "why": {
+      "en": "Establishing pure U.S. ownership removes foreign-ownership friction on classified DoD proliferated-LEO constellations while freeing Airbus U.S. capital to compete in Pentagon CCA and autonomous-drone programs.",
+      "he": "מעבר לבעלות אמריקאית מלאה מסיר חסמים ביטחוניים במכרזי לווייני הביטחון של הפנטגון, ומאפשר ל-Airbus U.S. למקד משאבים בפיתוח כטב\"מים אוטונומיים לשוק האמריקאי."
+     },
+     "israel": {
+      "en": "No direct implication; relevant context as Israeli space primes (IAI, Rafael) and drone makers compete alongside U.S. subsidiaries in Pentagon space and autonomous-aircraft tenders.",
+      "he": "אין השלכה ישירה; רקע תחרותי בשוק החלל והכטב\"מים האוטונומיים בארה\"ב."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/investment-firm-cerberus-to-buy-space-business-of-us-airbus-arm/"
+      },
+      {
+       "t": "PR Newswire (Cerberus)",
+       "u": "https://www.prnewswire.com/news-releases/cerberus-to-acquire-the-us-space-systems-business-of-airbus-302949473.html"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official Cerberus Capital Management release via PR Newswire corroborated by Breaking Defense.",
+      "he": "מאומת — הודעה רשמית של Cerberus ב-PR Newswire שאומתה ב-Breaking Defense."
+     },
+     "s": {
+      "en": "Cerberus agreed to acquire Airbus U.S. Space & Defense's Florida satellite manufacturing business by end-2026 while Airbus U.S. pivots toward autonomous aircraft.",
+      "he": "קרן Cerberus תרכוש את עסקי הלוויינים של Airbus בפלורידה עד סוף 2026 בעוד Airbus U.S. מתמקדת בכלי טיס אוטונומיים."
+     },
+     "photo": "img/j/B1.jpg"
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Defense Industrial Base / Drone Supply Chain",
+     "typeHe": "בסיס תעשייתי / שרשרת אספקה לכטב\"מים",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Pentagon in preliminary talks with GM, Ford, and Magna to supply components for mass-produced military drones",
+      "he": "הפנטגון בשיחות ראשוניות עם GM, פורד ומגנה לאספקת רכיבים לייצור המוני של כטב\"מים צבאיים"
+     },
+     "what": {
+      "en": "Defence Blog (16:24Z), Quartz (17:24Z), and Anadolu Agency reported on November 24, citing The Wall Street Journal, that the Pentagon has opened preliminary discussions with General Motors, Ford Motor, Canadian auto-parts maker Magna International, and non-defense manufacturers to supply engines/motors, actuators, sensors, and lidar for mass-produced surveillance and strike drones. U.S. officials are seeking automotive-scale supply chains to support plans to acquire millions of expendable drones (estimated at a USD 20B–30B annual market) that existing drone makers lack factory capacity to fulfill. GM is weighing building drone motors alongside talks with RTX and L3Harris, though executives cautioned that low-margin expendable drones present a thin commercial business case and no contracts have been signed.",
+      "he": "האתרים Defence Blog (16:24Z), Quartz (17:24Z) ו-Anadolu Agency דיווחו ב-24 בנובמבר, בהסתמך על ה-Wall Street Journal, כי הפנטגון מקיים שיחות ראשוניות עם ג'נרל מוטורס, פורד, ספקית החלקים הקנדית Magna International ויצרניות אזרחיות נוספות לאספקת מנועים, מפעילים (actuators), חיישנים ומערכות LiDAR לכטב\"מי סיור ותקיפה. משרד ההגנה האמריקאי מבקש לרתום את קווי הייצור של תעשיית הרכב כדי לעמוד בביקוש הצפוי למיליוני כטב\"מים (שוק מוערך של 20–30 מיליארד דולר בשנה). GM בוחנת ייצור מנועי כטב\"מים ובמקביל שוחחה עם RTX ו-L3Harris, אף שטרם נחתמו חוזים והבכירים הביעו ספק לגבי שולי הרווח."
+     },
+     "figs": {
+      "en": "Parties: U.S. DoD, General Motors, Ford Motor, Magna International (parallel GM talks with RTX & L3Harris). Components: Motors/engines, actuators, sensors, lidar. Estimated Market Cited: USD 20B–30B/year. Status: Preliminary talks; no deals signed.",
+      "he": "משתתפים: משרד ההגנה האמריקאי, GM, פורד, Magna International. רכיבים: מנועים, מפעילים, חיישנים ו-LiDAR. היקף שוק מוערך בדיווח: 20–30 מיליארד דולר בשנה. סטטוס: שיחות ראשוניות ללא חוזים."
+     },
+     "why": {
+      "en": "Bridging Pentagon demand for millions of attritable UAS with Tier-1 automotive electric-motor and sensor manufacturing mirrors wartime industrial mobilization and highlights the severe bottleneck in Western small-drone propulsion and actuator capacity.",
+      "he": "שילוב שרשראות האספקה של תעשיית הרכב בייצור מנועים וחיישנים לכטב\"מים משקף התארגנות תעשייתית רחבה להתמודדות עם צווארי הבקבוק בייצור המוני של חימושים ורחפנים מתכלים."
+     },
+     "israel": {
+      "en": "Relevant industrial-scaling benchmark for Israeli drone and loitering-munition exporters expanding U.S.-based manufacturing compliance.",
+      "he": "אמת מידה רלוונטית ליצרניות הכטב\"מים והחימוש המשוטט הישראליות הפועלות להרחבת קווי ייצור ורכיבים בארה\"ב."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/pentagon-in-talks-with-gm-and-ford-to-help-build-drones/"
+      },
+      {
+       "t": "Quartz",
+       "u": "https://qz.com/pentagon-gm-ford-drone-production-talks-112426"
+      },
+      {
+       "t": "Anadolu Agency",
+       "u": "https://aa.com.tr/en/americas/pentagon-in-talks-with-general-motors-ford-to-boost-military-drone-production-report/4135749"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Multi-outlet trade and business reporting citing The Wall Street Journal.",
+      "he": "מאומת — דווח במספר כלי תקשורת בהסתמך על תחקיר ה-Wall Street Journal."
+     },
+     "s": {
+      "en": "The Pentagon is in preliminary talks with GM, Ford, and Magna International to supply motors, sensors, and actuators for mass-produced military drones.",
+      "he": "הפנטגון מקיים שיחות ראשוניות עם GM, פורד ומגנה לאספקת מנועים, חיישנים ומפעילים לייצור המוני של כטב\"מים."
+     },
+     "photo": "img/j/B2.jpg"
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Japan / United States",
+     "countryHe": "יפן / ארצות הברית",
+     "type": "Drone Propulsion Supply Chain / Industrial Buildup",
+     "typeHe": "שרשרת אספקה לכטב\"מים / תעשייה ביטחונית",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Japan mobilizes automotive suppliers into defense buildup as motor maker Aster supplies Anduril drones",
+      "he": "יפן מגייסת ספקיות רכב להתעצמות הביטחונית: יצרנית המנועים Aster מספקת מנועים לכטב\"מים של Anduril"
+     },
+     "what": {
+      "en": "Defense News and Reuters reported on November 24 (16:08Z) that Tokyo is actively encouraging Japanese automotive parts suppliers to enter defense manufacturing to accelerate Japan's largest military buildup since World War II, backed by a 9.4% year-on-year rise in Japan's draft FY2026 defense budget. As a concrete example, Akita-based Toyota supplier Aster has shifted part of its Yokote assembly lines to produce electric motors powering U.S. defense tech prime Anduril's drones, with defense contracting growing to roughly 10% of Aster's revenue since entering the sector last year.",
+      "he": "ב-Defense News וברויטרס דווח ב-24 בנובמבר (16:08Z) כי ממשלת יפן פועלת לשלב ספקיות רכב מקומיות בייצור ביטחוני כחלק מההתעצמות הצבאית הגדולה במדינה מאז מלחמת העולם השנייה, הנתמכת בעלייה של 9.4% בטיוטת תקציב ההגנה לשנת 2026. כדוגמה בולטת, ספקית רכיבי טויוטה Aster מהעיר יוקוטה עברה לייצור מנועים חשמליים עבור כטב\"מים של חברת Anduril האמריקאית, וכבר מפיקה כ-10% מהכנסותיה מחוזים ביטחוניים."
+     },
+     "figs": {
+      "en": "Supplier: Aster (Yokote, Akita Prefecture, Japan). Customer: Anduril (U.S.). Product: Electric drone motors (~10% of Aster revenue). Macro Context: Japan FY2026 draft defense budget +9.4% YoY.",
+      "he": "ספקית: ‏Aster (יפן). לקוח: ‏Anduril (ארה\"ב). מוצר: מנועים חשמליים לכטב\"מים (כ-10% מהכנסות Aster). רקע: עלייה של 9.4% בטיוטת תקציב הביטחון היפני לשנת 2026."
+     },
+     "why": {
+      "en": "Allied Indo-Pacific industrial mobilization—mirroring Pentagon talks with Detroit automakers—gives Western drone primes like Anduril non-Chinese motor supply chains at automotive scale.",
+      "he": "גיוס תעשיית הרכב היפנית לייצור מנועים חשמליים מספק לחברות כטב\"מים מערביות כמו Anduril שרשרת אספקה חלופית לסין בקנה מידה תעשייתי."
+     },
+     "israel": {
+      "en": "Relevant non-Chinese electric propulsion sourcing trend for Israeli and allied tactical UAV and loitering-munition manufacturers.",
+      "he": "מגמה רלוונטית בגיוון מקורות הנעה חשמלית שאינם סיניים עבור יצרניות כטב\"מים וחימוש משוטט."
+     },
+     "src": [
+      {
+       "t": "Defense News (Reuters)",
+       "u": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Reuters wire feature published in Defense News based on nine interviews with officials and executives.",
+      "he": "מאומת — כתבת תחקיר של סוכנות רויטרס שפורסמה ב-Defense News."
+     },
+     "s": {
+      "en": "Tokyo is drawing automotive parts suppliers into its defense buildup, with Toyota supplier Aster producing electric motors for Anduril drones.",
+      "he": "יפן משלבת ספקיות רכב בהתעצמות הביטחונית; חברת Aster כבר מייצרת מנועים חשמליים לכטב\"מים של Anduril."
+     },
+     "photo": "img/j/B3.jpg"
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Tactical AI C2 / NGC2 Software",
+     "typeHe": "שו\"ב טקטי מבוסס AI / רשת קרב",
+     "date": "2026-11-24",
+     "h": {
+      "en": "U.S. Army C5ISR Center developing 'Odin' tactical-edge AI planning app integrated with Palantir and Anduril",
+      "he": "מרכז C5ISR של צבא ארה\"ב מפתח את אפליקציית התכנון הטקטי 'Odin' בשילוב Palantir ו-Anduril"
+     },
+     "what": {
+      "en": "Breaking Defense reported on November 24 (16:03Z) that a U.S. Army DEVCOM C5ISR Center team at Fort Belvoir is building an AI-enhanced tactical mission-planning application called Odin for battalion, company, and platoon leaders operating on tablets and smartphones under low-compute, low-bandwidth conditions. According to team lead Maj. Andrew Durfee, Odin turns terrain and map data into color-coded mobility overlays, was field-tested by the 4th Infantry Division at Project Convergence Capstone 6 (PCC-6), and is being integrated into the Army's Next Generation Command and Control (NGC2) ecosystem alongside Palantir and Anduril data layers. The team plans upgraded trials at PCC-7 next year, followed by a Minimum Viable Capability Release and transition to the Army's C2 acquisition office.",
+      "he": "ב-Breaking Defense דווח ב-24 בנובמבר (16:03Z) כי צוות במרכז המו\"פ C5ISR של צבא ארה\"ב בפורט בלוואר מפתח יישום תכנון קרבי מבוסס AI בשם Odin לדרגי הגדוד, הפלוגה והמחלקה על גבי טאבלטים וטלפונים מוקשחים בתנאי רוחב פס מוגבלים. לדברי ראש הצוות מייג'ור אנדרו דורפי, היישום נבחן על ידי דיוויזיית החי\"ר ה-4 בתרגיל PCC-6, משתלב במארג ה-NGC2 הצבאי ועובד בשיתוף הדוק עם שכבות הנתונים של Palantir ו-Anduril. בשנה הבאה מתוכננים ניסויים מתקדמים בתרגיל PCC-7 ומסירת גרסה מבצעית ראשונית."
+     },
+     "figs": {
+      "en": "Developer: U.S. Army DEVCOM C5ISR Center (Fort Belvoir, VA). Industry Integration: Palantir & Anduril (NGC2 ecosystem). Echelon: Battalion, company, platoon (tablet/smartphone). Milestones: Tested at PCC-6 (4th ID); PCC-7 trials & MVCR planned for 2027.",
+      "he": "מפתח: ‏U.S. Army DEVCOM C5ISR Center. שותפות ממשק: ‏Palantir ו-Anduril (מסגרת NGC2). דרג: גדוד, פלוגה ומחלקה. אבני דרך: נוסה ב-PCC-6; ניסויי PCC-7 והפצת MVCR ב-2027."
+     },
+     "why": {
+      "en": "Embedding lightweight AI terrain and mission-planning tools directly into NGC2's 'app-store' architecture illustrates the Army's shift toward modular tactical software interoperable with commercial primes.",
+      "he": "שילוב כלי תכנון AI קלים במארג NGC2 במודל \"חנות אפליקציות\" מדגים את המעבר של צבא ארה\"ב לתוכנה טקטית מודולרית המותאמת לתעשייה האזרחית-ביטחונית."
+     },
+     "israel": {
+      "en": "No direct implication; comparable to tactical-edge BMS and terrain-analysis apps fielded in IDF maneuver units.",
+      "he": "אין השלכה ישירה; בר-השוואה ליישומי צי\"ד ותכנון טקטי בדרגי הקצה של כוחות היבשה."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/how-a-small-army-team-built-a-lightweight-battle-planning-app-odin/"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source: Exclusive Breaking Defense interview with C5ISR Center Odin team lead Maj. Andrew Durfee.",
+      "he": "לא מאומת — מקור יחיד: ראיון בלעדי של Breaking Defense עם ראש צוות Odin ב-C5ISR."
+     },
+     "s": {
+      "en": "The U.S. Army's C5ISR Center is integrating its 'Odin' tactical-edge AI planning app with Palantir and Anduril under NGC2 ahead of 2027 PCC-7 trials.",
+      "he": "מרכז C5ISR של צבא ארה\"ב משלב את אפליקציית התכנון הטקטי Odin מבוססת ה-AI עם Palantir ו-Anduril לקראת ניסויי 2027."
+     },
+     "photo": "img/j/B4.jpg"
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Canada",
+     "countryHe": "קנדה",
+     "type": "Fighter Procurement Policy Debate",
+     "typeHe": "דיון רכש מטוסי קרב",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Briefly noted: RCAF 'Project Arrow' concept paper centers future fleet on F-35 and domestic drones, omitting Gripen",
+      "he": "בקצרה: מסמך קונספט של חיל האוויר הקנדי ('Project Arrow') מבסס את צי העתיד על F-35 וכטב\"מים מקומיים ומשמיט את הגריפן"
+     },
+     "what": {
+      "en": "An internal Royal Canadian Air Force autonomous-collaborative-platform discussion paper titled 'Project Arrow' obtained by CBC News and covered by Defence Blog (16:30Z) outlines a future combat fleet anchored by the F-35A, Canadian-made combat drones, and future sixth-generation fighters with no mention of Saab's Gripen, though Canada's defence department stressed the document is not formal procurement policy.",
+      "he": "מסמך דיון פנימי של חיל האוויר הקנדי בשם Project Arrow שנחשף ב-CBC News וסוקר ב-Defence Blog (16:30Z) מתאר תפיסת צי קרב עתידי המבוססת על מטוסי F-35A, כטב\"מי תקיפה מתוצרת קנדה ומטוסי דור שישי—ללא אזכור של מטוס הגריפן השוודי—אף שמשרד ההגנה הקנדי הדגיש כי אין מדובר במדיניות רכש רשמית."
+     },
+     "figs": {
+      "en": "Document: RCAF 'Project Arrow' concept paper (non-policy). Fleet Focus: F-35A + Canadian CCAs/autonomous drones (omits Saab Gripen).",
+      "he": "מסמך: נייר תפיסה Project Arrow של חיל האוויר הקנדי (לא מחייב). מוקד: F-35A וכטב\"מים אוטונומיים מקומיים (ללא גריפן)."
+     },
+     "why": {
+      "en": "Briefly noted in the digest under the Reader Interest Profile (fighter-program political debate without a formal contract or milestone).",
+      "he": "בקצרה — סווג לפי פרופיל הקורא כשיח מדיניות בנושא מטוסי קרב ללא אבן דרך חוזית."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/canadas-air-force-bets-on-f-35-as-its-core-fighter-jet/"
+      },
+      {
+       "t": "CBC News",
+       "u": "https://www.cbc.ca/news/politics/canada-air-force-f35-fighters-defence-9.7433001"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Corroborated by CBC News report and Defence Blog.",
+      "he": "מאומת — דווח ב-CBC News וב-Defence Blog."
+     },
+     "s": {
+      "en": "A leaked RCAF 'Project Arrow' discussion paper envisions a future fighter fleet built around the F-35 and Canadian drones while omitting the Saab Gripen.",
+      "he": "מסמך פנימי של חיל האוויר הקנדי משרטט צי קרב עתידי סביב F-35 וכטב\"מים קנדיים ללא אזכור למטוס הגריפן."
+     },
+     "photo": "img/j/B5.jpg"
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel / Iran",
+     "countryHe": "ישראל / איראן",
+     "type": "Strategic Threat / WMD & Preemption Posture",
+     "typeHe": "איום אסטרטגי / נשק בלתי קונבנציונלי",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Israeli Defense Minister Katz warns Iran is developing chemical weapons and urges IDF–U.S. preemptive readiness",
+      "he": "שר הביטחון כ\"ץ מזהיר כי איראן מפתחת נשק כימי וקורא למוכנות למתקפת מנע ישראלית-אמריקאית"
+     },
+     "what": {
+      "en": "Israeli Defense Minister Israel Katz told reporters in a November 24 briefing (reported by The Jerusalem Post at 19:00Z, APA, and Times of Israel correspondents) that Iran has made a strategic decision to develop chemical weapons to regain deterrence against Israel. While noting Tehran does not yet possess an operational chemical strike capability, Katz pledged Israel 'will not allow Iran to attain a chemical weapon' and said the IDF must prepare—preferably alongside U.S. CENTCOM—to block the program before it reaches a 'zone of immunity', while also warning Iran is working to extend ballistic-missile ranges toward Europe. Tehran dismissed the allegations.",
+      "he": "שר הביטחון ישראל כ\"ץ מסר בתדרוך לעיתונאים ב-24 בנובמבר (דווח ב-Jerusalem Post ב-19:00Z, ב-APA ובכתבים צבאיים ישראליים) כי איראן קיבלה החלטה אסטרטגית לפתח נשק כימי בניסיון ליצור איזון מחדש מול ישראל. כ\"ץ ציין כי לטהראן אין עדיין יכולת תקיפה כימית מבצעית, אך התחייב כי ישראל \"לא תאפשר לאיראן להשיג נשק כימי\" והוסיף כי על צה\"ל להיערך—רצוי בשיתוף ארה\"ב ו-CENTCOM—לסכל את התוכנית לפני שתגיע לאזור חסינות, לצד מאמצי איראן להאריך את טווח הטילים הבליסטיים שלה. בטהראן דחו את ההאשמות."
+     },
+     "figs": {
+      "en": "Official Statement: Israeli Defense Minister Israel Katz (Nov 24, 2026 briefing). Assessed Threat: Active Iranian chemical-weapons development (not yet operational) + extended-range ballistic-missile efforts. Posture: Calls for IDF preemptive readiness with U.S. CENTCOM.",
+      "he": "הצהרה רשמית: שר הביטחון ישראל כ\"ץ (‪24 בנובמבר 2026‬). האיום המוצג: פיתוח נשק כימי באיראן (טרם הושגה יכולת מבצעית) והארכת טווח טילים בליסטיים. עמדה: היערכות צה\"ל למניעה מקדימה, רצוי עם ארה\"ב."
+     },
+     "why": {
+      "en": "Publicly framing an emerging Iranian chemical-weapons effort alongside extended-range ballistic missiles signals a major Israeli strategic warning and potential escalation threshold requiring coordinated IDF–U.S. strike and civil/CBRN defense preparation.",
+      "he": "הצפה פומבית של תוכנית נשק כימי איראנית לצד פיתוח טילים ארוכי טווח מציבה סף התרעה אסטרטגי חדש המחייב תיאום ישראלי-אמריקאי והיערכות התקפית והגנתית."
+     },
+     "israel": {
+      "en": "Direct core national-security issue for Israel: potential CBRN escalation threshold, IDF/IAF preemptive strike planning with CENTCOM, and Arrow / David's Sling / civil-defense readiness.",
+      "he": "סוגיית ליבה ביטחונית לישראל: סף איום כימי פוטנציאלי, תיאום מבצעי בין צה\"ל ל-CENTCOM ומוכנות מערכי ההגנה האווירית והעורף."
+     },
+     "src": [
+      {
+       "t": "The Jerusalem Post",
+       "u": "https://www.jpost.com/israel-news/defense-news/article-915994"
+      },
+      {
+       "t": "APA (Azerbaijan Press Agency)",
+       "u": "https://en.apa.az/asia/israeli-defense-minister-iran-is-developing-chemical-weapons-we-are-preparing-for-an-attack-jointly-with-us-538358"
+      },
+      {
+       "t": "Israel.com",
+       "u": "https://www.israel.com/news/katz-says-iran-is-developing-chemical-weapons-and-israel-will-not-allow-it"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — On-the-record ministerial briefing reported across Israeli and international media (Iranian chemical-program claim itself relies on Israeli intelligence/ministerial statements).",
+      "he": "מאומת — תדרוך רשמי של שר הביטחון שדווח בכלי תקשורת ישראליים ובינלאומיים."
+     },
+     "s": {
+      "en": "Israeli Defense Minister Katz warned Iran is developing chemical weapons and urged IDF readiness, preferably alongside the U.S., for preemptive action before Tehran reaches operational capability.",
+      "he": "שר הביטחון כ\"ץ הזהיר כי איראן מפתחת נשק כימי וקרא להיערכות למניעה צבאית מקדימה עם ארה\"ב."
+     },
+     "photo": "img/j/C1.jpg"
+    },
+    {
+     "id": "C2",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Kingdom",
+     "countryHe": "בריטניה",
+     "type": "Long-Range Strike Procurement / Defence Investment Plan",
+     "typeHe": "רכש חימוש ארוך טווח / תכנית השקעות ביטחון",
+     "date": "2026-11-24",
+     "h": {
+      "en": "UK confirms funds set aside for new-build Storm Shadow missiles were redirected to UK-made low-cost mass munitions",
+      "he": "בריטניה מאשרת: תקציבים שיועדו לייצור טילי Storm Shadow חדשים הוסטו לחימושים זולים בהיקף המוני"
+     },
+     "what": {
+      "en": "UK Defence Journal reported on November 24 (18:43Z) that Minister of State for the Armed Forces/Defence Al Carns/Jones told MPs in Parliament that the UK Ministry of Defence redirected major funding previously earmarked for new-build Storm Shadow cruise missiles into domestically manufactured, low-cost mass munitions modeled on systems fielded in Ukraine. Presenting the trade-offs behind the UK Defence Investment Plan, the minister outlined headline investment lines including GBP 11 billion for munitions, GBP 7.3 billion for digital targeting and backbone, GBP 5 billion for autonomy, and GBP 1.2 billion for underwater warfare autonomy, alongside existing commitments to Project Brakestop low-cost strike weapons and GBP 1.4 billion for Storm Shadow's future STRATUS successor.",
+      "he": "ב-UK Defence Journal דווח ב-24 בנובמבר (18:43Z) כי שר ההגנה הבריטי מסר לחברי הפרלמנט כי משרד ההגנה הסית סכומים ניכרים שיועדו לייצור טילי שיוט חדשים מדגם Storm Shadow לטובת רכש וייצור מקומי בבריטניה של חימושי תקיפה זולים והמוניים ברוח לקחי אוקראינה. השר פירט את עיקרי תוכנית ההשקעות הביטחונית (DIP): 11 מיליארד ליש\"ט לחימושים, 7.3 מיליארד ליש\"ט לתקיפה דיגיטלית ושדרה מבצעית, 5 מיליארד ליש\"ט למערכות אוטונומיות ו-1.2 מיליארד ליש\"ט לאוטונומיה תת-ימית—לצד תוכניות Project Brakestop ו-1.4 מיליארד ליש\"ט למחליף העתידי STRATUS."
+     },
+     "figs": {
+      "en": "Buyer: UK Ministry of Defence (Defence Investment Plan). Reallocation: Storm Shadow new-build budget shifted to UK-built low-cost mass munitions (Storm Shadow retained in service; GBP 1.4B committed to STRATUS). Plan Lines Cited: GBP 11B munitions; GBP 7.3B digital targeting/backbone; GBP 5B autonomy; GBP 1.2B underwater autonomy.",
+      "he": "רוכש: משרד ההגנה הבריטי. הסטת תקציב: מתקציבי ייצור Storm Shadow חדש לחימושים זולים בהיקף המוני בבריטניה (השקעה של 1.4 מיליארד ליש\"ט ב-STRATUS נמשכת). סעיפים בתוכנית: 11 מיליארד ליש\"ט חימושים, 7.3 מיליארד תקיפה דיגיטלית, 5 מיליארד אוטונומיה ו-1.2 מיליארד לוחמה תת-ימית."
+     },
+     "why": {
+      "en": "Explicitly trading new exquisite Storm Shadow buys for mass-producible one-way/low-cost strike munitions marks one of NATO's sharpest doctrinal budget pivots away from small high-cost cruise-missile inventories.",
+      "he": "הוויתור על רכש נוסף של טילי שיוט יקרים לטובת מסה של חימושי תקיפה זולים מסמן תפנית תקציבית ודוקטרינרית מובהקת בנאט\"ו בהשראת מלחמת אוקראינה."
+     },
+     "israel": {
+      "en": "Reinforces European demand for affordable long-range strike munitions and loitering-missile architectures where Israeli primes (IAI Wind Demon, UVision, Elbit) actively compete.",
+      "he": "מחזק את מגמת הביקוש האירופית לחימושי תקיפה וחימושים משוטטים ארוכי טווח וזולים, תחום שבו פעילות IAI, אלביט ו-UVision."
+     },
+     "src": [
+      {
+       "t": "UK Defence Journal",
+       "u": "https://ukdefencejournal.org.uk/new-build-storm-shadow-money-switched-to-cheap-munitions/"
+      },
+      {
+       "t": "UK MoD Defence Investment Plan (GOV.UK PDF)",
+       "u": "https://assets.publishing.service.gov.uk/media/6a44e989167a99cf0018da38/The_Defence_Investment_Plan.pdf"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Parliamentary ministerial testimony reported by UK Defence Journal alongside the official UK Defence Investment Plan document.",
+      "he": "מאומת — עדות שר ההגנה בפרלמנט הבריטי כפי שדווחה ב-UK Defence Journal לצד מסמך תוכנית ההשקעות הרשמי."
+     },
+     "s": {
+      "en": "UK defence leadership told MPs that funds reserved for new-build Storm Shadow missiles were redirected to domestically built low-cost mass munitions under a GBP 11B munitions plan.",
+      "he": "משרד ההגנה הבריטי אישר בפרלמנט כי תקציבים לייצור Storm Shadow חדש הוסטו לחימושים זולים בהיקף המוני בבריטניה."
+     },
+     "photo": "img/j/C2.jpg"
+    },
+    {
+     "id": "C3",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "North Korea",
+     "countryHe": "קוריאה הצפונית",
+     "type": "Nuclear Enrichment / Satellite Analysis",
+     "typeHe": "העשרת אורניום / ניתוח לוויין",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Briefly noted: ISIS assesses Yongbyon enrichment extension could add six LEU cascades or >100 kg/yr weapon-grade uranium topping capacity",
+      "he": "בקצרה: מכון ISIS מעריך כי הרחבת מתקן יונגביון עשויה להוסיף שש שרשראות צנטריפוגות או יכולת העשרה של מעל 100 ק\"ג אורניום מועשר לנשק בשנה"
+     },
+     "what": {
+      "en": "In a new technical report tweeted on November 24 (15:42Z) following IAEA DG Rafael Grossi's November 18 warning, the Institute for Science and International Security (ISIS) assessed that the narrow extension at North Korea's Yongbyon gas-centrifuge plant matches the width of a 2025 Kangsong expansion and could house six low-enriched uranium cascades (~1–2 tonnes/year of 4% LEU) or 'topping' cascades yielding >100 kg/year of 90% weapon-grade uranium.",
+      "he": "בדוח טכני שפורסם בציוץ ב-24 בנובמבר (15:42Z) בעקבות אזהרת מנכ\"ל סבא\"א מ-18 בנובמבר, העריך מכון ISIS כי האגף הצר שנבנה במתקן ההעשרה ביונגביון תואם ברוחבו להרחבת מתקן קאנגסונג ועשוי לאכלס שש שרשראות לייצור 1–2 טון אורניום מועשר נמוך או מערך השלמה להפקת מעל 100 ק\"ג אורניום ברמת נשק בשנה."
+     },
+     "figs": {
+      "en": "Facility: Yongbyon uranium enrichment plant (DPRK). Option A: 6 LEU cascades (~1–2 tonnes/yr at 4%). Option B: Topping cascades (>100 kg/yr at 90% WGU).",
+      "he": "מתקן: יונגביון (קוריאה הצפונית). תרחיש א': 6 שרשראות LEU. תרחיש ב': שרשראות העשרה לרמת נשק של מעל 100 ק\"ג לשנה."
+     },
+     "why": {
+      "en": "Briefly noted in the digest under the Reader Interest Profile (satellite/technical follow-up analysis on an earlier IAEA disclosure).",
+      "he": "בקצרה — סווג לפי פרופיל הקורא כניתוח לוויין המשך לדיווח קודם של סבא\"א."
+     },
+     "israel": {
+      "en": "Relevant non-proliferation benchmark regarding rapid modular centrifuge hall construction.",
+      "he": "אמת מידה רלוונטית למעקב אחר הקמה מהירה של אולמות צנטריפוגות מודולריים."
+     },
+     "src": [
+      {
+       "t": "ISIS (Institute for Science and International Security)",
+       "u": "https://isis-online.org/isis-reports/another-expansion-at-the-yongbyon-enrichment-plant"
+      },
+      {
+       "t": "@TheGoodISIS (X)",
+       "u": "https://x.com/TheGoodISIS/status/2125253707139076225"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Published ISIS technical imagery report and annotated satellite analysis.",
+      "he": "מאומת — דוח טכני וניתוח תצלומי לוויין של מכון ISIS."
+     },
+     "s": {
+      "en": "ISIS satellite analysis assesses North Korea's new Yongbyon extension could house six LEU cascades or topping cascades producing >100 kg/year of weapon-grade uranium.",
+      "he": "ניתוח לוויין של מכון ISIS מעריך כי ההרחבה ביונגביון תאפשר הפקת מעל 100 ק\"ג אורניום מועשר לנשק בשנה בתצורת השלמה."
+     },
+     "photo": "img/j/C3.jpg"
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "North Korea",
+     "countryHe": "קוריאה הצפונית",
+     "type": "Naval Surface Force / Coast Guard Conversion",
+     "typeHe": "צי שטח / הסבת כלי שיט צבאי",
+     "date": "2026-11-24",
+     "h": {
+      "en": "North Korea fields first marked 'Coast Guard' patrol vessel—a converted Nongo-class combatant armed with a 76mm cannon",
+      "he": "קוריאה הצפונית חשפה לראשונה ספינת \"משמר חופים\" מסומנת—ככל הנראה כלי תקיפה מסדרת Nongo עם תותח 76 מ\"מ"
+     },
+     "what": {
+      "en": "Militarnyi (17:00Z) and Korea JoongAng Daily reported that South Korean journalists photographed a North Korean vessel bearing white hull paint, blue 'Coast Guard' markings, and a shield emblem for the first time near Changje-do and Sokto north of the Yellow Sea Northern Limit Line on November 16–17. Analysts assess the corroded hull—which carries a bow-mounted ~76mm artillery cannon and lacks standard search-and-rescue cranes—is a converted DPRK Navy Nongo-class fast combat catamaran repurposed to escort or monitor Chinese fishing vessels under a formal maritime-police banner.",
+      "he": "ב-Militarnyi (17:00Z) וב-Korea JoongAng Daily דווח כי עיתונאים דרום-קוריאנים תיעדו לראשונה ב-16–17 בנובמבר כלי שיט צפון-קוריאני הצבוע בלבן עם כיתוב \"משמר החופים\" בכחול וסמל מגן סמוך לקו הגבול הימי (NLL) בים הצהוב. לפי מומחים, כלי השיט—החמוש בתותח חרטום בקוטר משוער של 76 מ\"מ וחסר ציוד חילוץ והצלה—הוא גוף מוסב של ספינת תקיפה מהירה מסדרת Nongo של הצי הצפון-קוריאני, שפעל לצד ספינות דיג סיניות."
+     },
+     "figs": {
+      "en": "Operator: DPRK Coast Guard / Maritime Police (first observed markings). Hull Assessment: Converted Nongo-class combatant. Armament: Suspected 76mm bow naval gun; no SAR cranes observed. Location: Near Changje-do / Sokto, Yellow Sea (north of NLL).",
+      "he": "מפעיל: משמר החופים של קוריאה הצפונית (סימון ראשון מסוגו). גוף משוער: כלי תקיפה מוסב מסדרת Nongo. חימוש: תותח חרטום כ-76 מ\"מ; ללא ציוד חילוץ. מיקום: צפונית ל-NLL בים הצהוב."
+     },
+     "why": {
+      "en": "Rebranding heavily armed fast-attack hulls as a 'Coast Guard' creates a gray-zone maritime enforcement tool near the disputed NLL and mirrors Chinese Coast Guard white-hull tactics.",
+      "he": "מיתוג ספינות קרב חמושות כ\"משמר חופים\" יוצר כלי חיכוך באזור אפור סביב קו הגבול הימי בים הצהוב, בדומה לדוקטרינת משמר החופים הסיני."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/north-korea-coast-guard-patrol-boat-76-mm/"
+      },
+      {
+       "t": "Korea JoongAng Daily",
+       "u": "https://www.koreajoongangdaily.com/korea/north-korean-coast-guard-ship-spotted-near-yellow-sea-border-for-first-time/12984682"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — First-hand telephoto reporting by JoongAng Ilbo corroborated by Militarnyi naval analysis.",
+      "he": "מאומת — תיעוד עיתונאי ישיר של JoongAng Ilbo ואנליזה של Militarnyi."
+     },
+     "s": {
+      "en": "North Korea was photographed for the first time operating a marked 'Coast Guard' patrol vessel—likely a converted 76mm-armed Nongo-class hull—near the Yellow Sea NLL.",
+      "he": "תועדה לראשונה ספינת \"משמר חופים\" של קוריאה הצפונית—ככל הנראה גוף Nongo מוסב עם תותח 76 מ\"מ—בקרבת הגבול הימי."
+     },
+     "photo": "img/j/D1.jpg"
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Russia / Germany / United Kingdom",
+     "countryHe": "רוסיה / גרמניה / בריטניה",
+     "type": "Naval Electronic Warfare / Hybrid Threats (Germany Focus)",
+     "typeHe": "לוחמה אלקטרונית ימית / איום היברידי (מיקוד גרמניה)",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Russian Baltic Fleet corvette Stoykiy convoy linked to 19-minute North Sea GPS jamming hitting 140 flights across UK, Netherlands, and northwestern Germany",
+      "he": "שיירה רוסית בליווי הקורבטה Stoykiy נקשרה לשיבוש GPS בים הצפוני שפגע בכ-140 טיסות מעל בריטניה, הולנד וצפון-מערב גרמניה"
+     },
+     "what": {
+      "en": "Militarnyi (18:29Z) and ADS Advance reported on November 24, citing aviation ADS-B modeling by Hexbird and an investigation by The i Paper, that a severe 19-minute satellite-navigation jamming event on November 9 (17:08–17:27Z) degraded positioning across ~140 commercial aircraft (92 simultaneously) over the southern North Sea, eastern England, the Netherlands, and northwestern Germany. Transmitter localization and maritime tracking linked the interference to a Russian cargo convoy (Maia-1, Lady R, Lady D) escorted in the North Sea by the Baltic Fleet Project 20380 corvette Stoykiy.",
+      "he": "ב-Militarnyi (18:29Z) וב-ADS Advance דווח ב-24 בנובמבר, בהסתמך על מחקר נתוני ADS-B של חברת Hexbird ותחקיר The i Paper, כי ב-9 בנובמבר (17:08–17:27Z) שיבוש GNSS עוצמתי שנמשך כ-19 דקות פגע בדיוק הניווט של כ-140 מטוסי נוסעים (92 בו-זמנית) מעל דרום הים הצפוני, מזרח אנגליה, הולנד וצפון-מערב גרמניה. איכון מקור השידור קשר את האירוע לשיירת אוניות משא רוסיות שלוותה בקורבטה Stoykiy מדגם 20380 מהצי הבלטי."
+     },
+     "figs": {
+      "en": "Suspected Platform: Russian Baltic Fleet Project 20380 corvette Stoykiy & cargo convoy. Event Date: Nov 9, 2026 (17:08–17:27Z, 19 min). Impact: ~140 aircraft (92 simultaneous) across North Sea, eastern UK, Netherlands, and northwestern Germany.",
+      "he": "פלטפורמה חשודה: קורבטה רוסית Stoykiy (פרויקט 20380) ושיירת משא. תאריך אירוע: ‪9 בנובמבר 2026‬ (19 דקות). היקף: כ-140 מטוסים מעל בריטניה, הולנד וצפון-מערב גרמניה."
+     },
+     "why": {
+      "en": "High-power shipborne GNSS jamming in the southern North Sea marks a notable westward spillover of Russian naval electronic warfare into NATO's core North Sea and northwestern German airspace.",
+      "he": "הפעלת שיבוש לווייני ימי בעוצמה גבוהה בדרום הים הצפוני משקפת זליגה מערבה של לוחמה אלקטרונית רוסית למרחבים אוויריים מרכזיים של גרמניה, הולנד ובריטניה."
+     },
+     "israel": {
+      "en": "Reinforces operational lessons on multi-constellation anti-jamming navigation resilience for commercial and military aviation.",
+      "he": "מחדד את חשיבות יתירות הניווט ועמידות מול שיבושי GNSS בתעופה צבאית ואזרחית."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/gps-jamming-russian-ship-140-flights-over-united-kingdom-and-north-sea/"
+      },
+      {
+       "t": "ADS Advance",
+       "u": "https://www.adsadvance.co.uk/north-sea-gps-interference-russian-warship/"
+      },
+      {
+       "t": "Hexbird Analysis",
+       "u": "https://hexbird.io/artifact-frame/eyJhcnRpZmFjdElkIjoiYmNhZWVhZDctZjJjMS00ZmEzLWE1MzMtZjgzZjNkYzIwMTQxIiwidmVyc2lvbiI6OCwiYXBwT3JpZ2luIjoiaHR0cHM6Ly9oZXhiaXJkLmlvIiwiZXhwaXJlc0F0IjoxNzk1NTY4NDAwMDAwfQ.uddAQidTat8eZfBSxoP4HS0q105Rw15Bln5icQEX3Uc/8/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Corroborated by Hexbird ADS-B telemetry analysis, ADS Advance, and Militarnyi citing The i Paper.",
+      "he": "מאומת — אומת בניתוח נתוני Hexbird, ב-ADS Advance וב-Militarnyi."
+     },
+     "s": {
+      "en": "ADS-B telemetry linked a 19-minute Nov 9 GPS jamming event affecting ~140 flights across the UK, Netherlands, and northwestern Germany to a Russian convoy escorted by corvette Stoykiy.",
+      "he": "ניתוח נתוני טיסה קישר שיבוש GPS שפגע בכ-140 טיסות מעל בריטניה, הולנד וצפון-מערב גרמניה לשיירה רוסית בליווי הקורבטה Stoykiy."
+     },
+     "photo": "img/j/D2.jpg"
+    },
+    {
+     "id": "D3",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Arctic Naval Operations / Shipborne UAV Trials",
+     "typeHe": "פעילות ימית ארקטית / ניסויי כטב\"מים מסיפון",
+     "date": "2026-11-24",
+     "h": {
+      "en": "U.S. Coast Guard icebreaker Storis completes 133-day maiden Arctic voyage testing Textron and Skyfront UAVs with DIU",
+      "he": "שוברת הקרח החדשה של משמר החופים האמריקאי Storis השלימה מסע בכורה ארקטי של 133 יום עם ניסויי כטב\"מים של Textron ו-Skyfront"
+     },
+     "what": {
+      "en": "Defense News reported on November 24 (18:44Z) that the U.S. Coast Guard's newest icebreaker, USCGC Storis (commissioned August 2025), returned from a 133-day maiden deployment across the Arctic Ocean and Alaska where it conducted live-fire gunnery and hosted Coast Guard R&D Center and Pentagon Defense Innovation Unit (DIU) personnel for extreme-cold drone trials. Capt. Corey Kerns told Military Times that onboard experiments flew Textron and Skyfront unmanned aerial vehicles to validate cold-weather endurance and real-time sea-ice lead reconnaissance for bridge navigation.",
+      "he": "ב-Defense News דווח ב-24 בנובמבר (18:44Z) כי שוברת הקרח החדשה של משמר החופים האמריקאי USCGC Storis שבה מהפלגת בכורה בת 133 ימים באוקיינוס הארקטי ובאלסקה, שכללה תרגילי ירי חי וניסויי כטב\"מים בתנאי קיצון בשיתוף מרכז המו\"פ של המשמר ויחידת החדשנות של הפנטגון (DIU). מפקד הספינה מסר כי צוותי הניסוי הפעילו מהסיפון כטב\"מים מתוצרת Textron ו-Skyfront לבחינת עמידות בקור קיצוני ולסיוע בסיור ותמרון בין שדות קרח."
+     },
+     "figs": {
+      "en": "Platform: USCGC Storis (commissioned Aug 2025; 133-day Arctic deployment). Experiment Partners: USCG Research & Development Center + Pentagon DIU. UAVs Tested: Textron & Skyfront models (ice navigation & cold-weather trials) + live-fire gunnery.",
+      "he": "פלטפורמה: ‏USCGC Storis (133 ימי הפלגה ארקטית). שותפים: מרכז המו\"פ של משמר החופים ו-DIU. כטב\"מים שנוסו: Textron ו-Skyfront, לצד ניסויי ירי חי."
+     },
+     "why": {
+      "en": "Combining icebreaker operations with DIU-backed commercial/tactical UAV reconnaissance demonstrates how the U.S. sea services are adapting shipborne uncrewed ISR to contested high-latitude operations.",
+      "he": "שילוב כטב\"מים טקטיים מסיפון שוברת קרח בתמיכת DIU מדגים התאמת מערכי איסוף בלתי מאוישים לפעילות ימית באזור הארקטי המתעצם."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Defense News",
+       "u": "https://www.defensenews.com/naval/2026/11/24/a-new-competition-space-us-coast-guard-takes-icebreaker-on-maiden-voyage-to-the-arctic/"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source: Defense News / Military Times interview with USCGC Storis commanding officer Capt. Corey Kerns.",
+      "he": "לא מאומת — מקור יחיד: ראיון של Defense News / Military Times עם מפקד הספינה."
+     },
+     "s": {
+      "en": "USCGC Storis completed a 133-day maiden Arctic deployment featuring live-fire gunnery and DIU cold-weather trials of Textron and Skyfront UAVs.",
+      "he": "שוברת הקרח האמריקאית Storis השלימה מסע ארקטי של 133 יום עם ניסויי ירי חי וכטב\"מים של Textron ו-Skyfront."
+     },
+     "photo": "img/j/D3.jpg"
+    },
+    {
+     "id": "D4",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "UPDATE",
+      "CONFIRMED"
+     ],
+     "country": "Albania / Russia / Ukraine",
+     "countryHe": "אלבניה / רוסיה / אוקראינה",
+     "type": "USV Strike Attribution Update",
+     "typeHe": "עדכון שיוך לתקיפת כלי שיט בלתי מאוישים",
+     "date": "2026-11-24",
+     "h": {
+      "en": "Briefly noted (UPDATE): Albania categorically denies Ukrainian sea drones in Benghazi Merkury strike launched from its territory",
+      "he": "בקצרה (עדכון): אלבניה מכחישה בתוקף כי הכשב\"מים האוקראיניים שפגעו בקורבטה Merkury בבנגאזי שוגרו משטחה"
+     },
+     "what": {
+      "en": "Albania's Defense/Foreign Ministry stated on November 24 (18:00Z via UK Defence Journal) that reports claiming the seven Ukrainian naval drones used to strike Russia's Project 20380 corvette Merkury and cargo vessel MV Angara in Benghazi originated from Albanian territory are completely inaccurate, while Ukraine's SBU maintained the drones launched from a mothership.",
+      "he": "אלבניה פרסמה ב-24 בנובמבר (18:00Z דרך UK Defence Journal) הכחשה רשמית לטענות ברשת לפיהן שבעת הכשב\"מים האוקראיניים שתקפו את הקורבטה הרוסית Merkury ואת MV Angara בבנגאזי שוגרו משטחה, בעוד שירות הביטחון האוקראיני עומד על כך ששוגרו מאוניית-אם."
+     },
+     "figs": {
+      "en": "Update: Official Albanian denial of territory use in Nov 22 Benghazi USV strike (covered 2026-11-23 D1).",
+      "he": "עדכון: הכחשה רשמית של אלבניה למעורבות או שיגור משטחה בתקיפה בבנגאזי (סוקר ב-‪2026-11-23 D1‬)."
+     },
+     "why": {
+      "en": "Briefly noted in the digest under the Reader Interest Profile (minor attribution update on previously covered Benghazi USV strike).",
+      "he": "בקצרה — סווג לפי פרופיל הקורא כעדכון משני לשיוך המבצעי של תקיפת בנגאזי שכבר סוקרה."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "UK Defence Journal",
+       "u": "https://ukdefencejournal.org.uk/albania-denies-sea-drones-were-launched-from-its-territory/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED (official Albanian denial) / UPDATE on 2026-11-23 D1.",
+      "he": "מאומת (הכחשה רשמית של אלבניה) / עדכון לפריט 2026-11-23 D1."
+     },
+     "s": {
+      "en": "Albania officially denied allegations that Ukrainian sea drones launched from its territory to strike Russian vessels in Benghazi.",
+      "he": "אלבניה הכחישה רשמית כי כשב\"מים אוקראיניים שתקפו כלי שיט רוסיים בבנגאזי שוגרו משטחה."
+     },
+     "photo": "img/j/D4.jpg"
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "Israel Warns on Iranian Chemical Weapons Program (HIGH PRIORITY / Israel): Defense Minister Israel Katz briefed reporters that Iran has made a strategic decision to develop chemical weapons and called for IDF readiness—preferably with U.S. participation—to preempt Tehran before it reaches operational capability (C1).",
+      "Poland–UK Sign >100 km CAMM-MR Missile Deal (HIGH PRIORITY): Warsaw and London signed an intergovernmental agreement setting legal and financial terms for MBDA UK and Poland's PGZ to jointly develop the >100 km CAMM-MR air-defense missile for Miecznik frigates and Narew batteries (A1).",
+      "White House Requests USD 5B Golden Dome CR Anomaly & UK Pivots Storm Shadow Funds (HIGH PRIORITY): The White House asked Congress for a USD 5B continuing-resolution anomaly to keep Golden Dome missile defense in production plus Trump-class battleship advance procurement and 'spend faster' PAC-3/SM/strike missile authorities (A2), while UK Defence Minister Jones confirmed funds for new-build Storm Shadow cruise missiles were redirected to UK-made low-cost mass munitions (C2).",
+      "Space & Drone Industrial Base Mobilization: Cerberus Capital Management agreed to buy Airbus U.S. Space & Defense's Merritt Island satellite business as Airbus doubles down on autonomous aircraft (B1), the Pentagon opened preliminary drone-component supply talks with GM, Ford, and Magna (B2), and Japan's auto-parts sector—including Anduril motor supplier Aster—pivoted toward defense drones (B3).",
+      "Maritime Security & Electronic Warfare (Germany Focus): North Korea deployed its first marked 'Coast Guard' patrol boat—a converted Nongo-class hull carrying a suspected 76mm bow gun near the NLL (D1)—while aviation ADS-B analysis linked a Nov 9 North Sea GPS jamming event disrupting ~140 flights across the UK, Netherlands, and northwestern Germany to a Russian convoy escorted by corvette Stoykiy (D2)."
+     ],
+     "he": [
+      "אזהרה ישראלית על תוכנית נשק כימי איראנית (עדיפות גבוהה / ישראל): שר הביטחון ישראל כ\"ץ חשף בתדרוך כתבים כי איראן החליטה לפתח נשק כימי, וקרא למוכנות צה\"ל—עדיף בשיתוף ארה\"ב—למנוע מאיראן להגיע ליכולת מבצעית לפני שתיכנס לאזור חסינות (ג1).",
+      "הסכם בין-ממשלתי פולני-בריטי לפיתוח טיל הגנ\"א CAMM-MR לטווח >100 ק\"מ (עדיפות גבוהה): ורשה ולונדון חתמו על הסכם מסגרת הקובע את התנאים המשפטיים והמימוניים לפיתוח משותף של הטיל על ידי MBDA UK וקבוצת PGZ עבור פריגטות Miecznik ומערך Narew (א1).",
+      "הבית הלבן מבקש 5 מיליארד דולר ל-Golden Dome ובריטניה מסיטה תקציב Storm Shadow לחימושים זולים (עדיפות גבוהה): הבית הלבן ביקש מהקונגרס החרגה של 5 מיליארד דולר להמשך ייצור Golden Dome, הרשאות רכש מוקדם לאוניית המערכה מסדרת Trump והאצת רכש טילי PAC-3/SM/תקיפה (א2), ובבריטניה אושרה הסטת תקציבי ייצור Storm Shadow חדש לחימושים המוניים זולים מתוצרת מקומית (ג2).",
+      "התגייסות תעשיות הרכב והחלל לייצור לוויינים וכטב\"מים: קרן Cerberus רוכשת את חטיבת הלוויינים האמריקאית של Airbus בפלורידה בעוד Airbus תתמקד בכטב\"מים אוטונומיים (ב1), הפנטגון דן עם GM, פורד ומגנה בייצור רכיבי כטב\"מים (ב2), ויצרנית רכיבי הרכב היפנית Aster מספקת מנועים חשמליים לכטב\"מים של Anduril (ב3).",
+      "זירה ימית ולוחמה אלקטרונית (מיקוד גרמניה): קוריאה הצפונית פרסה לראשונה ספינת \"משמר חופים\" מסומנת—ככל הנראה גוף Nongo מוסב עם תותח 76 מ\"מ ליד קו הגבול הימי (ד1), ומחקר נתוני טיסה קישר שיבוש GPS בים הצפוני שפגע בכ-140 טיסות מעל בריטניה, הולנד וצפון-מערב גרמניה לשיירה רוסית בליווי הקורבטה Stoykiy (ד2)."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "This evening digest covers open-source defense disclosures between 2026-11-24T15:22:00Z and 2026-11-24T18:51:00Z on 24 November 2026. All cited URLs passed live HTTP 200 verification via verify_digest_integrity.py --strict. Times of Israel, Pravda.com.ua (Norway DELTA pickup), and Arab News / Asharq Al-Awsat returned HTTP 403/CAPTCHA to automated checks and were replaced by verified HTTP 200 sources (Jerusalem Post, APA, Israel.com, Ukrainian MoD, Nordic Defence Sector). Gmail MCP lacked an OAuth token in this session (matching the main run). Items B4 (U.S. Army Odin app) and D3 (USCGC Storis Arctic UAV trials) rely on single defense-trade interviews and are flagged UNCONFIRMED — single source. All 15 items carry authentic, event-specific source imagery downloaded and verified as RGB JPEGs. Currency values use ISO notation (no dollar-sign character)."
+    ],
+    "he": [
+     "מהדורת ערב זו מכסה פרסומי ביטחון וטכנולוגיה ממקורות גלויים בין השעות ‪2026-11-24T15:22:00Z‬ ל-‪2026-11-24T18:51:00Z‬ ב-24 בנובמבר 2026. כל הקישורים המצוטטים עברו אימות HTTP 200 חי. אתרים שחסמו בדיקה אוטומטית (כגון Times of Israel, Pravda.com.ua ו-Arab News) הוחלפו במקורות HTTP 200 מאומתים (Jerusalem Post, APA, Israel.com, משרד ההגנה האוקראיני ו-Nordic Defence Sector). חיבור Gmail MCP לא היה מאומת בסשן זה (בדומה למהדורה הראשית). פריטים ב4 (אפליקציית Odin) ו-ד3 (ניסויי כטב\"מים מ-USCGC Storis) מבוססים על מקור עיתונאי יחיד ומסומנים בהתאם כלא מאומתים. לכל 15 הפריטים הוטמעו תמונות מקור אותנטיות שאומתו. כל הסכומים מוצגים בסימון מטבע תקני (ללא סימן דולר)."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-24T15:22:00Z – 2026-11-24T18:51:00Z. Reader profile applied: 12 full items, 3 briefly noted.",
+     "Country focus: Germany 1, UAE 0, Azerbaijan 0, Singapore 0, India 0, Morocco 0.",
+     "Watchdog check: Today's main [AGY] log verified in Drive (1qYN53nNMoFnrOVXApxJxCEouE7d_weYM — Defense Digest Log [AGY] run 2026-11-24T15:22Z) and main Telegram delivery confirmed complete in digest/2026-11-24/run.json & state/carry_over.json (15:25:23Z via send_telegram.py). Minimum search gate satisfied: 35 targeted web queries, 38 portal/RSS/API listing sweeps, 46-account X harvest (31 candidate tweets), and Gmail lead check attempted (unauthenticated OAuth). All URLs verified HTTP 200; 15 authentic source photos embedded."
+    ],
+    "he": [
+     "מהדורת ערב [AGY]. חלון זמן מכוסה: ‪2026-11-24T15:22:00Z – 2026-11-24T18:51:00Z‬. פרופיל קורא יושם: 12 פריטים מלאים, 3 בקצרה.",
+     "מיקוד מדינות: גרמניה 1, איחוד האמירויות 0, אזרבייג'ן 0, סינגפור 0, הודו 0, מרוקו 0.",
+     "בדיקת Watchdog: יומן [AGY] הראשי להיום אומת בדרייב (1qYN53nNMoFnrOVXApxJxCEouE7d_weYM) ומסירת הטלגרם הראשית אומתה כהושלמה (15:25:23Z דרך send_telegram.py). שער החיפוש המינימלי הושלם: 35 שאילתות חיפוש, 38 סריקות רשימות/RSS/אתרי ביטחון, איסוף מ-46 חשבונות X (31 ציוצים) וניסיון בדיקת Gmail. כל הקישורים אומתו HTTP 200; 15 תצלומי מקור אותנטיים הוטמעו."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Track Israel–U.S. diplomatic and military signaling following Defense Minister Katz's Nov 24 warning on Iran's alleged chemical weapons program.",
+     "Follow the Poland–UK executive contract for CAMM-MR detailed design, workshare split between MBDA UK and PGZ, and integration timelines for Miecznik frigates and Narew.",
+     "Monitor Congress's Dec 11 continuing resolution negotiations on the White House's USD 5B Golden Dome anomaly, BBG(X) advance procurement, and PAC-3/SM/strike missile spend-faster authorities.",
+     "Watch for definitive regulatory closing of Cerberus's Airbus U.S. Space Systems acquisition by end-2026 and potential GM/Ford/Magna component contracts with U.S. drone primes.",
+     "Monitor UK Defence Investment Plan low-cost mass munition awards (Project Brakestop / STRATUS) following the Storm Shadow new-build reallocation."
+    ],
+    "he": [
+     "מעקב אחר צעדים מדיניים וצבאיים של ישראל וארה\"ב בעקבות אזהרת שר הביטחון כ\"ץ על תוכנית הנשק הכימי של איראן.",
+     "מעקב אחר חתימת החוזה הביצועי בין פולין לבריטניה לתכנון המפורט של טיל ה-CAMM-MR, חלוקת העבודה בין MBDA UK ל-PGZ ושילובו בפריגטות Miecznik ובמערך Narew.",
+     "מעקב אחר דיוני התקציב בקונגרס לקראת 11 בדצמבר סביב בקשת ה-5 מיליארד דולר ל-Golden Dome והאצת הרכש של טילי PAC-3, SM וטילי תקיפה.",
+     "מעקב אחר השלמת רכישת Airbus U.S. Space Systems בידי קרן Cerberus עד סוף 2026 וחוזים פוטנציאליים של GM, פורד ומגנה לייצור רכיבי כטב\"מים.",
+     "מעקב אחר מכרזי החימוש הזול של משרד ההגנה הבריטי (Project Brakestop ו-STRATUS) לאחר הסטת תקציבי ה-Storm Shadow."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1uxJR0Fkzg5bP4cuLfh43cIuhP58HK8eK8ipnAP96mr8/edit",
+    "he": "https://docs.google.com/document/d/1KSR0dgnd2v0x51qGNVLGTBTYlVpVbHTBSC5SvyXW-P4/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-24_evening_AGY_EN.pdf": "1yV23mFR8zSaFORaj2ISDtT2_1wcMsGFB",
+    "Defense_Tech_Digest_2026-11-24_evening_AGY_HE.pdf": "1T2mGwXC8Iio9RjMe9BvuoHmgOucwQp_L",
+    "Defense_Team_Brief_2026-11-24_evening_AGY_EN.pdf": "1HOhH6NwPtI3wm3DxaMQd7nhGHKbEg7ay",
+    "Defense_Team_Brief_2026-11-24_evening_AGY_HE.pdf": "1Io6Bui1tMOAQzFD6jhgnwuwDUHE280f8"
+   },
+   "photos": {
+    "A1": {
+     "file": "A1.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3761.jpg",
+     "outlet": "Polish Armament Agency (via Defence Blog)",
+     "caption_en": "Visualization of CAMM-MR surface-to-air missile launching from a naval vertical launch system.",
+     "caption_he": "הדמיית שיגור טיל ההגנה האווירית CAMM-MR מפלטפורמה ימית.",
+     "credit_en": "Image: Polish Armament Agency, via Defence Blog",
+     "credit_he": "דימוי: סוכנות החימוש הפולנית, דרך Defence Blog",
+     "local_src": "img/2026-11-24-evening/A1.jpg"
+    },
+    "A2": {
+     "file": "A2.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/12/251222_trump_battleship_announcement_GettyImages-2253189162-e1776806446429.jpg",
+     "outlet": "Getty Images (via Breaking Defense)",
+     "caption_en": "President Donald Trump, Defense Secretary Pete Hegseth, and Secretary of State Marco Rubio at the Trump-class battleship announcement (file photo published with Nov 24 Breaking Defense report).",
+     "caption_he": "נשיא ארה\"ב דונלד טראמפ, שר ההגנה פיט הגסת' ומזכיר המדינה מרקו רוביו בהכרזה על אוניית המערכה מסדרת Trump (תצלום ארכיון ב-Breaking Defense).",
+     "credit_en": "Photo: Tasos Katopodis / Getty Images, via Breaking Defense",
+     "credit_he": "צילום: Tasos Katopodis / Getty Images, דרך Breaking Defense",
+     "local_src": "img/2026-11-24-evening/A2.jpg"
+    },
+    "A3": {
+     "file": "A3.jpg",
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/Znimok-ekrana-2025-01-27-161823.jpg",
+     "outlet": "Ministry of Defense of Ukraine (via Militarnyi)",
+     "caption_en": "Ukraine's DELTA situational-awareness and battle-management system displayed at a military headquarters.",
+     "caption_he": "מערכת השו\"ב והמודעות המצבית DELTA במפקדה אוקראינית.",
+     "credit_en": "Photo: Ministry of Defense of Ukraine, via Militarnyi",
+     "credit_he": "צילום: משרד ההגנה של אוקראינה, דרך Militarnyi",
+     "local_src": "img/2026-11-24-evening/A3.jpg"
+    },
+    "B1": {
+     "file": "B1.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2020/07/202002_Airbus_EO_Portfolio-2.jpg",
+     "outlet": "Airbus (via Breaking Defense)",
+     "caption_en": "Airbus Earth-observation and proliferated satellite portfolio (file graphic published with Breaking Defense report).",
+     "caption_he": "מערך לווייני התצפית של Airbus (דימוי ארכיון ב-Breaking Defense).",
+     "credit_en": "Image: Airbus, via Breaking Defense",
+     "credit_he": "דימוי: Airbus, דרך Breaking Defense",
+     "local_src": "img/2026-11-24-evening/B1.jpg"
+    },
+    "B2": {
+     "file": "B2.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3757.jpg",
+     "outlet": "Carla Perez Ramirez (via Defence Blog)",
+     "caption_en": "A Merops drone prepared for flight during a U.S. military demonstration at Twentynine Palms, California, July 28, 2026.",
+     "caption_he": "כטב\"ם Merops בהכנות להמראה בהדגמה צבאית אמריקאית בטוונטי-ניין פאלמס, קליפורניה, 28 ביולי 2026.",
+     "credit_en": "Photo: Carla Perez Ramirez, via Defence Blog",
+     "credit_he": "צילום: Carla Perez Ramirez, דרך Defence Blog",
+     "local_src": "img/2026-11-24-evening/B2.jpg"
+    },
+    "B3": {
+     "file": "B3.jpg",
+     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/2026-11-24T041557Z_3_LYNXNPEMAN09Q_RTROPTP_4_JAPAN-DEFENCE-AUTOS.jpg",
+     "outlet": "Reuters / Tom Bateman (via Defense News)",
+     "caption_en": "Employees of auto supplier Aster work on an assembly line in Yokote, Akita Prefecture, Japan, October 28, 2026.",
+     "caption_he": "עובדי יצרנית החלפים היפנית Aster בקו הייצור ביוקוטה, יפן, 28 באוקטובר 2026.",
+     "credit_en": "Photo: Reuters / Tom Bateman, via Defense News",
+     "credit_he": "צילום: Reuters / Tom Bateman, דרך Defense News",
+     "local_src": "img/2026-11-24-evening/B3.jpg"
+    },
+    "B4": {
+     "file": "B4.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Odin_Fast-MCOO_Screenshot-scaled-e1795444286527-1024x577.png",
+     "outlet": "U.S. Army DEVCOM C5ISR Center (via Breaking Defense)",
+     "caption_en": "Screenshot of the U.S. Army's 'Odin' tactical planning application generating color-coded terrain traversability overlays.",
+     "caption_he": "צילום מסך של אפליקציית התכנון הטקטית Odin של צבא ארה\"ב המפיקה שכבות עבירות שטח.",
+     "credit_en": "Image: U.S. Army DEVCOM C5ISR Center, via Breaking Defense",
+     "credit_he": "דימוי: מרכז C5ISR של צבא ארה\"ב, דרך Breaking Defense",
+     "local_src": "img/2026-11-24-evening/B4.jpg"
+    },
+    "B5": {
+     "file": "B5.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3758.jpg",
+     "outlet": "Tekorey Watkins (via Defence Blog)",
+     "caption_en": "A Royal Canadian Air Force F-35A taxis at Luke Air Force Base, Arizona, October 22, 2026.",
+     "caption_he": "מטוס F-35A של חיל האוויר הקנדי בבסיס לוק באריזונה, 22 באוקטובר 2026.",
+     "credit_en": "Photo: Tekorey Watkins, via Defence Blog",
+     "credit_he": "צילום: Tekorey Watkins, דרך Defence Blog",
+     "local_src": "img/2026-11-24-evening/B5.jpg"
+    },
+    "C1": {
+     "file": "C1.jpg",
+     "url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/742260",
+     "outlet": "Chaim Goldberg / Flash90 (via The Jerusalem Post)",
+     "caption_en": "Israeli Defense Minister Israel Katz at a ceremony at Mount Herzl in Jerusalem (file photo published with Nov 24 JPost report).",
+     "caption_he": "שר הביטחון ישראל כ\"ץ בטקס בהר הרצל בירושלים (תצלום ארכיון בדיווח ה-Jerusalem Post).",
+     "credit_en": "Photo: Chaim Goldberg / Flash90, via The Jerusalem Post",
+     "credit_he": "צילום: חיים גולדברג / פלאש 90, דרך The Jerusalem Post",
+     "local_src": "img/2026-11-24-evening/C1.jpg"
+    },
+    "C2": {
+     "file": "C2.jpg",
+     "url": "https://ukdj.ams3.digitaloceanspaces.com/2026/08/storm.jpg",
+     "outlet": "UK Defence Journal",
+     "caption_en": "UK Storm Shadow air-launched cruise missile (file photo published with UK Defence Journal Nov 24 report).",
+     "caption_he": "טיל השיוט הבריטי Storm Shadow (תצלום ארכיון בדיווח UK Defence Journal מ-24 בנובמבר).",
+     "credit_en": "Photo: UK Defence Journal",
+     "credit_he": "צילום: UK Defence Journal",
+     "local_src": "img/2026-11-24-evening/C2.jpg"
+    },
+    "C3": {
+     "file": "C3.jpg",
+     "url": "https://pbs.twimg.com/media/HX5qxj3WMAAcOGl.jpg",
+     "outlet": "Institute for Science and International Security (@TheGoodISIS)",
+     "caption_en": "Satellite imagery annotated by ISIS showing the rapid expansion wing at North Korea's Yongbyon uranium enrichment complex.",
+     "caption_he": "תצלום לוויין מנותח של מכון ISIS המציג את אגף ההרחבה החדש במתקן העשרת האורניום ביונגביון.",
+     "credit_en": "Imagery/Analysis: ISIS (@TheGoodISIS)",
+     "credit_he": "דימוי וניתוח: מכון ISIS‏ (@TheGoodISIS)",
+     "local_src": "img/2026-11-24-evening/C3.jpg"
+    },
+    "D1": {
+     "file": "D1.jpg",
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/image_2026-11-24_17-23-02-1.jpg",
+     "outlet": "Kim Jeong-ho / JoongAng Ilbo (via Militarnyi)",
+     "caption_en": "Vessel bearing North Korean Coast Guard markings and a suspected 76mm bow gun photographed near the Yellow Sea NLL, November 17, 2026.",
+     "caption_he": "כלי השיט עם סימוני משמר החופים של קוריאה הצפונית ותותח חרטום משוער 76 מ\"מ בים הצהוב, 17 בנובמבר 2026.",
+     "credit_en": "Photo: Kim Jeong-ho / JoongAng Ilbo, via Militarnyi",
+     "credit_he": "צילום: Kim Jeong-ho / JoongAng Ilbo, דרך Militarnyi",
+     "local_src": "img/2026-11-24-evening/D1.jpg"
+    },
+    "D2": {
+     "file": "D2.jpg",
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/Korvet-Stojkyj-RF-1-1024x595.jpg",
+     "outlet": "Russian Forces Spotter (via Militarnyi)",
+     "caption_en": "Russian Baltic Fleet Project 20380 corvette Stoykiy photographed in the Baltic Sea in November 2026.",
+     "caption_he": "הקורבטה הרוסית Stoykiy מפרויקט 20380 בים הבלטי, נובמבר 2026.",
+     "credit_en": "Photo: Russian Forces Spotter, via Militarnyi",
+     "credit_he": "צילום: Russian Forces Spotter, דרך Militarnyi",
+     "local_src": "img/2026-11-24-evening/D2.jpg"
+    },
+    "D3": {
+     "file": "D3.jpg",
+     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/10086759.jpg",
+     "outlet": "U.S. Coast Guard (via Defense News)",
+     "caption_en": "U.S. Coast Guard Cutter Storis conducts icebreaking operations in the Arctic Ocean on July 28, 2026, during its 133-day maiden deployment.",
+     "caption_he": "שוברת הקרח USCGC Storis שוברת קרח באוקיינוס הארקטי ב-28 ביולי 2026 במהלך הפלגת הבכורה בת 133 הימים.",
+     "credit_en": "Photo: U.S. Coast Guard, via Defense News",
+     "credit_he": "צילום: משמר החופים האמריקאי, דרך Defense News",
+     "local_src": "img/2026-11-24-evening/D3.jpg"
+    },
+    "D4": {
+     "file": "D4.jpg",
+     "url": "https://ukdj.ams3.digitaloceanspaces.com/2026/11/ukrdrone1-scaled.jpg",
+     "outlet": "UK Defence Journal",
+     "caption_en": "Ukrainian unmanned surface vessel (illustrative file photo published with UK Defence Journal Nov 24 report).",
+     "caption_he": "כלי שיט בלתי מאויש אוקראיני (תצלום ארכיון בדיווח UK Defence Journal).",
+     "credit_en": "Photo: UK Defence Journal",
+     "credit_he": "צילום: UK Defence Journal",
+     "local_src": "img/2026-11-24-evening/D4.jpg"
+    }
+   }
+  },
   "2026-11-24": {
    "date": "2026-11-24",
    "doc_id": "2026-11-24",
