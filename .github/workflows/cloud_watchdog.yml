@@ -1,0 +1,65 @@
+name: Defense Digest Public Cloud Watchdog Dispatcher
+
+on:
+  schedule:
+    # Public-repository watchdog triggers workflow_dispatch on t4l-y3h0/defense-digest-runner
+    # (workflow_dispatch starts in <5 seconds, bypassing private-repo cron queue delays).
+    # --- Slot 1: 05:00 AM Israel Time (0500) -> 03:20 & 04:15 IST ---
+    - cron: '20 1 * * *'
+    - cron: '15 2 * * *'
+    # --- Slot 2: 11:30 AM Israel Time (1130) -> 09:50 & 10:45 IST ---
+    - cron: '50 7 * * *'
+    - cron: '45 8 * * *'
+    # --- Slot 3: 18:00 PM Israel Time (1800) -> 16:20 & 17:10 IST ---
+    - cron: '20 14 * * *'
+    - cron: '10 15 * * *'
+    # --- Slot 4: 22:00 PM Israel Time (2200) -> 20:20 & 21:10 IST ---
+    - cron: '20 18 * * *'
+    - cron: '10 19 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Target slot to dispatch'
+        required: false
+        default: 'auto'
+
+jobs:
+  dispatch-runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Trigger Cloud Runner via workflow_dispatch API
+        env:
+          RUNNER_DISPATCH_TOKEN: ${{ secrets.RUNNER_DISPATCH_TOKEN }}
+          INPUT_MODE: ${{ inputs.mode }}
+          CRON_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          SLOT="$INPUT_MODE"
+          if [ -z "$SLOT" ] || [ "$SLOT" = "auto" ] || [ "$SLOT" = "null" ]; then
+            UTC_H=$(date -u +'%H')
+            if [ "$UTC_H" -lt 6 ]; then
+              SLOT="0500"
+            elif [ "$UTC_H" -lt 12 ]; then
+              SLOT="1130"
+            elif [ "$UTC_H" -lt 17 ]; then
+              SLOT="1800"
+            else
+              SLOT="2200"
+            fi
+          fi
+          echo "Watchdog dispatching slot: $SLOT to t4l-y3h0/defense-digest-runner..."
+          HTTP_CODE=$(curl -s -o /tmp/resp.txt -w "%{http_code}" \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${RUNNER_DISPATCH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/t4l-y3h0/defense-digest-runner/actions/workflows/daily_digest.yml/dispatches \
+            -d "{\"ref\":\"main\",\"inputs\":{\"mode\":\"${SLOT}\",\"force\":\"false\"}}")
+          cat /tmp/resp.txt || true
+          echo "HTTP status: $HTTP_CODE"
+          if [ "$HTTP_CODE" = "204" ]; then
+            echo "✅ Successfully dispatched workflow_dispatch for slot $SLOT!"
+          else
+            echo "⚠️ Unexpected HTTP status $HTTP_CODE"
+            exit 1
+          fi
