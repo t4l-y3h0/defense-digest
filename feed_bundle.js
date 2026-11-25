@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-25-2200",
+ "updated_at": "2026-11-25-evening",
  "dates": [
+  "2026-11-25-evening",
   "2026-11-25-2200",
   "2026-11-25-1800",
   "2026-11-25",
@@ -57,6 +58,630 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-25-evening": {
+   "date": "2026-11-25_evening",
+   "doc_id": "2026-11-25-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-25T15:19:00Z",
+   "wend": "2026-11-25T18:53:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "Israel",
+     "countryHe": "ישראל",
+     "type": "Defense Budget & Force Buildup",
+     "typeHe": "תקציב ביטחון והתעצמות",
+     "date": "2026-11-25",
+     "h": {
+      "en": "Israel's Joint Committee on the Defense Budget approves NIS 17.3B (USD 5B) 2026 addition for space, attack helicopters, and air defense",
+      "he": "הוועדה המשותפת לתקציב הביטחון אישרה תוספת של 17.3 מיליארד ש\"ח (5 מיליארד דולר) לתחומי החלל, מסוקי הקרב וההגנה האווירית"
+     },
+     "what": {
+      "en": "Breaking Defense reported on November 25 (17:30Z) that Israel's Joint Committee on the Defense Budget approved an addition of approximately NIS 17.3 billion (USD 5 billion) to the 2026 defense budget. Defense Minister Israel Katz stated the measure supports IDF force buildup and multi-year 'blue-and-white' self-reliance procurement spanning space capabilities, attack helicopters, air defense, and classified programs. Following an initial March 2026 budget of USD 45 billion and earlier USD 300 million (August) and USD 5 billion (September) supplements, the committee action brings cumulative 2026 defense authorizations toward USD 55 billion, though budget officials warned shortfalls will persist into 2027.",
+      "he": "אתר Breaking Defense דיווח ב-25 בנובמבר (17:30Z) כי הוועדה המשותפת לתקציב הביטחון אישרה תוספת של כ-17.3 מיליארד ש\"ח (כ-5 מיליארד דולר) לתקציב הביטחון לשנת 2026. שר הביטחון ישראל כ\"ץ ציין כי המהלך יחזק את בניין הכוח של צה\"ל ויאפשר קידום תוכניות הצטיידות \"כחול-לבן\" ארוכות-טווח בחלל, מסוקי קרב, הגנה אווירית ותחומים מסווגים. לאחר תקציב בסיס של כ-45 מיליארד דולר במרץ 2026 ותוספות באוגוסט (300 מיליון דולר) ובספטמבר (5 מיליארד דולר), ההחלטה מקרבת את ההרשאות השנתיות לכ-55 מיליארד דולר על רקע אזהרות מפערי מימון לתוך 2027."
+     },
+     "figs": {
+      "en": "Buyer/Authority: Israel MoD / Joint Committee on the Defense Budget. Value: NIS 17.3B (~USD 5B) addition (cumulative 2026 budget ~USD 55B). Focus areas: Space, attack helicopters, air defense, classified programs. Approval date: Nov 24, 2026 (committee vote); Report date: Nov 25, 2026 (17:30Z).",
+      "he": "גוף מאשר/רוכש: הוועדה המשותפת לתקציב הביטחון / משהב\"ט. שווי: תוספת של ‏17.3 מיליארד ש\"ח (כ-5 מיליארד דולר; סה\"כ תקציב 2026 כ-55 מיליארד דולר). תחומים: חלל, מסוקי קרב, הגנה אווירית ותוכניות מסווגות. מועד דיווח: ‪2026-11-25 17:30Z‬."
+     },
+     "why": {
+      "en": "Signals sustained multi-year authorization for Israeli air-defense interceptors, space assets, and rotary-wing recapitalization despite domestic fiscal friction and the concurrent MoD arrears dispute with Rafael and IAI.",
+      "he": "האישור מבטא המשך הרשאה רב-שנתית להתעצמות מערכי היירוט, החלל ומסוקי הקרב, חרף המתיחות התקציבית ומשבר החובות מול רפאל והתעשייה האווירית."
+     },
+     "israel": {
+      "en": "Directly expands multi-year procurement headroom for Israeli primes (IAI, Rafael, Elbit) across air defense, space, and helicopter upgrades while highlighting 2027 cash-flow pressure.",
+      "he": "מרחיב ישירות את מרחב ההתקשרות הרב-שנתי עבור התעשייה האווירית, רפאל ואלביט בתחומי ההגנה האווירית, החלל והשבחת המסוקים, לצד לחץ תזרימי צפוי ב-2027."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/israel-increases-defense-budget-by-5-billion-as-concerns-continue-over-future-funding/"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source (single HTTP 200 defense-trade report verified; domestic press previously debated internal multi-year reallocation vs. new cash). No source photo: source carried an unrelated Oct 2023 tank file image.",
+      "he": "לא מאומת — מקור יחיד (דיווח Breaking Defense מאומת HTTP 200; ללא תמונת מקור מאחר שבכתבה הופיע תצלום ארכיון לא קשור)."
+     },
+     "s": {
+      "en": "Israel's Joint Committee on the Defense Budget approved an additional NIS 17.3B (USD 5B) for space, attack helicopters, and air defense procurement.",
+      "he": "הוועדה המשותפת לתקציב הביטחון אישרה תוספת של 17.3 מיליארד ש\"ח (5 מיליארד דולר) לתחומי החלל, מסוקי הקרב וההגנה האווירית."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine",
+     "countryHe": "אוקראינה",
+     "type": "Directed Energy / Combat First",
+     "typeHe": "אנרגיה מכוונת / בכורה מבצעית",
+     "date": "2026-11-25",
+     "h": {
+      "en": "Ukraine's Carmine Sky 'Blysk' 4 kW combat laser achieves world-first shootdown of a Russian jet-powered Geran drone",
+      "he": "מערכת הלייזר האוקראינית Blysk (4 קילוואט) של Carmine Sky השיגה הפלה מבצעית ראשונה בעולם של כטב\"ם סילוני רוסי מדגם Geran"
+     },
+     "what": {
+      "en": "Presidential defense-technology adviser Serhii 'Flash' Beskrestnov announced on November 25 (reported by United24 Media at 16:41Z, Gwara Media at 17:21Z, and Ukrinform at 18:10Z) that Ukraine's domestic 'Blysk' combat laser shot down a Russian jet-powered Geran attack drone while defending a critical infrastructure site. Developed by private Ukrainian firm Carmine Sky under the state Private Air Defense program with Brave1 cluster support, the 4 kW laser engages targets up to 1 km and was deployed on combat duty around Kyiv in early November. Beskrestnov released interception video and cautioned that mass serial production remains premature while testing continues and weather limits laser propagation.",
+      "he": "יועץ הנשיא לטכנולוגיות ביטחוניות סרהי \"פלאש\" בסקרסטנוב הודיע ב-25 בנובמבר (United24 Media ב-16:41Z, Gwara Media ב-17:21Z ו-Ukrinform ב-18:10Z) כי מערכת הלייזר הקרבית Blysk הפילה כטב\"ם תקיפה סילוני רוסי מדגם Geran בעת הגנה על מתקן תשתית קריטי. המערכת פותחה על ידי החברה האוקראינית הפרטית Carmine Sky במסגרת תוכנית Private Air Defense ובתמיכת אשכול Brave1, מפיקה אלומה של 4 קילוואט לטווח עד 1 ק\"מ ונפרסה בהגנה סביב קייב בתחילת נובמבר. בסקרסטנוב פרסם תיעוד מהיירוט והבהיר כי טרם הבשיל השלב לייצור המוני סדרתי."
+     },
+     "figs": {
+      "en": "Developer: Carmine Sky (Ukraine; Brave1 / Private Air Defense program). System: Blysk directed-energy C-UAS laser. Power: 4 kW. Effective range: up to 1 km (0.6 mi). Target destroyed: Russian jet-powered Geran OWA drone (world-first claimed). Status: Operational combat trial (pre-serial production).",
+      "he": "מפתחת: ‏Carmine Sky (אוקראינה; תוכנית Private Air Defense ו-Brave1). מערכת: לייזר Blysk. הספק: ‏4 קילוואט. טווח יעיל: עד 1 ק\"מ. מטרה שהופלה: כטב\"ם סילוני רוסי Geran (בכורה מבצעית עולמית). סטטוס: ניסוי מבצעי פעיל."
+     },
+     "why": {
+      "en": "Demonstrates that even compact 4 kW class lasers can defeat fast jet-powered one-way attack drones at short point-defense ranges, drastically cutting marginal cost per intercept compared to surface-to-air missiles.",
+      "he": "מוכיח כי גם מערכת לייזר קומפקטית בהספק 4 קילוואט מסוגלת להשמיד כטב\"מי סילון מהירים בטווחי הגנה נקודתית, תוך הפחתה דרמטית של עלות היירוט לעומת טילי קרקע-אוויר."
+     },
+     "israel": {
+      "en": "Directly relevant benchmark for Israel's multi-tier laser architecture (Rafael Iron Beam / Lite Beam and Elbit airborne laser programs) against fast jet-powered Iranian/Houthi OWA drones.",
+      "he": "מדד השוואה ישיר למערך הלייזר הרב-שכבתי של ישראל (מגן אור / Lite Beam של רפאל ולייזרים של אלביט) מול כטב\"מי תקיפה סילוניים."
+     },
+     "src": [
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-defense/4188627-ukraines-blysk-laser-makes-world-first-shooting-down-russian-jetpowered-drone.html"
+      },
+      {
+       "t": "Gwara Media",
+       "u": "https://gwaramedia.com/en/ukrainian-laser-air-defence-downs-russian-jet-powered-drone-for-the-first-time/"
+      },
+      {
+       "t": "United24 Media",
+       "u": "https://united24media.com/war-in-ukraine/ukraine-achieves-world-first-by-downing-jet-powered-drone-with-combat-laser-24715"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED across three independent Ukrainian outlets (Ukrinform, Gwara Media, United24 Media) citing presidential adviser Serhii Beskrestnov and released intercept video.",
+      "he": "מאומת בשלושה מקורות אוקראיניים עצמאיים (Ukrinform, Gwara Media, United24 Media) על בסיס הודעת יועץ הנשיא ותיעוד היירוט."
+     },
+     "s": {
+      "en": "Ukraine's Carmine Sky 'Blysk' 4 kW laser achieved a world-first combat shootdown of a Russian jet-powered Geran drone.",
+      "he": "מערכת הלייזר Blysk (4 קילוואט) של אוקראינה הפילה לראשונה בתנאי קרב כטב\"ם סילוני רוסי מדגם Geran."
+     },
+     "photo": "img/j/A2.jpg"
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFLICT"
+     ],
+     "country": "Saudi Arabia / Yemen",
+     "countryHe": "ערב הסעודית / תימן",
+     "type": "Air Defense / Critical Infrastructure Strike",
+     "typeHe": "הגנה אווירית / תקיפת תשתיות",
+     "date": "2026-11-25",
+     "h": {
+      "en": "CONFLICT: Houthi drones target Saudi Ras Tanura refinery as Planet Labs imagery shows smoke plume contradicting coalition intercept claim",
+      "he": "סתירה: כטב\"מים חות'יים תקפו את בית הזיקוק ראס תנורה; תצלומי Planet Labs מראים עשן כבד בסתירה לטענת היירוט הסעודית"
+     },
+     "what": {
+      "en": "Yemen's Houthi military spokesman Yahya Saree claimed on November 25 that drone strikes hit Saudi Aramco's 550,000 b/d Ras Tanura oil refinery and export terminal, sparking fires in retaliation for Saudi-led coalition airstrikes on Hodeidah, Saada, and Amran. By contrast, coalition spokesperson Maj. Gen. Turki Al-Maliki stated Saudi air defenses intercepted and destroyed four drones over Ras Tanura (among seven in the Eastern Province) with only falling debris and no reported injuries. However, Planet Labs PBC satellite imagery published by Reuters and Middle East Eye (Nov 25, 16:59Z) and NASA FIRMS data cited by House of Saud showed a massive black smoke plume stretching across the Ras Tanura complex.",
+      "he": "דובר החות'ים יחיא סריע טען ב-25 בנובמבר כי כטב\"מים פגעו בבית הזיקוק ובמסוף הייצוא ראס תנורה (550,000 חביות ליום) וגרמו לשריפות בתגובה לתקיפות הקואליציה בחודיידה, סעדה ועמרן. מנגד, דובר הקואליציה הסעודית תא\"ל טורקי אל-מאלכי טען כי מערכות ההגנה האווירית יירטו והשמידו ארבעה כטב\"מים מעל ראס תנורה (מתוך שבעה במחוז המזרחי) וכי נרשמה נפילת שברים בלבד ללא נפגעים. ואולם תצלומי לוויין של Planet Labs PBC שפורסמו ברויטרס וב-Middle East Eye (25 בנובמבר, 16:59Z) ונתוני NASA FIRMS חשפו ענן עשן שחור כבד מעל המתחם."
+     },
+     "figs": {
+      "en": "Target: Saudi Aramco Ras Tanura refinery & crude export terminal (550,000 b/d capacity). Saudi claim: 4 drones intercepted over Ras Tanura (7 total in Eastern Province); debris only. Houthi / Satellite: Direct hits & fires claimed; Planet Labs / NASA imagery shows extensive smoke plume. Context: Followed Nov 24 Houthi strike on Riyadh PIF Tower and overnight Saudi strikes on Hodeidah Port.",
+      "he": "מטרה: בית הזיקוק ומסוף הנפט ראס תנורה (תפוקה 550,000 חביות ליום). גרסה סעודית: יירוט 4 כטב\"מים מעל ראס תנורה (7 במחוז המזרחי) ונפילת שברים בלבד. גרסת החות'ים ולוויין: פגיעות ושריפות; תצלומי Planet Labs ו-NASA מתעדים פלומת עשן רחבה. רקע: תקיפת מגדל KAFD בריאד ב-24 בנובמבר ותקיפות סעודיות בנמל חודיידה."
+     },
+     "why": {
+      "en": "Even partial penetration or burning debris at the world's largest offshore oil-loading hub underscores the vulnerability of high-density Gulf energy infrastructure to long-range one-way attack drones during escalating Saudi–Houthi exchanges.",
+      "he": "גם חדירה חלקית או נזק משברי יירוט במוקד ייצוא הנפט המרכזי של סעודיה ממחישים את פגיעות תשתיות האנרגיה במפרץ בפני נחילים של כטב\"מי תקיפה ארוכי-טווח."
+     },
+     "israel": {
+      "en": "Demonstrates ongoing Houthi long-range OWA drone reach and active operational tempo against Gulf air-defense networks relevant to regional IAMD integration.",
+      "he": "מדגים את טווח הפעולה המתמשך של כטב\"מי התקיפה החות'יים ואת האתגר בפני מערכי ההגנה האווירית האזוריים במפרץ."
+     },
+     "src": [
+      {
+       "t": "Middle East Eye",
+       "u": "https://www.middleeasteye.net/news/yemen-houthis-claim-saudi-arabia-ras-tanura-attack-retaliation-deadly-strikes"
+      },
+      {
+       "t": "Saudi Gazette",
+       "u": "https://saudigazette.com.sa/article/666520/saudi-arabia/7-drones-intercepted-in-ras-tanura-eastern-province"
+      },
+      {
+       "t": "House of Saud",
+       "u": "https://houseofsaud.com/ras-tanura-fire-satellite-nov25/"
+      },
+      {
+       "t": "Riviera Maritime Media",
+       "u": "https://www.rivieramm.com/news-content-hub/houthi-militia-threatens-all-saudi-ports-on-the-red-sea-as-hodeidah-bombed-90687"
+      }
+     ],
+     "note": {
+      "en": "CONFLICT — Saudi Coalition asserts all 4 drones over Ras Tanura were intercepted with debris only, whereas Houthi forces claim direct hits and Planet Labs / NASA satellite imagery confirms a large smoke plume over the facility.",
+      "he": "סתירה — הקואליציה הסעודית טוענת ליירוט מלא של 4 הכטב\"מים מעל ראס תנורה ונפילת שברים בלבד, בעוד החות'ים טוענים לפגיעה ישירה ותצלומי Planet Labs ו-NASA מתעדים עשן כבד מעל המתקן."
+     },
+     "s": {
+      "en": "Planet Labs imagery showed heavy smoke over Saudi Arabia's Ras Tanura refinery after Houthi drone claims, conflicting with coalition intercept-only reports.",
+      "he": "תצלומי לוויין תיעדו עשן כבד מעל ראס תנורה לאחר תקיפת כטב\"מים חות'ית, בסתירה להודעת הקואליציה על יירוט מלא."
+     },
+     "photo": "img/j/A3.jpg"
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Vertical Lift / Schedule Delay",
+     "typeHe": "תעופה צבאית / עיכוב תוכנית",
+     "date": "2026-11-25",
+     "h": {
+      "en": "U.S. Army officially delays first MV-75 Cheyenne II test aircraft delivery beyond 2026 amid funding crunch",
+      "he": "צבא ארה\"ב דוחה רשמית מעבר לשנת 2026 את מסירת מטוס הניסוי הראשון MV-75 Cheyenne II עקב קשיי מימון"
+     },
+     "what": {
+      "en": "Breaking Defense reported on November 25 (18:15Z) that the U.S. Army will miss its target of accepting the first Bell Textron MV-75 Cheyenne II (Future Long Range Assault Aircraft) tiltrotor for testing by year-end 2026. An ASA(ALT) acquisition spokesperson confirmed delivery will not occur in 2026 after a mid-year funding crunch exhausted nearly all FY2026 program funds by July and disrupted working communications between the Army and Bell. No revised delivery date has been set while the service and Bell build a new resource-loaded integrated schedule.",
+      "he": "אתר Breaking Defense דיווח ב-25 בנובמבר (18:15Z) כי צבא ארה\"ב לא יעמוד ביעד לקבלת מסוק הניסוי הראשון מדגם MV-75 Cheyenne II (תוכנית FLRAA של Bell Textron) עד סוף 2026. דוברות לשכת הרכש של הצבא (ASA(ALT)) אישרה כי המסירה נדחתה לאחר שתקציבי שנת הכספים 2026 מוצו כבר ביולי והפסקת המימון שיבשה את העבודה השוטפת מול Bell. הצדדים מגבשים כעת לוח זמנים מתוקן ללא תאריך מסירה רשמי חדש."
+     },
+     "figs": {
+      "en": "Program: U.S. Army FLRAA / MV-75 Cheyenne II tiltrotor. Prime: Bell (Textron). Original test handover target: End of 2026 (now slipped into 2027, exact date TBD). Cause: FY2026 funding exhaustion in July 2026 and Army–Bell communication disruption.",
+      "he": "תוכנית: ‏FLRAA / MV-75 Cheyenne II של צבא ארה\"ב. קבלן ראשי: ‏Bell (Textron). יעד מקורי למסירת ניסוי: סוף 2026 (נדחה ל-2027, מועד מדויק טרם נקבע). סיבה: מיצוי תקציב FY2026 ביולי ושיבוש תיאום בין הצבא לחברה."
+     },
+     "why": {
+      "en": "Marks a rare public schedule slip for the Army's flagship Black Hawk successor, demonstrating how continuing-resolution friction and mid-year cash exhaustion can stall even accelerated acquisition programs.",
+      "he": "עיכוב פומבי חריג בתוכנית הדגל להחלפת מסוקי הבלק הוק, הממחיש כיצד מגבלות תקציבי המשך ומיצוי תקציבי ביניים פוגעים בלוחות זמנים של תוכניות רכש מואצות."
+     },
+     "israel": {
+      "en": "No direct implication; relevant benchmark for long-range tiltrotor logistics and U.S. Army rotary-wing recapitalization timelines.",
+      "he": "אין השלכה ישירה; נתון ייחוס ללוחות הזמנים של הצטיידות כנף סובבת ארוכת-טווח בצבא ארה\"ב."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/delivery-of-first-mv-75-for-testing-officially-delayed-amid-funding-setbacks-army/"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source (single HTTP 200 Breaking Defense report quoting official U.S. Army ASA(ALT) spokesperson and Textron filings).",
+      "he": "לא מאומת — מקור יחיד (דיווח Breaking Defense מאומת HTTP 200 המצטט את דוברות ASA(ALT) של צבא ארה\"ב)."
+     },
+     "s": {
+      "en": "The U.S. Army confirmed that delivery of the first MV-75 Cheyenne II tiltrotor for testing will slip past end-2026 due to a mid-year funding crunch.",
+      "he": "צבא ארה\"ב אישר כי מסירת מטוס הניסוי הראשון מדגם MV-75 Cheyenne II נדחתה מעבר לסוף 2026 בשל משבר מימון."
+     },
+     "photo": "img/j/B1.jpg"
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "std",
+     "tier": "full",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "China",
+     "countryHe": "סין",
+     "type": "Uncrewed Cargo Aircraft / Unveiling",
+     "typeHe": "כטב\"ם מטען / חשיפה",
+     "date": "2026-11-25",
+     "h": {
+      "en": "China's Air White Whale unveils W8000 8-metric-ton uncrewed cargo aircraft mockup in Zhuhai",
+      "he": "חברת Air White Whale הסינית חשפה בג'והאי דגם כטב\"ם מטען כבד W8000 בעל כושר נשיאה מתוכנן של 8 טון"
+     },
+     "what": {
+      "en": "The War Zone reported on November 25 (17:50Z) that Chinese aviation startup Air White Whale has debuted a mockup of its W8000 twin-turboprop uncrewed cargo aircraft in Zhuhai ahead of Airshow China opening December 7. Designed for an 8-metric-ton (~18,000-lb) payload—matching crewed tactical transports like the DHC-5 Buffalo—the W8000 scales up from the company's 5-ton W5000 cargo UAV now in flight testing and features a rear loading ramp with clamshell tail doors for standard palletized freight. Range, MTOW, and engine specifics remain undisclosed.",
+      "he": "אתר The War Zone דיווח ב-25 בנובמבר (17:50Z) כי חברת Air White Whale הסינית הציגה בג'והאי דגם של כטב\"ם המטען הדו-מנועי W8000 לקראת פתיחת תערוכת Airshow China ב-7 בדצמבר. הכלי מיועד לשאת מטען של עד 8 טון מטרי (כ-18,000 ליברות)—בדומה למטוסי תובלה מאוישים כגון DHC-5 Buffalo—וכולל רמפת העמסה אחורית למכולות ומשטחים תקניים, כהגדלה של דגם ה-W5000 (5 טון) הנמצא בניסויי טיסה. נתוני טווח, משקל המראה ומנועים טרם פורסמו."
+     },
+     "figs": {
+      "en": "Developer: Air White Whale (China). System: W8000 twin-turboprop cargo UAV (mockup). Target payload: 8 metric tons (~18,000 lb), vs. 5 metric tons on W5000. Features: Rear loading ramp & clamshell tail doors. Range / MTOW / military orders: not reported.",
+      "he": "מפתחת: ‏Air White Whale (סין). דגם: כטב\"ם מטען דו-מנועי W8000 (מוקאפ). כושר מטען מתוכנן: ‏8 טון מטרי (לעומת 5 טון ב-W5000). מאפיינים: רמפת העמסה אחורית ודלתות זנב. טווח והזמנות צבאיות: לא פורסמו."
+     },
+     "why": {
+      "en": "Illustrates China's rapid progression into crewed-transport-class autonomous airlift, with obvious dual-use utility for contested island resupply and austere PLA logistics.",
+      "he": "מדגים את ההאצה הסינית בפיתוח תובלה אווירית אוטונומית בקנה מידה של מטוסי תובלה מאוישים, בעלת פוטנציאל דו-שימושי ללוגיסטיקה צבאית של ה-PLA."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "The War Zone (TWZ)",
+       "u": "https://www.twz.com/air/chinas-cargo-drones-keep-getting-bigger-with-new-w8000"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source (single HTTP 200 TWZ report based on imagery circulated ahead of Airshow China).",
+      "he": "לא מאומת — מקור יחיד (דיווח TWZ מאומת HTTP 200 לקראת תערוכת ג'והאי)."
+     },
+     "s": {
+      "en": "China's Air White Whale unveiled an 8-ton W8000 twin-turboprop cargo UAV mockup in Zhuhai ahead of Airshow China.",
+      "he": "סין חשפה בג'והאי דגם של כטב\"ם המטען הכבד W8000 המיועד לשאת 8 טון."
+     },
+     "photo": "img/j/B2.jpg"
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "std",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "India",
+     "countryHe": "הודו",
+     "type": "Defense Industrial Base / Drones & C-UAS",
+     "typeHe": "תעשייה ביטחונית / כטב\"מים ונ\"כטב\"ם",
+     "date": "2026-11-25",
+     "h": {
+      "en": "Country Focus (India): Assam breaks ground on Northeast India's first defense plant in Rangia targeting 1,500 drones and 100 C-UAS systems annually",
+      "he": "מיקוד הודו: אסאם הניחה אבן פינה למפעל ביטחוני ראשון בצפון-מזרח המדינה בראנגיה לייצור 1,500 כטב\"מים ו-100 מערכות נ\"כטב\"ם בשנה"
+     },
+     "what": {
+      "en": "Assam Chief Minister Himanta Biswa Sarma laid the foundation stone on November 25 at Tulsibari in Rangia (Kamrup district) for Northeast India's first dedicated defense manufacturing facility, disclosed to national defense press via IDRW at 15:40Z following regional Assam Tribune coverage (08:55Z). Built by Mumbai-based Speed4 Defence Systems Pvt Ltd on 14 acres with an initial INR 50 crore (~USD 5.9 million) investment, the plant targets commercial launch by January 2028. Planned annual output comprises 1,500 drones, 100 counter-drone systems, 300 underground bunkers, and 5,000 prefabricated deployable structures, backed by an R&D partnership with IIT Guwahati.",
+      "he": "מושל מדינת אסאם הימנטה ביסווה סרמה הניח ב-25 בנובמבר אבן פינה בטולסיבארי שבראנגיה למפעל הביטחוני הראשון בצפון-מזרח הודו, כפי שדווח ב-IDRW (15:40Z) וב-Assam Tribune. המפעל, שמוקם על ידי חברת Speed4 Defence Systems ממומבאי על שטח של 14 אקר בהשקעה ראשונית של 50 קרור רופי (כ-5.9 מיליון דולר), מיועד לתחילת ייצור בינואר 2028. כושר הייצור המתוכנן כולל 1,500 כטב\"מים, 100 מערכות נגד-כטב\"מים, 300 בונקרים תת-קרקעיים ו-5,000 מבנים יבילים, בשיתוף מו\"פ עם מכון IIT Guwahati."
+     },
+     "figs": {
+      "en": "Builder/Operator: Speed4 Defence Systems Pvt Ltd (Mumbai). Host/Site: AIDC Industrial Estate, Rangia, Assam (14 acres). Initial investment: INR 50 crore (~USD 5.9M). Target launch: Jan 2028. Annual capacity: 1,500 drones, 100 C-UAS systems, 300 underground bunkers, 5,000 deployable structures. Ceremony/Announcement date: Nov 25, 2026.",
+      "he": "יזם: ‏Speed4 Defence Systems (מומבאי). אתר: ראנגיה, אסאם (14 אקר). השקעה ראשונית: ‏50 קרור רופי (כ-5.9 מיליון דולר). יעד תחילת ייצור: ינואר 2028. תפוקה שנתית: 1,500 כטב\"מים, 100 מערכות נ\"כטב\"ם, 300 בונקרים ו-5,000 מבנים יבילים."
+     },
+     "why": {
+      "en": "Decentralizes India's UAV, counter-drone, and hardened-shelter supply chain closer to the sensitive eastern Himalayan frontier under New Delhi's Atmanirbhar Bharat push.",
+      "he": "מבזר את שרשרת האספקה של הודו לכטב\"מים, נ\"כטב\"ם ומבנים ממוגנים בסמיכות לגזרת הגבול המזרחית הרגישה."
+     },
+     "israel": {
+      "en": "Relevant to Israeli drone and C-UAS partners expanding co-production in India as regional state clusters seek sensor and effector subsystems.",
+      "he": "רלוונטי לשותפות ישראליות בתחומי הכטב\"ם והנ\"כטב\"ם הפועלות בהודו לנוכח התרחבות אשכולות הייצור האזוריים."
+     },
+     "src": [
+      {
+       "t": "IDRW",
+       "u": "https://idrw.org/assam-enters-defence-manufacturing-sector-cm-sarma-announces-integrated-facility-in-rangia/"
+      },
+      {
+       "t": "The Assam Tribune",
+       "u": "https://assamtribune.com/assam/1500-drones-300-bunkers-per-yr-assams-defence-production-push-takes-off-in-rangia-1623256"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED across two verified HTTP 200 Indian outlets (IDRW 15:40Z and The Assam Tribune primary regional report).",
+      "he": "מאומת בשני מקורות הודיים מאומתים HTTP 200 (IDRW ב-15:40Z ו-The Assam Tribune)."
+     },
+     "s": {
+      "en": "Country Focus (India): Assam broke ground in Rangia on a Speed4 Defence Systems plant targeting 1,500 drones and 100 C-UAS systems annually.",
+      "he": "מיקוד הודו: באסאם הונחה אבן פינה למפעל Speed4 Defence Systems לייצור 1,500 כטב\"מים ו-100 מערכות נ\"כטב\"ם בשנה."
+     },
+     "photo": "img/j/B3.jpg"
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "std",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Brazil",
+     "countryHe": "ברזיל",
+     "type": "Military Aircraft Exports / G2G Framework",
+     "typeHe": "ייצוא תעופה צבאית / מסגרת בין-ממשלתית",
+     "date": "2026-11-25",
+     "h": {
+      "en": "Briefly noted: Embraer and Brazilian state-owned ALADA sign G2G export framework for KC-390 Millennium and A-29 Super Tucano sales",
+      "he": "בקצרה: Embraer וחברת הממשלה הברזילאית ALADA חתמו על הסכם מסגרת לייצוא בין-ממשלתי (G2G) של מטוסי KC-390 ו-A-29"
+     },
+     "what": {
+      "en": "Embraer signed a framework agreement on November 25 at Mostra BID in Brasília (reported by AeroTime at 15:22Z and Air Data News at 18:14Z) with Brazilian state-owned ALADA to facilitate government-to-government exports of the KC-390 Millennium transport and A-29 Super Tucano aircraft to Latin American and African customers.",
+      "he": "חברת Embraer חתמה ב-25 בנובמבר בתערוכת Mostra BID בברזיליה (AeroTime ב-15:22Z ו-Air Data News ב-18:14Z) על הסכם מסגרת עם חברת הממשלה הברזילאית ALADA לקידום מכירות בין-ממשלתיות (G2G) של מטוסי התובלה KC-390 ומטוסי התקיפה הקלים A-29 באמריקה הלטינית ובאפריקה."
+     },
+     "figs": {
+      "en": "Parties: Embraer Defense & Security and ALADA (NAV Brasil subsidiary). Systems: KC-390 Millennium & A-29 Super Tucano. Value: Not applicable (G2G export facilitation framework). Target markets: Latin America and Africa. Signed/Reported: Nov 25, 2026.",
+      "he": "צדדים: ‏Embraer ו-ALADA (חברת בת של NAV Brasil). מערכות: ‏KC-390 Millennium ו-A-29 Super Tucano. שווי: הסכם מסגרת G2G ללא ערך חוזי מיידי. שווקי יעד: אמריקה הלטינית ואפריקה."
+     },
+     "why": {
+      "en": "Briefly noted in the digest under the Reader Interest Profile (export-channel framework agreement without a specific aircraft order).",
+      "he": "בקצרה — סווג לפי פרופיל הקורא כהסכם מסגרת לערוץ ייצוא ללא הזמנת מטוסים ספציפית."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "AeroTime",
+       "u": "https://www.aerotime.aero/articles/embraer-brazil-kc-390-a-29-military-aircraft-exports"
+      },
+      {
+       "t": "Air Data News",
+       "u": "https://www.airdatanews.com/embraer-turns-to-brazilian-state-owned-company-to-expand-military-aircraft-sales/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED across two verified HTTP 200 aerospace outlets (AeroTime 15:22Z and Air Data News 18:14Z).",
+      "he": "מאומת בשני מקורות תעופה מאומתים HTTP 200 (AeroTime ו-Air Data News)."
+     },
+     "s": {
+      "en": "Embraer and Brazil's state-owned ALADA signed a G2G export framework covering KC-390 Millennium and A-29 Super Tucano sales.",
+      "he": "חברת Embraer ו-ALADA הברזילאית חתמו על מסגרת ייצוא בין-ממשלתית למטוסי KC-390 ו-A-29."
+     },
+     "photo": "img/j/B4.jpg"
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "std",
+     "tier": "full",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Hypersonic Strike / Appropriations",
+     "typeHe": "נשק היפרסוני / תקצוב",
+     "date": "2026-11-25",
+     "h": {
+      "en": "U.S. Senate appropriators propose 75% cut (USD 222.2M) to USAF ship-killing ARRW Increment 2 hypersonic missile and USD 37.1M cut to ALBM",
+      "he": "ועדת ההקצבות של הסנאט הציעה קיצוץ של 75% (222.2 מיליון דולר) במימון טיל ההיפרסוני נגד ספינות ARRW Increment 2"
+     },
+     "what": {
+      "en": "The War Zone reported on November 25 (18:04Z) that the Senate Appropriations Committee's draft FY2027 defense spending bill proposes cutting USD 222.188 million from the U.S. Air Force's USD 296.269 million request for AGM-183A ARRW Increment 2—a variant adding a moving-target/anti-ship seeker—leaving only about 25% of requested funds. Senators also proposed slashing USD 37.129 million from a USD 49.5 million Air Force request for a new air-launched ballistic missile (ALBM), labeling both requests 'early to need' despite planned early-2027 contract awards.",
+      "he": "אתר The War Zone דיווח ב-25 בנובמבר (18:04Z) כי טיוטת תקציב ההגנה לשנת הכספים 2027 של ועדת ההקצבות בסנאט כוללת קיצוץ של 222.188 מיליון דולר מתוך בקשת חיל האוויר האמריקאי בסך 296.269 מיליון דולר לגרסת AGM-183A ARRW Increment 2, המיועדת להוסיף ראש ביות למטרות נעות וספינות מלחמה. הסנאט הציע גם לקצץ 37.129 מיליון דולר מתוך 49.5 מיליון דולר לתוכנית טיל בליסטי משוגר-אוויר חדש (ALBM), בנימוק שההוצאות מוקדמות מדי ביחס לבשלות התוכנית."
+     },
+     "figs": {
+      "en": "Programs: USAF AGM-183A ARRW Increment 2 (anti-ship seeker) & new ALBM. Proposed Senate cuts: USD 222.188M of USD 296.269M requested for ARRW Inc 2 (~75% cut); USD 37.129M of USD 49.5M requested for ALBM (~75% cut). Planned USAF contract dates: Jan 2027 (ARRW Inc 2) & Mar 2027 (ALBM). Report date: Nov 25, 2026 (18:04Z).",
+      "he": "תוכניות: ‏AGM-183A ARRW Increment 2 (ראש ביות נגד ספינות) ו-ALBM חדש. קיצוץ מוצע בסנאט: ‏222.188 מיליון דולר מתוך 296.269 מיליון (כ-75%) ב-ARRW ו-37.129 מיליון מתוך 49.5 מיליון ב-ALBM. מועד דיווח: ‪2026-11-25 18:04Z‬."
+     },
+     "why": {
+      "en": "Highlights Senate appropriators' pushback against next-generation seeker and ALBM R&D outlays—prioritizing near-term depleted munition stocks even after baseline ARRW won a USD 694M production contract.",
+      "he": "ממחיש את התנגדות הסנאט להוצאות מו\"פ עתידיות תוך מתן עדיפות למילוי מלאי חימושים זמינים, אף לאחר שגרסת הבסיס של ARRW זכתה לחוזה ייצור בסך 694 מיליון דולר."
+     },
+     "israel": {
+      "en": "No direct implication; relevant to U.S. Indo-Pacific anti-ship hypersonic readiness and FY2027 appropriations conference priorities.",
+      "he": "אין השלכה ישירה; משקף את סדרי העדיפויות של הקונגרס לקראת ועידת הפשרות על תקציב FY2027."
+     },
+     "src": [
+      {
+       "t": "The War Zone (TWZ)",
+       "u": "https://www.twz.com/air/ship-killing-arrw-hypersonic-missile-variant-struggling-to-get-full-support-from-lawmakers"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source (single HTTP 200 TWZ analysis of Senate Appropriations Committee FY2027 draft bill text).",
+      "he": "לא מאומת — מקור יחיד (דיווח TWZ מאומת HTTP 200 על בסיס טיוטת ועדת ההקצבות בסנאט)."
+     },
+     "s": {
+      "en": "Senate appropriators proposed cutting 75% (USD 222.2M) from the USAF ship-killing ARRW Increment 2 hypersonic request and USD 37.1M from a new ALBM.",
+      "he": "ועדת ההקצבות בסנאט הציעה לקצץ 75% (222.2 מיליון דולר) מתקציב ARRW Increment 2 נגד ספינות ו-37.1 מיליון דולר מ-ALBM."
+     },
+     "photo": "img/j/C1.jpg"
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "std",
+     "tier": "brief",
+     "statuses": [
+      "UPDATE",
+      "UNCONFIRMED"
+     ],
+     "country": "NATO / Russia / Libya",
+     "countryHe": "נאט\"ו / רוסיה / לוב",
+     "type": "Maritime Posture Update",
+     "typeHe": "עדכון פריסה ימית",
+     "date": "2026-11-25",
+     "h": {
+      "en": "Briefly noted (UPDATE): NATO sees no Russian Mediterranean naval buildup after Benghazi USV strike, warning of commercial shipping spillover",
+      "he": "בקצרה (עדכון): נאט\"ו לא מזהה תגבור ימי רוסי בים התיכון לאחר תקיפת הכשב\"מים בבנגאזי, אך מזהירה מזליגה לספנות מסחרית"
+     },
+     "what": {
+      "en": "Breaking Defense reported on November 25 (17:45Z) that a NATO official said the alliance does not expect a Russian naval surge into the Mediterranean after Sunday's Ukrainian USV strike in Benghazi—citing Russian surface fleet 'war-generation issues' and a 5–6:1 NATO-to-Russian surface ship advantage in the Med—while warning of potential retaliatory risks to commercial shipping.",
+      "he": "אתר Breaking Defense דיווח ב-25 בנובמבר (17:45Z) מפי גורם בנאט\"ו כי הברית אינה צופה תגבור או פריסה מחדש של כלי שיט רוסיים בים התיכון בעקבות תקיפת הכשב\"מים האוקראינית בבנגאזי, בשל קשיי בניין הכוח של הצי הרוסי ויתרון של פי 5–6 לספינות נאט\"ו בזירה, אך מזהירה מפני סיכונים לספנות מסחרית."
+     },
+     "figs": {
+      "en": "Update on 2026-11-23 D1 / 2026-11-25 D6 (Benghazi USV strike on Merkury & MV Angara). NATO surface-ship ratio: ~3:1 overall, 5–6:1 in the Mediterranean.",
+      "he": "עדכון לפריטי 2026-11-23 D1 ו-2026-11-25 D6 (תקיפת בנגאזי). יחס כוחות שטח נאט\"ו-רוסיה: כ-3:1 כללי ו-5–6:1 בים התיכון."
+     },
+     "why": {
+      "en": "Briefly noted in the digest under the Reader Interest Profile (posture/assessment update on previously covered Benghazi USV strike without new weapon disclosures).",
+      "he": "בקצרה — סווג לפי פרופיל הקורא כעדכון הערכת מצב לתקיפת בנגאזי שכבר סוקרה ללא חשיפת אמל\"ח חדש."
+     },
+     "israel": {
+      "en": "Relevant to eastern Mediterranean maritime-security posture and commercial shipping risk monitoring.",
+      "he": "רלוונטי להערכת האיומים הימיים והסיכונים לספנות מסחרית במזרח הים התיכון."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks/"
+      }
+     ],
+     "note": {
+      "en": "UPDATE / UNCONFIRMED — single HTTP 200 defense-trade interview with an anonymous NATO official.",
+      "he": "עדכון / לא מאומת — מקור יחיד (Breaking Defense המצטט גורם נאט\"ו בעילום שם)."
+     },
+     "s": {
+      "en": "NATO assesses no Russian Mediterranean naval surge after Ukraine's Benghazi USV strike, citing a 5–6:1 allied ship ratio while warning on merchant-shipping spillover.",
+      "he": "נאט\"ו מעריכה כי לא יחול תגבור ימי רוסי בים התיכון לאחר תקיפת בנגאזי, אך מזהירה מסיכון לספנות מסחרית."
+     },
+     "photo": "img/j/D1.jpg"
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "Israel Defense Budget Boosted by USD 5B / NIS 17.3B (HIGH PRIORITY / Israel): Breaking Defense reported on Nov 25 (17:30Z) that Israel's Joint Committee on the Defense Budget approved an additional NIS 17.3 billion (USD 5 billion) for long-term 'blue-and-white' procurement in space, attack helicopters, and air defense, bringing 2026 authorizations toward USD 55 billion amid FY2027 financing strains (A1).",
+      "World-First Combat Laser Shootdown of Jet-Powered Geran Drone (HIGH PRIORITY): Ukraine's Carmine Sky 'Blysk' 4 kW laser air-defense system, deployed under the Brave1-backed Private Air Defense program, destroyed a Russian jet-powered Geran strike drone while protecting critical infrastructure, officials confirmed Nov 25 (A2).",
+      "Ras Tanura Oil Complex Targeted Amid Conflicting Assessments (HIGH PRIORITY / CONFLICT): Houthi forces claimed drone strikes hit Saudi Arabia's 550,000 b/d Ras Tanura refinery and export terminal as Planet Labs satellite imagery (published Nov 25, 16:59Z) showed a massive smoke plume, conflicting with the Saudi-led coalition's claim that air defenses intercepted four drones over Ras Tanura with only falling debris (A3).",
+      "U.S. Army Delays First MV-75 Cheyenne II Test Delivery Past 2026 (HIGH PRIORITY): Army acquisition officials confirmed (Nov 25, 18:15Z) that Bell Textron will miss its late-2026 handover target for the first MV-75 tiltrotor due to a mid-year funding crunch that halted Army–Bell working communications (B1).",
+      "China Cargo UAV & U.S. Hypersonic Cuts; India Drone Plant (Country Focus): Air White Whale unveiled an 8-ton W8000 cargo UAV mockup in Zhuhai (B2), U.S. Senate appropriators proposed a 75% cut (USD 222.2M) to the ship-killing ARRW Increment 2 hypersonic missile (C1), and Assam broke ground in Rangia on Northeast India's first defense plant targeting 1,500 drones and 100 C-UAS systems annually (B3)."
+     ],
+     "he": [
+      "תוספת של 17.3 מיליארד ש\"ח (5 מיליארד דולר) לתקציב הביטחון הישראלי (עדיפות גבוהה / ישראל): Breaking Defense דיווח ב-25 בנובמבר (17:30Z) כי הוועדה המשותפת לתקציב הביטחון אישרה תוספת של 17.3 מיליארד ש\"ח לרכש \"כחול-לבן\" ארוך-טווח בתחומי החלל, מסוקי הקרב וההגנה האווירית (א1).",
+      "הפלה מבצעית ראשונה בעולם של כטב\"ם סילוני באמצעות לייזר (עדיפות גבוהה): מערכת הלייזר האוקראינית Blysk (4 קילוואט) של חברת Carmine Sky, שפותחה בתמיכת תוכנית Private Air Defense ו-Brave1, הפילה לראשונה כטב\"ם תקיפה סילוני רוסי מדגם Geran בעת הגנה על תשתית קריטית (א2).",
+      "מתקפת כטב\"מים לעבר בית הזיקוק ראס תנורה בסעודיה — דיווחים סותרים (עדיפות גבוהה / סתירה): החות'ים טענו לפגיעה במתקן הנפט ראס תנורה ותצלומי לוויין של Planet Labs (פורסמו ב-25 בנובמבר, 16:59Z) הראו ענן עשן כבד, בסתירה להודעת הקואליציה הסעודית על יירוט ארבעה כטב\"מים ונפילת שברים בלבד (א3).",
+      "צבא ארה\"ב דוחה מעבר ל-2026 את מסירת מטוס הניסוי הראשון MV-75 Cheyenne II (עדיפות גבוהה): לשכת הרכש של צבא ארה\"ב אישרה ב-25 בנובמבר (18:15Z) כי חברת Bell Textron לא תעמוד ביעד סוף 2026 עקב משבר תקציבי באמצע השנה (ב1).",
+      "כטב\"ם מטען סיני, קיצוץ בהיפרסוניק האמריקאי ומפעל כטב\"מים בהודו (מיקוד מדינות): חברת Air White Whale חשפה בג'והאי דגם כטב\"ם מטען W8000 ל-8 טון (ב2), הסנאט האמריקאי הציע קיצוץ של 75% (222.2 מיליון דולר) בטיל ARRW Increment 2 נגד ספינות (ג1), ובאסאם שבהודו הונחה אבן פינה למפעל ראשון ל-1,500 כטב\"מים ו-100 מערכות נ\"כטב\"ם בשנה (ב3)."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "This evening digest covers open-source defense disclosures between 2026-11-25T15:19:00Z and 2026-11-25T18:53:00Z on 25 November 2026. All cited URLs passed live HTTP 200 verification via verify_digest_integrity.py --strict. Gmail MCP lacked an OAuth token in this session (matching the main run). Items A1 (Israel budget committee approval), B1 (MV-75 delay), B2 (W8000 cargo UAV), C1 (ARRW Increment 2 cut), and D1 (NATO Med posture) rely on single defense-trade reports verified HTTP 200 and are flagged UNCONFIRMED — single source. Note on A1: Breaking Defense published the USD 5B / NIS 17.3B Joint Committee approval at 17:30Z on Nov 25, while earlier Israeli domestic coverage noted multi-year budget reallocation dynamics; A1 carries no image because the source carried only an unrelated Oct 2023 tank file photo. All 8 other items carry authentic, event- or system-specific source imagery downloaded and verified as RGB JPEGs. Currency values use ISO notation (no dollar-sign character)."
+    ],
+    "he": [
+     "מהדורת ערב זו מכסה פרסומי ביטחון וטכנולוגיה ממקורות גלויים בין השעות ‪2026-11-25T15:19:00Z‬ ל-‪2026-11-25T18:53:00Z‬ ב-25 בנובמבר 2026. כל הקישורים המצוטטים עברו אימות HTTP 200 חי. חיבור Gmail MCP לא היה מאומת בסשן זה (בדומה למהדורה הראשית). פריטים א1 (תוספת תקציב הביטחון), ב1 (עיכוב MV-75), ב2 (כטב\"ם W8000), ג1 (קיצוץ ARRW Increment 2) ו-ד1 (הערכת נאט\"ו בים התיכון) מבוססים על מקור עיתונאי יחיד ומסומנים כלא מאומתים. פריט א1 אינו כולל תמונה מאחר שבכתבת המקור הופיעה תמונת ארכיון לא קשורה מאוקטובר 2023; שאר 8 הפריטים כוללים תצלומי מקור אותנטיים. כל הסכומים מוצגים בסימון מטבע תקני (ללא סימן דולר)."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-25T15:19:00Z – 2026-11-25T18:53:00Z. Reader profile applied: 7 full items, 2 briefly noted.",
+     "Country focus: Germany 0, UAE 0, Azerbaijan 0, Singapore 0, India 1, Morocco 0.",
+     "Watchdog check: Today's main [AGY] log verified in Drive (1L1tUR6BclizOB6MBAWYFhZh3gesdrl2- — Defense Digest Log [AGY] run 2026-11-25T15:19Z) and main Telegram delivery confirmed complete in scripts/out/telegram_sent_2026-11-25.json & digest/2026-11-25/run.json (15:23:45Z via send_telegram.py). Minimum search gate satisfied: 39 targeted web queries, 37 portal/RSS/API listing sweeps, 46-account X harvest (21 + 2 + 4 + 1 + 8 = 36 candidate tweets across main + category sweeps), and Gmail lead check attempted (unauthenticated OAuth). All URLs verified HTTP 200; 8 authentic source photos embedded (A1 cleanly unillustrated per no-generic-photo rule)."
+    ],
+    "he": [
+     "מהדורת ערב [AGY]. חלון זמן מכוסה: ‪2026-11-25T15:19:00Z – 2026-11-25T18:53:00Z‬. פרופיל קורא יושם: 7 פריטים מלאים, 2 בקצרה.",
+     "מיקוד מדינות: גרמניה 0, איחוד האמירויות 0, אזרבייג'ן 0, סינגפור 0, הודו 1, מרוקו 0.",
+     "בדיקת Watchdog: יומן [AGY] הראשי להיום אומת בדרייב (1L1tUR6BclizOB6MBAWYFhZh3gesdrl2-) ומסירת הטלגרם הראשית אומתה כהושלמה (15:23:45Z דרך send_telegram.py). שער החיפוש המינימלי הושלם: 39 שאילתות חיפוש, 37 סריקות רשימות/RSS/אתרי ביטחון, איסוף מ-46 חשבונות X וניסיון בדיקת Gmail. כל הקישורים אומתו HTTP 200; 8 תצלומי מקור אותנטיים הוטמעו."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Track Israeli Defense Ministry multi-year contracts for space, attack helicopters, and air defense following the NIS 17.3B Joint Committee approval alongside the Rafael/IAI arrears dispute.",
+     "Monitor Carmine Sky 'Blysk' 4 kW laser air-defense deployment scaling and weather-mitigation tests under Ukraine's Brave1 / Private Air Defense program.",
+     "Watch for independent commercial satellite BDA and Saudi Aramco export-capacity updates at Ras Tanura following conflicting intercept vs. fire reports, plus any Red Sea retaliation after Houthi threats.",
+     "Track Bell Textron and U.S. Army ASA(ALT) revised resource-loaded schedule for MV-75 Cheyenne II first test aircraft delivery and Q1 2027 LRIP timing.",
+     "Monitor U.S. House–Senate FY27 Defense Appropriations conference on ARRW Increment 2 (USD 222.2M proposed cut) and ALBM (USD 37.1M proposed cut)."
+    ],
+    "he": [
+     "מעקב אחר חוזי משרד הביטחון לתוכניות החלל, מסוקי הקרב וההגנה האווירית בעקבות אישור ה-17.3 מיליארד ש\"ח והסדרת החוב לרפאל ולתעשייה האווירית.",
+     "מעקב אחר הרחבת פריסת מערכת הלייזר Blysk (4 קילוואט) של Carmine Sky והתמודדותה עם תנאי מזג אוויר באוקראינה.",
+     "מעקב אחר תצלומי לוויין ועדכוני תפוקה מראס תנורה לאחר הדיווחים הסותרים ואיומי החות'ים על נמלי הים האדום.",
+     "מעקב אחר לוח הזמנים המתוקן של צבא ארה\"ב ו-Bell Textron למסירת מטוס הניסוי הראשון MV-75 Cheyenne II ומועד ה-LRIP ב-2027.",
+     "מעקב אחר הכרעת הוועדה המשותפת של הקונגרס על הקיצוץ המוצע בתוכנית ARRW Increment 2 (222.2 מיליון דולר) וב-ALBM."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1nafjof1waG7beQOgUy0bbyxLEvEItT5OpfM2JtdYmeM/edit",
+    "he": "https://docs.google.com/document/d/1lj-N1nfJ8_uYpQwfqdCZtROJ7Ko1inrIdVaEEIOxTg8/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-25_evening_AGY_EN.pdf": "11GnOYeACVfwxUzmrR1j-AuYirhH0IW2S",
+    "Defense_Tech_Digest_2026-11-25_evening_AGY_HE.pdf": "1KXuaQ2TxpWINhjDSvKDuf4R6kGKOqvQh",
+    "Defense_Team_Brief_2026-11-25_evening_AGY_EN.pdf": "1gzXrQTqqK5UUVq1md2lgU8QO1u_aho7P",
+    "Defense_Team_Brief_2026-11-25_evening_AGY_HE.pdf": "1ocDy-t-0E2vY5KcHEwRVhO2kk7X89EOM"
+   },
+   "photos": {
+    "A2": {
+     "file": "A2.jpg",
+     "url": "https://storage.united24media.com/og/b/cc/39690ce7350c421d7268ba05d0c58ccb.png",
+     "outlet": "United24 Media",
+     "caption_en": "Video still released Nov 25, 2026 showing Ukraine's Carmine Sky 'Blysk' 4 kW combat laser engaging a Russian jet-powered Geran drone.",
+     "caption_he": "תצלום מסך מתיעוד היירוט שפורסם ב-25 בנובמבר 2026 של מערכת הלייזר Blysk (4 קילוואט) בעת פגיעה בכטב\"ם סילוני רוסי Geran.",
+     "credit_en": "Photo: Serhii 'Flash' Beskrestnov / Facebook, via United24 Media",
+     "credit_he": "צילום: סרהי \"פלאש\" בסקרסטנוב / פייסבוק, דרך United24 Media",
+     "local_src": "img/2026-11-25-evening/A2.jpg"
+    },
+    "A3": {
+     "file": "A3.jpg",
+     "url": "https://www.middleeasteye.net/sites/default/files/images-story/saudi-arabia-thick-smoke-oil-refinery-ras-tanura-25-nov-2026-planet-labs-reuters.jpg",
+     "outlet": "Middle East Eye",
+     "caption_en": "Planet Labs PBC satellite image captured Nov 25, 2026 showing a thick smoke plume over Saudi Arabia's Ras Tanura oil refinery.",
+     "caption_he": "תצלום לוויין של Planet Labs PBC מ-25 בנובמבר 2026 המתעד ענן עשן כבד מעל בית הזיקוק ראס תנורה בערב הסעודית.",
+     "credit_en": "Photo: Planet Labs PBC / Handout via Reuters, via Middle East Eye",
+     "credit_he": "צילום: Planet Labs PBC / רויטרס, דרך Middle East Eye",
+     "local_src": "img/2026-11-25-evening/A3.jpg"
+    },
+    "B1": {
+     "file": "B1.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
+     "outlet": "Breaking Defense",
+     "caption_en": "U.S. Army Bell MV-75 Cheyenne II Future Long Range Assault Aircraft tiltrotor (U.S. Army file photo).",
+     "caption_he": "כלי הטיס החמקני-טהור / מטה-רוטור MV-75 Cheyenne II של צבא ארה\"ב (תצלום ארכיון של צבא ארה\"ב).",
+     "credit_en": "Photo: U.S. Army, via Breaking Defense",
+     "credit_he": "צילום: צבא ארה\"ב, דרך Breaking Defense",
+     "local_src": "img/2026-11-25-evening/B1.jpg"
+    },
+    "B2": {
+     "file": "B2.jpg",
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/Cargo-Drone-China.jpg?w=1200",
+     "outlet": "The War Zone (TWZ)",
+     "caption_en": "Mockup of Air White Whale's twin-turboprop W8000 8-ton uncrewed cargo aircraft in Zhuhai ahead of Airshow China.",
+     "caption_he": "דגם כטב\"ם המטען הכבד W8000 של חברת Air White Whale שנצפה בג'והאי לקראת Airshow China.",
+     "credit_en": "Photo: via Chinese internet / The War Zone",
+     "credit_he": "צילום: רשתות חברתיות בסין / דרך The War Zone",
+     "local_src": "img/2026-11-25-evening/B2.jpg"
+    },
+    "B3": {
+     "file": "B3.jpg",
+     "url": "https://assamtribune.com/h-upload/2026/11/25/1812945-hx9rdlhauaaryur.jfif",
+     "outlet": "The Assam Tribune",
+     "caption_en": "Assam Chief Minister Himanta Biswa Sarma at the Nov 25, 2026 foundation-stone ceremony for Speed4 Defence Systems' facility in Rangia.",
+     "caption_he": "מושל אסאם הימנטה ביסווה סרמה בטקס הנחת אבן הפינה של מתקן Speed4 Defence Systems בראנגיה, 25 בנובמבר 2026.",
+     "credit_en": "Photo: @CMOfficeAssam / X, via The Assam Tribune",
+     "credit_he": "צילום: לשכת מושל אסאם / X, דרך The Assam Tribune",
+     "local_src": "img/2026-11-25-evening/B3.jpg"
+    },
+    "B4": {
+     "file": "B4.jpg",
+     "url": "https://www.aerotime.aero/images/2026/11/A-Portuguese-Air-Force-KC-390-Millennium-and-an-A-29N-Super-Tucano-flying-in-formation-1200x675.jpg",
+     "outlet": "AeroTime",
+     "caption_en": "Portuguese Air Force Embraer KC-390 Millennium and A-29N Super Tucano flying in formation (file photo published with Nov 25 report).",
+     "caption_he": "מטוס KC-390 Millennium ומטוס A-29N Super Tucano במבנה (תצלום שפורסם עם הדיווח מ-25 בנובמבר).",
+     "credit_en": "Photo: Embraer, via AeroTime",
+     "credit_he": "צילום: Embraer, דרך AeroTime",
+     "local_src": "img/2026-11-25-evening/B4.jpg"
+    },
+    "C1": {
+     "file": "C1.jpg",
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/senate-arrw-increment-2-hypersonic-missile-funding-brakes.jpg?w=1200",
+     "outlet": "The War Zone (TWZ)",
+     "caption_en": "AGM-183A Air-launched Rapid Response Weapon (ARRW) test vehicle (Boeing file photo published with Nov 25 TWZ report).",
+     "caption_he": "טיל הניסוי ההיפרסוני AGM-183A ARRW (תצלום ארכיון של בואינג בדיווח TWZ מ-25 בנובמבר).",
+     "credit_en": "Photo: Boeing, via The War Zone",
+     "credit_he": "צילום: בואינג, דרך The War Zone",
+     "local_src": "img/2026-11-25-evening/C1.jpg"
+    },
+    "D1": {
+     "file": "D1.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Capture-decran-le-2026-11-25-a-18.08.48-scaled.png",
+     "outlet": "Breaking Defense",
+     "caption_en": "Screengrab from Ukrainian MoD USV attack footage published with Breaking Defense's Nov 25 Mediterranean posture update.",
+     "caption_he": "צילום מסך מסרטון תקיפת הכשב\"מ של משרד ההגנה האוקראיני, שפורסם עם עדכון נאט\"ו ב-25 בנובמבר.",
+     "credit_en": "Photo: Ukraine Ministry of Defense, via Breaking Defense",
+     "credit_he": "צילום: משרד ההגנה האוקראיני, דרך Breaking Defense",
+     "local_src": "img/2026-11-25-evening/D1.jpg"
+    }
+   }
+  },
   "2026-11-25-2200": {
    "date": "2026-11-25",
    "slot": "2200",
