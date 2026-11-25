@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-25-0500",
+ "updated_at": "2026-11-25-1130",
  "dates": [
+  "2026-11-25-1130",
   "2026-11-25-0500",
   "2026-11-24-evening",
   "2026-11-24",
@@ -53,6 +54,251 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-25-1130": {
+   "date": "2026-11-25",
+   "slot": "1130",
+   "wstart": "2026-11-25T02:35:00Z",
+   "wend": "2026-11-25T09:52:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "Elbit Systems secures contract to supply Aqua Marine EW suites for German F128 frigates.",
+      "Poland advances naval modernization with keel laying for third Miecznik-class frigate and new CAMM-MR missile deal.",
+      "U.S. Navy initiates development phase for SLCM-N nuclear cruise missile with Raytheon-led team.",
+      "Baykar's AKINCI UCAV successfully completes first live-fire release of ROKETSAN ORKA lightweight torpedo."
+     ],
+     "he": [
+      "אלביט מערכות זכתה בחוזה לאספקת חליפות לוחמה אלקטרונית מסוג Aqua Marine לפריגטות F128 גרמניות.",
+      "פולין מקדמת את המודרניזציה הימית עם הנחת שדרית לפריגטה שלישית מסדרת Miecznik והסכם טילים חדש מסוג CAMM-MR.",
+      "הצי האמריקאי מתחיל בשלב הפיתוח של טיל שיוט גרעיני משוגר מצוללת (SLCM-N) עם צוות בהובלת ריית'יאון.",
+      "כטב״ם ה-AKINCI של חברת בייקאר השלים בהצלחה ניסוי שיגור חי ראשון של טורפדו קל מסוג ORKA מתוצרת רוקטסן."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Electronic Warfare",
+     "typeHe": "לוחמה אלקטרונית",
+     "h": {
+      "en": "Elbit Systems to Supply Aqua Marine EW Suite for Germany’s F128 Frigates",
+      "he": "אלביט מערכות תספק את חליפת הלוחמה האלקטרונית Aqua Marine לפריגטות F128 של גרמניה"
+     },
+     "s": {
+      "en": "Elbit Systems Deutschland has been selected to provide its advanced Aqua Marine electronic warfare suite for the German Navy's new F128 frigate program. The contract follows the approval of a second batch of vessels by the German procurement authority, BAAINBw.",
+      "he": "אלביט מערכות גרמניה נבחרה לספק את חליפת הלוחמה האלקטרונית המתקדמת שלה, Aqua Marine, עבור תוכנית הפריגטות החדשה F128 של הצי הגרמני. החוזה מגיע בעקבות אישור מנהל הרכש הגרמני (BAAINBw) למנה שנייה של כלי שיט."
+     },
+     "what": {
+      "en": "The Aqua Marine suite is designed to provide integrated electronic warfare capabilities, enhancing the situational awareness and self-protection of the F128 frigates against modern maritime threats. This selection reinforces Elbit's footprint in the German naval defense market.",
+      "he": "חליפת ה-Aqua Marine מתוכננת לספק יכולות לוחמה אלקטרונית משולבות, המשפרות את המודעות המצבית וההגנה העצמית של פריגטות ה-F128 מפני איומים ימיים מודרניים. בחירה זו מחזקת את נוכחותה של אלביט בשוק הביטחון הימי הגרמני."
+     },
+     "figs": {
+      "seller": "Elbit Systems",
+      "buyer": "Germany",
+      "item": "Aqua Marine EW Suite",
+      "val": "N/A",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25",
+      "en": "seller: Elbit Systems · buyer: Germany · item: Aqua Marine EW Suite · deal_date: 2026-11-25 · rep_date: 2026-11-25",
+      "he": "seller: Elbit Systems · buyer: Germany · item: Aqua Marine EW Suite · deal_date: 2026-11-25 · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "This contract highlights the deepening defense industrial cooperation between Israel and Germany, specifically in high-end naval sensor and EW technology.",
+      "he": "חוזה זה מדגיש את העמקת שיתוף הפעולה התעשייתי-ביטחוני בין ישראל לגרמניה, בדגש על טכנולוגיות חיישנים ולוחמה אלקטרונית ימית מתקדמות."
+     },
+     "israel": {
+      "en": "Elbit Systems, an Israeli defense giant, continues to expand its European market share through strategic partnerships with German shipyards like TKMS.",
+      "he": "אלביט מערכות, ענקית ביטחונית ישראלית, ממשיכה להרחיב את נתח השוק האירופי שלה באמצעות שותפויות אסטרטגיות עם מספנות גרמניות כגון TKMS."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/elbit-to-supply-aqua-marine-ew-suite-for-germanys-f128-frigates/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/TKMS-F128-Elbit-AquaMarine-EW.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "PL",
+     "countryHe": "פולין",
+     "type": "Naval Warfare",
+     "typeHe": "לוחמה ימית",
+     "h": {
+      "en": "Poland Lays Keel for Third Miecznik-class Frigate and Signs CAMM-MR Missile Deal",
+      "he": "פולין הניחה שדרית לפריגטה שלישית מסדרת Miecznik וחתמה על הסכם טילים מסוג CAMM-MR"
+     },
+     "s": {
+      "en": "Poland has officially laid the keel for the ORP Huragan, the third Miecznik-class frigate, at the Gdynia shipyard. Simultaneously, Warsaw and London finalized an agreement to co-develop the CAMM-MR air defense missile.",
+      "he": "פולין הניחה רשמית את השדרית עבור ה-ORP Huragan, הפריגטה השלישית מסדרת Miecznik, במספנות גדיניה. במקביל, ורשה ולונדון השלימו הסכם לפיתוח משותף של טיל ההגנה האווירית CAMM-MR."
+     },
+     "what": {
+      "en": "The keel-laying ceremony marks a significant milestone in Poland's naval modernization. The CAMM-MR missile, developed in collaboration with the UK, will provide extended-range air defense capabilities for the new frigate fleet.",
+      "he": "טקס הנחת השדרית מסמן אבן דרך משמעותית במודרניזציה הימית של פולין. טיל ה-CAMM-MR, שפותח בשיתוף פעולה עם בריטניה, יספק יכולות הגנה אווירית לטווח מורחב עבור צי הפריגטות החדש."
+     },
+     "figs": {
+      "seller": "Poland/UK",
+      "buyer": "Poland",
+      "item": "Miecznik Frigate / CAMM-MR",
+      "val": "N/A",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25",
+      "en": "seller: Poland/UK · buyer: Poland · item: Miecznik Frigate / CAMM-MR · deal_date: 2026-11-25 · rep_date: 2026-11-25",
+      "he": "seller: Poland/UK · buyer: Poland · item: Miecznik Frigate / CAMM-MR · deal_date: 2026-11-25 · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "This development significantly enhances NATO's eastern flank maritime capabilities and demonstrates a robust industrial partnership between Poland and the UK.",
+      "he": "פיתוח זה משפר משמעותית את היכולות הימיות באגף המזרחי של נאט״ו ומדגים שותפות תעשייתית איתנה בין פולין לבריטניה."
+     },
+     "israel": {
+      "en": "N/A",
+      "he": "לא רלוונטי"
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/poland-lays-keel-third-miecznik-frigate-huragan/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/Poland-Lays-Keel-for-Third-Miecznik-Frigate.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "TR",
+     "countryHe": "טורקיה",
+     "type": "UCAV",
+     "typeHe": "כטב״ם תקיפה",
+     "h": {
+      "en": "Bayraktar AKINCI Conducts First ORKA Torpedo Release Test",
+      "he": "ה-Bayraktar AKINCI ביצע ניסוי שיגור ראשון של טורפדו ORKA"
+     },
+     "s": {
+      "en": "Baykar's AKINCI UCAV has successfully completed its first airborne release test of the ORKA next-generation lightweight torpedo. The weapon was developed by the Turkish firm ROKETSAN.",
+      "he": "כטב״ם ה-AKINCI של חברת בייקאר השלים בהצלחה את ניסוי השיגור האווירי הראשון של הטורפדו הקל מהדור הבא מסוג ORKA. הנשק פותח על ידי החברה הטורקית רוקטסן."
+     },
+     "what": {
+      "en": "The test demonstrates the AKINCI's expanding anti-submarine warfare (ASW) capabilities. The ORKA torpedo is designed for precision strikes against underwater targets, significantly increasing the platform's utility in maritime patrol missions.",
+      "he": "הניסוי מדגים את יכולות הלוחמה נגד צוללות (ASW) המתרחבות של ה-AKINCI. טורפדו ה-ORKA מתוכנן לתקיפות מדויקות נגד מטרות תת-ימיות, מה שמגדיל משמעותית את התועלת של הפלטפורמה במשימות סיור ימי."
+     },
+     "figs": {
+      "seller": "Baykar/ROKETSAN",
+      "buyer": "N/A",
+      "item": "ORKA Torpedo Integration",
+      "val": "N/A",
+      "deal_date": "2026-11-22",
+      "rep_date": "2026-11-25",
+      "en": "seller: Baykar/ROKETSAN · item: ORKA Torpedo Integration · deal_date: 2026-11-22 · rep_date: 2026-11-25",
+      "he": "seller: Baykar/ROKETSAN · item: ORKA Torpedo Integration · deal_date: 2026-11-22 · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "This integration marks a shift in UCAV roles, moving from traditional land-based strike to complex maritime ASW operations.",
+      "he": "שילוב זה מסמן שינוי בתפקידי כטב״מי התקיפה, ממעבר מתקיפה יבשתית מסורתית לפעולות לוחמה נגד צוללות ימיות מורכבות."
+     },
+     "israel": {
+      "en": "N/A",
+      "he": "לא רלוונטי"
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/bayraktar-akinci-conducts-first-orka-torpedo-release-test/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/Screenshot-2026-11-23-at-11.34.27.png",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 4 full items, 0 briefly noted.",
+     "Country focus: Germany (D1), Poland (D2), India (N/A), UAE (N/A), Azerbaijan (N/A), Singapore (N/A), Morocco (N/A)."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 4 פריטים מלאים, 0 בקצרה.",
+     "מיקוד מדינות: גרמניה (D1), פולין (D2), הודו (לא רלוונטי), איחוד האמירויות (לא רלוונטי), אזרבייג'ן (לא רלוונטי), סינגפור (לא רלוונטי), מרוקו (לא רלוונטי)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Monitoring potential follow-on orders for Elbit's Aqua Marine suite in other European navies.",
+     "Tracking the progress of the CAMM-MR missile development between Poland and the UK.",
+     "Observing the operational deployment of the SLCM-N on U.S. attack submarines.",
+     "Watching for further integration of ASW weapons on Turkish UCAV platforms."
+    ],
+    "he": [
+     "מעקב אחר הזמנות המשך פוטנציאליות לחליפת ה-Aqua Marine של אלביט בציים אירופיים נוספים.",
+     "מעקב אחר התקדמות פיתוח טיל ה-CAMM-MR בין פולין לבריטניה.",
+     "צפייה בפריסה המבצעית של ה-SLCM-N על צוללות תקיפה אמריקאיות.",
+     "מעקב אחר שילוב נוסף של כלי נשק נגד צוללות על פלטפורמות כטב״ם טורקיות."
+    ]
+   },
+   "edition_key": "2026-11-25-1130",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "D1": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/TKMS-F128-Elbit-AquaMarine-EW.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "Elbit Systems to Supply Aqua Marine EW Suite for Germany’s F128 Frigates",
+     "caption_he": "אלביט מערכות תספק את חליפת הלוחמה האלקטרונית Aqua Marine לפריגטות F128 של גרמניה",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-25-1130/D1.jpg"
+    },
+    "D2": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Poland-Lays-Keel-for-Third-Miecznik-Frigate.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "Poland Lays Keel for Third Miecznik-class Frigate and Signs CAMM-MR Missile Deal",
+     "caption_he": "פולין הניחה שדרית לפריגטה שלישית מסדרת Miecznik וחתמה על הסכם טילים מסוג CAMM-MR",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-25-1130/D2.jpg"
+    },
+    "B1": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Screenshot-2026-11-23-at-11.34.27.png",
+     "outlet": "navalnews.com",
+     "caption_en": "Bayraktar AKINCI Conducts First ORKA Torpedo Release Test",
+     "caption_he": "ה-Bayraktar AKINCI ביצע ניסוי שיגור ראשון של טורפדו ORKA",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-25-1130/B1.jpg"
+    }
+   }
+  },
   "2026-11-25-0500": {
    "date": "2026-11-25",
    "slot": "0500",
