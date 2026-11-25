@@ -60,22 +60,20 @@ window.DEFENSE_BRIEF_FEED = {
    "date": "2026-11-25",
    "slot": "1800",
    "wstart": "2026-11-25T09:52:00Z",
-   "wend": "2026-11-25T18:28:00Z",
+   "wend": "2026-11-25T18:37:00Z",
    "digest": {
     "bluf": {
      "en": [
-      "Israel increases its defense budget by USD 5 billion amid regional escalation and long-term funding concerns.",
-      "Turkey's Baykar delivers the first mass-produced Kızılelma jet-powered 'Loyal Wingman' drones to the Turkish Air Force.",
-      "The Italian Navy achieves a major BMD milestone with the first Aster 30 ballistic missile intercept by a PPA-class vessel.",
-      "Japan signs a landmark pact to use Indian missile ranges for testing long-range anti-ship munitions and attack drones.",
-      "Ukraine conducts deep strikes hitting a strategic Russian aerospace sensor in Smolensk and five warplanes at an airbase east of Moscow."
+      "Israel Increases Defense Budget by USD 5 Billion Amid Sustained Multi-Front Operations",
+      "Italian Navy PPA Frigate Demonstrates Ballistic Missile Defense Interception using Aster 30",
+      "UK Royal Air Force Hangars Combat Aircraft at Night and Deploys Anti-Drone Nets",
+      "US Air Force Awards Boeing USD 2.82 Billion Final Production Lot for 15 KC-46A Tankers"
      ],
      "he": [
-      "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר על רקע ההסלמה האזורית וחששות ממימון ארוך טווח.",
-      "חברת באייקר הטורקית מסרה את כטב״מי הקיזילאלמה הסילוניים הראשונים מייצור סדרתי לחיל האוויר הטורקי בתצורת ״שותף נאמן״.",
-      "הצי האיטלקי רשם אבן דרך משמעותית בהגנה מפני טילים עם יירוט ראשון של טיל בליסטי באמצעות טילי אסטר 30 מספינת PPA.",
-      "יפן חתמה על הסכם היסטורי לשימוש בשטחי ניסוי בהודו עבור אימוני טילים ארוכי טווח נגד ספינות וכטב״מי תקיפה.",
-      "אוקראינה ביצעה תקיפות עומק נגד חיישן חלל אסטרטגי רוסי בסמולנסק וחמישה מטוסי קרב בבסיס אווירי ממזרח למוסקבה."
+      "ישראל מעלה את תקציב הביטחון ב-5 מיליארד דולר ברקע לחימה מתמשכת ברב-חזיתית",
+      "פריגטת PPA של הצי האיטלקי יידטה בהצלחה טיל בליסטי באמצעות מיירט Aster 30",
+      "חיל האוויר המלכותי הבריטי מכניס מטוסי קרב לדצי״ם בלילה ופורס רשתות נגד כטב״מים",
+      "חיל האוויר האמריקאי העניק לבואינג חוזה בסך 2.82 מיליארד דולר לסדרת הייצור האחרונה של 15 מטוסי KC-46A"
      ]
     }
    },
@@ -89,37 +87,35 @@ window.DEFENSE_BRIEF_FEED = {
      ],
      "country": "IL",
      "countryHe": "ישראל",
-     "type": "Defense Budget",
-     "typeHe": "תקציב ביטחון",
+     "type": "Defense Budget & Air Defense Procurement",
+     "typeHe": "תקציב ביטחון ורכש הגנה אווירית",
      "h": {
-      "en": "Israel Increases Defense Budget by USD 5 Billion Amid Funding Concerns",
-      "he": "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר על רקע חששות תקציביים"
+      "en": "Israel Increases Defense Budget by USD 5 Billion Amid Sustained Multi-Front Operations",
+      "he": "ישראל מעלה את תקציב הביטחון ב-5 מיליארד דולר ברקע לחימה מתמשכת ברב-חזיתית"
      },
      "s": {
-      "en": "The Israeli government has approved a USD 5 billion increase to the defense budget to address immediate operational needs and procurement. The move comes as officials express concern over the sustainability of long-term defense spending and US aid integration.",
-      "he": "ממשלת ישראל אישרה תוספת של 5 מיליארד דולר לתקציב הביטחון לצורך מענה לצרכים מבצעיים מיידיים ורכש. המהלך מגיע בעוד גורמים רשמיים מביעים חשש לגבי יציבות הוצאות הביטחון לטווח ארוך ושילוב הסיוע האמריקאי."
+      "en": "Israel has enacted a USD 5 billion emergency increase to its national defense spending to finance ongoing high-intensity combat operations and interceptor production. The allocation addresses rising air defense operational costs and accelerated procurement across Israeli defense prime contractors.",
+      "he": "ממשלת ישראל אישרה הגדלה חירום של תקציב הביטחון בסך 5 מיליארד דולר למימון פעילות מבצעית בעוצמה גבוהה וייצור מיירטים. ההקצאה מיועדת לעמוד בעלויות הנגזרות של מערך ההגנה האווירית והרחבת הרכש מהתעשיות הביטחוניות."
      },
      "what": {
-      "en": "The budget hike is intended to cover the high costs of the ongoing multi-front conflict, including munitions replenishment and the expansion of air defense arrays. This follows a period of intense debate regarding the fiscal impact of the war on the national economy and the necessity of maintaining a high state of readiness against Iranian-backed threats.",
-      "he": "הגדלת התקציב נועדה לכסות את העלויות הגבוהות של הלחימה הרב-זירתית המתמשכת, כולל הצטיידות מחדש בחימוש והרחבת מערכי ההגנה האווירית. זאת לאחר תקופה של דיונים אינטנסיביים בנוגע להשפעה הפיסקלית של המלחמה על הכלכלה הלאומית והצורך בשימור מוכנות גבוהה מול איומים בגיבוי איראני."
+      "en": "The Israeli government finalized a USD 5 billion defense budget expansion following prolonged legislative deliberations. The top-up is designed to cover heavy operational wear, massive munitions consumption, and rapid production scaling for Iron Dome, David's Sling, and Arrow 3 interceptor lines managed by Rafael and IAI.",
+      "he": "ממשלת ישראל השלימה הרחבה תקציבית של 5 מיליארד דולר למערכת הביטחון בתום דיונים ממושכים. התוספת מיועדת לכיסוי בלאי מבצעי מוגבר, צריכת חימוש נרחבת והאצת קווי הייצור של מיירטי כיפת ברזל, קלע דוד וחץ 3 המיוצרים על ידי רפאל והתעשייה האווירית."
      },
      "figs": {
-      "seller": "Israel MoD",
-      "buyer": "IDF",
-      "item": "Defense Budget Increase",
-      "val": "USD 5,000M",
-      "deal_date": "2026-11-25",
+      "buyer": "Ministry of Defense (Israel)",
+      "val": "USD 5.0B",
+      "item": "Defense Budget Top-Up & Air Defense Munitions Funding",
       "rep_date": "2026-11-25",
-      "en": "seller: Israel MoD · buyer: IDF · item: Defense Budget Increase · val: USD 5,000M · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: Israel MoD · buyer: IDF · item: Defense Budget Increase · val: USD 5,000M · deal_date: 2026-11-25 · rep_date: 2026-11-25"
+      "en": "buyer: Ministry of Defense (Israel) · val: USD 5.0B · item: Defense Budget Top-Up & Air Defense Munitions Funding · rep_date: 2026-11-25",
+      "he": "buyer: Ministry of Defense (Israel) · val: USD 5.0B · item: Defense Budget Top-Up & Air Defense Munitions Funding · rep_date: 2026-11-25"
      },
      "why": {
-      "en": "The increase reflects the shift to a 'war economy' footing and the strategic requirement to maintain qualitative military edge (QME) despite economic pressures.",
-      "he": "התוספת משקפת את המעבר למתכונת של ״כלכלת מלחמה״ ואת הדרישה האסטרטגית לשמור על יתרון איכותי (QME) למרות הלחצים הכלכליים."
+      "en": "The budget surge highlights the immense fiscal burden of sustained multi-layered air defense and intense regional kinetic operations. It ensures cash flow for Israeli defense manufacturers to double interceptor output while raising concern over long-term civilian fiscal tradeoffs.",
+      "he": "הגדלת התקציב מדגישה את המעמסה הפיננסית האדירה של אחזקת מערך הגנה אווירית רב-שכבתי בלחימה מתמשכת. הצעד מבטיח תזרים מזומנים לתעשיות הביטחוניות להכפלת קצב ייצור המיירטים, אך מציב אתגרים תקציביים משמעותיים."
      },
      "israel": {
-      "en": "Direct impact on IDF procurement and the domestic defense industrial base (IAI, Rafael, Elbit).",
-      "he": "השפעה ישירה על הרכש של צה״ל ועל בסיס התעשייה הביטחונית המקומית (תע״א, רפאל, אלביט)."
+      "en": "Directly impacts Israeli defense policy, funding for IAI, Rafael, and Elbit Systems, and secures continuous supply of air defense interceptors for the IDF.",
+      "he": "משפיע ישירות על מדיניות הביטחון של ישראל, מימון התעשיות האווירית, רפאל ואלביט מערכות, ומבטיח אספקה רציפה של מיירטי הגנה אווירית לצה״ל."
      },
      "src": [
       {
@@ -128,6 +124,122 @@ window.DEFENSE_BRIEF_FEED = {
       }
      ],
      "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/10/israel-tank-scaled-e1696872367451.jpg",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IT",
+     "countryHe": "איטליה",
+     "type": "Naval Ballistic Missile Defense",
+     "typeHe": "הגנה נגד טילים בליסטיים מזרוע הים",
+     "h": {
+      "en": "Italian Navy PPA Frigate Demonstrates Ballistic Missile Defense Interception using Aster 30",
+      "he": "פריגטת PPA של הצי האיטלקי יידטה בהצלחה טיל בליסטי באמצעות מיירט Aster 30"
+     },
+     "s": {
+      "en": "The Italian Navy's first 'Full' configuration Multipurpose Combat Ship (PPA), Giovanni delle Bande Nere, successfully intercepted a high-speed target simulating a ballistic missile using Aster 30 interceptors. The milestone confirms Italy's sea-based BMD engagement capability.",
+      "he": "ספינת הקרב הרב-תכליתית הראשונה בתצורת 'Full' של הצי האיטלקי, Giovanni delle Bande Nere, יירטה בהצלחה מטרה שדימתה טיל בליסטי במהירות גבוהה באמצעות מיירט Aster 30. הניסוי מאשר יכולת הגנה נגד טילים בליסטיים מהים עבור איטליה."
+     },
+     "what": {
+      "en": "During live-fire testing, the PPA Giovanni delle Bande Nere utilized its Leonardo SADOC 4 Combat Management System and Kronos Dual Band Radar combined with MBDA Aster 30 missiles to track and destroy a ballistic missile target. This marks the operational validation of the 'Full' PPA design for high-tier air defense.",
+      "he": "במהלך ניסוי באש חיה, הספינה עשתה שימוש במערכת ניהול הקרב SADOC 4 ובמכ״ם Kronos Dual Band מבית לאונרדו יחד עם מיירטי Aster 30 מבית MBDA כדי לעקוב ולהשמיד מטרה בליסטית. הניסוי מהווה אישוש מבצעי לתצורת ה-PPA המלאה במשימות הגנה אווירית גבוהה."
+     },
+     "figs": {
+      "seller": "MBDA / Leonardo",
+      "buyer": "Italian Navy",
+      "item": "PPA Full Configuration BMD Qualification & Aster 30 Interception",
+      "rep_date": "2026-11-25",
+      "en": "seller: MBDA / Leonardo · buyer: Italian Navy · item: PPA Full Configuration BMD Qualification & Aster 30 Interception · rep_date: 2026-11-25",
+      "he": "seller: MBDA / Leonardo · buyer: Italian Navy · item: PPA Full Configuration BMD Qualification & Aster 30 Interception · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "Sea-based ballistic missile defense capability is becoming essential for NATO partners in the Mediterranean to defend maritime task forces and coastal installations against proliferating anti-ship ballistic threats.",
+      "he": "יכולת הגנה ימית נגד טילים בליסטיים הופכת לקריטית עבור מדינות נאט״ו בים התיכון לשם הגנה על כוחות משימה ימיים ומתקני חוף מפני איומים בליסטיים נגד ספינות."
+     },
+     "israel": {
+      "en": "Demonstrates European BMD maturity parallel to Israeli naval Arrow/Barak-8 deployments and expands NATO's regional air defense architecture in the Mediterranean.",
+      "he": "מדגימה בגרות של יכולות BMD אירופיות במקביל לפריסת מערכות חץ וברק-8 הימיות בישראל, ומרחיבה את ארכיטקטורת ההגנה האווירית של נאט״ו בים התיכון."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/italian-navy-bmd-ppa-bande-nere/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/Screenshot-2026-11-25-at-16.46.09-scaled.png",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "GB",
+     "countryHe": "בריטניה",
+     "type": "Base Air Defense & C-UAS Infrastructure",
+     "typeHe": "הגנת בסיסים ותשתיות נגד כטב״ם",
+     "h": {
+      "en": "UK Royal Air Force Hangars Combat Aircraft at Night and Deploys Anti-Drone Nets",
+      "he": "חיל האוויר המלכותי הבריטי מכניס מטוסי קרב לדצי״ם בלילה ופורס רשתות נגד כטב״מים"
+     },
+     "s": {
+      "en": "The UK RAF has directed bases to shelter combat aircraft overnight and install Kevlar anti-drone netting around exposed assets following heightened intelligence regarding potential uncrewed aerial reconnaissance and sabotages.",
+      "he": "חיל האוויר המלכותי הבריטי הנחה את בסיסיו להכניס מטוסי קרב למחסינים ממוגנים בלילות ולהציב רשתות קבלר נגד כטב״מים סביב כלי טיס חשופים, בעקבות התרעות מודיעיניות על איומי רחפנים וסאבוטז׳."
+     },
+     "what": {
+      "en": "Following intelligence warnings regarding hostile drone activity across NATO European bases, the RAF implemented immediate physical defense countermeasures. Aircraft requiring open apron parking are being fitted with Ukrainian-style Kevlar net structures to mitigate kamikaze drone strikes.",
+      "he": "בעקבות התרעות מודיעין על פעילות כטב״מים עוינת בבסיסי נאט״ו באירופה, יישם חיל האוויר הבריטי אמצעי הגנה פיזיים מיידיים. מטוסים החונים ברחבות פתוחות מוגנים כעת ברשתות קבלר בסגנון אוקראיני לבלימת תקיפות כטב״מים מתאבדים."
+     },
+     "figs": {
+      "buyer": "Royal Air Force",
+      "item": "Base Hardening & Counter-Drone Protection Deployment",
+      "rep_date": "2026-11-25",
+      "en": "buyer: Royal Air Force · item: Base Hardening & Counter-Drone Protection Deployment · rep_date: 2026-11-25",
+      "he": "buyer: Royal Air Force · item: Base Hardening & Counter-Drone Protection Deployment · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "Reflects the rapid adoption of Eastern European combat lessons by NATO air forces, highlighting how cheap tactical UAVs have made traditional forward airfields vulnerable worldwide.",
+      "he": "משקף את האימוץ המהיר של לקחי הלחימה ממזרח אירופה בקרב חילות האוויר של נאט״ו, ומדגיש כיצד כטב״מים טקטיים זולים הפכו בסיסי אוויר מסורתיים לפגיעים בכל העולם."
+     },
+     "israel": {
+      "en": "Aligns with IDF Air Force operational doctrine of hardened aircraft shelters (HAS) and localized C-UAS force protection nets across airbases.",
+      "he": "תואם את תפיסת ההגנה של חיל האוויר הישראלי המתבססת על דירים ממוגנים (דת״קים) ופריסת רשתות הגנה טקטיות נגד כטב״מים בבסיסים."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/uk-reportedly-hides-warplanes-in-hangars-at-night-over-drones/"
+      }
+     ],
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3776.jpg",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
@@ -138,217 +250,60 @@ window.DEFENSE_BRIEF_FEED = {
      "domain": "aerial",
      "priority": "high",
      "statuses": [
-      "DELIVERED"
+      "CONFIRMED"
      ],
-     "country": "TR",
-     "countryHe": "טורקיה",
-     "type": "UCAV",
-     "typeHe": "כטב״ם תקיפה",
+     "country": "US",
+     "countryHe": "ארצות הברית",
+     "type": "Aerial Refueling Procurement",
+     "typeHe": "רכש תדלוק אווירי",
      "h": {
-      "en": "Baykar Delivers First Mass-Produced Kızılelma Jet Drones to Turkish Air Force",
-      "he": "באייקר מסרה את כטב״מי הקיזילאלמה הסילוניים הראשונים מייצור סדרתי לחיל האוויר הטורקי"
+      "en": "US Air Force Awards Boeing USD 2.82 Billion Final Production Lot for 15 KC-46A Tankers",
+      "he": "חיל האוויר האמריקאי העניק לבואינג חוזה בסך 2.82 מיליארד דולר לסדרת הייצור האחרונה של 15 מטוסי KC-46A"
      },
      "s": {
-      "en": "Baykar has officially delivered the first three mass-produced units of the Kızılelma jet-powered unmanned combat aerial vehicle (UCAV) to the Turkish Air Force. The platform is designed for 'Loyal Wingman' operations alongside manned fighters.",
-      "he": "חברת באייקר מסרה רשמית את שלוש היחידות הראשונות מייצור סדרתי של הכטב״ם הסילוני קיזילאלמה לחיל האוויר הטורקי. הפלטפורמה תוכננה למשימות ״שותף נאמן״ לצד מטוסי קרב מאוישים."
+      "en": "The U.S. Department of War has awarded Boeing a USD 2.82 billion contract modification for Lot 13 production of 15 KC-46A Pegasus refuelers. This concludes the original fixed-price procurement phase, bringing total contracted aircraft to 203.",
+      "he": "מחלקת המלחמה של ארה״ב העניקה לבואינג תוספת לחוזה בסך 2.82 מיליארד דולר לייצור סדרה 13 הכוללת 15 מטוסי תדלוק מסוג KC-46A פגסוס. בכך מסתיימת שלב הרכש המקורי במחיר קבוע, והיקף ההזמנות הכולל מגיע ל-203 מטוסים."
      },
      "what": {
-      "en": "The Kızılelma is a low-observable, supersonic-capable UCAV designed to perform air-to-air and air-to-ground missions. The delivery marks the transition from prototype testing to operational fielding, with the aircraft demonstrating collaborative combat capabilities with manned assets in recent flight tests.",
-      "he": "הקיזילאלמה הוא כטב״ם תקיפה בעל חתימה נמוכה ויכולת טיסה על-קולית, המיועד למשימות אוויר-אוויר ואוויר-קרקע. המסירה מסמלת את המעבר משלב אב-הטיפוס להצטיידות מבצעית, כאשר הכלי הדגים יכולות לחימה משותפת עם פלטפורמות מאוישות בניסויי טיסה אחרונים."
+      "en": "The award covers 15 additional KC-46A tankers, extending production work through 2030. This final lot under the original 2011 agreement brings total U.S. Air Force KC-46A commitments to 184 operational aircraft alongside international orders for Japan and Israel.",
+      "he": "החוזה כולל 15 מטוסי תדלוק נוספים מסוג KC-46A, ומאריך את קו הייצור עד שנת 2030. סדרה סופית זו במסגרת ההסכם המקורי משנת 2011 מעמידה את סך התחייבויות חיל האוויר האמריקאי על 184 מטוסים לצד הזמנות בינלאומיות ליפן ולישראל."
      },
      "figs": {
-      "seller": "Baykar",
-      "buyer": "Turkish Air Force",
-      "item": "Kızılelma UCAV",
-      "val": "Undisclosed",
-      "deal_date": "2026-11-25",
+      "seller": "Boeing",
+      "buyer": "U.S. Air Force",
+      "val": "USD 2.82B",
+      "item": "15 KC-46A Pegasus Aerial Refueling Aircraft (Lot 13)",
       "rep_date": "2026-11-25",
-      "en": "seller: Baykar · buyer: Turkish Air Force · item: Kızılelma UCAV · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: Baykar · buyer: Turkish Air Force · item: Kızılelma UCAV · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25"
+      "en": "seller: Boeing · buyer: U.S. Air Force · val: USD 2.82B · item: 15 KC-46A Pegasus Aerial Refueling Aircraft (Lot 13) · rep_date: 2026-11-25",
+      "he": "seller: Boeing · buyer: U.S. Air Force · val: USD 2.82B · item: 15 KC-46A Pegasus Aerial Refueling Aircraft (Lot 13) · rep_date: 2026-11-25"
      },
      "why": {
-      "en": "This delivery solidifies Turkey's position as a leader in autonomous jet combat technology and provides a template for future unmanned-manned teaming (MUM-T) in NATO environments.",
-      "he": "מסירה זו מבצרת את מעמדה של טורקיה כמובילה בטכנולוגיית קרב סילונית אוטונומית ומספקת מודל לצוותי מאויש-בלתי מאויש (MUM-T) עתידיים בסביבות נאט״ו."
+      "en": "The KC-46A fleet is vital for supporting long-range expeditionary air warfare in Indo-Pacific and European theaters. Finalizing this contract allows the USAF to transition planning toward the future KC-Y / Next-Generation Air Refueling System (NGAS).",
+      "he": "צי מטוסי ה-KC-46A חיוני לתמיכה במבצעים אוויריים ארוכי-טווח בזירות הודו-פסיפיק ואירופה. סיום החוזה הנוכחי מאפשר לחיל האוויר האמריקאי להתקדם לתכנון מערך התדלוק האווירי של הדור הבא (NGAS)."
      },
      "israel": {
-      "en": "The rapid advancement of Turkish jet drones presents a significant regional technological benchmark for Israeli C-UAS and air superiority planning.",
-      "he": "ההתקדמות המהירה של כטב״מי הסילון הטורקיים מהווה רף טכנולוגי אזורי משמעותי עבור תכנון מערכי ההגנה האווירית והעליונות האווירית של ישראל."
+      "en": "Israel has ordered four KC-46A tankers from Boeing to replace its aging Ram 707 fleet; Boeing's continued line stability directly benefits Israeli delivery schedules.",
+      "he": "ישראל הזמינה ארבעה מטוסי תדלוק KC-46A מבואינג להחלפת צי מטוסי הרא״ם (בואינג 707) המתיישן; יציבות קו הייצור של בואינג משפיעה במישרין על לוחות הזמנים לאספקה לישראל."
      },
      "src": [
       {
-       "t": "presamiga",
-       "u": "https://x.com/presamiga/status/2125528269403390337"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/media/HX-FyXQXwAAZVPg.jpg",
-     "photo_outlet": "Baykar",
-     "photo_caption_en": "The first mass-produced Kızılelma UCAVs during delivery ceremonies.",
-     "note": {
-      "en": "DELIVERED — Verified via cited open source(s).",
-      "he": "DELIVERED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "A2",
-     "domain": "air",
-     "priority": "high",
-     "statuses": [
-      "SUCCESS"
-     ],
-     "country": "IT",
-     "countryHe": "איטליה",
-     "type": "Naval BMD",
-     "typeHe": "הגנה מטילים בים",
-     "h": {
-      "en": "Italian Navy PPA Vessel Intercepts Ballistic Missile with Aster 30",
-      "he": "ספינת PPA של הצי האיטלקי יירטה טיל בליסטי באמצעות אסטר 30"
-     },
-     "s": {
-      "en": "The Italian Navy's PPA 'Giovanni delle Bande Nere' successfully intercepted a high-speed ballistic missile target using an Aster 30 missile. This marks the first BMD intercept for the 'Full' configuration of the Thaon di Revel-class.",
-      "he": "ספינת ה-PPA של הצי האיטלקי ״ג׳ובאני דלה באנדה נרה״ יירטה בהצלחה מטרה של טיל בליסטי במהירות גבוהה באמצעות טיל אסטר 30. זהו יירוט ה-BMD הראשון עבור תצורת ה-Full של סדרת ספינות ה-Thaon di Revel."
-     },
-     "what": {
-      "en": "The intercept was conducted by the fourth unit of the class, which is the first to feature the full multi-purpose combat suite. The test validated the integration of the Leonardo Kronos Quad radar and the MBDA Aster 30 Block 1NT capability against tactical ballistic threats.",
-      "he": "היירוט בוצע על ידי היחידה הרביעית בסדרה, שהיא הראשונה הכוללת את חליפת הלחימה הרב-תכליתית המלאה. הניסוי תיקף את השילוב של מכ״ם ה-Kronos Quad של לאונרדו ויכולת ה-Aster 30 Block 1NT של MBDA נגד איומים בליסטיים טקטיים."
-     },
-     "figs": {
-      "seller": "MBDA / Leonardo",
-      "buyer": "Italian Navy",
-      "item": "Aster 30 BMD Intercept",
-      "val": "Undisclosed",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: MBDA / Leonardo · buyer: Italian Navy · item: Aster 30 BMD Intercept · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: MBDA / Leonardo · buyer: Italian Navy · item: Aster 30 BMD Intercept · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "This milestone enhances NATO's maritime ballistic missile defense architecture in the Mediterranean, providing a mobile and highly capable sensor/effector node.",
-      "he": "אבן דרך זו מחזקת את ארכיטקטורת ההגנה הימית של נאט״ו מפני טילים בליסטיים בים התיכון, ומספקת צומת חיישנים ותקיפה נייד ובעל יכולת גבוהה."
-     },
-     "israel": {
-      "en": "Relevant to Israeli naval cooperation with Italy and the ongoing development of sea-based missile defense (C-Dome/Barak MX).",
-      "he": "רלוונטי לשיתוף הפעולה הימי של ישראל עם איטליה ולפיתוח המתמשך של הגנה מטילים מבוססת ים (כיפה ימית/ברק MX)."
-     },
-     "src": [
-      {
-       "t": "Naval News",
-       "u": "https://x.com/navalnewscom/status/2125635382028943652"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/card_img/2125634769174097920/VMUi4TLW?format=png&amp;name=medium",
-     "note": {
-      "en": "SUCCESS — Verified via cited open source(s).",
-      "he": "SUCCESS — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "C1",
-     "domain": "strike",
-     "priority": "high",
-     "statuses": [
-      "AGREEMENT"
-     ],
-     "country": "JP",
-     "countryHe": "יפן",
-     "type": "Missile Training",
-     "typeHe": "אימוני טילים",
-     "h": {
-      "en": "Japan to Use Indian Ranges for Long-Range Missile and Drone Training",
-      "he": "יפן תשתמש בשטחי ניסוי בהודו לאימוני טילים וכטב״מים ארוכי טווח"
-     },
-     "s": {
-      "en": "Japan has reached an agreement to utilize Indian military ranges for testing and training with long-range anti-ship missiles and attack drones. The move addresses Japan's domestic geographic constraints for high-end kinetic testing.",
-      "he": "יפן הגיעה להסכם לשימוש בשטחי ניסוי צבאיים בהודו לצורך בחינה ואימון בטילים נגד ספינות ארוכי טווח וכטב״מי תקיפה. המהלך נותן מענה למגבלות הגיאוגרפיות של יפן בניסויים קינטיים מתקדמים."
-     },
-     "what": {
-      "en": "Japanese officials visited India in October to finalize the pact, which allows the Japan Self-Defense Forces (JSDF) to conduct live-fire exercises that exceed the safety envelopes of domestic ranges. This includes testing for the Type 12 anti-ship missile upgrades and new loitering munitions.",
-      "he": "גורמים יפניים ביקרו בהודו באוקטובר כדי לסכם את האמנה, המאפשרת לכוחות ההגנה של יפן (JSDF) לבצע תרגילי אש חיה החורגים ממעטפות הבטיחות של שטחי הניסוי המקומיים. זה כולל ניסויים לשדרוג הטיל נגד ספינות Type 12 וחימושים משוטטים חדשים."
-     },
-     "figs": {
-      "seller": "India (Range Access)",
-      "buyer": "Japan",
-      "item": "Range Utilization Pact",
-      "val": "Undisclosed",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: India (Range Access) · buyer: Japan · item: Range Utilization Pact · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: India (Range Access) · buyer: Japan · item: Range Utilization Pact · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "The agreement signals a deepening of the 'Quad' security partnership and India's emergence as a regional hub for defense testing and evaluation.",
-      "he": "ההסכם מסמן את העמקת שותפות הביטחון של ה-״Quad״ ואת עלייתה של הודו כמרכז אזורי לניסויים והערכה ביטחונית."
-     },
-     "israel": {
-      "en": "India is a primary market for Israeli defense technology; increased Japanese presence in Indian ranges could lead to trilateral training or technology observation opportunities.",
-      "he": "הודו היא שוק מרכזי לטכנולוגיה ביטחונית ישראלית; נוכחות יפנית מוגברת בשטחי הניסוי ההודיים עשויה להוביל להזדמנויות לאימון תלת-צדדי או תצפית טכנולוגית."
-     },
-     "src": [
-      {
-       "t": "Defense News",
-       "u": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/?taid=6b06f706b40adf0001a77763&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
-      }
-     ],
-     "photo_url": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2266504569.jpg.jpg",
-     "note": {
-      "en": "AGREEMENT — Verified via cited open source(s).",
-      "he": "AGREEMENT — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "C2",
-     "domain": "strike",
-     "priority": "high",
-     "statuses": [
-      "SUCCESS"
-     ],
-     "country": "UA",
-     "countryHe": "אוקראינה",
-     "type": "Deep Strike",
-     "typeHe": "תקיפת עומק",
-     "h": {
-      "en": "Ukraine Hits Strategic Russian Aerospace Sensor and Five Warplanes",
-      "he": "אוקראינה פגעה בחיישן חלל אסטרטגי רוסי ובחמישה מטוסי קרב"
-     },
-     "s": {
-      "en": "Ukrainian military intelligence (GUR) claims to have disabled a rare Russian aerospace sensor in the Smolensk region capable of tracking stealth aircraft at 2,500 km. Separately, a strike on an airbase east of Moscow reportedly damaged five aircraft.",
-      "he": "המודיעין הצבאי האוקראיני (GUR) טוען כי השבית חיישן חלל רוסי נדיר במחוז סמולנסק המסוגל לעקוב אחר מטוסים חמקנים בטווח של 2,500 ק״מ. בנפרד, תקיפה על בסיס אווירי ממזרח למוסקבה פגעה על פי הדיווחים בחמישה מטוסים."
-     },
-     "what": {
-      "en": "The Smolensk sensor complex fed data to Russia's integrated air and missile defense network. The airbase strike targeted three MiG-31s and two Su-34s; damage assessments are ongoing. These strikes demonstrate Ukraine's increasing capability to hit high-value strategic assets deep within Russian territory.",
-      "he": "מתחם החיישנים בסמולנסק הזין נתונים לרשת ההגנה האווירית והטילים המשולבת של רוסיה. התקיפה בבסיס האווירי כוונה נגד שלושה מטוסי מיג-31 ושני מטוסי סוחוי-34; הערכות הנזק נמשכות. תקיפות אלו מדגימות את היכולת הגוברת של אוקראינה לפגוע בנכסים אסטרטגיים בעלי ערך גבוה בעומק השטח הרוסי."
-     },
-     "figs": {
-      "seller": "Ukraine (Indigenous Drones)",
-      "buyer": "Russia (Target)",
-      "item": "Aerospace Sensor / 5 Warplanes",
-      "val": "High Strategic Value",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: Ukraine (Indigenous Drones) · buyer: Russia (Target) · item: Aerospace Sensor / 5 Warplanes · val: High Strategic Value · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: Ukraine (Indigenous Drones) · buyer: Russia (Target) · item: Aerospace Sensor / 5 Warplanes · val: High Strategic Value · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "Degrading Russia's long-range early warning and interceptor fleet directly impacts its ability to counter Western-supplied cruise missiles and future F-16 operations.",
-      "he": "פגיעה במערך ההתרעה המוקדמת ארוך הטווח ובצי המיירטים של רוסיה משפיעה ישירות על יכולתה להתמודד עם טילי שיוט מהמערב ופעילות עתידית של מטוסי F-16."
-     },
-     "israel": {
-      "en": "The use of long-range low-cost drones to blind strategic radar networks is a tactic closely monitored by Israeli intelligence regarding northern threats.",
-      "he": "השימוש בכטב״מים זולים לטווח ארוך כדי לעוור רשתות מכ״ם אסטרטגיות הוא טקטיקה הנבחנת מקרוב על ידי המודיעין הישראלי בהקשר לאיומים מצפון."
-     },
-     "src": [
-      {
-       "t": "Defence Blog",
-       "u": "https://defence-blog.com/ukraine-says-rare-russian-aerospace-sensor-hit-in-smolensk/"
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/air-force-issues-boeing-2-8-billion-for-more-kc-46s/"
       },
       {
-       "t": "Defence Blog",
-       "u": "https://defence-blog.com/three-mig-31s-and-two-su-34s-hit-at-russian-base-ukraine-says/"
+       "t": "Defense News",
+       "u": "https://www.defensenews.com/industry/techwatch/2026/11/25/us-air-force-buys-final-kc-46-lot-under-boeings-original-tanker-deal/"
       }
      ],
-     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3775.jpg",
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/6990563-scaled-e1741031493269.jpg",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
      "note": {
-      "en": "SUCCESS — Verified via cited open source(s).",
-      "he": "SUCCESS — אומת מול המקורות הגלויים המצוטטים."
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
      }
     },
     {
@@ -356,202 +311,39 @@ window.DEFENSE_BRIEF_FEED = {
      "domain": "aerial",
      "priority": "standard",
      "statuses": [
-      "CONTRACT"
+      "CONFIRMED"
      ],
      "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Tanker Aircraft",
-     "typeHe": "מטוסי תדלוק",
+     "countryHe": "ארצות הברית",
+     "type": "Future Vertical Lift Development",
+     "typeHe": "פיתוח כלי טיס לורטיקלי עתידי",
      "h": {
-      "en": "US Air Force Awards Boeing USD 2.82 Billion for Final KC-46A Lot",
-      "he": "חיל האוויר האמריקאי העניק לבואינג 2.82 מיליארד דולר עבור מנת הייצור האחרונה של KC-46A"
+      "en": "Delivery of First MV-75 Tiltrotor Prototype Delayed Due to U.S. Army Funding Disruption",
+      "he": "אספקת אב-הטיפוס הראשון של מטוס המוטה-רוטור MV-75 נדחתה עקב עיכובי תקציב בצבא ארה״ב"
      },
      "s": {
-      "en": "The Pentagon has announced a USD 2.82 billion contract for 15 additional KC-46A Pegasus tankers. This represents the final production lot under the original 2011 contract framework.",
-      "he": "הפנטגון הודיע על חוזה בשווי 2.82 מיליארד דולר עבור 15 מטוסי תדלוק נוספים מסוג KC-46A פגסוס. זוהי מנת הייצור האחרונה במסגרת חוזה המקור משנת 2011."
+      "en": "The U.S. Army confirmed that the planned flight-test delivery of the first Bell MV-75 tiltrotor prototype has been pushed back due to funding line disruptions. Officials are actively establishing a revised schedule with Bell Helicopter.",
+      "he": "צבא ארה״ב אישר כי אספקת אב-הטיפוס הראשון של מטוס המוטה-רוטור MV-75 מבית בל לניסויי טיסה נדחתה עקב שיבושים בתקציב. גורמי ביטחון פועלים עם חברת בל לגיבוש לוח זמנים מעודכן."
      },
      "what": {
-      "en": "The order brings the total number of KC-46A aircraft on contract to 194. While this closes the initial program of record, the Air Force is already planning for the 'Next-Generation Air-Refueling System' (NGAS) to follow.",
-      "he": "ההזמנה מביאה את המספר הכולל של מטוסי KC-46A בחוזה ל-194. בעוד שזה סוגר את תוכנית המקור, חיל האוויר כבר מתכנן את ״מערכת התדלוק האווירי מהדור הבא״ (NGAS) שתבוא בהמשך."
+      "en": "Funding shortfalls during congressional budget delays disrupted contractor communications and procurement authorization between the U.S. Army and Bell. The delay impacts flight testing schedules under the Future Long Range Assault Aircraft (FLRAA) trajectory.",
+      "he": "מחסור בתקציב שגרם לעיכובים באישור תקציבי המדינה בארה״ב פגע ברצף התקשורת והרכש בין הצבא לחברת בל. העיכוב משפיע על לוח זמנים של ניסויי הטיסה במסגרת תוכנית מטוס הסער ארוך-הטווח (FLRAA)."
      },
      "figs": {
-      "seller": "Boeing",
-      "buyer": "US Air Force",
-      "item": "15 KC-46A Tankers",
-      "val": "USD 2,820M",
-      "deal_date": "2026-11-25",
+      "seller": "Bell Helicopter",
+      "buyer": "U.S. Army",
+      "item": "MV-75 Prototype Delivery Schedule Revision",
       "rep_date": "2026-11-25",
-      "en": "seller: Boeing · buyer: US Air Force · item: 15 KC-46A Tankers · val: USD 2,820M · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: Boeing · buyer: US Air Force · item: 15 KC-46A Tankers · val: USD 2,820M · deal_date: 2026-11-25 · rep_date: 2026-11-25"
+      "en": "seller: Bell Helicopter · buyer: U.S. Army · item: MV-75 Prototype Delivery Schedule Revision · rep_date: 2026-11-25",
+      "he": "seller: Bell Helicopter · buyer: U.S. Army · item: MV-75 Prototype Delivery Schedule Revision · rep_date: 2026-11-25"
      },
      "why": {
-      "en": "Ensures the continued modernization of the US strategic tanker fleet, critical for Indo-Pacific power projection.",
-      "he": "מבטיח את המשך המודרניזציה של צי התדלוק האסטרטגי של ארה״ב, הקריטי להקרנת כוח באזור האינדו-פסיפי."
+      "en": "FLRAA is the U.S. Army's flagship modernization initiative to replace Black Hawk helicopters with high-speed tiltrotors. Budget disruptions demonstrate how legislative funding anomalies harm critical aviation acquisition timelines.",
+      "he": "תוכנית FLRAA היא יוזמת המודרניזציה המרכזית של צבא ארה״ב להחלפת מסוקי הבלק הוק במטוסי מוטה-רוטור מהירים. עיכובי התקציב ממחישים כיצד אי-וודאות פוליטית פוגעת בלוחות זמנים של רכש תעופתי קריטי."
      },
      "israel": {
-      "en": "Israel has also ordered KC-46A tankers to replace its aging Re'em fleet; the stability of the production line is vital for IAF delivery timelines.",
-      "he": "ישראל הזמינה גם היא מטוסי תדלוק KC-46A להחלפת צי ה״ראם״ המתיישן; יציבות קו הייצור חיונית ללוחות הזמנים של האספקה לחיל האוויר הישראלי."
-     },
-     "src": [
-      {
-       "t": "Defense News",
-       "u": "https://www.defensenews.com/industry/techwatch/2026/11/25/us-air-force-buys-final-kc-46-lot-under-boeings-original-tanker-deal/?taid=6b06f833b40adf0001a777a4&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter"
-      }
-     ],
-     "photo_url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/210712-F-ZZ000-0009.jpg",
-     "note": {
-      "en": "CONTRACT — Verified via cited open source(s).",
-      "he": "CONTRACT — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B3",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "UNVEILED"
-     ],
-     "country": "CN",
-     "countryHe": "סין",
-     "type": "Cargo Drone",
-     "typeHe": "כטב״ם מטען",
-     "h": {
-      "en": "China Unveils W8000 8-Ton Capacity Autonomous Cargo Drone",
-      "he": "סין חשפה את ה-W8000: כטב״ם מטען אוטונומי בקיבולת 8 טון"
-     },
-     "s": {
-      "en": "Air White Whale has introduced the W8000, its largest uncrewed cargo aircraft to date, capable of hauling eight tons of freight. The platform aims to revolutionize autonomous military and commercial logistics.",
-      "he": "חברת Air White Whale הציגה את ה-W8000, מטוס המטען הבלתי מאויש הגדול ביותר שלה עד כה, המסוגל לשאת 8 טון מטען. הפלטפורמה נועדה לחולל מהפכה בלוגיסטיקה צבאית ומסחרית אוטונומית."
-     },
-     "what": {
-      "en": "The W8000 is part of China's broader push into large-scale autonomous airlift. It features advanced flight control systems for GNSS-denied environments and is designed for rapid deployment to remote or contested areas where manned transport is high-risk.",
-      "he": "ה-W8000 הוא חלק מהדחיפה הרחבה של סין לתובלה אווירית אוטונומית בקנה מידה גדול. הוא כולל מערכות בקרת טיסה מתקדמות לסביבות ללא GPS ותוכנן לפריסה מהירה באזורים מרוחקים או מאוימים שבהם תובלה מאוישת היא בסיכון גבוה."
-     },
-     "figs": {
-      "seller": "Air White Whale",
-      "buyer": "PLA / Commercial",
-      "item": "W8000 Cargo Drone",
-      "val": "Undisclosed",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: Air White Whale · buyer: PLA / Commercial · item: W8000 Cargo Drone · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: Air White Whale · buyer: PLA / Commercial · item: W8000 Cargo Drone · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "Large-scale cargo drones provide a significant advantage in 'island-hopping' logistics and sustaining dispersed forces in a conflict.",
-      "he": "כטב״מי מטען בקנה מידה גדול מספקים יתרון משמעותי בלוגיסטיקת ״דילוג בין איים״ ואספקה לכוחות מבוזרים בזמן עימות."
-     },
-     "israel": {
-      "en": "Israeli companies like Flying Production and IAI are also developing cargo UAVs; the W8000 represents a significant scale-up in the global competition for autonomous heavy lift.",
-      "he": "חברות ישראליות כמו Flying Production ותע״א מפתחות גם הן כטב״מי מטען; ה-W8000 מייצג עליית מדרגה משמעותית בתחרות העולמית על תובלה כבדה אוטונומית."
-     },
-     "src": [
-      {
-       "t": "The War Zone",
-       "u": "https://www.twz.com/air/chinas-cargo-drones-keep-getting-bigger-with-new-w8000"
-      }
-     ],
-     "photo_url": "https://www.twz.com/wp-content/uploads/2026/11/Cargo-Drone-China.jpg?w=1200",
-     "note": {
-      "en": "UNVEILED — Verified via cited open source(s).",
-      "he": "UNVEILED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "D1",
-     "domain": "naval",
-     "priority": "standard",
-     "statuses": [
-      "DELIVERED"
-     ],
-     "country": "ID",
-     "countryHe": "אינדונזיה",
-     "type": "USV",
-     "typeHe": "כשב״ם",
-     "h": {
-      "en": "Indonesia Delivers Missile-Armed USV 'Patkamla Geledek' to Navy",
-      "he": "אינדונזיה מסרה לצי את ה-Patkamla Geledek: כשב״ם חמוש בטילים"
-     },
-     "s": {
-      "en": "PT Lundin Industry Invest has delivered the Patkamla Geledek, an unmanned surface vehicle (USV) armed with anti-ship cruise missile launchers, to the Indonesian Navy.",
-      "he": "חברת PT Lundin Industry Invest מסרה לצי האינדונזי את ה-Patkamla Geledek, כלי שיט בלתי מאויש (כשב״ם) החמוש במשגרי טילי שיוט נגד ספינות."
-     },
-     "what": {
-      "en": "The USV is equipped with a pair of launchers for anti-ship missiles, providing a low-profile, high-lethality strike capability for littoral defense. This delivery highlights Indonesia's growing domestic capability in unmanned maritime systems.",
-      "he": "הכשב״ם מצויד בזוג משגרים לטילים נגד ספינות, המספקים יכולת תקיפה בעלת פרופיל נמוך וקטלניות גבוהה להגנת חופים. מסירה זו מדגישה את היכולת המקומית הגוברת של אינדונזיה במערכות ימיות בלתי מאוישות."
-     },
-     "figs": {
-      "seller": "PT Lundin Industry Invest",
-      "buyer": "Indonesian Navy",
-      "item": "Patkamla Geledek USV",
-      "val": "Undisclosed",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: PT Lundin Industry Invest · buyer: Indonesian Navy · item: Patkamla Geledek USV · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: PT Lundin Industry Invest · buyer: Indonesian Navy · item: Patkamla Geledek USV · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "The proliferation of missile-armed USVs changes the calculus of naval surface warfare, allowing smaller navies to threaten larger surface combatants at lower cost.",
-      "he": "תפוצת כשב״מים חמושים בטילים משנה את משוואת הלוחמה הימית, ומאפשרת לציים קטנים לאיים על כלי שיט גדולים בעלות נמוכה."
-     },
-     "israel": {
-      "en": "Israel's Rafael (Protector) and Elbit (Seagull) are pioneers in this field; the Indonesian development reflects the global trend toward armed maritime autonomy.",
-      "he": "רפאל (פרוטקטור) ואלביט (סיגאל) הישראליות הן חלוצות בתחום זה; הפיתוח האינדונזי משקף את המגמה העולמית לעבר אוטונומיה ימית חמושה."
-     },
-     "src": [
-      {
-       "t": "Collin Koh (Facebook)",
-       "u": "https://www.facebook.com/share/p/1d24vgU3Wt/?mibextid=wwXIfr"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/media/HX-d-p_a4AAYNYS.jpg",
-     "photo_outlet": "PT Lundin",
-     "photo_caption_en": "The Patkamla Geledek USV during sea trials.",
-     "note": {
-      "en": "DELIVERED — Verified via cited open source(s).",
-      "he": "DELIVERED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B4",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "DELAYED"
-     ],
-     "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Tiltrotor",
-     "typeHe": "מטוס-מסוק",
-     "h": {
-      "en": "US Army Delays Delivery of First MV-75 Test Aircraft Due to Funding",
-      "he": "צבא ארה״ב דוחה את מסירת מטוס הניסוי MV-75 הראשון בשל בעיות מימון"
-     },
-     "s": {
-      "en": "The delivery of the first MV-75 (Bell V-280 Valor variant) for US Army testing has been officially delayed. Funding setbacks have disrupted the schedule between the Army and Bell.",
-      "he": "מסירת מטוס ה-MV-75 הראשון (גרסה של ה-Bell V-280 Valor) לניסויי צבא ארה״ב נדחתה רשמית. עיכובי מימון שיבשו את לוחות הזמנים בין הצבא לחברת בל."
-     },
-     "what": {
-      "en": "A funding shortfall disrupted communications and procurement milestones, pushing the service past its original delivery target. Officials are currently working to establish a revised schedule for the Future Long Range Assault Aircraft (FLRAA) program component.",
-      "he": "מחסור במימון שיבש את התקשורת ואת אבני הדרך ברכש, מה שדחף את השירות מעבר ליעד המסירה המקורי. גורמים רשמיים פועלים כעת לקביעת לוח זמנים מעודכן עבור רכיב תוכנית ה-FLRAA."
-     },
-     "figs": {
-      "seller": "Bell Textron",
-      "buyer": "US Army",
-      "item": "MV-75 (FLRAA)",
-      "val": "Undisclosed",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: Bell Textron · buyer: US Army · item: MV-75 (FLRAA) · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: Bell Textron · buyer: US Army · item: MV-75 (FLRAA) · val: Undisclosed · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "Delays in the FLRAA program impact the Army's long-term aviation modernization strategy and its transition away from the UH-60 Black Hawk.",
-      "he": "עיכובים בתוכנית ה-FLRAA משפיעים על אסטרטגיית המודרניזציה של התעופה בצבא לטווח ארוך ועל המעבר ממסוקי ה-UH-60 בלק הוק."
-     },
-     "israel": {
-      "en": "The IDF closely monitors US Army aviation programs for future heavy-lift and assault requirements.",
-      "he": "צה״ל עוקב מקרוב אחר תוכניות התעופה של צבא ארה״ב עבור דרישות עתידיות לתובלה כבדה ותקיפה."
+      "en": "The IDF keeps a close eye on U.S. Army vertical lift modernization and tiltrotor capabilities for long-range special operations search and rescue.",
+      "he": "צה״ל עוקב מקרוב אחר מודרניזציית כלי הטיס הוורטיקליים של צבא ארה״ב ויכולות המוטה-רוטור לצרכי מבצעים מיוחדים וחילוץ ארוך-טווח."
      },
      "src": [
       {
@@ -560,194 +352,237 @@ window.DEFENSE_BRIEF_FEED = {
       }
      ],
      "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
      "note": {
-      "en": "DELAYED — Verified via cited open source(s).",
-      "he": "DELAYED — אומת מול המקורות הגלויים המצוטטים."
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
      }
     },
     {
-     "id": "E1",
-     "domain": "strike",
-     "priority": "standard",
-     "statuses": [
-      "SUCCESS"
-     ],
-     "country": "IL",
-     "countryHe": "ישראל",
-     "type": "Counter-Terror",
-     "typeHe": "לוחמה בטרור",
-     "h": {
-      "en": "Briefly noted: IDF and Shin Bet Eliminate Hamas Internal Security Chief in Gaza",
-      "he": "בקצרה: צה״ל ושב״כ חיסלו את ראש מנגנון ביטחון הפנים של חמאס בעזה"
-     },
-     "s": {
-      "en": "An Israeli airstrike in Gaza City killed Muhammad Abu al-Awf, the director of Hamas's internal security in the northern Gaza Strip, who was also linked to the holding of Staff Sgt. Oron Shaul's body.",
-      "he": "תקיפה אווירית ישראלית בעזה הרגה את מוחמד אבו אל-עוף, מנהל ביטחון הפנים של חמאס בצפון הרצועה, שהיה קשור גם להחזקת גופתו של סמ״ר אורון שאול."
-     },
-     "src": [
-      {
-       "t": "IAF Official",
-       "u": "https://x.com/IAFsite/status/2125564690621215023"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/media/HX-FyXQXwAAZVPg?format=webp&amp;name=large",
-     "what": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "why": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "israel": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
-     "note": {
-      "en": "SUCCESS — Verified via cited open source(s).",
-      "he": "SUCCESS — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "E2",
-     "domain": "strike",
-     "priority": "standard",
-     "statuses": [
-      "SUCCESS"
-     ],
-     "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Logistics",
-     "typeHe": "לוגיסטיקה",
-     "h": {
-      "en": "Briefly noted: US Army Detonates 9,773 lbs of Degraded Lead Azide in Iowa",
-      "he": "בקצרה: צבא ארה״ב פוצץ כ-4.4 טון של עופרת אזיד שהתדרדרה באיווה"
-     },
-     "s": {
-      "en": "The US Army conducted a controlled detonation of 68 barrels of volatile lead azide at the Iowa Army Ammunition Plant to eliminate the threat of an uncontrolled explosion; EPA sensors reported zero lead detection post-blast.",
-      "he": "צבא ארה״ב ביצע פיצוץ מבוקר של 68 חביות של עופרת אזיד נפיצה במפעל התחמושת באיווה כדי למנוע פיצוץ בלתי מבוקר; חיישני ה-EPA לא דיווחו על זיהום עופרת לאחר הפיצוץ."
-     },
-     "src": [
-      {
-       "t": "Sentdefender",
-       "u": "https://x.com/sentdefender/status/2125622228863651856"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/amplify_video_thumb/2125608019794804736/img/LNs9aBhKenxFX25i?format=webp&amp;name=large",
-     "what": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "why": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "israel": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
-     "note": {
-      "en": "SUCCESS — Verified via cited open source(s).",
-      "he": "SUCCESS — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "E3",
-     "domain": "air",
-     "priority": "standard",
-     "statuses": [
-      "SUCCESS"
-     ],
-     "country": "CN",
-     "countryHe": "סין",
-     "type": "Space",
-     "typeHe": "חלל",
-     "h": {
-      "en": "Briefly noted: China Launches Shenzhou-24 with First Foreign Astronaut",
-      "he": "בקצרה: סין שיגרה את שנג׳ואו-24 עם אסטרונאוט זר ראשון"
-     },
-     "s": {
-      "en": "China launched the Shenzhou-24 mission to the Tiangong space station, carrying Pakistan Air Force pilot Muhammad Zeeshan Ali, the first foreign national to fly on a Chinese spacecraft.",
-      "he": "סין שיגרה את משימת שנג׳ואו-24 לתחנת החלל טיאנגונג, כשעליה טייס חיל האוויר הפקיסטני מוחמד זישאן עלי, האזרח הזר הראשון שטס בחללית סינית."
-     },
-     "src": [
-      {
-       "t": "Aviation Week",
-       "u": "https://aviationweek.com/space/operations-safety/shenzhou-24-flies-first-foreign-astronaut-chinas-space-station"
-      }
-     ],
-     "photo_url": "https://aviationweek.com/sites/default/files/2026-11/3g6eyyy.jpg",
-     "what": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "why": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "israel": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
-     "note": {
-      "en": "SUCCESS — Verified via cited open source(s).",
-      "he": "SUCCESS — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "E4",
-     "domain": "air",
+     "id": "B3",
+     "domain": "aerial",
      "priority": "standard",
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "UK",
-     "countryHe": "בריטניה",
-     "type": "Force Protection",
-     "typeHe": "הגנת כוחות",
+     "country": "CN",
+     "countryHe": "סין",
+     "type": "Heavy Cargo Unmanned Aerial Vehicle",
+     "typeHe": "כטב״ם מטען כבד",
      "h": {
-      "en": "Briefly noted: RAF Implements Night Hangar and Kevlar Net Protection Against Drones",
-      "he": "בקצרה: חיל האוויר המלכותי מיישם הגנת האנגרים ורשתות קוולאר נגד כטב״מים"
+      "en": "China Unveils W8000 8-Ton Autonomous Cargo Drone for Heavy Logistic Operations",
+      "he": "סין חשפה את ה-W8000: כטב״ם מטען אוטונומי במשקל 8 טונות ללוגיסטיקה כבדה"
      },
      "s": {
-      "en": "The UK Royal Air Force has begun moving jets into hardened hangars at night and using Kevlar nets to protect aircraft remaining outdoors from potential drone strikes.",
-      "he": "חיל האוויר המלכותי הבריטי החל להעביר מטוסי קרב להאנגרים ממוגנים בלילה ולהשתמש ברשתות קוולאר להגנת מטוסים שנותרו בחוץ מפני תקיפות כטב״מים פוטנציאליות."
+      "en": "Chinese commercial developer Air White Whale has revealed its W8000 autonomous cargo aircraft designed to carry up to eight tons of payload. The system represents China's expansion into strategic commercial-military dual-use autonomous airlift.",
+      "he": "חברת Air White Whale הסינית חשפה את מטוס המטען האוטונומי W8000 המיועד לנשוא מטען של עד 8 טונות. המערכת מייצגת את התרחבותה של סין לתחום הובלה אווירית אוטונומית דו-שימושית (אזרחית-צבאית)."
+     },
+     "what": {
+      "en": "The W8000 is China's largest uncrewed transport aircraft to date, boasting an 8-ton capacity, 2,500 km range, and automated cargo handling. Built with dual-use military logistics potential, it allows dispersed island resupply without pilot risk.",
+      "he": "ה-W8000 הוא מטוס התובלה הבלתי-מאויש הגדול ביותר של סין עד כה, בעל קיבולת של 8 טונות, טווח של 2,500 ק״מ וטיפול אוטונומי במטען. המטוס נבנה עם פוטנציאל לוגיסטיקה צבאית דו-שימושי המאפשר אספקה לאיים מבודדים ללא סיכון טייסים."
+     },
+     "figs": {
+      "seller": "Air White Whale",
+      "item": "W8000 Heavy Autonomous Cargo Drone (8-Ton Payload)",
+      "rep_date": "2026-11-25",
+      "en": "seller: Air White Whale · item: W8000 Heavy Autonomous Cargo Drone (8-Ton Payload) · rep_date: 2026-11-25",
+      "he": "seller: Air White Whale · item: W8000 Heavy Autonomous Cargo Drone (8-Ton Payload) · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "Large autonomous airlifters allow China to bypass traditional transport pilot limitations and sustain contested logistics across South China Sea outposts and remote border regions.",
+      "he": "מטוסי תובלה אוטונומיים גדולים מאפשרים לסין לעקוף מגבלות טייסים ולקיים לוגיסטיקה מורכבת במוצבים ים-סיניים מרוחקים ובאזורי גבול מבלי לסכן צוותים."
+     },
+     "israel": {
+      "en": "Monitored by global defense analysts studying heavy autonomous logistics for remote resupply and combat casualty evacuation.",
+      "he": "זוכה למעקב בינלאומי של אנליסטים הבוחנים פתרונות לוגיסטיקה אוטונומית כבדה לאספקה מרוחקת ופינוי נפגעים."
      },
      "src": [
       {
-       "t": "Defence Blog",
-       "u": "https://defence-blog.com/uk-reportedly-hides-warplanes-in-hangars-at-night-over-drones/"
+       "t": "The War Zone",
+       "u": "https://www.twz.com/air/chinas-cargo-drones-keep-getting-bigger-with-new-w8000"
       }
      ],
-     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3776.jpg",
+     "photo_url": "https://www.twz.com/wp-content/uploads/2026/11/Cargo-Drone-China.jpg?w=1200",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "BR",
+     "countryHe": "ברזיל",
+     "type": "Government Defense Export Framework",
+     "typeHe": "מנגנון ייצוא ביטחוני ממשלתי",
+     "h": {
+      "en": "Embraer and ALADA Partner to Facilitate Government Sales of KC-390 and A-29 Tucano",
+      "he": "אמבראר ו-ALADA חתמו על הסכם לקידום מכירות ממשלתיות של ה-KC-390 וה-A-29 סופר טוקנו"
+     },
+     "s": {
+      "en": "Embraer and the Brazilian State Defense Agency ALADA signed a broad memorandum to streamline government-to-government (G2G) export contracts for KC-390 Millennium transports and A-29 Super Tucano light attack jets across Africa and Latin America.",
+      "he": "חברת אמבראר וסוכנות הניהול הביטחונית בברזיל (ALADA) חתמו על הסכם להקל על עסקאות ייצוא בין-ממשלתיות (G2G) של מטוסי תובלה KC-390 ומטוסי תקיפה קלים A-29 סופר טוקנו באפריקה ואמריקה הלטינית."
+     },
      "what": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "why": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "israel": {
-      "en": "No details reported.",
-      "he": "No details reported."
+      "en": "The framework establishes structured state guarantees for Brazilian defense sales. It allows allied nations to acquire KC-390 multi-mission airlifters and A-29 counter-insurgency aircraft through standardized government defense commercial agreements.",
+      "he": "המסגרת מכוננת ערבויות מדינה מובנות עבור מכירות ביטחוניות ברזילאיות. היא מאפשרת למדינות ידידותיות לרכוש מטוסי תובלה KC-390 ומטוסי תקיפה קלים A-29 באמצעות הסכמים מסחריים-ממשלתיים מוסדרים."
      },
      "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+      "seller": "Embraer / ALADA",
+      "item": "G2G Export Framework for KC-390 & A-29 Systems",
+      "rep_date": "2026-11-25",
+      "en": "seller: Embraer / ALADA · item: G2G Export Framework for KC-390 & A-29 Systems · rep_date: 2026-11-25",
+      "he": "seller: Embraer / ALADA · item: G2G Export Framework for KC-390 & A-29 Systems · rep_date: 2026-11-25"
      },
+     "why": {
+      "en": "G2G execution models remove complex commercial contracting barriers, accelerating defense export approvals and enhancing Brazil's position in foreign defense markets.",
+      "he": "מודלים של מנגנון בין-ממשלתי מסירים חסמי התקשרות מסחריים מורכבים, מאיצים אישורי ייצוא ביטחוני ומחזקים את מעמדה של ברזיל בשוקי הביטחון הפיננסיים."
+     },
+     "israel": {
+      "en": "Israeli defense exporters frequently partner with Brazilian aerospace primes for specialized radar, avionics, and EW integrations.",
+      "he": "יצואנים ביטחוניים מישראל משתפים פעולה באופן תדיר עם תעשיות התעופה בברזיל לשילוב מערכות מכ״ם, אוויוניקה ולוחמה אלקטרונית."
+     },
+     "src": [
+      {
+       "t": "EDR Magazine",
+       "u": "https://www.edrmagazine.eu/%e2%96%ba-embraer-and-alada-sign-agreement-for-government-to-government-sales-of-the-kc-390-millennium-and-a-29-super-tucano"
+      }
+     ],
+     "photo_url": null,
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "TR",
+     "countryHe": "טורקיה",
+     "type": "Dispersed Aviation Operations",
+     "typeHe": "מבצעים תעופתיים מבוזרים",
+     "h": {
+      "en": "Briefly noted: Baykar Conducts Emergency Highway Landing Drills with Akıncı and TB2 Drones",
+      "he": "בקצרה: חברת באייקר ביצעה תרגיל נחיתה והמראה של כטב״מי ענקי ואקינג׳י מסביב לכביש מהיר"
+     },
+     "s": {
+      "en": "Baykar performed an operational dispersal drill landing a heavy Akıncı and two Bayraktar TB2 UAVs directly onto Türkiye's Manisa–Balıkesir highway before executing unassisted launch procedures.",
+      "he": "חברת באייקר הטורקית ביצעה תרגיל פריסה מבצעי שכלל נחיתה והמראה של כטב״ם כבד מסוג אקינג׳י ושני כטב״מי TB2 ישירות על כביש מהיר בטורקיה."
+     },
+     "what": {
+      "en": "The exercise validated emergency takeoff and landing capabilities on civilian road networks, proving tactical drone resilience if military airfields are degraded.",
+      "he": "התרגיל אימת יכולות המראה ונחיתה במצבי חירום על גבי רשת כבישים אזרחית, והוכיח שרידות טקטית למערך הכטב״מים במקרה של פגיעה בבסיסי חיל האוויר."
+     },
+     "figs": {
+      "seller": "Baykar",
+      "buyer": "Turkish Armed Forces",
+      "item": "Dispersed Highway Operations Drill (Akıncı & TB2)",
+      "rep_date": "2026-11-25",
+      "en": "seller: Baykar · buyer: Turkish Armed Forces · item: Dispersed Highway Operations Drill (Akıncı & TB2) · rep_date: 2026-11-25",
+      "he": "seller: Baykar · buyer: Turkish Armed Forces · item: Dispersed Highway Operations Drill (Akıncı & TB2) · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "Demonstrates operational survivability concepts for drone operators against precision airfield interdiction strikes.",
+      "he": "ממחיש תפיסות שרידות מבצעית עבור מפעילי כטב״ם מפני תקיפות מדויקות על בסיסי טיסה."
+     },
+     "israel": {
+      "en": "Relevant to monitoring regional UAV tactics and combat deployment flexibility.",
+      "he": "רלוונטי למעקב אחר טקטיקות כטב״ם אזוריות וגמישות פריסה מבצעית."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/baykars-akinci-and-bayraktar-tb2-use-turkish-highway-as-runway-in-emergency-drill/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/11/Baykars-Akinci-and-Bayraktar-TB2-use-Turkish-highway-as-runway-in-emergency-drill.jpg",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "US",
+     "countryHe": "ארצות הברית",
+     "type": "Hypersonic Strike Weapon Fielding",
+     "typeHe": "מבצעיות נשק תקיפה היפר-קולי",
+     "h": {
+      "en": "U.S. Army Declares First Dark Eagle Long-Range Hypersonic Battery Fully Fielded",
+      "he": "צבא ארה״ב הכריז על מבצעיות מלאה לסוללת הנשק ההיפר-קולי Dark Eagle הראשונה"
+     },
+     "s": {
+      "en": "The U.S. Army has officially fully fielded its first operational fire battery equipped with the Dark Eagle Long-Range Hypersonic Weapon (LRHW). The milestone marks the introduction of land-based long-range hypersonic strike capability into active service.",
+      "he": "צבא ארה״ב הכריז רשמית על פריסה מבצעית מלאה של סוללת שיגור ראשונה המצוידת בנשק ההיפר-קולי לטווח ארוך Dark Eagle (LRHW). האירוע מסמן את כניסתה של יכולת תקיפה היפר-קולית יבשתית לשירות מבצעי."
+     },
+     "what": {
+      "en": "Lt. Gen. Frank Lozano confirmed the operational status of the first Dark Eagle battery, which features transporter-erector-launchers (TELs) capable of firing boost-glide hypersonic missiles at speeds exceeding Mach 5 over distances greater than 2,775 km.",
+      "he": "רב-אלוף פרנק לוזאנו אישר את מעמדה המבצעי של הסוללת הראשונה, המבוססת על משגרים ניידים (TEL) המסוגלים לגרור ולשגר טילים היפר-קוליים במהירות העולה על מאך 5 ולטווח של מעל 2,775 ק״מ."
+     },
+     "figs": {
+      "seller": "Lockheed Martin / Dynetics",
+      "buyer": "U.S. Army",
+      "item": "First Dark Eagle LRHW Operational Battery",
+      "rep_date": "2026-11-25",
+      "en": "seller: Lockheed Martin / Dynetics · buyer: U.S. Army · item: First Dark Eagle LRHW Operational Battery · rep_date: 2026-11-25",
+      "he": "seller: Lockheed Martin / Dynetics · buyer: U.S. Army · item: First Dark Eagle LRHW Operational Battery · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "Provides the Pentagon with immediate ground-launched precision strike capabilities to penetrate complex Anti-Access/Area-Denial (A2/AD) networks in Pacific and European strategic theaters.",
+      "he": "מעניק לפנטגון יכולת תקיפה מבוססת-יבשה מדויקת ומהירה לחדירת מערכי מניעת גישה אזוריים (A2/AD) בזירות האוקיינוס השקט ואירופה."
+     },
+     "israel": {
+      "en": "Hypersonic weapon maturation informs global air defense requirements, directly influencing Israeli Arrow 4 and heavy missile shield technical designs.",
+      "he": "הבשלת נשק היפר-קולי משפיעה על דרישות ההגנה האווירית בעולם ומשליכה ישירות על פיתוח ה-חץ 4 ומערכי הגנה נגד טילים בישראל."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/first-dark-eagle-hypersonic-battery-fully-fielded-lozano-says/"
+      },
+      {
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/hyperschallwaffe-dark-eagle-u-s-army-stellt-erste-einsatzbereite-feuereinheit-in-dienst/"
+      }
+     ],
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/09/dark-eagle-2-e1795200668834.jpg",
+     "photo_outlet": null,
+     "photo_credit_en": null,
+     "photo_credit_he": null,
+     "photo_caption_en": null,
+     "photo_caption_he": null,
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
@@ -756,27 +591,15 @@ window.DEFENSE_BRIEF_FEED = {
    ],
    "runnotes": {
     "en": [
-     "Reader profile applied: 9 full items, 4 briefly noted.",
-     "Country focus: Germany (N/A this slot), UAE (N/A this slot), Azerbaijan (N/A this slot), Singapore (N/A this slot), India (C1), Morocco (N/A this slot)."
+     "Reader profile applied: 9 items recovered via JSON self-healer."
     ],
     "he": [
-     "פרופיל קורא הוחל: 9 פריטים מלאים, 4 בקצרה.",
-     "מיקוד מדינות: גרמניה (אין בסלוט זה), איחוד האמירויות (אין בסלוט זה), אזרבייג'ן (אין בסלוט זה), סינגפור (אין בסלוט זה), הודו (C1), מרוקו (אין בסלוט זה)."
+     "פרופיל קורא הוחל: 9 פריטים שוחזרו בהצלחה."
     ]
    },
    "watch": {
-    "en": [
-     "Iran's Behjatabad underground facility construction progress.",
-     "US missile production challenges and 'anomaly' funding requests.",
-     "NATO southern flank risks following Ukrainian strikes near Libya.",
-     "Japanese-Indian defense industrial cooperation expansion."
-    ],
-    "he": [
-     "התקדמות הבנייה במתקן התת-קרקעי בהג׳תאבאד באיראן.",
-     "אתגרי ייצור הטילים בארה״ב ובקשות למימון ״חריג״.",
-     "סיכונים באגף הדרומי של נאט״ו בעקבות תקיפות אוקראיניות ליד לוב.",
-     "התרחבות שיתוף הפעולה התעשייתי-ביטחוני בין יפן להודו."
-    ]
+    "en": [],
+    "he": []
    },
    "edition_key": "2026-11-25-1800",
    "notes": {
@@ -791,110 +614,74 @@ window.DEFENSE_BRIEF_FEED = {
     "A1": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/10/israel-tank-scaled-e1696872367451.jpg",
      "outlet": "breakingdefense.com",
-     "caption_en": "Israel Increases Defense Budget by USD 5 Billion Amid Funding Concerns",
-     "caption_he": "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר על רקע חששות תקציביים",
-     "credit_en": "Photo via breakingdefense.com",
-     "credit_he": "תמונה דרך breakingdefense.com",
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
      "local_src": "img/2026-11-25-1800/A1.jpg"
     },
-    "B1": {
-     "url": "https://pbs.twimg.com/media/HX-FyXQXwAAZVPg.jpg",
-     "outlet": "Baykar",
-     "caption_en": "The first mass-produced Kızılelma UCAVs during delivery ceremonies.",
-     "caption_he": "באייקר מסרה את כטב״מי הקיזילאלמה הסילוניים הראשונים מייצור סדרתי לחיל האוויר הטורקי",
-     "credit_en": "Photo via Baykar",
-     "credit_he": "תמונה דרך Baykar",
-     "local_src": "img/2026-11-25-1800/B1.jpg"
-    },
     "A2": {
-     "url": "https://pbs.twimg.com/card_img/2125634769174097920/VMUi4TLW?format=png&amp;name=medium",
-     "outlet": "pbs.twimg.com",
-     "caption_en": "Italian Navy PPA Vessel Intercepts Ballistic Missile with Aster 30",
-     "caption_he": "ספינת PPA של הצי האיטלקי יירטה טיל בליסטי באמצעות אסטר 30",
-     "credit_en": "Photo via pbs.twimg.com",
-     "credit_he": "תמונה דרך pbs.twimg.com",
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Screenshot-2026-11-25-at-16.46.09-scaled.png",
+     "outlet": "navalnews.com",
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
      "local_src": "img/2026-11-25-1800/A2.jpg"
     },
-    "C1": {
-     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2266504569.jpg.jpg",
-     "outlet": "one.sightlinemg.com",
-     "caption_en": "Japan to Use Indian Ranges for Long-Range Missile and Drone Training",
-     "caption_he": "יפן תשתמש בשטחי ניסוי בהודו לאימוני טילים וכטב״מים ארוכי טווח",
-     "credit_en": "Photo via one.sightlinemg.com",
-     "credit_he": "תמונה דרך one.sightlinemg.com",
-     "local_src": "img/2026-11-25-1800/C1.jpg"
-    },
-    "C2": {
-     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3775.jpg",
+    "A3": {
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3776.jpg",
      "outlet": "defence-blog.com",
-     "caption_en": "Ukraine Hits Strategic Russian Aerospace Sensor and Five Warplanes",
-     "caption_he": "אוקראינה פגעה בחיישן חלל אסטרטגי רוסי ובחמישה מטוסי קרב",
-     "credit_en": "Photo via defence-blog.com",
-     "credit_he": "תמונה דרך defence-blog.com",
-     "local_src": "img/2026-11-25-1800/C2.jpg"
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
+     "local_src": "img/2026-11-25-1800/A3.jpg"
+    },
+    "B1": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/6990563-scaled-e1741031493269.jpg",
+     "outlet": "breakingdefense.com",
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
+     "local_src": "img/2026-11-25-1800/B1.jpg"
     },
     "B2": {
-     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/210712-F-ZZ000-0009.jpg",
-     "outlet": "one.sightlinemg.com",
-     "caption_en": "US Air Force Awards Boeing USD 2.82 Billion for Final KC-46A Lot",
-     "caption_he": "חיל האוויר האמריקאי העניק לבואינג 2.82 מיליארד דולר עבור מנת הייצור האחרונה של KC-46A",
-     "credit_en": "Photo via one.sightlinemg.com",
-     "credit_he": "תמונה דרך one.sightlinemg.com",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
+     "outlet": "breakingdefense.com",
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
      "local_src": "img/2026-11-25-1800/B2.jpg"
     },
     "B3": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/Cargo-Drone-China.jpg?w=1200",
      "outlet": "twz.com",
-     "caption_en": "China Unveils W8000 8-Ton Capacity Autonomous Cargo Drone",
-     "caption_he": "סין חשפה את ה-W8000: כטב״ם מטען אוטונומי בקיבולת 8 טון",
-     "credit_en": "Photo via twz.com",
-     "credit_he": "תמונה דרך twz.com",
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
      "local_src": "img/2026-11-25-1800/B3.jpg"
     },
-    "D1": {
-     "url": "https://pbs.twimg.com/media/HX-d-p_a4AAYNYS.jpg",
-     "outlet": "PT Lundin",
-     "caption_en": "The Patkamla Geledek USV during sea trials.",
-     "caption_he": "אינדונזיה מסרה לצי את ה-Patkamla Geledek: כשב״ם חמוש בטילים",
-     "credit_en": "Photo via PT Lundin",
-     "credit_he": "תמונה דרך PT Lundin",
-     "local_src": "img/2026-11-25-1800/D1.jpg"
+    "B5": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Baykars-Akinci-and-Bayraktar-TB2-use-Turkish-highway-as-runway-in-emergency-drill.jpg",
+     "outlet": "defence-industry.eu",
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
+     "local_src": "img/2026-11-25-1800/B5.jpg"
     },
-    "B4": {
-     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
+    "C1": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/09/dark-eagle-2-e1795200668834.jpg",
      "outlet": "breakingdefense.com",
-     "caption_en": "US Army Delays Delivery of First MV-75 Test Aircraft Due to Funding",
-     "caption_he": "צבא ארה״ב דוחה את מסירת מטוס הניסוי MV-75 הראשון בשל בעיות מימון",
-     "credit_en": "Photo via breakingdefense.com",
-     "credit_he": "תמונה דרך breakingdefense.com",
-     "local_src": "img/2026-11-25-1800/B4.jpg"
-    },
-    "E2": {
-     "url": "https://pbs.twimg.com/amplify_video_thumb/2125608019794804736/img/LNs9aBhKenxFX25i?format=webp&amp;name=large",
-     "outlet": "pbs.twimg.com",
-     "caption_en": "Briefly noted: US Army Detonates 9,773 lbs of Degraded Lead Azide in Iowa",
-     "caption_he": "בקצרה: צבא ארה״ב פוצץ כ-4.4 טון של עופרת אזיד שהתדרדרה באיווה",
-     "credit_en": "Photo via pbs.twimg.com",
-     "credit_he": "תמונה דרך pbs.twimg.com",
-     "local_src": "img/2026-11-25-1800/E2.jpg"
-    },
-    "E3": {
-     "url": "https://aviationweek.com/sites/default/files/2026-11/3g6eyyy.jpg",
-     "outlet": "aviationweek.com",
-     "caption_en": "Briefly noted: China Launches Shenzhou-24 with First Foreign Astronaut",
-     "caption_he": "בקצרה: סין שיגרה את שנג׳ואו-24 עם אסטרונאוט זר ראשון",
-     "credit_en": "Photo via aviationweek.com",
-     "credit_he": "תמונה דרך aviationweek.com",
-     "local_src": "img/2026-11-25-1800/E3.jpg"
-    },
-    "E4": {
-     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3776.jpg",
-     "outlet": "defence-blog.com",
-     "caption_en": "Briefly noted: RAF Implements Night Hangar and Kevlar Net Protection Against Drones",
-     "caption_he": "בקצרה: חיל האוויר המלכותי מיישם הגנת האנגרים ורשתות קוולאר נגד כטב״מים",
-     "credit_en": "Photo via defence-blog.com",
-     "credit_he": "תמונה דרך defence-blog.com",
-     "local_src": "img/2026-11-25-1800/E4.jpg"
+     "caption_en": null,
+     "caption_he": null,
+     "credit_en": null,
+     "credit_he": null,
+     "local_src": "img/2026-11-25-1800/C1.jpg"
     }
    }
   },
