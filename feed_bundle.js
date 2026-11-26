@@ -1,8 +1,9 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-25-evening",
+ "updated_at": "2026-11-26-0500",
  "dates": [
-  "2026-11-25-evening",
+  "2026-11-26-0500",
   "2026-11-25-2200",
+  "2026-11-25-evening",
   "2026-11-25-1800",
   "2026-11-25",
   "2026-11-25-1130",
@@ -58,6 +59,992 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-26-0500": {
+   "date": "2026-11-26",
+   "slot": "0500",
+   "wstart": "2026-11-25T18:51:00Z",
+   "wend": "2026-11-26T01:46:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "Israeli firms Tiltan and Nomadic unveil advanced simulation and energy-harvesting drone technologies.",
+      "The U.S. Navy advances the SLCM-N nuclear cruise missile program with Raytheon and Anduril.",
+      "Indonesia commissions a 58-knot missile-capable USV, while Australia receives its first AUKUS submarine simulators.",
+      "China scales autonomous airlift with the W8000 cargo drone capable of hauling 8 tons."
+     ],
+     "he": [
+      "החברות הישראליות Tiltan ו-Nomadic חושפות טכנולוגיות מתקדמות לסימולציה ורחפנים הקוצרים אנרגיה מקווי מתח.",
+      "הצי האמריקאי מקדם את תוכנית הטילים הגרעיניים SLCM-N בשיתוף פעולה עם ריית'און ואנדוריל.",
+      "אינדונזיה חונכת כלי שיט בלתי מאויש חמוש בטילים במהירות 58 קשר, בעוד אוסטרליה מקבלת סימולטורים ראשונים לצוללות AUKUS.",
+      "סין מרחיבה את יכולות התובלה האוטונומית עם כטב״ם המטען W8000 המסוגל לשאת 8 טונות."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
+     "statuses": [
+      "RELEASED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Simulation & AI",
+     "typeHe": "סימולציה ובינה מלאכותית",
+     "h": {
+      "en": "Tiltan Software Launches AI-Driven Simulation Tools for Sensor Testing",
+      "he": "טילתן הנדסת תוכנה השיקה כלי סימולציה מבוססי בינה מלאכותית לבדיקת חיישנים"
+     },
+     "s": {
+      "en": "Tiltan Software Engineering unveiled TOPS-NX Studio and SILOS, designed to bring field testing into the lab for AI and engineering teams.",
+      "he": "חברת טילתן הנדסת תוכנה חשפה את TOPS-NX Studio ו-SILOS, המיועדים להעביר בדיקות שטח למעבדה עבור צוותי הנדסה ובינה מלאכותית."
+     },
+     "what": {
+      "en": "The new tools enable high-fidelity simulation of sensors and environments, allowing developers to train and validate AI algorithms in virtual settings that replicate real-world conditions. This reduces the need for expensive and time-consuming physical field trials.",
+      "he": "הכלים החדשים מאפשרים סימולציה ברמת דיוק גבוהה של חיישנים וסביבות, מה שמאפשר למפתחים לאמן ולתקף אלגוריתמים של בינה מלאכותית בסביבות וירטואליות המשחזרות תנאי אמת. הדבר מפחית את הצורך בניסויי שטח פיזיים יקרים וגוזלי זמן."
+     },
+     "figs": {
+      "seller": "Tiltan Software Engineering Ltd.",
+      "item": "TOPS-NX Studio & SILOS",
+      "rep_date": "2026-11-23",
+      "en": "seller: Tiltan Software Engineering Ltd. · item: TOPS-NX Studio & SILOS · rep_date: 2026-11-23",
+      "he": "seller: Tiltan Software Engineering Ltd. · item: TOPS-NX Studio & SILOS · rep_date: 2026-11-23"
+     },
+     "why": {
+      "en": "As defense systems increasingly rely on AI for target recognition and sensor fusion, the ability to simulate complex environments is critical for rapid development and deployment.",
+      "he": "ככל שמערכות ביטחוניות נשענות יותר על בינה מלאכותית לזיהוי מטרות והיתוך חיישנים, היכולת לסמלץ סביבות מורכבות היא קריטית לפיתוח ופריסה מהירים."
+     },
+     "israel": {
+      "en": "Tiltan is an Israeli-based software engineering firm specializing in visual simulation and mapping for the defense sector.",
+      "he": "טילתן היא חברת הנדסת תוכנה ישראלית המתמחה בסימולציה חזותית ומיפוי עבור המגזר הביטחוני."
+     },
+     "src": [
+      {
+       "t": "EDR Magazine",
+       "u": "https://www.edrmagazine.eu/tiltan-launches-sensor-and-ai-simulation-tools-that-bring-the-field-into-the-lab"
+      }
+     ],
+     "photo_url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/SILOS-.png",
+     "note": {
+      "en": "RELEASED — Verified via cited open source(s).",
+      "he": "RELEASED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "high",
+     "statuses": [
+      "UNVEILED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "UAV",
+     "typeHe": "כטב״ם",
+     "h": {
+      "en": "Nomadic Unveils NOMAD Drone Capable of Charging from High-Voltage Power Lines",
+      "he": "נומאדיק חשפה את NOMAD: רחפן המסוגל להיטען ישירות מקווי מתח גבוה"
+     },
+     "s": {
+      "en": "Israeli startup Nomadic revealed a new drone that can land on and recharge from power lines, enabling continuous monitoring of infrastructure.",
+      "he": "הסטארט-אפ הישראלי Nomadic חשף רחפן חדש המסוגל לנחות על קווי חשמל ולהיטען מהם, מה שמאפשר ניטור רציף של תשתיות."
+     },
+     "what": {
+      "en": "The NOMAD drone is designed for long-range inspection, capable of scanning up to 25 km of power lines without returning to base. It features a specialized landing mechanism that allows it to harvest energy directly from the grid, supporting over 20,000 hours of continuous operation.",
+      "he": "רחפן ה-NOMAD תוכנן לבדיקות ארוכות טווח, ומסוגל לסרוק עד 25 ק״מ של קווי חשמל ללא חזרה לבסיס. הוא כולל מנגנון נחיתה ייעודי המאפשר לו לקצור אנרגיה ישירות מהרשת, ותומך ביותר מ-20,000 שעות פעולה רציפות."
+     },
+     "figs": {
+      "seller": "Nomadic",
+      "item": "NOMAD Drone",
+      "range": "25 km",
+      "op_hours": "20,000+",
+      "en": "seller: Nomadic · item: NOMAD Drone · range: 25 km · op_hours: 20,000+",
+      "he": "seller: Nomadic · item: NOMAD Drone · range: 25 km · op_hours: 20,000+"
+     },
+     "why": {
+      "en": "This technology solves the primary limitation of small UAVs—battery life—enabling persistent surveillance and inspection in remote areas without human intervention.",
+      "he": "טכנולוגיה זו פותרת את המגבלה העיקרית של כטב״מים קטנים - חיי סוללה - ומאפשרת מעקב ובדיקה מתמשכים באזורים מרוחקים ללא התערבות אנושית."
+     },
+     "israel": {
+      "en": "Nomadic is an Israeli technology company focused on autonomous infrastructure inspection solutions.",
+      "he": "נומאדיק היא חברה טכנולוגית ישראלית המתמקדת בפתרונות אוטונומיים לבדיקת תשתיות."
+     },
+     "src": [
+      {
+       "t": "presamiga via X",
+       "u": "https://x.com/presamiga/status/2125733343484584304"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/amplify_video_thumb/2125733314581393409/img/RGmXpNCpVBRE89k0?format=webp&amp;name=large",
+     "note": {
+      "en": "UNVEILED — Verified via cited open source(s).",
+      "he": "UNVEILED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "statuses": [
+      "CONTRACT"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Missiles",
+     "typeHe": "טילים",
+     "h": {
+      "en": "U.S. Navy Awards Raytheon Contract to Mature SLCM-N Nuclear Cruise Missile",
+      "he": "הצי האמריקאי העניק לריית'און חוזה לפיתוח טיל השיוט הגרעיני SLCM-N"
+     },
+     "s": {
+      "en": "Raytheon won an Other Transaction Authority (OTA) agreement to advance the design of the Nuclear-Armed Sea-Launched Cruise Missile.",
+      "he": "ריית'און זכתה בהסכם OTA לקידום התכנון של טיל השיוט הגרעיני המשוגר מהים (SLCM-N)."
+     },
+     "what": {
+      "en": "The contract moves the SLCM-N from early concept work into a focused development phase. Raytheon is teaming with Anduril, Divergent, and Williams to mature the system, which is intended to provide a low-yield sea-based nuclear deterrent.",
+      "he": "החוזה מעביר את ה-SLCM-N משלב הקונספט המוקדם לשלב פיתוח ממוקד. ריית'און משתפת פעולה עם אנדוריל, Divergent ו-Williams כדי להבשיל את המערכת, שנועדה לספק הרתעה גרעינית ימית בעלת עוצמה נמוכה."
+     },
+     "figs": {
+      "buyer": "U.S. Navy",
+      "seller": "Raytheon",
+      "partners": "Anduril, Divergent, Williams",
+      "deal_date": "2026-11-24",
+      "en": "buyer: U.S. Navy · seller: Raytheon · partners: Anduril, Divergent, Williams · deal_date: 2026-11-24",
+      "he": "buyer: U.S. Navy · seller: Raytheon · partners: Anduril, Divergent, Williams · deal_date: 2026-11-24"
+     },
+     "why": {
+      "en": "The SLCM-N program is a key component of the U.S. nuclear modernization strategy, filling a perceived gap in regional deterrence capabilities.",
+      "he": "תוכנית ה-SLCM-N היא מרכיב מרכזי באסטרטגיית המודרניזציה הגרעינית של ארה״ב, וממלאת פער נתפס ביכולות ההרתעה האזוריות."
+     },
+     "israel": {
+      "en": "While a U.S. program, the development of sea-launched nuclear capabilities is closely monitored by Israel as part of the broader global strategic balance.",
+      "he": "למרות שמדובר בתוכנית אמריקאית, פיתוח יכולות גרעיניות משוגרות מהים נמצא תחת מעקב צמוד של ישראל כחלק מהמאזן האסטרטגי הגלובלי הרחב."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-taps-raytheon-to-advance-slcm-n-nuclear-cruise-missile/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/U.S.-Navy-Taps-Raytheon-to-Advance-SLCM-N-Nuclear-Cruise-Missile.jpg",
+     "note": {
+      "en": "CONTRACT — Verified via cited open source(s).",
+      "he": "CONTRACT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "DELIVERED"
+     ],
+     "country": "ID",
+     "countryHe": "אינדונזיה",
+     "type": "USV",
+     "typeHe": "כשב״ם",
+     "h": {
+      "en": "Indonesian Navy Receives 58-Knot Missile-Capable USV for Coastal Defense",
+      "he": "הצי האינדונזי קיבל כשב״ם חמוש בטילים במהירות 58 קשר להגנת חופים"
+     },
+     "s": {
+      "en": "North Sea Boats delivered the first KSR X33, a high-speed missile-capable USV, to the Indonesian Navy.",
+      "he": "חברת North Sea Boats מסרה את ה-KSR X33 הראשון, כשב״ם מהיר חמוש בטילים, לצי האינדונזי."
+     },
+     "what": {
+      "en": "Commissioned as Patkamla Geledek, the 12-meter USV is capable of reaching speeds up to 58 knots. It is designed for coastal defense, surveillance, and precision strikes using integrated missile systems.",
+      "he": "הכשב״ם באורך 12 מטרים, שזכה לשם Patkamla Geledek, מסוגל להגיע למהירות של עד 58 קשר. הוא תוכנן להגנת חופים, מעקב ותקיפות מדויקות באמצעות מערכות טילים משולבות."
+     },
+     "figs": {
+      "buyer": "Indonesian Navy",
+      "seller": "North Sea Boats",
+      "item": "KSR X33 USV",
+      "speed": "58 knots",
+      "length": "12 meters",
+      "en": "buyer: Indonesian Navy · seller: North Sea Boats · item: KSR X33 USV · speed: 58 knots · length: 12 meters",
+      "he": "buyer: Indonesian Navy · seller: North Sea Boats · item: KSR X33 USV · speed: 58 knots · length: 12 meters"
+     },
+     "why": {
+      "en": "The delivery highlights the growing trend of integrating high-speed autonomous platforms into naval surface warfare, particularly for archipelagic defense.",
+      "he": "המסירה מדגישה את המגמה הגוברת של שילוב פלטפורמות אוטונומיות מהירות בלוחמה ימית, במיוחד עבור הגנה על מדינות ארכיפלג."
+     },
+     "israel": {
+      "en": "Israel is a global leader in USV technology (e.g., Rafael's Protector, Elbit's Seagull), and the proliferation of such systems in Southeast Asia impacts the global market.",
+      "he": "ישראל היא מובילה עולמית בטכנולוגיית כשב״מים (למשל ה-Protector של רפאל וה-Seagull של אלביט), ותפוצת מערכות כאלה בדרום-מזרח אסיה משפיעה על השוק העולמי."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/indonesian-navy-ksr-x33-missile-usv/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/KSR-X33-Patkamla-Geledek-during-a-sea-trial.-North-Sea-Boats-picture.png",
+     "note": {
+      "en": "DELIVERED — Verified via cited open source(s).",
+      "he": "DELIVERED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "DEVELOPMENT"
+     ],
+     "country": "CN",
+     "countryHe": "סין",
+     "type": "Cargo Drone",
+     "typeHe": "כטב״ם מטען",
+     "h": {
+      "en": "China Unveils W8000 Cargo Drone with 8-Ton Payload Capacity",
+      "he": "סין חשפה את כטב״ם המטען W8000 עם קיבולת מטען של 8 טונות"
+     },
+     "s": {
+      "en": "Air White Whale introduced its largest autonomous cargo plane to date, the W8000, aiming to revolutionize autonomous airlift.",
+      "he": "חברת Air White Whale הציגה את מטוס המטען האוטונומי הגדול ביותר שלה עד כה, ה-W8000, במטרה לחולל מהפכה בתובלה אווירית אוטונומית."
+     },
+     "what": {
+      "en": "The W8000 is a large-scale uncrewed cargo aircraft designed to haul up to eight tons of freight. It represents China's push into a new class of autonomous heavy-lift platforms for both commercial and potentially military logistics.",
+      "he": "ה-W8000 הוא מטוס מטען בלתי מאויש בקנה מידה גדול שנועד לשאת עד שמונה טונות של מטען. הוא מייצג את הדחיפה של סין לקטגוריה חדשה של פלטפורמות תובלה כבדה אוטונומיות ללוגיסטיקה מסחרית ופוטנציאלית גם צבאית."
+     },
+     "figs": {
+      "seller": "Air White Whale",
+      "item": "W8000 Cargo Drone",
+      "payload": "8 tons",
+      "en": "seller: Air White Whale · item: W8000 Cargo Drone · payload: 8 tons",
+      "he": "seller: Air White Whale · item: W8000 Cargo Drone · payload: 8 tons"
+     },
+     "why": {
+      "en": "The development of heavy-lift cargo drones reduces the risk to aircrews in contested environments and lowers the cost of logistics for remote operations.",
+      "he": "פיתוח כטב״מי מטען כבדים מפחית את הסיכון לצוותי אוויר בסביבות מאוימות ומוריד את עלויות הלוגיסטיקה למבצעים מרוחקים."
+     },
+     "israel": {
+      "en": "Israel's IAI is also active in the cargo drone market (e.g., with the Air_Truck), making China a direct competitor in this emerging sector.",
+      "he": "התעשייה האווירית לישראל פעילה גם היא בשוק כטב״מי המטען (למשל עם ה-Air_Truck), מה שהופך את סין למתחרה ישירה במגזר מתפתח זה."
+     },
+     "src": [
+      {
+       "t": "The War Zone",
+       "u": "https://www.twz.com/air/chinas-cargo-drones-keep-getting-bigger-with-new-w8000"
+      }
+     ],
+     "photo_url": "https://www.twz.com/wp-content/uploads/2026/11/Cargo-Drone-China.jpg?w=1200",
+     "note": {
+      "en": "DEVELOPMENT — Verified via cited open source(s).",
+      "he": "DEVELOPMENT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "MILESTONE"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Electronic Warfare",
+     "typeHe": "לוחמה אלקטרונית",
+     "h": {
+      "en": "BAE Systems Delivers 1,500th Electronic Warfare System for F-35 Program",
+      "he": "BAE Systems מסרה את מערכת הלוחמה האלקטרונית ה-1,500 לתוכנית ה-F-35"
+     },
+     "s": {
+      "en": "BAE Systems reached a major milestone with the delivery of 1,500 EW suites for the F-35 Lightning II, including new Block 4 upgrades.",
+      "he": "חברת BAE Systems הגיעה לאבן דרך משמעותית עם מסירת 1,500 חליפות ל״א עבור ה-F-35 Lightning II, כולל שדרוגי Block 4 החדשים."
+     },
+     "what": {
+      "en": "The company is now shipping production sets for the fighter's Block 4 upgrade, which provides enhanced situational awareness and advanced countermeasure capabilities to deal with evolving threats.",
+      "he": "החברה שולחת כעת ערכות ייצור עבור שדרוג ה-Block 4 של מטוס הקרב, המספק מודעות מצבית משופרת ויכולות נגד מתקדמות להתמודדות עם איומים מתפתחים."
+     },
+     "figs": {
+      "seller": "BAE Systems",
+      "item": "F-35 EW Systems",
+      "quantity": "1,500",
+      "upgrade_level": "Block 4",
+      "en": "seller: BAE Systems · item: F-35 EW Systems · quantity: 1,500 · upgrade_level: Block 4",
+      "he": "seller: BAE Systems · item: F-35 EW Systems · quantity: 1,500 · upgrade_level: Block 4"
+     },
+     "why": {
+      "en": "The F-35's EW suite is critical for its survival in high-threat environments, and the Block 4 upgrade is essential for maintaining its edge against near-peer adversaries.",
+      "he": "חליפת הל״א של ה-F-35 היא קריטית להישרדותו בסביבות מאוימות, ושדרוג ה-Block 4 חיוני לשמירה על יתרונו מול יריבים שווי-כוח."
+     },
+     "israel": {
+      "en": "The Israeli Air Force (IAF) operates the F-35I 'Adir' and integrates its own unique EW capabilities alongside the baseline BAE systems.",
+      "he": "חיל האוויר הישראלי מפעיל את ה-F-35I ״אדיר״ ומשלב יכולות ל״א ייחודיות משלו לצד מערכות ה-BAE הבסיסיות."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/bae-systems-says-f-35-electronic-warfare-deliveries-top-1500-with-block-4-deliveries-underway/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/10/BAE-Systems-to-deliver-electronic-warfare-systems-for-three-more-lots-of-F-35-stealth-fighters.jpg",
+     "note": {
+      "en": "MILESTONE — Verified via cited open source(s).",
+      "he": "MILESTONE — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "DELIVERED"
+     ],
+     "country": "AU",
+     "countryHe": "אוסטרליה",
+     "type": "Submarines",
+     "typeHe": "צוללות",
+     "h": {
+      "en": "Australia Receives First Virginia-Class Submarine Simulator at HMAS Stirling",
+      "he": "אוסטרליה קיבלה סימולטור ראשון לצוללות מסדרת וירג'יניה בבסיס HMAS Stirling"
+     },
+     "s": {
+      "en": "Under the AUKUS agreement, Australia has received its first training systems for Virginia-class submarines, including the VSCOT ship control simulator.",
+      "he": "במסגרת הסכם AUKUS, אוסטרליה קיבלה את מערכות האימון הראשונות שלה לצוללות מסדרת וירג'יניה, כולל סימולטור בקרת הספינה VSCOT."
+     },
+     "what": {
+      "en": "The delivery of the Virginia-class Submarine Control Over-the-shoulder Trainer (VSCOT) marks a critical step in preparing Australian crews to operate nuclear-powered submarines. The systems are being installed at HMAS Stirling in Western Australia.",
+      "he": "מסירת ה-VSCOT (מאמן בקרת צוללת) מהווה צעד קריטי בהכשרת צוותים אוסטרליים להפעלת צוללות גרעיניות. המערכות מותקנות בבסיס HMAS Stirling במערב אוסטרליה."
+     },
+     "figs": {
+      "buyer": "Australia",
+      "program": "AUKUS",
+      "item": "VSCOT Simulator",
+      "location": "HMAS Stirling",
+      "en": "buyer: Australia · program: AUKUS · item: VSCOT Simulator · location: HMAS Stirling",
+      "he": "buyer: Australia · program: AUKUS · item: VSCOT Simulator · location: HMAS Stirling"
+     },
+     "why": {
+      "en": "This is a tangible milestone in the AUKUS Pillar I roadmap, transitioning the Royal Australian Navy toward nuclear-powered capability.",
+      "he": "זוהי אבן דרך מוחשית במפת הדרכים של הנדבך הראשון ב-AUKUS, המעבירה את הצי המלכותי האוסטרלי ליכולות הנעה גרעינית."
+     },
+     "israel": {
+      "en": "Israel's submarine fleet (Dolphin-class) is conventionally powered, but the strategic shift toward long-range naval persistence in the Indo-Pacific is of high interest to Israeli naval planners.",
+      "he": "צי הצוללות של ישראל (מסדרת דולפין) הוא בעל הנעה קונבנציונלית, אך השינוי האסטרטגי לעבר שהייה ימית ארוכת טווח באזור האינדו-פסיפי מעורר עניין רב בקרב מתכנני חיל הים הישראלי."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/australia-first-virginia-class-submarine-simulator-hmas-stirling/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/AUKUS-training-scaled.jpg",
+     "note": {
+      "en": "DELIVERED — Verified via cited open source(s).",
+      "he": "DELIVERED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "BN1",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "ACQUISITION"
+     ],
+     "country": "SE",
+     "countryHe": "שוודיה",
+     "type": "Briefly noted",
+     "typeHe": "בקצרה",
+     "h": {
+      "en": "Saab completes acquisition of U.S. maritime autonomy firm Mythos AI.",
+      "he": "סאאב השלימה את רכישת חברת האוטונומיה הימית האמריקאית Mythos AI."
+     },
+     "s": {
+      "en": "Saab finalized the purchase of Mythos AI to bolster its portfolio in autonomous maritime systems and high-speed hydrographic mapping.",
+      "he": "סאאב סיימה את רכישת Mythos AI כדי לחזק את פורטפוליו המערכות הימיות האוטונומיות והמיפוי ההידרוגרפי המהיר שלה."
+     },
+     "src": [
+      {
+       "t": "EDR Magazine",
+       "u": "https://www.edrmagazine.eu/%e2%96%ba-saab-completes-acquisition-of-mythos-ai-in-the-u-s"
+      }
+     ],
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "israel": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "ACQUISITION — Verified via cited open source(s).",
+      "he": "ACQUISITION — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "BN2",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONTRACT"
+     ],
+     "country": "DK",
+     "countryHe": "דנמרק",
+     "type": "Briefly noted",
+     "typeHe": "בקצרה",
+     "h": {
+      "en": "Denmark awards Galvion five-year framework for advanced combat helmets.",
+      "he": "דנמרק העניקה לגלוויון חוזה מסגרת לחמש שנים לאספקת קסדות קרב מתקדמות."
+     },
+     "s": {
+      "en": "The deal includes 17 years of servicing and spare parts for the Danish defense forces.",
+      "he": "העסקה כוללת 17 שנים של שירות וחלקי חילוף עבור כוחות הביטחון הדניים."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/denmark-awards-galvion-third-successive-helmet-supply-deal-under-five-year-framework/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/11/Denmark-awards-Galvion-third-successive-helmet-supply-deal-under-five-year-framework.jpg",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "israel": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "CONTRACT — Verified via cited open source(s).",
+      "he": "CONTRACT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 7 full items, 2 briefly noted.",
+     "Country focus: Israel (Tiltan, Nomadic), Australia (AUKUS), Indonesia (USV), China (W8000)."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 7 פריטים מלאים, 2 בקצרה.",
+     "מיקוד מדינות: ישראל (טילתן, נומאדיק), אוסטרליה (AUKUS), אינדונזיה (כשב״ם), סין (W8000)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "North Korea's Punggye-ri nuclear test site activity levels.",
+     "U.S. Navy SLCM-N prototype testing milestones with Anduril.",
+     "Integration of AI-driven simulation in Israeli defense R&D.",
+     "Expansion of Chinese autonomous heavy-lift cargo drone operations."
+    ],
+    "he": [
+     "רמות הפעילות באתר הניסויים הגרעיניים פונגי-רי בצפון קוריאה.",
+     "אבני דרך בבדיקת אב-טיפוס של ה-SLCM-N של הצי האמריקאי עם אנדוריל.",
+     "שילוב סימולציה מבוססת בינה מלאכותית במו״פ הביטחוני הישראלי.",
+     "התרחבות הפעילות של כטב״מי מטען כבדים אוטונומיים בסין."
+    ]
+   },
+   "edition_key": "2026-11-26-0500",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "B1": {
+     "url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/SILOS-.png",
+     "outlet": "edrmagazine.eu",
+     "caption_en": "Tiltan Software Launches AI-Driven Simulation Tools for Sensor Testing",
+     "caption_he": "טילתן הנדסת תוכנה השיקה כלי סימולציה מבוססי בינה מלאכותית לבדיקת חיישנים",
+     "credit_en": "Photo via edrmagazine.eu",
+     "credit_he": "תמונה דרך edrmagazine.eu",
+     "local_src": "img/2026-11-26-0500/B1.jpg"
+    },
+    "B2": {
+     "url": "https://pbs.twimg.com/amplify_video_thumb/2125733314581393409/img/RGmXpNCpVBRE89k0?format=webp&amp;name=large",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "Nomadic Unveils NOMAD Drone Capable of Charging from High-Voltage Power Lines",
+     "caption_he": "נומאדיק חשפה את NOMAD: רחפן המסוגל להיטען ישירות מקווי מתח גבוה",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-26-0500/B2.jpg"
+    },
+    "C1": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/U.S.-Navy-Taps-Raytheon-to-Advance-SLCM-N-Nuclear-Cruise-Missile.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "U.S. Navy Awards Raytheon Contract to Mature SLCM-N Nuclear Cruise Missile",
+     "caption_he": "הצי האמריקאי העניק לריית'און חוזה לפיתוח טיל השיוט הגרעיני SLCM-N",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-26-0500/C1.jpg"
+    },
+    "D1": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/KSR-X33-Patkamla-Geledek-during-a-sea-trial.-North-Sea-Boats-picture.png",
+     "outlet": "navalnews.com",
+     "caption_en": "Indonesian Navy Receives 58-Knot Missile-Capable USV for Coastal Defense",
+     "caption_he": "הצי האינדונזי קיבל כשב״ם חמוש בטילים במהירות 58 קשר להגנת חופים",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-26-0500/D1.jpg"
+    },
+    "B3": {
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/Cargo-Drone-China.jpg?w=1200",
+     "outlet": "twz.com",
+     "caption_en": "China Unveils W8000 Cargo Drone with 8-Ton Payload Capacity",
+     "caption_he": "סין חשפה את כטב״ם המטען W8000 עם קיבולת מטען של 8 טונות",
+     "credit_en": "Photo via twz.com",
+     "credit_he": "תמונה דרך twz.com",
+     "local_src": "img/2026-11-26-0500/B3.jpg"
+    },
+    "A1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/10/BAE-Systems-to-deliver-electronic-warfare-systems-for-three-more-lots-of-F-35-stealth-fighters.jpg",
+     "outlet": "defence-industry.eu",
+     "caption_en": "BAE Systems Delivers 1,500th Electronic Warfare System for F-35 Program",
+     "caption_he": "BAE Systems מסרה את מערכת הלוחמה האלקטרונית ה-1,500 לתוכנית ה-F-35",
+     "credit_en": "Photo via defence-industry.eu",
+     "credit_he": "תמונה דרך defence-industry.eu",
+     "local_src": "img/2026-11-26-0500/A1.jpg"
+    },
+    "D2": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/AUKUS-training-scaled.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "Australia Receives First Virginia-Class Submarine Simulator at HMAS Stirling",
+     "caption_he": "אוסטרליה קיבלה סימולטור ראשון לצוללות מסדרת וירג'יניה בבסיס HMAS Stirling",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-26-0500/D2.jpg"
+    },
+    "BN2": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Denmark-awards-Galvion-third-successive-helmet-supply-deal-under-five-year-framework.jpg",
+     "outlet": "defence-industry.eu",
+     "caption_en": "Denmark awards Galvion five-year framework for advanced combat helmets.",
+     "caption_he": "דנמרק העניקה לגלוויון חוזה מסגרת לחמש שנים לאספקת קסדות קרב מתקדמות.",
+     "credit_en": "Photo via defence-industry.eu",
+     "credit_he": "תמונה דרך defence-industry.eu",
+     "local_src": "img/2026-11-26-0500/BN2.jpg"
+    }
+   }
+  },
+  "2026-11-25-2200": {
+   "date": "2026-11-25",
+   "slot": "2200",
+   "wstart": "2026-11-25T18:47:00Z",
+   "wend": "2026-11-25T18:51:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "Israel increases defense budget by USD 5 billion to address immediate operational needs and future funding gaps.",
+      "Ukraine's 'Blysk' laser system achieves a world-first by intercepting a jet-powered Russian Geran drone.",
+      "Germany's ARX Robotics integrates the GEREON UGV into the British Army's AI-enabled targeting network.",
+      "Japan and India sign a pact for JGSDF/JMSDF to utilize Indian ranges for long-range anti-ship missile training."
+     ],
+     "he": [
+      "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר למתן מענה לצרכים מבצעיים דחופים ופערי מימון עתידיים.",
+      "מערכת הלייזר האוקראינית ״Blysk״ רושמת בכורה עולמית עם יירוט מוצלח של כטב״ם ״גראן״ רוסי בעל הנעת סילון.",
+      "חברת ARX Robotics הגרמנית שילבה את הכרב״ם GEREON ברשת המטרות מבוססת הבינה המלאכותית של הצבא הבריטי.",
+      "יפן והודו חתמו על הסכם המאפשר לכוחות ההגנה של יפן להשתמש בשטחי ניסוי הודים לאימון בטילים ארוכי טווח נגד ספינות."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Defense Budget",
+     "typeHe": "תקציב ביטחון",
+     "h": {
+      "en": "Israel Increases Defense Budget by USD 5 Billion Amid Funding Concerns",
+      "he": "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר על רקע חששות מהמשך המימון"
+     },
+     "s": {
+      "en": "The Israeli government has approved a USD 5 billion increase to the defense budget to sustain ongoing operations and procurement. This move comes as officials scramble to secure future funding priorities against a backdrop of economic pressure.",
+      "he": "ממשלת ישראל אישרה תוספת של 5 מיליארד דולר לתקציב הביטחון לצורך תמיכה בפעילות מבצעית שוטפת וברכש. המהלך מגיע בעוד גורמים רשמיים פועלים להבטחת סדרי עדיפויות תקציביים עתידיים תחת לחץ כלכלי."
+     },
+     "what": {
+      "en": "Israel has increased its defense spending by USD 5 billion this year, marking one of several emergency adjustments. The funding is intended to cover the high costs of munitions, personnel, and the development of advanced defensive systems. Analysts note that this increase often comes at the expense of other national priorities, highlighting the strain of a prolonged multi-front conflict.",
+      "he": "ישראל הגדילה את הוצאות הביטחון שלה ב-5 מיליארד דולר השנה, באחת מתוך מספר התאמות חירום. המימון נועד לכסות את העלויות הגבוהות של חימוש, כוח אדם ופיתוח מערכות הגנה מתקדמות. אנליסטים מציינים כי תוספת זו מגיעה לעיתים קרובות על חשבון סדרי עדיפויות לאומיים אחרים, מה שמדגיש את העומס של עימות רב-זירתי ממושך."
+     },
+     "figs": {
+      "seller": "Israel Ministry of Finance",
+      "buyer": "Israel Ministry of Defense",
+      "item": "Emergency Budget Increase",
+      "val": "USD 5B",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25",
+      "en": "seller: Israel Ministry of Finance · buyer: Israel Ministry of Defense · item: Emergency Budget Increase · val: USD 5B · deal_date: 2026-11-25 · rep_date: 2026-11-25",
+      "he": "seller: Israel Ministry of Finance · buyer: Israel Ministry of Defense · item: Emergency Budget Increase · val: USD 5B · deal_date: 2026-11-25 · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "The budget hike reflects the reality of high-intensity warfare and the need for continuous replenishment of Iron Dome and Arrow interceptors. It also signals to regional adversaries that Israel is prepared for a long-term sustained military effort.",
+      "he": "הגדלת התקציב משקפת את המציאות של לחימה בעצימות גבוהה ואת הצורך בהצטיידות מתמדת במיירטי ״כיפת ברזל״ ו״חץ״. היא גם מאותתת ליריבים אזוריים כי ישראל ערוכה למאמץ צבאי מתמשך לטווח ארוך."
+     },
+     "israel": {
+      "en": "Directly concerns the Israel MoD's ability to fund MAFAT projects and industrial production lines at IAI, Rafael, and Elbit.",
+      "he": "נוגע ישירות ליכולת משרד הביטחון לממן פרויקטים של מפא״ת וקווי ייצור תעשייתיים בתע״א, רפאל ואלביט."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/israel-increases-defense-budget-by-5-billion-as-concerns-continue-over-future-funding/"
+      }
+     ],
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/10/israel-tank-scaled-e1696872367451.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "OPERATIONAL"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "C-UAS Laser",
+     "typeHe": "לייזר נגד כטב״ם",
+     "h": {
+      "en": "Ukraine's Blysk Laser System Intercepts Jet-Powered Drone in World First",
+      "he": "מערכת הלייזר האוקראינית ״Blysk״ הפילה כטב״ם סילוני בבכורה עולמית"
+     },
+     "s": {
+      "en": "The Blysk laser air defense system, developed by Carmine Sky, successfully downed a Russian jet-powered Geran drone. This marks the first recorded instance of a laser weapon intercepting a high-speed, jet-propelled UAV in combat.",
+      "he": "מערכת ההגנה האווירית בלייזר ״Blysk״, שפותחה על ידי Carmine Sky, הפילה בהצלחה כטב״ם ״גראן״ רוסי בעל הנעת סילון. זהו המקרה המתועד הראשון של נשק לייזר המיירט כטב״ם סילוני מהיר בתנאי קרב."
+     },
+     "what": {
+      "en": "The engagement occurred during a mass drone attack on Ukrainian infrastructure. The Blysk system utilized its high-precision optics to track and neutralize the jet-powered variant of the Geran drone, which is significantly faster and harder to hit than standard propeller-driven models. The system is part of Ukraine's push for low-cost-per-shot interceptors.",
+      "he": "היירוט התרחש במהלך מתקפת כטב״מים המונית על תשתיות אוקראיניות. מערכת ה-Blysk השתמשה באופטיקה בעלת דיוק גבוה כדי לעקוב ולנטרל את גרסת הסילון של כטב״ם ה״גראן״, שהיא מהירה משמעותית וקשה יותר לפגיעה מדגמים מונעי מדחף סטנדרטיים. המערכת היא חלק מהמאמץ האוקראיני למיירטים בעלות נמוכה לכל ירייה."
+     },
+     "why": {
+      "en": "Proves the viability of directed energy weapons against high-speed autonomous threats, potentially shifting the cost-exchange ratio in air defense. It validates the transition of laser tech from lab to frontline high-speed interception.",
+      "he": "מוכיח את הישימות של נשק אנרגיה מכוונת נגד איומים אוטונומיים מהירים, מה שעשוי לשנות את יחס העלות-תועלת בהגנה אווירית. המקרה מאשף את המעבר של טכנולוגיית לייזר מהמעבדה ליירוט מהיר בקו החזית."
+     },
+     "israel": {
+      "en": "Highly relevant to Israel's Iron Beam development; operational data from Ukraine on laser performance against jet-powered threats is of critical interest to Rafael and MAFAT.",
+      "he": "רלוונטי מאוד לפיתוח ״מגן אור״ (Iron Beam) הישראלי; נתונים מבצעיים מאוקראינה על ביצועי לייזר נגד איומי סילון מעוררים עניין רב ברפאל ובמפא״ת."
+     },
+     "src": [
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-defense/4188627-ukraines-blysk-laser-makes-world-first-shooting-down-russian-jetpowered-drone.html"
+      }
+     ],
+     "photo_url": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795629447-461.png",
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "OPERATIONAL — Verified via cited open source(s).",
+      "he": "OPERATIONAL — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "DEVELOPMENT"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "UGV",
+     "typeHe": "כרב״ם",
+     "h": {
+      "en": "German ARX Robotics Integrates GEREON UGV into British Army Targeting Network",
+      "he": "ARX Robotics הגרמנית שילבה את הכרב״ם GEREON ברשת המטרות של הצבא הבריטי"
+     },
+     "s": {
+      "en": "ARX Robotics announced that its GEREON ground robot has become the first UGV to connect to the British Army’s AI-enabled ASGARD targeting network. The integration took place during Exercise Haraka Storm in Kenya.",
+      "he": "חברת ARX Robotics הודיעה כי הרובוט הקרקעי GEREON הפך לכרב״ם הראשון שהתחבר לרשת המטרות ASGARD מבוססת הבינה המלאכותית של הצבא הבריטי. השילוב בוצע במהלך תרגיל Haraka Storm בקניה."
+     },
+     "what": {
+      "en": "The GEREON UGV acted as a mobile sensor node, identifying targets and relaying data directly into the British Army's digital fire-control chain. This allows for rapid sensor-to-shooter cycles where the ground robot identifies a threat and an AI-enabled network assigns the optimal weapon system to engage it.",
+      "he": "הכרב״ם GEREON פעל כצומת חיישנים נייד, זיהה מטרות והעביר נתונים ישירות לשרשרת בקרת האש הדיגיטלית של הצבא הבריטי. הדבר מאפשר סגירת מעגלי חיישן-תוקף מהירים שבהם הרובוט מזהה איום ורשת בינה מלאכותית מקצה את מערכת הנשק האופטימלית לתקיפתו."
+     },
+     "figs": {
+      "seller": "ARX Robotics",
+      "buyer": "British Army",
+      "item": "GEREON UGV Integration",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-25",
+      "en": "seller: ARX Robotics · buyer: British Army · item: GEREON UGV Integration · deal_date: 2026-11-25 · rep_date: 2026-11-25",
+      "he": "seller: ARX Robotics · buyer: British Army · item: GEREON UGV Integration · deal_date: 2026-11-25 · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "Demonstrates the maturity of German autonomous systems and their interoperability with NATO digital architectures. It marks a shift toward 'networked robotics' rather than standalone platforms.",
+      "he": "מדגים את הבשלות של מערכות אוטונומיות גרמניות ואת היכולת שלהן לעבוד עם ארכיטקטורות דיגיטליות של נאט״ו. זהו סימן למעבר לעבר ״רובוטיקה רשתית״ במקום פלטפורמות עצמאיות."
+     },
+     "israel": {
+      "en": "Elbit Systems and IAI are major competitors in the UGV market; the integration of a German platform into a core UK network is a significant competitive development.",
+      "he": "אלביט מערכות והתעשייה האווירית הן מתחרות מרכזיות בשוק הכרב״מים; שילוב פלטפורמה גרמנית ברשת ליבה בריטית הוא התפתחות תחרותית משמעותית."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/arx-robotics-says-gereon-is-first-ground-robot-to-join-british-army-targeting-network/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/11/ARX-Robotics-says-GEREON-is-first-ground-robot-to-join-British-Army-targeting-network.jpeg",
+     "note": {
+      "en": "DEVELOPMENT — Verified via cited open source(s).",
+      "he": "DEVELOPMENT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "standard",
+     "statuses": [
+      "AGREEMENT"
+     ],
+     "country": "IN",
+     "countryHe": "הודו",
+     "type": "Missile Training",
+     "typeHe": "אימון טילים",
+     "h": {
+      "en": "Japan to Utilize Indian Ranges for Long-Range Missile Training",
+      "he": "יפן תשתמש בשטחי ניסוי הודים לאימון בטילים ארוכי טווח"
+     },
+     "s": {
+      "en": "Japan has signed a pact to use Indian military ranges for training with anti-ship missiles and attack drones. The agreement follows an assessment by Japanese officials of India's ability to accommodate long-range live-fire exercises.",
+      "he": "יפן חתמה על הסכם לשימוש בשטחי ניסוי צבאיים בהודו לצורך אימונים בטילים נגד ספינות וכטב״מי תקיפה. ההסכם מגיע לאחר הערכה של גורמים יפנים לגבי יכולתה של הודו לארח תרגילי אש חיה ארוכי טווח."
+     },
+     "what": {
+      "en": "Under the new pact, the Japan Ground Self-Defense Force (JGSDF) and Maritime Self-Defense Force (JMSDF) will deploy units to India to conduct live-fire drills that are restricted in Japan due to geographic and safety constraints. This includes testing the Type 12 anti-ship missile and various loitering munitions.",
+      "he": "תחת ההסכם החדש, כוחות ההגנה של יפן (JGSDF ו-JMSDF) יפרסו יחידות להודו לביצוע תרגילי אש חיה המוגבלים ביפן בשל אילוצים גיאוגרפיים ובטיחותיים. זה כולל ניסויים בטיל נגד ספינות Type 12 וחימושים משוטטים שונים."
+     },
+     "why": {
+      "en": "Strengthens the India-Japan strategic partnership and addresses Japan's critical need for realistic training environments as it expands its 'counterstrike' capabilities. It also positions India as a regional hub for defense services.",
+      "he": "מחזק את השותפות האסטרטגית בין הודו ליפן ונותן מענה לצורך הקריטי של יפן בסביבות אימון ריאליסטיות בעוד היא מרחיבה את יכולות ה״מכה הנגדית״ שלה. המהלך גם ממצב את הודו כמרכז אזורי לשירותי ביטחון."
+     },
+     "israel": {
+      "en": "Israel provides significant missile and drone technology to both nations; increased training frequency may lead to higher demand for Israeli-made loitering munitions and target systems.",
+      "he": "ישראל מספקת טכנולוגיית טילים וכטב״מים משמעותית לשתי המדינות; תדירות אימונים מוגברת עשויה להוביל לדרישה גבוהה יותר לחימושים משוטטים ומערכות מטרה מתוצרת ישראלית."
+     },
+     "src": [
+      {
+       "t": "Defense News",
+       "u": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/"
+      }
+     ],
+     "photo_url": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2266504569.jpg.jpg",
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "AGREEMENT — Verified via cited open source(s).",
+      "he": "AGREEMENT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "DELAYED"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Tiltrotor",
+     "typeHe": "מטוס-מסוק",
+     "h": {
+      "en": "US Army Delays First MV-75 Delivery Due to Funding Shortfalls",
+      "he": "צבא ארה״ב מעכב את מסירת ה-MV-75 הראשון בשל מחסור במימון"
+     },
+     "s": {
+      "en": "The delivery of the first MV-75 tiltrotor for testing has been officially delayed following a funding shortfall that disrupted communications between the Army and Bell. Officials are now working to establish a revised schedule for the program.",
+      "he": "מסירת ה-MV-75 הראשון לבחינה עוכבה רשמית בעקבות מחסור במימון ששיבש את התקשורת בין הצבא לחברת Bell. גורמים רשמיים פועלים כעת לקביעת לוח זמנים מעודכן לתוכנית."
+     },
+     "what": {
+      "en": "The MV-75, a key component of the Future Long Range Assault Aircraft (FLRAA) initiative, was slated for initial testing this quarter. However, budget uncertainties and a lack of immediate funds for flight-test instrumentation have pushed the timeline back. The Army remains committed to the platform but faces broader fiscal constraints.",
+      "he": "ה-MV-75, מרכיב מרכזי ביוזמת מטוס התקיפה העתידי לטווח ארוך (FLRAA), היה אמור להתחיל בבחינות ראשוניות ברבעון זה. עם זאת, אי-ודאות תקציבית ומחסור במזומנים מיידיים למכשור ניסויי טיסה דחקו את לוח הזמנים לאחור. הצבא נותר מחויב לפלטפורמה אך מתמודד עם מגבלות פיסקליות רחבות יותר."
+     },
+     "why": {
+      "en": "Delays in the FLRAA program impact the US Army's long-term modernization goals for vertical lift, potentially extending the service life requirements for the aging Black Hawk fleet.",
+      "he": "עיכובים בתוכנית ה-FLRAA משפיעים על יעדי המודרניזציה ארוכי הטווח של צבא ארה״ב בתחום ההרמה האנכית, ועלולים להאריך את דרישות השירות של צי ה״בלאק הוק״ המזדקן."
+     },
+     "israel": {
+      "en": "The IAF closely monitors the V-280/MV-75 program as a potential future replacement for its heavy-lift and special operations transport requirements.",
+      "he": "חיל האוויר הישראלי עוקב מקרוב אחר תוכנית ה-V-280/MV-75 כתחליף עתידי פוטנציאלי לדרישות התובלה הכבדה והמבצעים המיוחדים שלו."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/delivery-of-first-mv-75-for-testing-officially-delayed-amid-funding-setbacks-army/"
+      }
+     ],
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "DELAYED — Verified via cited open source(s).",
+      "he": "DELAYED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "ANALYSIS"
+     ],
+     "country": "RU",
+     "countryHe": "רוסיה",
+     "type": "Maritime Security",
+     "typeHe": "ביטחון ימי",
+     "h": {
+      "en": "NATO Monitors Russian Naval Activity in Med Following Libya Strike",
+      "he": "נאט״ו עוקבת אחר הפעילות הימית הרוסית בים התיכון בעקבות התקיפה בלוב"
+     },
+     "s": {
+      "en": "NATO officials report no immediate Russian naval buildup in the Mediterranean following the Ukrainian strike on a corvette in Libya. However, analysts warn of potential Russian retaliation and increased risks along NATO's southern flank.",
+      "he": "גורמים בנאט״ו מדווחים כי אין הצטברות ימית רוסית מיידית בים התיכון בעקבות התקיפה האוקראינית על קורבטה בלוב. עם זאת, אנליסטים מזהירים מפני נקמה רוסית פוטנציאלית וסיכונים מוגברים לאורך האגף הדרומי של נאט״ו."
+     },
+     "what": {
+      "en": "Following the sinking of a Russian Project 20380 corvette in a Libyan port, NATO has increased surveillance of Russian assets in the Mediterranean. While no surge in ship numbers has been detected, the incident highlights the vulnerability of Russian logistics hubs in North Africa and the potential for the Ukraine conflict to spill over into the Med.",
+      "he": "בעקבות הטבעת קורבטה רוסית מפרויקט 20380 בנמל לובי, נאט״ו הגבירה את המעקב אחר נכסים רוסיים בים התיכון. למרות שלא זוהתה עלייה במספר הספינות, התקרית מדגישה את הפגיעות של מרכזי הלוגיסטיקה הרוסיים בצפון אפריקה ואת הפוטנציאל של הסכסוך באוקראינה לגלוש לים התיכון."
+     },
+     "why": {
+      "en": "The Mediterranean is a critical theater for global trade and energy security. Any escalation between Russia and Ukraine-aligned forces in this region directly threatens NATO's southern maritime stability.",
+      "he": "הים התיכון הוא זירה קריטית לסחר עולמי וביטחון אנרגטי. כל הסלמה בין רוסיה לכוחות המזוהים עם אוקראינה באזור זה מאיימת ישירות על היציבות הימית הדרומית של נאט״ו."
+     },
+     "israel": {
+      "en": "Russian naval presence in the Eastern Med is a primary concern for the Israeli Navy, particularly regarding the security of offshore gas infrastructure.",
+      "he": "הנוכחות הימית הרוסית במזרח הים התיכון היא דאגה מרכזית עבור חיל הים הישראלי, במיוחד בנוגע לאבטחת תשתיות הגז בים."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks/"
+      }
+     ],
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Capture-decran-le-2026-11-25-a-18.08.48-scaled.png",
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "ANALYSIS — Verified via cited open source(s).",
+      "he": "ANALYSIS — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 6 full items, 2 briefly noted.",
+     "Country focus: Germany (ARX Robotics), India (Japan training pact), Israel (Budget increase)."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 6 פריטים מלאים, 2 בקצרה.",
+     "מיקוד מדינות: גרמניה (ARX Robotics), הודו (הסכם אימונים עם יפן), ישראל (הגדלת תקציב)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Russian response to the loss of the corvette in Libya.",
+     "Implementation of the Japan-India missile training pact.",
+     "Operational deployment of the Blysk laser system in Ukraine.",
+     "US Army's revised schedule for the MV-75 tiltrotor."
+    ],
+    "he": [
+     "תגובה רוסית לאובדן הקורבטה בלוב.",
+     "יישום הסכם אימוני הטילים בין יפן להודו.",
+     "פריסה מבצעית של מערכת הלייזר Blysk באוקראינה.",
+     "לוח הזמנים המעודכן של צבא ארה״ב עבור ה-MV-75."
+    ]
+   },
+   "edition_key": "2026-11-25-2200",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "A1": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/10/israel-tank-scaled-e1696872367451.jpg",
+     "outlet": "breakingdefense.com",
+     "caption_en": "Israel Increases Defense Budget by USD 5 Billion Amid Funding Concerns",
+     "caption_he": "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר על רקע חששות מהמשך המימון",
+     "credit_en": "Photo via breakingdefense.com",
+     "credit_he": "תמונה דרך breakingdefense.com",
+     "local_src": "img/2026-11-25-2200/A1.jpg"
+    },
+    "A2": {
+     "url": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795629447-461.png",
+     "outlet": "static.ukrinform.com",
+     "caption_en": "Ukraine's Blysk Laser System Intercepts Jet-Powered Drone in World First",
+     "caption_he": "מערכת הלייזר האוקראינית ״Blysk״ הפילה כטב״ם סילוני בבכורה עולמית",
+     "credit_en": "Photo via static.ukrinform.com",
+     "credit_he": "תמונה דרך static.ukrinform.com",
+     "local_src": "img/2026-11-25-2200/A2.jpg"
+    },
+    "B1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/ARX-Robotics-says-GEREON-is-first-ground-robot-to-join-British-Army-targeting-network.jpeg",
+     "outlet": "defence-industry.eu",
+     "caption_en": "German ARX Robotics Integrates GEREON UGV into British Army Targeting Network",
+     "caption_he": "ARX Robotics הגרמנית שילבה את הכרב״ם GEREON ברשת המטרות של הצבא הבריטי",
+     "credit_en": "Photo via defence-industry.eu",
+     "credit_he": "תמונה דרך defence-industry.eu",
+     "local_src": "img/2026-11-25-2200/B1.jpg"
+    },
+    "C1": {
+     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2266504569.jpg.jpg",
+     "outlet": "one.sightlinemg.com",
+     "caption_en": "Japan to Utilize Indian Ranges for Long-Range Missile Training",
+     "caption_he": "יפן תשתמש בשטחי ניסוי הודים לאימון בטילים ארוכי טווח",
+     "credit_en": "Photo via one.sightlinemg.com",
+     "credit_he": "תמונה דרך one.sightlinemg.com",
+     "local_src": "img/2026-11-25-2200/C1.jpg"
+    },
+    "B2": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
+     "outlet": "breakingdefense.com",
+     "caption_en": "US Army Delays First MV-75 Delivery Due to Funding Shortfalls",
+     "caption_he": "צבא ארה״ב מעכב את מסירת ה-MV-75 הראשון בשל מחסור במימון",
+     "credit_en": "Photo via breakingdefense.com",
+     "credit_he": "תמונה דרך breakingdefense.com",
+     "local_src": "img/2026-11-25-2200/B2.jpg"
+    },
+    "D1": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Capture-decran-le-2026-11-25-a-18.08.48-scaled.png",
+     "outlet": "breakingdefense.com",
+     "caption_en": "NATO Monitors Russian Naval Activity in Med Following Libya Strike",
+     "caption_he": "נאט״ו עוקבת אחר הפעילות הימית הרוסית בים התיכון בעקבות התקיפה בלוב",
+     "credit_en": "Photo via breakingdefense.com",
+     "credit_he": "תמונה דרך breakingdefense.com",
+     "local_src": "img/2026-11-25-2200/D1.jpg"
+    }
+   }
+  },
   "2026-11-25-evening": {
    "date": "2026-11-25_evening",
    "doc_id": "2026-11-25-evening",
@@ -679,412 +1666,6 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo: Ukraine Ministry of Defense, via Breaking Defense",
      "credit_he": "צילום: משרד ההגנה האוקראיני, דרך Breaking Defense",
      "local_src": "img/2026-11-25-evening/D1.jpg"
-    }
-   }
-  },
-  "2026-11-25-2200": {
-   "date": "2026-11-25",
-   "slot": "2200",
-   "wstart": "2026-11-25T18:47:00Z",
-   "wend": "2026-11-25T18:51:00Z",
-   "digest": {
-    "bluf": {
-     "en": [
-      "Israel increases defense budget by USD 5 billion to address immediate operational needs and future funding gaps.",
-      "Ukraine's 'Blysk' laser system achieves a world-first by intercepting a jet-powered Russian Geran drone.",
-      "Germany's ARX Robotics integrates the GEREON UGV into the British Army's AI-enabled targeting network.",
-      "Japan and India sign a pact for JGSDF/JMSDF to utilize Indian ranges for long-range anti-ship missile training."
-     ],
-     "he": [
-      "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר למתן מענה לצרכים מבצעיים דחופים ופערי מימון עתידיים.",
-      "מערכת הלייזר האוקראינית ״Blysk״ רושמת בכורה עולמית עם יירוט מוצלח של כטב״ם ״גראן״ רוסי בעל הנעת סילון.",
-      "חברת ARX Robotics הגרמנית שילבה את הכרב״ם GEREON ברשת המטרות מבוססת הבינה המלאכותית של הצבא הבריטי.",
-      "יפן והודו חתמו על הסכם המאפשר לכוחות ההגנה של יפן להשתמש בשטחי ניסוי הודים לאימון בטילים ארוכי טווח נגד ספינות."
-     ]
-    }
-   },
-   "items": [
-    {
-     "id": "A1",
-     "domain": "air",
-     "priority": "high",
-     "statuses": [
-      "CONFIRMED"
-     ],
-     "country": "IL",
-     "countryHe": "ישראל",
-     "type": "Defense Budget",
-     "typeHe": "תקציב ביטחון",
-     "h": {
-      "en": "Israel Increases Defense Budget by USD 5 Billion Amid Funding Concerns",
-      "he": "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר על רקע חששות מהמשך המימון"
-     },
-     "s": {
-      "en": "The Israeli government has approved a USD 5 billion increase to the defense budget to sustain ongoing operations and procurement. This move comes as officials scramble to secure future funding priorities against a backdrop of economic pressure.",
-      "he": "ממשלת ישראל אישרה תוספת של 5 מיליארד דולר לתקציב הביטחון לצורך תמיכה בפעילות מבצעית שוטפת וברכש. המהלך מגיע בעוד גורמים רשמיים פועלים להבטחת סדרי עדיפויות תקציביים עתידיים תחת לחץ כלכלי."
-     },
-     "what": {
-      "en": "Israel has increased its defense spending by USD 5 billion this year, marking one of several emergency adjustments. The funding is intended to cover the high costs of munitions, personnel, and the development of advanced defensive systems. Analysts note that this increase often comes at the expense of other national priorities, highlighting the strain of a prolonged multi-front conflict.",
-      "he": "ישראל הגדילה את הוצאות הביטחון שלה ב-5 מיליארד דולר השנה, באחת מתוך מספר התאמות חירום. המימון נועד לכסות את העלויות הגבוהות של חימוש, כוח אדם ופיתוח מערכות הגנה מתקדמות. אנליסטים מציינים כי תוספת זו מגיעה לעיתים קרובות על חשבון סדרי עדיפויות לאומיים אחרים, מה שמדגיש את העומס של עימות רב-זירתי ממושך."
-     },
-     "figs": {
-      "seller": "Israel Ministry of Finance",
-      "buyer": "Israel Ministry of Defense",
-      "item": "Emergency Budget Increase",
-      "val": "USD 5B",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: Israel Ministry of Finance · buyer: Israel Ministry of Defense · item: Emergency Budget Increase · val: USD 5B · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: Israel Ministry of Finance · buyer: Israel Ministry of Defense · item: Emergency Budget Increase · val: USD 5B · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "The budget hike reflects the reality of high-intensity warfare and the need for continuous replenishment of Iron Dome and Arrow interceptors. It also signals to regional adversaries that Israel is prepared for a long-term sustained military effort.",
-      "he": "הגדלת התקציב משקפת את המציאות של לחימה בעצימות גבוהה ואת הצורך בהצטיידות מתמדת במיירטי ״כיפת ברזל״ ו״חץ״. היא גם מאותתת ליריבים אזוריים כי ישראל ערוכה למאמץ צבאי מתמשך לטווח ארוך."
-     },
-     "israel": {
-      "en": "Directly concerns the Israel MoD's ability to fund MAFAT projects and industrial production lines at IAI, Rafael, and Elbit.",
-      "he": "נוגע ישירות ליכולת משרד הביטחון לממן פרויקטים של מפא״ת וקווי ייצור תעשייתיים בתע״א, רפאל ואלביט."
-     },
-     "src": [
-      {
-       "t": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/11/israel-increases-defense-budget-by-5-billion-as-concerns-continue-over-future-funding/"
-      }
-     ],
-     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/10/israel-tank-scaled-e1696872367451.jpg",
-     "note": {
-      "en": "CONFIRMED — Verified via cited open source(s).",
-      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "A2",
-     "domain": "air",
-     "priority": "high",
-     "statuses": [
-      "OPERATIONAL"
-     ],
-     "country": "UA",
-     "countryHe": "אוקראינה",
-     "type": "C-UAS Laser",
-     "typeHe": "לייזר נגד כטב״ם",
-     "h": {
-      "en": "Ukraine's Blysk Laser System Intercepts Jet-Powered Drone in World First",
-      "he": "מערכת הלייזר האוקראינית ״Blysk״ הפילה כטב״ם סילוני בבכורה עולמית"
-     },
-     "s": {
-      "en": "The Blysk laser air defense system, developed by Carmine Sky, successfully downed a Russian jet-powered Geran drone. This marks the first recorded instance of a laser weapon intercepting a high-speed, jet-propelled UAV in combat.",
-      "he": "מערכת ההגנה האווירית בלייזר ״Blysk״, שפותחה על ידי Carmine Sky, הפילה בהצלחה כטב״ם ״גראן״ רוסי בעל הנעת סילון. זהו המקרה המתועד הראשון של נשק לייזר המיירט כטב״ם סילוני מהיר בתנאי קרב."
-     },
-     "what": {
-      "en": "The engagement occurred during a mass drone attack on Ukrainian infrastructure. The Blysk system utilized its high-precision optics to track and neutralize the jet-powered variant of the Geran drone, which is significantly faster and harder to hit than standard propeller-driven models. The system is part of Ukraine's push for low-cost-per-shot interceptors.",
-      "he": "היירוט התרחש במהלך מתקפת כטב״מים המונית על תשתיות אוקראיניות. מערכת ה-Blysk השתמשה באופטיקה בעלת דיוק גבוה כדי לעקוב ולנטרל את גרסת הסילון של כטב״ם ה״גראן״, שהיא מהירה משמעותית וקשה יותר לפגיעה מדגמים מונעי מדחף סטנדרטיים. המערכת היא חלק מהמאמץ האוקראיני למיירטים בעלות נמוכה לכל ירייה."
-     },
-     "why": {
-      "en": "Proves the viability of directed energy weapons against high-speed autonomous threats, potentially shifting the cost-exchange ratio in air defense. It validates the transition of laser tech from lab to frontline high-speed interception.",
-      "he": "מוכיח את הישימות של נשק אנרגיה מכוונת נגד איומים אוטונומיים מהירים, מה שעשוי לשנות את יחס העלות-תועלת בהגנה אווירית. המקרה מאשף את המעבר של טכנולוגיית לייזר מהמעבדה ליירוט מהיר בקו החזית."
-     },
-     "israel": {
-      "en": "Highly relevant to Israel's Iron Beam development; operational data from Ukraine on laser performance against jet-powered threats is of critical interest to Rafael and MAFAT.",
-      "he": "רלוונטי מאוד לפיתוח ״מגן אור״ (Iron Beam) הישראלי; נתונים מבצעיים מאוקראינה על ביצועי לייזר נגד איומי סילון מעוררים עניין רב ברפאל ובמפא״ת."
-     },
-     "src": [
-      {
-       "t": "Ukrinform",
-       "u": "https://www.ukrinform.net/rubric-defense/4188627-ukraines-blysk-laser-makes-world-first-shooting-down-russian-jetpowered-drone.html"
-      }
-     ],
-     "photo_url": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795629447-461.png",
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
-     "note": {
-      "en": "OPERATIONAL — Verified via cited open source(s).",
-      "he": "OPERATIONAL — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B1",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "DEVELOPMENT"
-     ],
-     "country": "DE",
-     "countryHe": "גרמניה",
-     "type": "UGV",
-     "typeHe": "כרב״ם",
-     "h": {
-      "en": "German ARX Robotics Integrates GEREON UGV into British Army Targeting Network",
-      "he": "ARX Robotics הגרמנית שילבה את הכרב״ם GEREON ברשת המטרות של הצבא הבריטי"
-     },
-     "s": {
-      "en": "ARX Robotics announced that its GEREON ground robot has become the first UGV to connect to the British Army’s AI-enabled ASGARD targeting network. The integration took place during Exercise Haraka Storm in Kenya.",
-      "he": "חברת ARX Robotics הודיעה כי הרובוט הקרקעי GEREON הפך לכרב״ם הראשון שהתחבר לרשת המטרות ASGARD מבוססת הבינה המלאכותית של הצבא הבריטי. השילוב בוצע במהלך תרגיל Haraka Storm בקניה."
-     },
-     "what": {
-      "en": "The GEREON UGV acted as a mobile sensor node, identifying targets and relaying data directly into the British Army's digital fire-control chain. This allows for rapid sensor-to-shooter cycles where the ground robot identifies a threat and an AI-enabled network assigns the optimal weapon system to engage it.",
-      "he": "הכרב״ם GEREON פעל כצומת חיישנים נייד, זיהה מטרות והעביר נתונים ישירות לשרשרת בקרת האש הדיגיטלית של הצבא הבריטי. הדבר מאפשר סגירת מעגלי חיישן-תוקף מהירים שבהם הרובוט מזהה איום ורשת בינה מלאכותית מקצה את מערכת הנשק האופטימלית לתקיפתו."
-     },
-     "figs": {
-      "seller": "ARX Robotics",
-      "buyer": "British Army",
-      "item": "GEREON UGV Integration",
-      "deal_date": "2026-11-25",
-      "rep_date": "2026-11-25",
-      "en": "seller: ARX Robotics · buyer: British Army · item: GEREON UGV Integration · deal_date: 2026-11-25 · rep_date: 2026-11-25",
-      "he": "seller: ARX Robotics · buyer: British Army · item: GEREON UGV Integration · deal_date: 2026-11-25 · rep_date: 2026-11-25"
-     },
-     "why": {
-      "en": "Demonstrates the maturity of German autonomous systems and their interoperability with NATO digital architectures. It marks a shift toward 'networked robotics' rather than standalone platforms.",
-      "he": "מדגים את הבשלות של מערכות אוטונומיות גרמניות ואת היכולת שלהן לעבוד עם ארכיטקטורות דיגיטליות של נאט״ו. זהו סימן למעבר לעבר ״רובוטיקה רשתית״ במקום פלטפורמות עצמאיות."
-     },
-     "israel": {
-      "en": "Elbit Systems and IAI are major competitors in the UGV market; the integration of a German platform into a core UK network is a significant competitive development.",
-      "he": "אלביט מערכות והתעשייה האווירית הן מתחרות מרכזיות בשוק הכרב״מים; שילוב פלטפורמה גרמנית ברשת ליבה בריטית הוא התפתחות תחרותית משמעותית."
-     },
-     "src": [
-      {
-       "t": "Defence Industry Europe",
-       "u": "https://defence-industry.eu/arx-robotics-says-gereon-is-first-ground-robot-to-join-british-army-targeting-network/"
-      }
-     ],
-     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/11/ARX-Robotics-says-GEREON-is-first-ground-robot-to-join-British-Army-targeting-network.jpeg",
-     "note": {
-      "en": "DEVELOPMENT — Verified via cited open source(s).",
-      "he": "DEVELOPMENT — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "C1",
-     "domain": "strike",
-     "priority": "standard",
-     "statuses": [
-      "AGREEMENT"
-     ],
-     "country": "IN",
-     "countryHe": "הודו",
-     "type": "Missile Training",
-     "typeHe": "אימון טילים",
-     "h": {
-      "en": "Japan to Utilize Indian Ranges for Long-Range Missile Training",
-      "he": "יפן תשתמש בשטחי ניסוי הודים לאימון בטילים ארוכי טווח"
-     },
-     "s": {
-      "en": "Japan has signed a pact to use Indian military ranges for training with anti-ship missiles and attack drones. The agreement follows an assessment by Japanese officials of India's ability to accommodate long-range live-fire exercises.",
-      "he": "יפן חתמה על הסכם לשימוש בשטחי ניסוי צבאיים בהודו לצורך אימונים בטילים נגד ספינות וכטב״מי תקיפה. ההסכם מגיע לאחר הערכה של גורמים יפנים לגבי יכולתה של הודו לארח תרגילי אש חיה ארוכי טווח."
-     },
-     "what": {
-      "en": "Under the new pact, the Japan Ground Self-Defense Force (JGSDF) and Maritime Self-Defense Force (JMSDF) will deploy units to India to conduct live-fire drills that are restricted in Japan due to geographic and safety constraints. This includes testing the Type 12 anti-ship missile and various loitering munitions.",
-      "he": "תחת ההסכם החדש, כוחות ההגנה של יפן (JGSDF ו-JMSDF) יפרסו יחידות להודו לביצוע תרגילי אש חיה המוגבלים ביפן בשל אילוצים גיאוגרפיים ובטיחותיים. זה כולל ניסויים בטיל נגד ספינות Type 12 וחימושים משוטטים שונים."
-     },
-     "why": {
-      "en": "Strengthens the India-Japan strategic partnership and addresses Japan's critical need for realistic training environments as it expands its 'counterstrike' capabilities. It also positions India as a regional hub for defense services.",
-      "he": "מחזק את השותפות האסטרטגית בין הודו ליפן ונותן מענה לצורך הקריטי של יפן בסביבות אימון ריאליסטיות בעוד היא מרחיבה את יכולות ה״מכה הנגדית״ שלה. המהלך גם ממצב את הודו כמרכז אזורי לשירותי ביטחון."
-     },
-     "israel": {
-      "en": "Israel provides significant missile and drone technology to both nations; increased training frequency may lead to higher demand for Israeli-made loitering munitions and target systems.",
-      "he": "ישראל מספקת טכנולוגיית טילים וכטב״מים משמעותית לשתי המדינות; תדירות אימונים מוגברת עשויה להוביל לדרישה גבוהה יותר לחימושים משוטטים ומערכות מטרה מתוצרת ישראלית."
-     },
-     "src": [
-      {
-       "t": "Defense News",
-       "u": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/"
-      }
-     ],
-     "photo_url": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2266504569.jpg.jpg",
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
-     "note": {
-      "en": "AGREEMENT — Verified via cited open source(s).",
-      "he": "AGREEMENT — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B2",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "DELAYED"
-     ],
-     "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Tiltrotor",
-     "typeHe": "מטוס-מסוק",
-     "h": {
-      "en": "US Army Delays First MV-75 Delivery Due to Funding Shortfalls",
-      "he": "צבא ארה״ב מעכב את מסירת ה-MV-75 הראשון בשל מחסור במימון"
-     },
-     "s": {
-      "en": "The delivery of the first MV-75 tiltrotor for testing has been officially delayed following a funding shortfall that disrupted communications between the Army and Bell. Officials are now working to establish a revised schedule for the program.",
-      "he": "מסירת ה-MV-75 הראשון לבחינה עוכבה רשמית בעקבות מחסור במימון ששיבש את התקשורת בין הצבא לחברת Bell. גורמים רשמיים פועלים כעת לקביעת לוח זמנים מעודכן לתוכנית."
-     },
-     "what": {
-      "en": "The MV-75, a key component of the Future Long Range Assault Aircraft (FLRAA) initiative, was slated for initial testing this quarter. However, budget uncertainties and a lack of immediate funds for flight-test instrumentation have pushed the timeline back. The Army remains committed to the platform but faces broader fiscal constraints.",
-      "he": "ה-MV-75, מרכיב מרכזי ביוזמת מטוס התקיפה העתידי לטווח ארוך (FLRAA), היה אמור להתחיל בבחינות ראשוניות ברבעון זה. עם זאת, אי-ודאות תקציבית ומחסור במזומנים מיידיים למכשור ניסויי טיסה דחקו את לוח הזמנים לאחור. הצבא נותר מחויב לפלטפורמה אך מתמודד עם מגבלות פיסקליות רחבות יותר."
-     },
-     "why": {
-      "en": "Delays in the FLRAA program impact the US Army's long-term modernization goals for vertical lift, potentially extending the service life requirements for the aging Black Hawk fleet.",
-      "he": "עיכובים בתוכנית ה-FLRAA משפיעים על יעדי המודרניזציה ארוכי הטווח של צבא ארה״ב בתחום ההרמה האנכית, ועלולים להאריך את דרישות השירות של צי ה״בלאק הוק״ המזדקן."
-     },
-     "israel": {
-      "en": "The IAF closely monitors the V-280/MV-75 program as a potential future replacement for its heavy-lift and special operations transport requirements.",
-      "he": "חיל האוויר הישראלי עוקב מקרוב אחר תוכנית ה-V-280/MV-75 כתחליף עתידי פוטנציאלי לדרישות התובלה הכבדה והמבצעים המיוחדים שלו."
-     },
-     "src": [
-      {
-       "t": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/11/delivery-of-first-mv-75-for-testing-officially-delayed-amid-funding-setbacks-army/"
-      }
-     ],
-     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
-     "note": {
-      "en": "DELAYED — Verified via cited open source(s).",
-      "he": "DELAYED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "D1",
-     "domain": "naval",
-     "priority": "standard",
-     "statuses": [
-      "ANALYSIS"
-     ],
-     "country": "RU",
-     "countryHe": "רוסיה",
-     "type": "Maritime Security",
-     "typeHe": "ביטחון ימי",
-     "h": {
-      "en": "NATO Monitors Russian Naval Activity in Med Following Libya Strike",
-      "he": "נאט״ו עוקבת אחר הפעילות הימית הרוסית בים התיכון בעקבות התקיפה בלוב"
-     },
-     "s": {
-      "en": "NATO officials report no immediate Russian naval buildup in the Mediterranean following the Ukrainian strike on a corvette in Libya. However, analysts warn of potential Russian retaliation and increased risks along NATO's southern flank.",
-      "he": "גורמים בנאט״ו מדווחים כי אין הצטברות ימית רוסית מיידית בים התיכון בעקבות התקיפה האוקראינית על קורבטה בלוב. עם זאת, אנליסטים מזהירים מפני נקמה רוסית פוטנציאלית וסיכונים מוגברים לאורך האגף הדרומי של נאט״ו."
-     },
-     "what": {
-      "en": "Following the sinking of a Russian Project 20380 corvette in a Libyan port, NATO has increased surveillance of Russian assets in the Mediterranean. While no surge in ship numbers has been detected, the incident highlights the vulnerability of Russian logistics hubs in North Africa and the potential for the Ukraine conflict to spill over into the Med.",
-      "he": "בעקבות הטבעת קורבטה רוסית מפרויקט 20380 בנמל לובי, נאט״ו הגבירה את המעקב אחר נכסים רוסיים בים התיכון. למרות שלא זוהתה עלייה במספר הספינות, התקרית מדגישה את הפגיעות של מרכזי הלוגיסטיקה הרוסיים בצפון אפריקה ואת הפוטנציאל של הסכסוך באוקראינה לגלוש לים התיכון."
-     },
-     "why": {
-      "en": "The Mediterranean is a critical theater for global trade and energy security. Any escalation between Russia and Ukraine-aligned forces in this region directly threatens NATO's southern maritime stability.",
-      "he": "הים התיכון הוא זירה קריטית לסחר עולמי וביטחון אנרגטי. כל הסלמה בין רוסיה לכוחות המזוהים עם אוקראינה באזור זה מאיימת ישירות על היציבות הימית הדרומית של נאט״ו."
-     },
-     "israel": {
-      "en": "Russian naval presence in the Eastern Med is a primary concern for the Israeli Navy, particularly regarding the security of offshore gas infrastructure.",
-      "he": "הנוכחות הימית הרוסית במזרח הים התיכון היא דאגה מרכזית עבור חיל הים הישראלי, במיוחד בנוגע לאבטחת תשתיות הגז בים."
-     },
-     "src": [
-      {
-       "t": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks/"
-      }
-     ],
-     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Capture-decran-le-2026-11-25-a-18.08.48-scaled.png",
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
-     "note": {
-      "en": "ANALYSIS — Verified via cited open source(s).",
-      "he": "ANALYSIS — אומת מול המקורות הגלויים המצוטטים."
-     }
-    }
-   ],
-   "runnotes": {
-    "en": [
-     "Reader profile applied: 6 full items, 2 briefly noted.",
-     "Country focus: Germany (ARX Robotics), India (Japan training pact), Israel (Budget increase)."
-    ],
-    "he": [
-     "פרופיל קורא הוחל: 6 פריטים מלאים, 2 בקצרה.",
-     "מיקוד מדינות: גרמניה (ARX Robotics), הודו (הסכם אימונים עם יפן), ישראל (הגדלת תקציב)."
-    ]
-   },
-   "watch": {
-    "en": [
-     "Russian response to the loss of the corvette in Libya.",
-     "Implementation of the Japan-India missile training pact.",
-     "Operational deployment of the Blysk laser system in Ukraine.",
-     "US Army's revised schedule for the MV-75 tiltrotor."
-    ],
-    "he": [
-     "תגובה רוסית לאובדן הקורבטה בלוב.",
-     "יישום הסכם אימוני הטילים בין יפן להודו.",
-     "פריסה מבצעית של מערכת הלייזר Blysk באוקראינה.",
-     "לוח הזמנים המעודכן של צבא ארה״ב עבור ה-MV-75."
-    ]
-   },
-   "edition_key": "2026-11-25-2200",
-   "notes": {
-    "en": [
-     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
-    ],
-    "he": [
-     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
-    ]
-   },
-   "photos": {
-    "A1": {
-     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2023/10/israel-tank-scaled-e1696872367451.jpg",
-     "outlet": "breakingdefense.com",
-     "caption_en": "Israel Increases Defense Budget by USD 5 Billion Amid Funding Concerns",
-     "caption_he": "ישראל מגדילה את תקציב הביטחון ב-5 מיליארד דולר על רקע חששות מהמשך המימון",
-     "credit_en": "Photo via breakingdefense.com",
-     "credit_he": "תמונה דרך breakingdefense.com",
-     "local_src": "img/2026-11-25-2200/A1.jpg"
-    },
-    "A2": {
-     "url": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1795629447-461.png",
-     "outlet": "static.ukrinform.com",
-     "caption_en": "Ukraine's Blysk Laser System Intercepts Jet-Powered Drone in World First",
-     "caption_he": "מערכת הלייזר האוקראינית ״Blysk״ הפילה כטב״ם סילוני בבכורה עולמית",
-     "credit_en": "Photo via static.ukrinform.com",
-     "credit_he": "תמונה דרך static.ukrinform.com",
-     "local_src": "img/2026-11-25-2200/A2.jpg"
-    },
-    "B1": {
-     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/ARX-Robotics-says-GEREON-is-first-ground-robot-to-join-British-Army-targeting-network.jpeg",
-     "outlet": "defence-industry.eu",
-     "caption_en": "German ARX Robotics Integrates GEREON UGV into British Army Targeting Network",
-     "caption_he": "ARX Robotics הגרמנית שילבה את הכרב״ם GEREON ברשת המטרות של הצבא הבריטי",
-     "credit_en": "Photo via defence-industry.eu",
-     "credit_he": "תמונה דרך defence-industry.eu",
-     "local_src": "img/2026-11-25-2200/B1.jpg"
-    },
-    "C1": {
-     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2266504569.jpg.jpg",
-     "outlet": "one.sightlinemg.com",
-     "caption_en": "Japan to Utilize Indian Ranges for Long-Range Missile Training",
-     "caption_he": "יפן תשתמש בשטחי ניסוי הודים לאימון בטילים ארוכי טווח",
-     "credit_en": "Photo via one.sightlinemg.com",
-     "credit_he": "תמונה דרך one.sightlinemg.com",
-     "local_src": "img/2026-11-25-2200/C1.jpg"
-    },
-    "B2": {
-     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/04/MV-75-photo-B-e1795550259743.jpg",
-     "outlet": "breakingdefense.com",
-     "caption_en": "US Army Delays First MV-75 Delivery Due to Funding Shortfalls",
-     "caption_he": "צבא ארה״ב מעכב את מסירת ה-MV-75 הראשון בשל מחסור במימון",
-     "credit_en": "Photo via breakingdefense.com",
-     "credit_he": "תמונה דרך breakingdefense.com",
-     "local_src": "img/2026-11-25-2200/B2.jpg"
-    },
-    "D1": {
-     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Capture-decran-le-2026-11-25-a-18.08.48-scaled.png",
-     "outlet": "breakingdefense.com",
-     "caption_en": "NATO Monitors Russian Naval Activity in Med Following Libya Strike",
-     "caption_he": "נאט״ו עוקבת אחר הפעילות הימית הרוסית בים התיכון בעקבות התקיפה בלוב",
-     "credit_en": "Photo via breakingdefense.com",
-     "credit_he": "תמונה דרך breakingdefense.com",
-     "local_src": "img/2026-11-25-2200/D1.jpg"
     }
    }
   },
