@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-26-0500",
+ "updated_at": "2026-11-26-1130",
  "dates": [
+  "2026-11-26-1130",
   "2026-11-26-0500",
   "2026-11-25-2200",
   "2026-11-25-evening",
@@ -59,6 +60,248 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-26-1130": {
+   "date": "2026-11-26",
+   "slot": "1130",
+   "wstart": "2026-11-26T01:46:00Z",
+   "wend": "2026-11-26T09:32:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "IDF eliminates senior Hamas official Khaled Abu Nada in central Gaza strike.",
+      "Italian Navy PPA 'Giovanni delle Bande Nere' successfully intercepts ballistic missile in BMD milestone.",
+      "Lockheed Martin unveils new weapons suite for International Class Frigate at Euronaval 2026.",
+      "U.S. Army declares first Dark Eagle hypersonic missile battery fully combat-ready."
+     ],
+     "he": [
+      "צה״ל חיסל את בכיר חמאס חאלד אבו נדא בתקיפה במרכז הרצועה.",
+      "הספינה האיטלקית 'ג'ובאני דלה בנדה נרה' יירטה בהצלחה טיל בליסטי בניסוי הגנה אווירית.",
+      "לוקהיד מרטין חשפה חבילת חימוש חדשה לפריגטות מסדרת International Class בתערוכת Euronaval 2026.",
+      "צבא ארה״ב הכריז על סוללת הטילים ההיפרסוניים הראשונה מסוג Dark Eagle ככשירה למבצעים."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Counter-Terrorism",
+     "typeHe": "לוחמה בטרור",
+     "h": {
+      "en": "IDF Eliminates Senior Hamas Official Khaled Abu Nada in Gaza",
+      "he": "צה״ל חיסל את בכיר חמאס חאלד אבו נדא ברצועת עזה"
+     },
+     "s": {
+      "en": "The IDF and Shin Bet confirmed the elimination of Khaled Abu Nada, a senior Hamas official responsible for the terror group's economy and education portfolios. The strike was conducted overnight in Deir al-Balah.",
+      "he": "צה״ל ושב״כ אישרו את חיסולו של חאלד אבו נדא, בכיר חמאס שהיה אחראי על תיקי הכלכלה והחינוך בארגון. התקיפה בוצעה הלילה בדיר אל-בלח."
+     },
+     "what": {
+      "en": "Following intelligence provided by the Shin Bet, the IDF targeted and killed Khaled Abu Nada in central Gaza. Abu Nada served as the head of the economy department in the Hamas political bureau and as the minister of education in the Hamas government.",
+      "he": "בעקבות מודיעין מדויק של שב״כ, צה״ל תקף וחיסל את חאלד אבו נדא במרכז רצועת עזה. אבו נדא שימש כראש מחלקת הכלכלה בלשכה המדינית של חמאס וכשר החינוך בממשלת הארגון."
+     },
+     "figs": {
+      "seller": "N/A",
+      "buyer": "N/A",
+      "item": "Targeted Strike",
+      "val": "N/A",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "item: Targeted Strike · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "item: Targeted Strike · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "The elimination disrupts Hamas's financial management and administrative control over the Gaza Strip, degrading the organization's ability to sustain its terror infrastructure.",
+      "he": "החיסול משבש את ניהול הכספים והשליטה המנהלתית של חמאס ברצועת עזה, ופוגע ביכולת הארגון לתחזק את תשתיות הטרור שלו."
+     },
+     "israel": {
+      "en": "This operation is part of the ongoing IDF campaign to dismantle Hamas leadership and administrative capabilities in Gaza.",
+      "he": "פעולה זו היא חלק מהקמפיין המתמשך של צה״ל לפירוק הנהגת חמאס והיכולות המנהלתיות של הארגון בעזה."
+     },
+     "src": [
+      {
+       "t": "IDF Online",
+       "u": "https://x.com/idfonline/status/2125854051485016564"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/media/HYCM_ZXXQAAGghs.jpg",
+     "photo_outlet": "IDF Spokesperson",
+     "photo_credit_en": "Photo: IDF Spokesperson",
+     "photo_credit_he": "תמונה: דובר צה״ל",
+     "photo_caption_en": "IDF strike location in Deir al-Balah.",
+     "photo_caption_he": "זירת התקיפה של צה״ל בדיר אל-בלח.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IT",
+     "countryHe": "איטליה",
+     "type": "Naval Defense",
+     "typeHe": "הגנה ימית",
+     "h": {
+      "en": "Italian Navy PPA Giovanni delle Bande Nere Intercepts Ballistic Missile",
+      "he": "הספינה האיטלקית 'ג'ובאני דלה בנדה נרה' יירטה טיל בליסטי"
+     },
+     "s": {
+      "en": "The Italian Navy's first 'Full' configuration PPA successfully intercepted a high-speed ballistic missile using the Aster 30 missile system. This marks a significant milestone in the Italian Navy's Ballistic Missile Defense (BMD) capabilities.",
+      "he": "הספינה הראשונה בתצורת 'Full' של הצי האיטלקי יירטה בהצלחה טיל בליסטי מהיר באמצעות מערכת הטילים Aster 30. זהו ציון דרך משמעותי ביכולות ההגנה מפני טילים בליסטיים (BMD) של הצי האיטלקי."
+     },
+     "what": {
+      "en": "During a recent test, the PPA Giovanni delle Bande Nere utilized its advanced Multi-Purpose Combat System (MPCS) to track and engage a high-speed ballistic target. The successful intercept validates the PPA's role as a key asset in Italy's maritime air defense architecture.",
+      "he": "במהלך ניסוי שנערך לאחרונה, הספינה 'ג'ובאני דלה בנדה נרה' השתמשה במערכת הלחימה הרב-תכליתית (MPCS) המתקדמת שלה כדי לעקוב וליירט מטרה בליסטית מהירה. היירוט המוצלח מאשר את תפקידה של הספינה כנכס מרכזי בארכיטקטורת ההגנה האווירית הימית של איטליה."
+     },
+     "figs": {
+      "seller": "MBDA",
+      "buyer": "Italian Navy",
+      "item": "Aster 30 / PPA Integration",
+      "val": "N/A",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: MBDA · buyer: Italian Navy · item: Aster 30 / PPA Integration · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: MBDA · buyer: Italian Navy · item: Aster 30 / PPA Integration · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "The ability of a surface combatant to perform BMD missions significantly enhances regional security and provides a mobile shield against emerging missile threats in the Mediterranean.",
+      "he": "היכולת של ספינת שטח לבצע משימות הגנה מפני טילים בליסטיים משפרת משמעותית את הביטחון האזורי ומספקת מגן נייד מפני איומי טילים מתפתחים בים התיכון."
+     },
+     "israel": {
+      "en": "Israel maintains close naval cooperation with Italy, and the validation of Aster 30 integration on modern platforms is of high interest to the Israeli Navy.",
+      "he": "ישראל מקיימת שיתוף פעולה ימי הדוק עם איטליה, ואימות השילוב של מערכות Aster 30 על פלטפורמות מודרניות מעורר עניין רב בקרב חיל הים הישראלי."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/italian-navy-bmd-ppa-bande-nere/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/PPA-Giovanni-delle-Bande-Nere-BMD-Test.jpg",
+     "photo_outlet": "Naval News",
+     "photo_credit_en": "Photo: Italian Navy",
+     "photo_credit_he": "תמונה: הצי האיטלקי",
+     "photo_caption_en": "PPA Giovanni delle Bande Nere during BMD testing.",
+     "photo_caption_he": "הספינה 'ג'ובאני דלה בנדה נרה' במהלך ניסוי הגנה מפני טילים.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Hypersonic Missiles",
+     "typeHe": "טילים היפרסוניים",
+     "h": {
+      "en": "U.S. Army Declares First Dark Eagle Hypersonic Battery Combat-Ready",
+      "he": "צבא ארה״ב הכריז על סוללת הטילים ההיפרסוניים Dark Eagle ככשירה למבצעים"
+     },
+     "s": {
+      "en": "The U.S. Army has officially fielded its first Dark Eagle hypersonic missile battery. The system is capable of engaging targets at ranges up to 2,775 km at speeds exceeding 6,100 km/h.",
+      "he": "צבא ארה״ב פרס באופן רשמי את סוללת הטילים ההיפרסוניים הראשונה שלו מסוג Dark Eagle. המערכת מסוגלת לפגוע במטרות בטווח של עד 2,775 ק״מ במהירויות העולות על 6,100 קמ״ש."
+     },
+     "what": {
+      "en": "Lt. Gen. Frank Lozano confirmed that the battery is fully fielded and ready for combat operations, marking the conclusion of a development program that faced significant delays. The Dark Eagle system provides the Army with a long-range precision strike capability against high-value targets.",
+      "he": "סגן-אלוף פרנק לוזאנו אישר כי הסוללה פרוסה במלואה ומוכנה למשימות מבצעיות, מה שמסמן את סיומה של תוכנית פיתוח שנתקלה בעיכובים משמעותיים. מערכת ה-Dark Eagle מעניקה לצבא יכולת תקיפה מדויקת לטווח ארוך נגד מטרות איכות."
+     },
+     "figs": {
+      "seller": "Lockheed Martin",
+      "buyer": "U.S. Army",
+      "item": "Dark Eagle Hypersonic Battery",
+      "val": "N/A",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: Lockheed Martin · buyer: U.S. Army · item: Dark Eagle Hypersonic Battery · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Lockheed Martin · buyer: U.S. Army · item: Dark Eagle Hypersonic Battery · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "Fielding hypersonic capabilities is a top priority for the U.S. to maintain a competitive edge in long-range fires against peer adversaries.",
+      "he": "פריסת יכולות היפרסוניות היא בראש סדר העדיפויות של ארה״ב כדי לשמור על יתרון תחרותי באש לטווח ארוך מול יריבים שווי ערך."
+     },
+     "israel": {
+      "en": "The U.S. development of hypersonic strike systems is closely monitored by Israeli defense planners for potential integration into future regional deterrence strategies.",
+      "he": "פיתוח מערכות תקיפה היפרסוניות על ידי ארה״ב נמצא במעקב צמוד של מתכנני הביטחון הישראלים לצורך שילוב פוטנציאלי באסטרטגיות הרתעה אזוריות עתידיות."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/u-s-army-says-first-dark-eagle-hypersonic-battery-is-ready/"
+      }
+     ],
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/Dark-Eagle-Battery.jpg",
+     "photo_outlet": "U.S. Army",
+     "photo_credit_en": "Photo: U.S. Army",
+     "photo_credit_he": "תמונה: צבא ארה״ב",
+     "photo_caption_en": "Dark Eagle hypersonic missile launcher.",
+     "photo_caption_he": "משגר הטילים ההיפרסוני Dark Eagle.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 3 full items, 0 briefly noted.",
+     "Country focus: Germany (Elbit EW contract), UAE (N/A), Azerbaijan (N/A), Singapore (N/A), India (N/A), Morocco (N/A)."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 3 פריטים מלאים, 0 בקצרה.",
+     "מיקוד מדינות: גרמניה (חוזה לוחמה אלקטרונית של אלביט), איחוד האמירויות (לא רלוונטי), אזרבייג'ן (לא רלוונטי), סינגפור (לא רלוונטי), הודו (לא רלוונטי), מרוקו (לא רלוונטי)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Monitoring progress of Elbit Systems' EW suite integration on German F128 frigates.",
+     "Tracking developments in the Zhuhai Airshow regarding Chinese naval aviation.",
+     "Observing NATO discussions on intercepting Russian missiles over Ukraine.",
+     "Watching for updates on the U.S. Navy's E-130J nuclear relay aircraft program."
+    ],
+    "he": [
+     "מעקב אחר התקדמות שילוב חליפת הלוחמה האלקטרונית של אלביט מערכות על פריגטות F128 גרמניות.",
+     "מעקב אחר התפתחויות בתערוכת Zhuhai בנוגע לתעופה ימית סינית.",
+     "צפייה בדיוני נאט״ו בנוגע ליירוט טילים רוסיים מעל אוקראינה.",
+     "מעקב אחר עדכונים בתוכנית מטוסי התקשורת הגרעינית E-130J של הצי האמריקאי."
+    ]
+   },
+   "edition_key": "2026-11-26-1130",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "A1": {
+     "url": "https://pbs.twimg.com/media/HYCM_ZXXQAAGghs.jpg",
+     "outlet": "IDF Spokesperson",
+     "caption_en": "IDF strike location in Deir al-Balah.",
+     "caption_he": "זירת התקיפה של צה״ל בדיר אל-בלח.",
+     "credit_en": "Photo: IDF Spokesperson",
+     "credit_he": "תמונה: דובר צה״ל",
+     "local_src": "img/2026-11-26-1130/A1.jpg"
+    }
+   }
+  },
   "2026-11-26-0500": {
    "date": "2026-11-26",
    "slot": "0500",
