@@ -66,20 +66,18 @@ window.DEFENSE_BRIEF_FEED = {
    "date": "2026-11-26",
    "slot": "1800",
    "wstart": "2026-11-26T09:32:00Z",
-   "wend": "2026-11-26T18:23:00Z",
+   "wend": "2026-11-26T18:36:00Z",
    "digest": {
     "bluf": {
      "en": [
-      "IAF Unit 669 Soldier Returns to Service After Severe Injury in Gaza",
-      "Iranian Drone Attack on Kuwaiti Vital Site Kills Two Italian Technicians",
-      "U.S. DoD Reaches Milestone of 1,000 Fifth-Generation Stealth Fighters",
-      "Ukraine Formally Requests Retiring Eurofighter Jets from Italy"
+      "Israel and the U.S. conclude the first 'Black Sands' joint counter-drone trials.",
+      "Babcock secures a record GBP 8.7 billion submarine support contract with the UK MoD.",
+      "Iranian drone strike in Kuwait results in casualties, including two Italian technicians."
      ],
      "he": [
-      "לוחם יחידת 669 חוזר לשירות לאחר פציעה קשה ברצועת עזה",
-      "מתקפת כטב״מים איראנית על אתר חיוני בכווית: שני טכנאים איטלקים נהרגו",
-      "משרד ההגנה האמריקאי הגיע לאבן דרך של 1,000 מטוסי קרב מדור חמישי",
-      "אוקראינה מבקשת רשמית מאיטליה מטוסי יורופייטר שיוצאים משירות"
+      "ישראל וארה״ב מסכמות את ניסויי 'חולות שחורים' המשותפים להגנה מפני כטב״מים.",
+      "בבקוק חותמת על חוזה תמיכה בצוללות בשווי שיא של 8.7 מיליארד ליש״ט עם משרד ההגנה הבריטי.",
+      "מתקפת כטב״מים איראנית בכווית גורמת לנפגעים, בהם שני טכנאים איטלקים."
      ]
     }
    },
@@ -87,214 +85,166 @@ window.DEFENSE_BRIEF_FEED = {
     {
      "id": "A1",
      "domain": "air",
-     "priority": "standard",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Air Defense",
+     "typeHe": "הגנה אווירית",
+     "h": {
+      "en": "Israel and U.S. Conclude 'Black Sands' Counter-Drone Trials",
+      "he": "ישראל וארה״ב מסכמות את ניסויי 'חולות שחורים' להגנה מפני כטב״מים"
+     },
+     "s": {
+      "en": "The Israeli Ministry of Defense and U.S. partners evaluated approximately 20 counter-drone systems in the first-ever Black Sands trials held in Israel. The exercise focused on testing detection and interception capabilities in realistic operational scenarios.",
+      "he": "משרד הביטחון הישראלי ושותפים מארה״ב בחנו כ-20 מערכות הגנה מפני כטב״מים בניסויי 'חולות שחורים' שנערכו לראשונה בישראל. התרגיל התמקד בבחינת יכולות גילוי ויירוט בתרחישים מבצעיים מציאותיים."
+     },
+     "what": {
+      "en": "The Black Sands trials, led by Israeli defense entities, brought together a diverse array of 20 systems to address the growing threat of uncrewed aerial vehicles. Rafael's laser technology was among the systems showcased during the live-fire and detection trials.",
+      "he": "ניסויי 'חולות שחורים', בהובלת גורמי ביטחון ישראליים, ריכזו כ-20 מערכות שונות להתמודדות עם האיום הגובר של כלי טיס בלתי מאוישים. טכנולוגיית הלייזר של רפאל הייתה בין המערכות שהוצגו במהלך ניסויי הגילוי והאש החיה."
+     },
+     "figs": {
+      "seller": "N/A",
+      "buyer": "N/A",
+      "item": "Counter-Drone Systems",
+      "val": "N/A",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "item: Counter-Drone Systems · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "item: Counter-Drone Systems · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "This trial marks a significant milestone in bilateral cooperation to counter drone proliferation, a critical challenge for both Israeli and U.S. forces.",
+      "he": "ניסוי זה מהווה אבן דרך משמעותית בשיתוף הפעולה הבילטרלי להתמודדות עם תפוצת הכטב״מים, אתגר קריטי עבור כוחות הביטחון של ישראל וארה״ב."
+     },
+     "israel": {
+      "en": "The trials were held in Israel and led by the Israeli Ministry of Defense, showcasing local industry innovation like Rafael's laser systems.",
+      "he": "הניסויים נערכו בישראל ובהובלת משרד הביטחון, תוך הצגת חדשנות של התעשייה המקומית כגון מערכות הלייזר של רפאל."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/u-s-and-israel-evaluate-about-20-counter-drone-systems-in-joint-black-sands-trials/"
+      },
+      {
+       "t": "Rafael Defense (X)",
+       "u": "https://x.com/RafaelDefense/status/2126020652998217901"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/media/HYC1T0BXwAAkZoP.jpg",
+     "photo_outlet": "Rafael Defense",
+     "photo_credit_en": "Photo: Rafael Defense via X",
+     "photo_credit_he": "תמונה: רפאל דרך X",
+     "photo_caption_en": "Rafael laser technology in action during Black Sands trials.",
+     "photo_caption_he": "טכנולוגיית הלייזר של רפאל בפעולה במהלך ניסויי 'חולות שחורים'.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UK",
+     "countryHe": "בריטניה",
+     "type": "Naval Support",
+     "typeHe": "תמיכה ימית",
+     "h": {
+      "en": "Babcock Awarded Record GBP 8.7 Billion UK Submarine Support Contract",
+      "he": "בבקוק זוכה בחוזה תמיכה בצוללות של משרד ההגנה הבריטי בשווי שיא של 8.7 מיליארד ליש״ט"
+     },
+     "s": {
+      "en": "Babcock has signed a record-breaking GBP 8.7 billion 'Gateway' agreement with the UK Ministry of Defence. The contract succeeds the Future Maritime Support Programme to ensure long-term operational readiness of the Royal Navy's submarine fleet.",
+      "he": "חברת בבקוק חתמה על הסכם 'Gateway' בשווי שיא של 8.7 מיליארד ליש״ט עם משרד ההגנה הבריטי. החוזה מחליף את תוכנית התמיכה הימית העתידית כדי להבטיח מוכנות מבצעית ארוכת טווח של צי הצוללות של הצי המלכותי."
+     },
+     "what": {
+      "en": "The agreement covers comprehensive support for the UK's submarine enterprise, focusing on maintenance, infrastructure, and technical support to sustain the fleet's capabilities.",
+      "he": "ההסכם מכסה תמיכה מקיפה במערך הצוללות הבריטי, תוך התמקדות בתחזוקה, תשתיות ותמיכה טכנית לשמירה על יכולות הצי."
+     },
+     "figs": {
+      "seller": "Babcock",
+      "buyer": "UK MoD",
+      "item": "Submarine Support",
+      "val": "GBP 8.7B",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: Babcock · buyer: UK MoD · item: Submarine Support · val: GBP 8.7B · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Babcock · buyer: UK MoD · item: Submarine Support · val: GBP 8.7B · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "This deal is critical for maintaining the UK's nuclear deterrent and maritime security posture in an increasingly contested global environment.",
+      "he": "עסקה זו קריטית לשמירה על ההרתעה הגרעינית של בריטניה ועל עמדת הביטחון הימי שלה בסביבה גלובלית מאתגרת."
+     },
+     "israel": {
+      "en": "N/A",
+      "he": "לא רלוונטי"
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
      "statuses": [
       "CONFIRMED"
      ],
      "country": "KW",
      "countryHe": "כווית",
-     "type": "Drone Attack",
-     "typeHe": "מתקפת כטב״ם",
+     "type": "Conflict",
+     "typeHe": "סכסוך",
      "h": {
-      "en": "Iranian Drone Attack on Kuwaiti Vital Site Kills Two Italian Technicians",
-      "he": "מתקפת כטב״מים איראנית על אתר חיוני בכווית: שני טכנאים איטלקים נהרגו"
+      "en": "Iranian Drone Strike in Kuwait Kills Two Italian Technicians",
+      "he": "מתקפת כטב״מים איראנית בכווית: שני טכנאים איטלקים נהרגו"
      },
      "s": {
-      "en": "An undisclosed number of Iranian drones targeted a vital site in Kuwait, resulting in the deaths of two Italian technicians from Rheinmetall and injuries to others.",
-      "he": "מספר לא ידוע של כטב״מים איראניים תקפו אתר חיוני בכווית, מה שהוביל למותם של שני טכנאים איטלקים מחברת ריינמטאל ולפציעתם של אחרים."
+      "en": "An Iranian drone attack targeting a vital site in Kuwait resulted in the deaths of two Italian technicians employed by Rheinmetall. Four people in total were injured by falling shrapnel during the incident.",
+      "he": "מתקפת כטב״מים איראנית שכוונה לאתר חיוני בכווית הובילה למותם של שני טכנאים איטלקים המועסקים על ידי ריינמטאל. ארבעה בני אדם נפצעו בסך הכל מרסיסים במהלך האירוע."
      },
      "what": {
-      "en": "The Kuwaiti Ministry of Defense confirmed that its forces 'dealt with' Iranian drones targeting a vital infrastructure site. Shrapnel from the interception or impact caused four casualties on the ground, including two Italian technicians employed by Rheinmetall, one Kuwaiti, and one Pakistani. Kuwait is currently coordinating with the Italian government following the incident.",
-      "he": "משרד ההגנה הכוויתי אישר כי כוחותיו ׳טיפלו׳ בכטב״מים איראניים שתקפו אתר תשתית חיוני. רסיסים מהיירוט או מהפגיעה גרמו לארבעה נפגעים על הקרקע, בהם שני טכנאים איטלקים המועסקים על ידי ריינמטאל, אזרח כוויתי ואזרח פקיסטני. כווית מתאמת כעת את צעדיה מול ממשלת איטליה בעקבות האירוע."
+      "en": "Kuwaiti armed forces reported detecting and engaging the drones, but falling debris caused casualties on the ground. The incident has drawn international attention to regional security stability.",
+      "he": "הכוחות המזוינים של כווית דיווחו על זיהוי וטיפול בכטב״מים, אך נפילת רסיסים גרמה לנפגעים בקרקע. האירוע משך תשומת לב בינלאומית ליציבות הביטחונית באזור."
      },
      "figs": {
-      "seller": "Iran",
-      "buyer": "Kuwait (Target)",
-      "item": "Shahed-type Drones",
-      "val": "2 Killed, 2 Injured",
-      "rep_date": "2026-11-26",
-      "en": "seller: Iran · buyer: Kuwait (Target) · item: Shahed-type Drones · val: 2 Killed, 2 Injured · rep_date: 2026-11-26",
-      "he": "seller: Iran · buyer: Kuwait (Target) · item: Shahed-type Drones · val: 2 Killed, 2 Injured · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "Represents a major escalation in direct Iranian kinetic action against Gulf states and involves casualties from a top-tier European defense contractor.",
-      "he": "מייצג הסלמה משמעותית בפעילות קינטית איראנית ישירה נגד מדינות המפרץ וכולל נפגעים מחברת ביטחונית אירופית מובילה."
-     },
-     "israel": {
-      "en": "Directly impacts regional stability and highlights the persistent threat of Iranian uncrewed systems shared by Israel and its neighbors.",
-      "he": "משפיע ישירות על היציבות האזורית ומדגיש את האיום המתמשך של מערכות בלתי מאוישות איראניות המשותף לישראל ולשכנותיה."
-     },
-     "src": [
-      {
-       "t": "NatSecLedger",
-       "u": "https://x.com/NatSecLedger/status/2125963249325592749"
-      },
-      {
-       "t": "SentDefender",
-       "u": "https://x.com/sentdefender/status/2125955683661013203"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/media/HYD7B1aWcAAPt8J.jpg",
-     "photo_outlet": "SentDefender",
-     "photo_credit_en": "Photo: SentDefender via X",
-     "photo_credit_he": "תמונה: SentDefender דרך X",
-     "note": {
-      "en": "CONFIRMED — Verified via cited open source(s).",
-      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B2",
-     "domain": "aerial",
-     "priority": "high",
-     "statuses": [
-      "CONFIRMED"
-     ],
-     "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Fighter Fleet",
-     "typeHe": "צי מטוסי קרב",
-     "h": {
-      "en": "U.S. DoD Reaches Milestone of 1,000 Fifth-Generation Stealth Fighters",
-      "he": "משרד ההגנה האמריקאי הגיע לאבן דרך של 1,000 מטוסי קרב מדור חמישי"
-     },
-     "s": {
-      "en": "The U.S. military has taken delivery of approximately 1,000 F-35 and F-22 fighters across the Air Force, Navy, and Marine Corps.",
-      "he": "הצבא האמריקאי קיבל לידיו כ-1,000 מטוסי קרב מסוג F-35 ו-F-22 הפרוסים בחיל האוויר, בצי ובמארינס."
-     },
-     "what": {
-      "en": "The U.S. Department of Defense confirmed the delivery of its 1,000th fifth-generation stealth fighter. This fleet, comprising F-35 Lightning II and F-22 Raptor variants, is now larger than the total fighter inventory of almost any other nation. Integrated testing continues at Edwards AFB to ensure interoperability between these platforms.",
-      "he": "משרד ההגנה האמריקאי אישר את מסירת מטוס הקרב ה-1,000 מדור חמישי. צי זה, הכולל דגמי F-35 ו-F-22, גדול כעת מסך כל מטוסי הקרב של כמעט כל מדינה אחרת. ניסויים משולבים נמשכים בבסיס אדוארדס כדי להבטיח יכולת פעולה משותפת בין הפלטפורמות."
-     },
-     "figs": {
-      "buyer": "US DoD",
-      "item": "F-35 and F-22 Fighters",
-      "val": "1,000 Aircraft",
-      "rep_date": "2026-11-26",
-      "en": "buyer: US DoD · item: F-35 and F-22 Fighters · val: 1,000 Aircraft · rep_date: 2026-11-26",
-      "he": "buyer: US DoD · item: F-35 and F-22 Fighters · val: 1,000 Aircraft · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "Solidifies U.S. air dominance and provides a massive scale of stealth capability that peer competitors cannot currently match.",
-      "he": "מבסס את העליונות האווירית של ארה״ב ומספק קנה מידה עצום של יכולות חמקנות שמתחרים אינם יכולים להשתוות אליו כרגע."
-     },
-     "israel": {
-      "en": "Israel is a key operator of the F-35 (Adir), and the expansion of the global fleet enhances parts availability and software maturity.",
-      "he": "ישראל היא מפעילה מרכזית של ה-F-35 (אדיר), והרחבת הצי העולמי משפרת את זמינות החלפים ובשלות התוכנה."
-     },
-     "src": [
-      {
-       "t": "NatSecLedger",
-       "u": "https://x.com/NatSecLedger/status/2125954146926797292"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/media/HYDmyN4WcAACGeR.jpg",
-     "photo_outlet": "NatSecLedger",
-     "photo_credit_en": "Photo: U.S. Navy/Air Force",
-     "photo_credit_he": "תמונה: הצי/חיל האוויר האמריקאי",
-     "note": {
-      "en": "CONFIRMED — Verified via cited open source(s).",
-      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B3",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "REPORTED"
-     ],
-     "country": "UA",
-     "countryHe": "אוקראינה",
-     "type": "Fighter Acquisition",
-     "typeHe": "רכש מטוסי קרב",
-     "h": {
-      "en": "Ukraine Formally Requests Retiring Eurofighter Jets from Italy",
-      "he": "אוקראינה מבקשת רשמית מאיטליה מטוסי יורופייטר שיוצאים משירות"
-     },
-     "s": {
-      "en": "Kyiv has reportedly asked Rome for 10 to 20 Eurofighter Typhoon jets that the Italian Air Force is planning to retire.",
-      "he": "קייב ביקשה מרומא 10 עד 20 מטוסי יורופייטר טייפון שחיל האוויר האיטלקי מתכנן להוציא משירות."
-     },
-     "what": {
-      "en": "Following the integration of F-16s and French Mirages, Ukraine is seeking to further diversify its fleet with Eurofighters. The request focuses on the Tranche 1 aircraft that Italy is phasing out. This move would add a highly capable air superiority platform to Ukraine's inventory if approved by the Eurofighter consortium.",
-      "he": "לאחר שילוב מטוסי F-16 ומיראז׳ צרפתיים, אוקראינה שואפת לגוון עוד יותר את הצי שלה עם מטוסי יורופייטר. הבקשה מתמקדת במטוסי ה-Tranche 1 שאיטליה מוציאה משימוש. מהלך זה יוסיף פלטפורמת עליונות אווירית בעלת יכולת גבוהה למלאי של אוקראינה, אם יאושר על ידי קונסורציום יורופייטר."
-     },
-     "figs": {
-      "seller": "Italy",
-      "buyer": "Ukraine",
-      "item": "Eurofighter Typhoon",
-      "val": "10-20 Units",
-      "rep_date": "2026-11-26",
-      "en": "seller: Italy · buyer: Ukraine · item: Eurofighter Typhoon · val: 10-20 Units · rep_date: 2026-11-26",
-      "he": "seller: Italy · buyer: Ukraine · item: Eurofighter Typhoon · val: 10-20 Units · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "Indicates Ukraine's long-term strategy to transition to a multi-type Western fighter fleet to counter Russian air power.",
-      "he": "מעיד על האסטרטגיה ארוכת הטווח של אוקראינה לעבור לצי מטוסי קרב מערביים מרובי סוגים כדי להתמודד עם הכוח האווירי הרוסי."
-     },
-     "israel": {
-      "en": "The proliferation of Western fighters in Ukraine continues to shift the global balance of tactical aviation expertise.",
-      "he": "תפוצת מטוסי הקרב המערביים באוקראינה ממשיכה לשנות את מאזן המומחיות העולמי בתעופה טקטית."
-     },
-     "src": [
-      {
-       "t": "Defence Blog",
-       "u": "https://defence-blog.com/ukraine-formally-seeks-italys-retiring-eurofighters-report-says/"
-      }
-     ],
-     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3785.jpg",
-     "note": {
-      "en": "REPORTED — Verified via cited open source(s).",
-      "he": "REPORTED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B4",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "CONFIRMED"
-     ],
-     "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Space Constellation",
-     "typeHe": "קונסטלציית חלל",
-     "h": {
-      "en": "FCC Authorizes SpaceX 'Starmind' Constellation of 1 Million Satellites",
-      "he": "ה-FCC מאשר את קונסטלציית ׳Starmind׳ של SpaceX: מיליון לוויינים עד 2040"
-     },
-     "s": {
-      "en": "The Federal Communications Commission has granted SpaceX permission to launch up to 1 million satellites to create orbital data centers.",
-      "he": "ועדת התקשורת הפדרלית העניקה ל-SpaceX אישור לשגר עד מיליון לוויינים ליצירת מרכזי נתונים מסלוליים."
-     },
-     "what": {
-      "en": "The FCC authorization paves the way for SpaceX's 'Starmind' constellation, which aims to provide massive orbital computing and data storage capabilities. This network is expected to support both commercial and government requirements for low-latency, high-capacity space-based data processing through 2040.",
-      "he": "אישור ה-FCC סולל את הדרך לקונסטלציית ׳Starmind׳ של SpaceX, שמטרתה לספק יכולות מחשוב ואחסון נתונים מאסיביות במסלול סביב כדור הארץ. הרשת צפויה לתמוך בדרישות מסחריות וממשלתיות לעיבוד נתונים מבוסס חלל בקיבולת גבוהה ובעיכוב נמוך עד שנת 2040."
-     },
-     "figs": {
-      "seller": "SpaceX",
-      "item": "Starmind Satellites",
-      "val": "1,000,000 Units",
+      "seller": "N/A",
+      "buyer": "N/A",
+      "item": "Casualties",
+      "val": "N/A",
       "deal_date": "2026-11-26",
-      "en": "seller: SpaceX · item: Starmind Satellites · val: 1,000,000 Units · deal_date: 2026-11-26",
-      "he": "seller: SpaceX · item: Starmind Satellites · val: 1,000,000 Units · deal_date: 2026-11-26"
+      "rep_date": "2026-11-26",
+      "en": "item: Casualties · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "item: Casualties · deal_date: 2026-11-26 · rep_date: 2026-11-26"
      },
      "why": {
-      "en": "Represents a paradigm shift in space architecture from simple communication to distributed orbital cloud computing.",
-      "he": "מייצג שינוי פרדיגמה בארכיטקטורת החלל מתקשורת פשוטה למחשוב ענן מסלולי מבוזר."
+      "en": "The strike represents a significant escalation in regional tensions, involving foreign contractors and critical infrastructure.",
+      "he": "התקיפה מהווה הסלמה משמעותית במתיחות האזורית, תוך מעורבות של קבלנים זרים ותשתיות קריטיות."
      },
      "israel": {
-      "en": "Israeli defense and commercial space sectors may leverage such high-capacity networks for future satellite operations.",
-      "he": "מגזרי הביטחון והחלל המסחרי בישראל עשויים למנף רשתות בעלות קיבולת גבוהה כזו למבצעי לוויין עתידיים."
+      "en": "N/A",
+      "he": "לא רלוונטי"
      },
      "src": [
       {
-       "t": "Aviation Week",
-       "u": "https://aviationweek.com/space/commercial-space/fcc-greenlights-spacex-plan-orbital-data-centers"
+       "t": "Sentdefender",
+       "u": "https://x.com/sentdefender/status/2125977641333223501"
       }
      ],
-     "photo_url": "https://aviationweek.com/sites/default/files/2026-11/spacedata1125.jpg",
+     "photo_url": "https://pbs.twimg.com/media/HYD7B1aWcAAPt8J?format=webp&amp;name=large",
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
@@ -303,15 +253,27 @@ window.DEFENSE_BRIEF_FEED = {
    ],
    "runnotes": {
     "en": [
-     "Reader profile applied: 5 items recovered via JSON self-healer."
+     "Reader profile applied: 3 full items, 0 briefly noted.",
+     "Country focus: Germany (Rheinmetall incident), UAE (N/A), Azerbaijan (N/A), Singapore (N/A), India (N/A), Morocco (N/A)."
     ],
     "he": [
-     "פרופיל קורא הוחל: 5 פריטים שוחזרו בהצלחה."
+     "פרופיל קורא הוחל: 3 פריטים מלאים, 0 בקצרה.",
+     "מיקוד מדינות: גרמניה (תקרית ריינמטאל), איחוד האמירויות (לא רלוונטי), אזרבייג'ן (לא רלוונטי), סינגפור (לא רלוונטי), הודו (לא רלוונטי), מרוקו (לא רלוונטי)."
     ]
    },
    "watch": {
-    "en": [],
-    "he": []
+    "en": [
+     "Monitoring regional escalation following the Kuwait drone strike.",
+     "Tracking potential follow-up on the Black Sands trials.",
+     "Observing UK defense industry response to the Babcock contract.",
+     "Monitoring Russian naval activity in the Mediterranean."
+    ],
+    "he": [
+     "מעקב אחר הסלמה אזורית בעקבות תקיפת הכטב״מים בכווית.",
+     "מעקב אחר המשך הדיווחים על ניסויי 'חולות שחורים'.",
+     "מעקב אחר תגובת התעשייה הביטחונית הבריטית לחוזה בבקוק.",
+     "מעקב אחר פעילות ימית רוסית בים התיכון."
+    ]
    },
    "edition_key": "2026-11-26-1800",
    "notes": {
@@ -324,40 +286,22 @@ window.DEFENSE_BRIEF_FEED = {
    },
    "photos": {
     "A1": {
-     "url": "https://pbs.twimg.com/media/HYD7B1aWcAAPt8J.jpg",
-     "outlet": "SentDefender",
-     "caption_en": "Iranian Drone Attack on Kuwaiti Vital Site Kills Two Italian Technicians",
-     "caption_he": "מתקפת כטב״מים איראנית על אתר חיוני בכווית: שני טכנאים איטלקים נהרגו",
-     "credit_en": "Photo: SentDefender via X",
-     "credit_he": "תמונה: SentDefender דרך X",
+     "url": "https://pbs.twimg.com/media/HYC1T0BXwAAkZoP.jpg",
+     "outlet": "Rafael Defense",
+     "caption_en": "Rafael laser technology in action during Black Sands trials.",
+     "caption_he": "טכנולוגיית הלייזר של רפאל בפעולה במהלך ניסויי 'חולות שחורים'.",
+     "credit_en": "Photo: Rafael Defense via X",
+     "credit_he": "תמונה: רפאל דרך X",
      "local_src": "img/2026-11-26-1800/A1.jpg"
     },
-    "B2": {
-     "url": "https://pbs.twimg.com/media/HYDmyN4WcAACGeR.jpg",
-     "outlet": "NatSecLedger",
-     "caption_en": "U.S. DoD Reaches Milestone of 1,000 Fifth-Generation Stealth Fighters",
-     "caption_he": "משרד ההגנה האמריקאי הגיע לאבן דרך של 1,000 מטוסי קרב מדור חמישי",
-     "credit_en": "Photo: U.S. Navy/Air Force",
-     "credit_he": "תמונה: הצי/חיל האוויר האמריקאי",
-     "local_src": "img/2026-11-26-1800/B2.jpg"
-    },
-    "B3": {
-     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3785.jpg",
-     "outlet": "defence-blog.com",
-     "caption_en": "Ukraine Formally Requests Retiring Eurofighter Jets from Italy",
-     "caption_he": "אוקראינה מבקשת רשמית מאיטליה מטוסי יורופייטר שיוצאים משירות",
-     "credit_en": "Photo via defence-blog.com",
-     "credit_he": "תמונה דרך defence-blog.com",
-     "local_src": "img/2026-11-26-1800/B3.jpg"
-    },
-    "B4": {
-     "url": "https://aviationweek.com/sites/default/files/2026-11/spacedata1125.jpg",
-     "outlet": "aviationweek.com",
-     "caption_en": "FCC Authorizes SpaceX 'Starmind' Constellation of 1 Million Satellites",
-     "caption_he": "ה-FCC מאשר את קונסטלציית ׳Starmind׳ של SpaceX: מיליון לוויינים עד 2040",
-     "credit_en": "Photo via aviationweek.com",
-     "credit_he": "תמונה דרך aviationweek.com",
-     "local_src": "img/2026-11-26-1800/B4.jpg"
+    "D1": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "Babcock Awarded Record GBP 8.7 Billion UK Submarine Support Contract",
+     "caption_he": "בבקוק זוכה בחוזה תמיכה בצוללות של משרד ההגנה הבריטי בשווי שיא של 8.7 מיליארד ליש״ט",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-26-1800/D1.jpg"
     }
    }
   },
