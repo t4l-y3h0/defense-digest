@@ -383,18 +383,20 @@ window.DEFENSE_BRIEF_FEED = {
    "date": "2026-11-26",
    "slot": "1800",
    "wstart": "2026-11-26T09:32:00Z",
-   "wend": "2026-11-26T23:39:00Z",
+   "wend": "2026-11-26T23:48:00Z",
    "digest": {
     "bluf": {
      "en": [
-      "Israel and the U.S. conclude the 'Black Sands' C-UAS exercise, showcasing Rafael's advanced laser interception technology.",
-      "A major Iranian drone strike on Kuwait results in the deaths of two Italian technicians from Rheinmetall, escalating regional tensions.",
-      "Germany's Quantum Systems sets a world speed record for electric aircraft, while the UK awards a record GBP 8.7 billion submarine support contract."
+      "U.S. and Israel Evaluate 20 Counter-Drone Systems in Historic 'Black Sands' Live-Fire Trials",
+      "German Bundeswehr to Receive Combat-Upgraded Skyranger 30 Flakpanzers with Enhanced Radars",
+      "Hensoldt and Argus Interception Partner to Develop Integrated Multi-Layer Counter-Drone Systems",
+      "U.S. Navy Awards Pratt & Whitney USD 2.53 Billion for Global F-35 F135 Engine Sustainment"
      ],
      "he": [
-      "ישראל וארה״ב סיכמו את תרגיל 'Black Sands' להגנה מפני כטב״ם, בו הוצגה טכנולוגיית היירוט בלייזר של רפאל.",
-      "תקיפת כטב״מים איראנית על כווית הובילה למותם של שני טכנאים איטלקים מחברת ריינמטאל, מה שמעלה את המתיחות האזורית.",
-      "חברת Quantum Systems הגרמנית קבעה שיא מהירות עולמי לכלי טיס חשמלי, בעוד בריטניה העניקה חוזה תמיכה בצוללות בשווי שיא של 8.7 מיליארד ליש״ט."
+      "ארה״ב וישראל בחנו כ-20 מערכות ליירוט כטב״מים בניסויי ׳חולות שחורים׳ לראשונה בארץ",
+      "הבונדסוור הגרמני יקבל תותחי נ״מ סקייריינג׳ר 30 בעלי כושר קרבי משודרג ומכ״מים משופרים",
+      "הנזולדט וארגוס אינטרספשן מרחיבות שותפות לפיתוח מערכות משולבות ליירוט כטב״מים",
+      "הצי האמריקני העניק לפראט אנד ויטני חוזה עתק של 2.53 מיליארד דולר לתחזוקת מנועי ה-F-35"
      ]
     }
    },
@@ -408,112 +410,54 @@ window.DEFENSE_BRIEF_FEED = {
      ],
      "country": "IL",
      "countryHe": "ישראל",
-     "type": "C-UAS",
-     "typeHe": "לוחמה בכטב״ם",
+     "type": "C-UAS Trials",
+     "typeHe": "ניסויי יירוט כטב״ם",
      "h": {
-      "en": "Israel and U.S. Conduct 'Black Sands' C-UAS Trials Featuring Rafael Laser Tech",
-      "he": "ישראל וארה״ב קיימו את ניסוי 'Black Sands' לבחינת מערכות לייזר ויירוט כטב״ם"
+      "en": "U.S. and Israel Evaluate 20 Counter-Drone Systems in Historic 'Black Sands' Live-Fire Trials",
+      "he": "ארה״ב וישראל בחנו כ-20 מערכות ליירוט כטב״מים בניסויי ׳חולות שחורים׳ לראשונה בארץ"
      },
      "s": {
-      "en": "A joint technological campaign led by MAFAT and U.S. defense agencies tested 20 advanced systems against drone threats in realistic operational scenarios.",
-      "he": "קמפיין ניסויים טכנולוגי משותף למפא״ת וגופי ביטחון אמריקאיים בחן 20 מערכות מתקדמות להתמודדות עם איומי רחפנים וכטב״ם בתרחישים מבצעיים."
+      "en": "Israel's DDR&D (MAFAT) and the U.S. Irregular Warfare Technical Support Directorate conducted the first domestic 'Black Sands' campaign to evaluate approximately 20 advanced counter-drone interception technologies. The trials tested kinetic, laser, and electronic defeat mechanisms against complex unmanned swarm and low-observable aerial profiles.",
+      "he": "מפא״ת במשרד הביטחון ומינהלת IWTSD האמריקנית הובילו לראשונה בישראל את סדרת ניסויי ׳חולות שחורים׳ בהשתתפות כ-20 מערכות יירוט מתקדמות נגד כטב״מים. הניסויים בחנו יכולות יירוט קינטיות, מבוססות לייזר ולוחמה אלקטרונית מול מתארי תקיפה ונחילי רחפנים מורכבים."
      },
      "what": {
-      "en": "The 'Black Sands' exercise, held in Israel for the first time, focused on drone detection and interception. Rafael Advanced Defense Systems demonstrated its laser technology in action, successfully intercepting targets. The trials aimed to address shared operational challenges and enhance the integration of multi-layered defense systems between the two nations.",
-      "he": "אירוע 'Black Sands', שהתקיים לראשונה בישראל, התמקד בגילוי ויירוט כטב״מים. חברת רפאל הציגה את טכנולוגיית הלייזר שלה בפעולה, שיירטה מטרות בהצלחה. הניסויים נועדו לתת מענה לאתגרים מבצעיים משותפים ולשפר את האינטגרציה של מערכות הגנה רב-שכבתיות בין שתי המדינות."
+      "en": "The Directorate of Defense Research and Development (DDR&D / MAFAT) in Israel's Ministry of Defense partnered with the U.S. Department of Defense's Irregular Warfare Technical Support Directorate (IWTSD) to host the 'Black Sands' testing campaign in southern Israel. Marking the first time the established U.S. Black Sands operational evaluation framework has taken place on Israeli testing ranges, about 20 Israeli and American defense systems engaged dynamic aerial targets, including micro-UAS, Shahed-type loitering munitions, and jet-powered targets across diverse radar, optical, EW, and hard-kill interceptor suites.",
+      "he": "המינהל למחקר ופיתוח אמל״ח ותשתית טכנולוגית (מפא״ת) במשרד הביטחון, בשיתוף מינהלת התמיכה הטכנית בלוחמה א-סימטרית (IWTSD) של מחלקת ההגנה האמריקנית, ביצעו לראשונה בישראל את שורת ניסויי היירוט ׳חולות שחורים׳ (Black Sands). בניסוי שדה מבצעי נרחב בדרום הארץ נבחנו כ-20 מערכות טכנולוגיות ישראליות ואמריקניות כנגד מטרות כטב״ם מתמרנות, רחפנים, חימושים משוטטים ומטרות סילוניות, באמצעות מגוון חיישני מכ״ם, מערכות אופטיות, אמצעי חסימה אלקטרוניים ומיירטים קינטיים."
      },
      "figs": {
-      "seller": "Rafael",
-      "buyer": "Israel/USA (Joint Trial)",
-      "item": "Laser C-UAS Systems",
-      "val": null,
+      "seller": "Israeli & U.S. Defense Contractors",
+      "buyer": "Israel MoD / U.S. DoD",
+      "item": "20 C-UAS kinetic and non-kinetic interception systems",
+      "val": "Classified joint testing program",
       "deal_date": "2026-11-26",
       "rep_date": "2026-11-26",
-      "en": "seller: Rafael · buyer: Israel/USA (Joint Trial) · item: Laser C-UAS Systems · deal_date: 2026-11-26 · rep_date: 2026-11-26",
-      "he": "seller: Rafael · buyer: Israel/USA (Joint Trial) · item: Laser C-UAS Systems · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+      "en": "seller: Israeli & U.S. Defense Contractors · buyer: Israel MoD / U.S. DoD · item: 20 C-UAS kinetic and non-kinetic interception systems · val: Classified joint testing program · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Israeli & U.S. Defense Contractors · buyer: Israel MoD / U.S. DoD · item: 20 C-UAS kinetic and non-kinetic interception systems · val: Classified joint testing program · deal_date: 2026-11-26 · rep_date: 2026-11-26"
      },
      "why": {
-      "en": "The exercise underscores the critical shift toward directed-energy weapons as a cost-effective solution for high-volume drone threats, solidifying the Israel-U.S. technological defense alliance.",
-      "he": "התרגיל מדגיש את המעבר הקריטי לנשק מבוסס אנרגיה מכוונת כפתרון חסכוני לאיומי כטב״ם בכמויות גדולות, ומחזק את הברית הטכנולוגית-ביטחונית בין ישראל לארה״ב."
+      "en": "The live-fire trials accelerate the operationalization of tiered counter-unmanned aerial systems (C-UAS) required to counter high-volume one-way attack drones deployed in the Middle East and Ukraine. By co-evaluating mature technologies, the Israeli MoD and Pentagon are expediting joint procurement pipelines and technical interoperability for forward-deployed forces.",
+      "he": "הניסויים המשותפים מאיצים הכנסת מערכות C-UAS רב-שכבתיות לשימוש מבצעי מול איום כטב״מי הנפץ הזולים שנפוצו במזרח התיכון ובאוקראינה. הבדיקה ההדדית של טכנולוגיות ישראליות ואמריקניות מאפשרת קיצור הליכי רכש והטמעה מבצעית משותפת עבור כוחות מוצבים בחזית."
      },
      "israel": {
-      "en": "Led by MAFAT (MoD) and featuring Rafael's flagship laser technology, the event highlights Israel's global leadership in C-UAS innovation.",
-      "he": "האירוע הובל על ידי מפא״ת וכלל את טכנולוגיית הלייזר של רפאל, מה שמדגיש את ההובלה העולמית של ישראל בחדשנות בתחום ה-C-UAS."
+      "en": "Directly organized by Israel's MAFAT, demonstrating Israeli technological leadership in C-UAS and cementing institutional defense technology collaboration with the United States.",
+      "he": "הובלה ישירה של מפא״ת במשרד הביטחון הממחישה את מרכזיות התעשיות הביטחוניות הישראליות בפיתוח פתרונות יירוט כטב״ם, ומעמיקה את שיתוף הפעולה האסטרטגי עם מערכת הביטחון האמריקנית."
      },
      "src": [
       {
-       "t": "Rafael Defense Official",
-       "u": "https://x.com/RafaelDefense/status/2126020652998217901"
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/u-s-and-israel-evaluate-about-20-counter-drone-systems-in-joint-black-sands-trials/"
       },
       {
-       "t": "Presamiga",
-       "u": "https://x.com/presamiga/status/2126086983563038832"
+       "t": "EDR Magazine",
+       "u": "https://www.edrmagazine.eu/for-the-first-time-in-israel-and-with-20-participating-systems-israel-and-the-u-s-conduct-joint-trial-of-advanced-interception-solutions-against-drone-threats"
       }
      ],
-     "photo_url": "https://pbs.twimg.com/amplify_video_thumb/2126020570772828160/img/_yupwKFQIeKUNW70?format=webp&amp;name=large",
-     "photo_outlet": null,
-     "photo_credit_en": null,
-     "photo_credit_he": null,
-     "photo_caption_en": null,
-     "photo_caption_he": null,
-     "note": {
-      "en": "CONFIRMED — Verified via cited open source(s).",
-      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B1",
-     "domain": "aerial",
-     "priority": "high",
-     "statuses": [
-      "CONFIRMED"
-     ],
-     "country": "DE",
-     "countryHe": "גרמניה",
-     "type": "Electric Aviation",
-     "typeHe": "תעופה חשמלית",
-     "h": {
-      "en": "Quantum Systems Sets World Speed Record for Electric Aircraft at 727 km/h",
-      "he": "קוונטום סיסטמס קבעה שיא עולם למהירות כלי טיס חשמלי: 727 קמ״ש"
-     },
-     "s": {
-      "en": "The German firm's 'Apex Recordhunter' demonstrator achieved the record speed, showcasing potential for high-speed interceptor drones.",
-      "he": "המדגים הטכנולוגי 'Apex Recordhunter' של החברה הגרמנית הגיע למהירות שיא, המציגה פוטנציאל לכטב״מי יירוט במהירות גבוהה."
-     },
-     "what": {
-      "en": "Quantum Systems officially broke the world record for electric aircraft speed using the Apex Recordhunter. The platform serves as a high-speed demonstrator for future interceptor drones designed to neutralize aerial threats rapidly. The achievement highlights advancements in electric propulsion and aerodynamic efficiency for unmanned systems.",
-      "he": "חברת Quantum Systems שברה רשמית את שיא העולם למהירות כלי טיס חשמלי באמצעות ה-Apex Recordhunter. הפלטפורמה משמשת כמדגים למהירות גבוהה עבור כטב״מי יירוט עתידיים שנועדו לנטרל איומים אוויריים במהירות. ההישג מדגיש התקדמות בהנעה חשמלית ויעילות אווירודינמית למערכות בלתי מאוישות."
-     },
-     "figs": {
-      "seller": "Quantum Systems",
-      "buyer": null,
-      "item": "Apex Recordhunter",
-      "val": "727 km/h",
-      "deal_date": null,
-      "rep_date": "2026-11-26",
-      "en": "seller: Quantum Systems · item: Apex Recordhunter · val: 727 km/h · rep_date: 2026-11-26",
-      "he": "seller: Quantum Systems · item: Apex Recordhunter · val: 727 km/h · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "High-speed electric propulsion is a game-changer for short-range air defense, allowing interceptors to reach targets faster than traditional battery-powered drones.",
-      "he": "הנעה חשמלית במהירות גבוהה מהווה פריצת דרך להגנה אווירית לטווח קצר, ומאפשרת למיירטים להגיע למטרות מהר יותר מרחפנים מסורתיים המונעים בסוללות."
-     },
-     "israel": {
-      "en": "Quantum Systems has active partnerships in Israel; high-speed interceptors are of direct interest to Israeli C-UAS requirements.",
-      "he": "ל-Quantum Systems יש שותפויות פעילות בישראל; מיירטים במהירות גבוהה נמצאים בעניין ישיר עבור דרישות ה-C-UAS הישראליות."
-     },
-     "src": [
-      {
-       "t": "Presamiga",
-       "u": "https://x.com/presamiga/status/2126091481815634176"
-      }
-     ],
-     "photo_url": "https://pbs.twimg.com/media/HYFk7hMXYAAvg3f.jpg",
-     "photo_outlet": "Presamiga",
-     "photo_credit_en": "Photo: Quantum Systems via Presamiga",
-     "photo_credit_he": "תמונה: קוונטום סיסטמס דרך פרסמיגה",
-     "photo_caption_en": "The Apex Recordhunter high-speed electric demonstrator.",
-     "photo_caption_he": "המדגים החשמלי המהיר Apex Recordhunter.",
+     "photo_url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Black-Sands-Israel-trials.jpg",
+     "photo_outlet": "EDR Magazine",
+     "photo_credit_en": "Photo: Israel Ministry of Defense via EDR Magazine",
+     "photo_credit_he": "תמונה: משרד הביטחון דרך EDR Magazine",
+     "photo_caption_en": "Operators conduct counter-drone interception trials during the Black Sands live-fire campaign in Israel.",
+     "photo_caption_he": "מפעילי מערכות הגנה מבצעים ניסויי יירוט כטב״ם במהלך קמפיין ׳חולות שחורים׳ בישראל.",
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
@@ -526,354 +470,55 @@ window.DEFENSE_BRIEF_FEED = {
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "KW",
-     "countryHe": "כווית",
-     "type": "Geopolitics",
-     "typeHe": "גאופוליטיקה",
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "C-UAS / Air Defense",
+     "typeHe": "הגנה אווירית / נ״מ",
      "h": {
-      "en": "Iranian Drone Strike on Kuwait Kills Two Rheinmetall Technicians",
-      "he": "תקיפת כטב״ם איראנית בכווית: נהרגו שני טכנאים מחברת ריינמטאל"
+      "en": "German Bundeswehr to Receive Combat-Upgraded Skyranger 30 Flakpanzers with Enhanced Radars",
+      "he": "הבונדסוור הגרמני יקבל תותחי נ״מ סקייריינג׳ר 30 בעלי כושר קרבי משודרג ומכ״מים משופרים"
      },
      "s": {
-      "en": "An Iranian drone attack targeting a vital site in Kuwait resulted in the deaths of two Italian technicians working for Rheinmetall on air defense systems.",
-      "he": "מתקפת כטב״ם איראנית שכוונה לאתר חיוני בכווית גרמה למותם של שני טכנאים איטלקים שעבדו עבור ריינמטאל על מערכות הגנה אווירית."
+      "en": "The German Bundeswehr's forthcoming Skyranger 30 mobile air defense vehicles will feature major performance upgrades to surveillance and tracking sensor suites beyond original baseline specifications. Upgraded 360-degree search radar elements and optimized fire-control systems will significantly expand engagement envelopes against agile loitering munitions.",
+      "he": "נגמ״שי הנ״מ המתנייעים מדגם סקייריינג׳ר 30 של הבונדסוור הגרמני ייקלטו עם חבילת שדרוג מבצעית לחיישני הגילוי והעקיבה מעבר למפרט המקורי. השיפורים כוללים מכ״ם סריקה מרחבי מוגדל טווח ומערכות בקרת אש אופטרוניות משופרות ליירוט חימושים משוטטים."
      },
      "what": {
-      "en": "Kuwaiti armed forces detected and engaged several Iranian drones targeting a strategic facility. While some were intercepted, shrapnel and direct impacts caused four casualties, including two Italian technicians from Rheinmetall who were killed. Iran has officially denied involvement despite evidence of the drone types used. Rheinmetall confirmed the loss of its personnel in a statement.",
-      "he": "כוחות המזוינים של כווית זיהו והתעמתו עם מספר כטב״מים איראניים שכוונו למתקן אסטרטגי. בעוד שחלקם יורטו, רסיסים ופגיעות ישירות גרמו לארבעה נפגעים, כולל שני טכנאים איטלקים מריינמטאל שנהרגו. איראן הכחישה רשמית את המעורבות למרות ראיות על סוגי הכטב״מים ששימשו בתקיפה. ריינמטאל אישרה את אובדן אנשיה בהצהרה."
+      "en": "According to procurement reporting from Berlin, the German Army's future Skyranger 30 air defense platforms mounted on Boxer 8x8 chassis will be delivered with upgraded combat effectiveness (kampfwertgesteigert). Upgrades focus heavily on Rheinmetall's sensor array, integrating a higher-capability 360-degree AESA search radar and advanced electro-optical target-tracking sensors, substantially increasing acquisition range and multi-target tracking accuracy against swarm drones, cruise missiles, and low-flying rotary aircraft.",
+      "he": "על פי דיווחים בגרמניה, מערכות ההגנה האווירית המתנייעות סקייריינג׳ר 30 המותקנות על גבי נגמ״שי בוקסר 8x8 יסופקו לצבא גרמניה בתצורה משודרגת קרבית. חבילת השדרוג מתמקדת במערך החיישנים של ריינמטאל, וכוללת מכ״ם סריקה אלקטרוני (AESA) מרחבי משופר ומערכת עקיבה אלקטרו-אופטית מתקדמת, המגדילים משמעותית את טווח הגילוי ודיוק הנעילה נגד נחילי כטב״ם, טילי שיוט ומסוקים."
      },
      "figs": {
-      "seller": "Rheinmetall (Personnel)",
-      "buyer": "Kuwait",
-      "item": "Air Defense Support",
-      "val": null,
-      "deal_date": null,
+      "seller": "Rheinmetall Air Defence",
+      "buyer": "German Armed Forces (Bundeswehr)",
+      "item": "Skyranger 30 Mobile Air Defense Gun Systems on Boxer chassis",
+      "val": "Undisclosed upgrade baseline",
+      "deal_date": "2026-11-26",
       "rep_date": "2026-11-26",
-      "en": "seller: Rheinmetall (Personnel) · buyer: Kuwait · item: Air Defense Support · rep_date: 2026-11-26",
-      "he": "seller: Rheinmetall (Personnel) · buyer: Kuwait · item: Air Defense Support · rep_date: 2026-11-26"
+      "en": "seller: Rheinmetall Air Defence · buyer: German Armed Forces (Bundeswehr) · item: Skyranger 30 Mobile Air Defense Gun Systems on Boxer chassis · val: Undisclosed upgrade baseline · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Rheinmetall Air Defence · buyer: German Armed Forces (Bundeswehr) · item: Skyranger 30 Mobile Air Defense Gun Systems on Boxer chassis · val: Undisclosed upgrade baseline · deal_date: 2026-11-26 · rep_date: 2026-11-26"
      },
      "why": {
-      "en": "This incident marks a significant escalation, directly involving European defense industry personnel in regional kinetic conflicts and potentially shifting Italy's stance on Iranian regional aggression.",
-      "he": "אירוע זה מהווה הסלמה משמעותית, המערבת ישירות אנשי תעשייה ביטחונית אירופית בעימותים קינטיים אזוריים, ועשוי לשנות את עמדת איטליה כלפי התוקפנות האיראנית באזור."
+      "en": "The sensory enhancements address frontline lessons from eastern Europe, where small FPV drones and precision loitering weapons operate at altitudes and radar cross-sections previously challenging for baseline mobile anti-aircraft artillery to detect in ground clutter.",
+      "he": "שדרוגי המכ״ם והחיישנים משקפים לקחים מבצעיים ישירים ממזרח אירופה, שם רחפני FPV וחימושים משוטטים פועלים בפרופיל טיסה נמוך ובחתך מכ״ם זעיר שהקשו על מערכות נ״מ מתנייעות ישנות לזהות על רקע תוואי הקרקע."
      },
      "israel": {
-      "en": "The strike aligns with Israeli warnings regarding Iranian efforts to destabilize the region and target Western-aligned defense infrastructure.",
-      "he": "התקיפה עולה בקנה אחד עם אזהרות ישראל בנוגע למאמצי איראן לערער את היציבות באזור ולפגוע בתשתיות ביטחוניות המזוהות עם המערב."
+      "en": "Reinforces the trend of European armies integrating advanced C-UAS radar and kinetic solutions, a sector where Israeli manufacturers like Elbit and IAI maintain strategic sensor partnerships across NATO.",
+      "he": "ממחיש את המגמה המואצת בצבאות נאט״ו להצטייד במערכות נ״מ מתקדמות מבוססות מכ״ם מתקדם ויירוט קינטי, תחום שבו חברות ישראליות כמו אלביט והתעשייה האווירית מקיימות שיתופי פעולה באירופה."
      },
      "src": [
       {
-       "t": "OSINTdefender",
-       "u": "https://x.com/sentdefender/status/2125977641333223501"
-      },
-      {
-       "t": "i24NEWS",
-       "u": "https://x.com/NatSecLedger/status/2125963249325592749"
-      },
-      {
-       "t": "Rheinmetall Statement via OSINTdefender",
-       "u": "https://x.com/sentdefender/status/2126095009204130150"
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/flugabwehrsysteme-skyranger-30-kommen-kampfwertgesteigert-in-die-bundeswehr/"
       }
      ],
-     "photo_url": "https://pbs.twimg.com/media/HYFoJJvWsAA5gtz.jpg",
-     "photo_outlet": "OSINTdefender",
-     "photo_credit_en": "Photo: Rheinmetall Group via OSINTdefender",
-     "photo_credit_he": "תמונה: קבוצת ריינמטאל דרך OSINTdefender",
-     "photo_caption_en": "Rheinmetall statement regarding the loss of technicians in Kuwait.",
-     "photo_caption_he": "הצהרת ריינמטאל בנוגע לאובדן הטכנאים בכווית.",
+     "photo_url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Skyranger-30-Bundeswehr.jpg",
+     "photo_outlet": "Hartpunkt",
+     "photo_credit_en": "Photo: Rheinmetall via Hartpunkt",
+     "photo_credit_he": "תמונה: ריינמטאל דרך Hartpunkt",
+     "photo_caption_en": "The Skyranger 30 air defense turret mounted on a Boxer 8x8 armored transport vehicle.",
+     "photo_caption_he": "צריח ההגנה האווירית סקייריינג׳ר 30 מותקן על גבי רכב קרבי משוריין בוקסר 8x8.",
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "D1",
-     "domain": "naval",
-     "priority": "high",
-     "statuses": [
-      "CONTRACT"
-     ],
-     "country": "UK",
-     "countryHe": "בריטניה",
-     "type": "Submarine Support",
-     "heType": "תמיכה בצוללות",
-     "h": {
-      "en": "UK MoD Awards Babcock Record GBP 8.7 Billion Submarine Support Deal",
-      "he": "משרד ההגנה הבריטי העניק לבבקוק חוזה תמיכה בצוללות בשווי 8.7 מיליארד ליש״ט"
-     },
-     "s": {
-      "en": "Babcock signed the 'Gateway' agreement to provide long-term maintenance and support for the Royal Navy's submarine fleet.",
-      "he": "חברת בבקוק חתמה על הסכם 'Gateway' למתן תחזוקה ותמיכה ארוכת טווח לצי הצוללות של הצי המלכותי."
-     },
-     "what": {
-      "en": "The UK Ministry of Defence has awarded Babcock an GBP 8.7 billion (approx. USD 11 billion) contract known as the Gateway Agreement. This record-breaking deal succeeds the Future Maritime Support Programme and ensures the continued operational readiness of the UK's nuclear and conventional submarine fleet through comprehensive engineering and logistics support.",
-      "he": "משרד ההגנה הבריטי העניק לבבקוק חוזה בשווי 8.7 מיליארד ליש״ט (כ-11 מיליארד דולר) המכונה הסכם Gateway. עסקה שוברת שיאים זו מחליפה את תוכנית התמיכה הימית העתידית ומבטיחה את המוכנות המבצעית המתמשכת של צי הצוללות הגרעיניות והקונבנציונליות של בריטניה באמצעות תמיכה הנדסית ולוגיסטית מקיפה."
-     },
-     "figs": {
-      "seller": "Babcock",
-      "buyer": "UK MoD",
-      "item": "Gateway Submarine Support Agreement",
-      "val": "GBP 8.7B",
-      "deal_date": "2026-11-26",
-      "rep_date": "2026-11-26",
-      "en": "seller: Babcock · buyer: UK MoD · item: Gateway Submarine Support Agreement · val: GBP 8.7B · deal_date: 2026-11-26 · rep_date: 2026-11-26",
-      "he": "seller: Babcock · buyer: UK MoD · item: Gateway Submarine Support Agreement · val: GBP 8.7B · deal_date: 2026-11-26 · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "This is one of the largest maritime support contracts in UK history, securing the industrial base necessary for the UK's continuous at-sea nuclear deterrent.",
-      "he": "זהו אחד מחוזי התמיכה הימיים הגדולים בתולדות בריטניה, המבטיח את הבסיס התעשייתי הדרוש להרתעה הגרעינית הרציפה של בריטניה בים."
-     },
-     "israel": {
-      "en": "Babcock maintains various collaborative ties with Israeli defense firms in the maritime and training sectors.",
-      "he": "בבקוק מקיימת קשרי שיתוף פעולה שונים עם חברות ביטחוניות ישראליות במגזרי הים והאימונים."
-     },
-     "src": [
-      {
-       "t": "Naval News",
-       "u": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/"
-      }
-     ],
-     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1.jpg",
-     "photo_outlet": null,
-     "photo_credit_en": null,
-     "photo_credit_he": null,
-     "photo_caption_en": null,
-     "photo_caption_he": null,
-     "typeHe": "טכנולוגיה צבאית",
-     "note": {
-      "en": "CONTRACT — Verified via cited open source(s).",
-      "he": "CONTRACT — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "D2",
-     "domain": "naval",
-     "priority": "standard",
-     "statuses": [
-      "DEVELOPMENT"
-     ],
-     "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Naval Weapons",
-     "typeHe": "נשק ימי",
-     "h": {
-      "en": "Lockheed Martin Unveils JAGM and VLS Suite for International Class Frigate",
-      "he": "לוקהיד מרטין חשפה חליפת נשק הכוללת JAGM ו-VLS עבור פריגטות בינלאומיות"
-     },
-     "s": {
-      "en": "The new weapons suite pairs modular vertical launch cells with Joint Air-to-Ground Missile (JAGM) quad launchers for mid-range defense.",
-      "he": "חליפת הנשק החדשה משלבת תאי שיגור אנכיים מודולריים עם משגרי JAGM מרובעים להגנה לטווח בינוני."
-     },
-     "what": {
-      "en": "At Euronaval 2026, Lockheed Martin showcased a mid-range weapons configuration designed for Gibbs & Cox’s International Class Frigate. The suite integrates modular Vertical Launch System (VLS) cells with quad launchers for the Joint Air-to-Ground Missile (JAGM), providing a flexible response to surface and low-altitude aerial threats.",
-      "he": "בתערוכת Euronaval 2026, לוקהיד מרטין הציגה תצורת נשק לטווח בינוני שתוכננה עבור הפריגטה מהסוג הבינלאומי של Gibbs & Cox. החליפה משלבת תאי VLS מודולריים עם משגרים מרובעים לטילי JAGM, מה שמספק מענה גמיש לאיומי שטח ואיומים אוויריים בגובה נמוך."
-     },
-     "figs": {
-      "seller": "Lockheed Martin",
-      "buyer": "Global Market",
-      "item": "JAGM/VLS Weapons Suite",
-      "val": null,
-      "deal_date": null,
-      "rep_date": "2026-11-26",
-      "en": "seller: Lockheed Martin · buyer: Global Market · item: JAGM/VLS Weapons Suite · rep_date: 2026-11-26",
-      "he": "seller: Lockheed Martin · buyer: Global Market · item: JAGM/VLS Weapons Suite · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "The integration of JAGM onto naval platforms offers a high-precision, multi-target capability against swarming boats and drones, filling a critical gap in frigate self-defense.",
-      "he": "שילוב ה-JAGM בפלטפורמות ימיות מציע יכולת רב-מטרתית בדיוק גבוה נגד נחילי סירות וכטב״מים, וממלא פער קריטי בהגנה העצמית של פריגטות."
-     },
-     "israel": {
-      "en": "The JAGM system shares technological lineage with the Hellfire, which is extensively used by the IDF; modular naval suites are relevant to Israel's future corvette upgrades.",
-      "he": "מערכת ה-JAGM חולקת שושלת טכנולוגית עם ההלפייר, הנמצא בשימוש נרחב בצה״ל; חליפות ימיות מודולריות רלוונטיות לשדרוגים עתידיים של ספינות הטילים הישראליות."
-     },
-     "src": [
-      {
-       "t": "Naval News",
-       "u": "https://www.navalnews.com/naval-news/2026/11/lockheed-martin-weapons-suite-international-class-frigate/"
-      }
-     ],
-     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/International-Class-Frigate-PHN-2.jpg",
-     "photo_outlet": null,
-     "photo_credit_en": null,
-     "photo_credit_he": null,
-     "photo_caption_en": null,
-     "photo_caption_he": null,
-     "note": {
-      "en": "DEVELOPMENT — Verified via cited open source(s).",
-      "he": "DEVELOPMENT — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "D3",
-     "domain": "naval",
-     "priority": "standard",
-     "statuses": [
-      "DEVELOPMENT"
-     ],
-     "country": "FR",
-     "countryHe": "צרפת",
-     "type": "AUV",
-     "typeHe": "כטב״ם תת-ימי",
-     "h": {
-      "en": "French Startup Arsenals Unveils 'The Harpoon' Modular AUV",
-      "he": "סטארט-אפ צרפתי חשף את 'The Harpoon' - כטב״ם תת-ימי מודולרי"
-     },
-     "s": {
-      "en": "Arsenals introduced a modular autonomous underwater vehicle designed for rapid production and plug-and-play payload integration.",
-      "he": "חברת Arsenals הציגה כלי שיט תת-ימי אוטונומי מודולרי המיועד לייצור מהיר ושילוב מטענים בשיטת 'חבר והפעל'."
-     },
-     "what": {
-      "en": "French defense startup Arsenals unveiled 'The Harpoon' at Euronaval 2026. The AUV is built on a common platform that allows for rapid swapping of seeker heads, warheads, and sensors. The company, founded in early 2026, aims to produce these attritable underwater drones at scale to meet modern naval warfare demands.",
-      "he": "סטארט-אפ הביטחון הצרפתי Arsenals חשף את 'The Harpoon' בתערוכת Euronaval 2026. הכטב״ם התת-ימי בנוי על פלטפורמה משותפת המאפשרת החלפה מהירה של ראשי ביות, ראשי קרב וחיישנים. החברה, שהוקמה בתחילת 2026, שואפת לייצור המוני של כלים אלו כדי לענות על דרישות המלחמה הימית המודרנית."
-     },
-     "figs": {
-      "seller": "Arsenals",
-      "buyer": null,
-      "item": "The Harpoon AUV",
-      "val": null,
-      "deal_date": null,
-      "rep_date": "2026-11-26",
-      "en": "seller: Arsenals · item: The Harpoon AUV · rep_date: 2026-11-26",
-      "he": "seller: Arsenals · item: The Harpoon AUV · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "The focus on 'attritable' and modular underwater systems reflects a shift toward mass-produced, low-cost autonomous assets in maritime denial strategies.",
-      "he": "ההתמקדות במערכות תת-ימיות מודולריות וזולות משקפת מעבר לנכסים אוטונומיים בייצור המוני בעלות נמוכה באסטרטגיות של מניעת גישה ימית."
-     },
-     "israel": {
-      "en": "Israel is increasingly investing in autonomous underwater capabilities for gas rig protection and intelligence gathering.",
-      "he": "ישראל משקיעה יותר ויותר ביכולות תת-ימיות אוטונומיות להגנה על אסדות גז ואיסוף מודיעין."
-     },
-     "src": [
-      {
-       "t": "Naval News",
-       "u": "https://www.navalnews.com/naval-news/2026/11/euronaval-2026-french-startup-arsenals-unveils-modular-auv/"
-      }
-     ],
-     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/Arsenals-Unveils-Modular-AUV-Designed-for-Rapid-Production.jpg",
-     "photo_outlet": null,
-     "photo_credit_en": null,
-     "photo_credit_he": null,
-     "photo_caption_en": null,
-     "photo_caption_he": null,
-     "note": {
-      "en": "DEVELOPMENT — Verified via cited open source(s).",
-      "he": "DEVELOPMENT — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "D4",
-     "domain": "naval",
-     "priority": "standard",
-     "statuses": [
-      "PRODUCTION"
-     ],
-     "country": "DE",
-     "countryHe": "גרמניה",
-     "type": "UUV",
-     "typeHe": "כטב״ם תת-ימי",
-     "h": {
-      "en": "Greyshark Bravo UUV Enters Series Production in Germany",
-      "he": "הכטב״ם התת-ימי Greyshark Bravo נכנס לייצור סדרתי בגרמניה"
-     },
-     "s": {
-      "en": "Euroatlas and EvoLogics have moved the battery-powered Greyshark Bravo into mass production with deliveries starting late 2026.",
-      "he": "החברות Euroatlas ו-EvoLogics העבירו את ה-Greyshark Bravo המונע בסוללות לייצור המוני, כשהאספקות יחלו בסוף 2026."
-     },
-     "what": {
-      "en": "The Greyshark Bravo, a battery-powered Unmanned Underwater Vehicle (UUV), has officially transitioned to series production. Developed by Euroatlas and EvoLogics, the vehicle is designed for long-endurance missions. The first production units are scheduled for delivery before the end of 2026, targeting both defense and commercial maritime sectors.",
-      "he": "ה-Greyshark Bravo, כלי תת-ימי בלתי מאויש (UUV) המונע בסוללות, עבר רשמית לייצור סדרתי. הכלי, שפותח על ידי Euroatlas ו-EvoLogics, מיועד למשימות ארוכות טווח. יחידות הייצור הראשונות מתוכננות למסירה לפני סוף 2026, עבור המגזר הביטחוני והמסחרי."
-     },
-     "figs": {
-      "seller": "Euroatlas / EvoLogics",
-      "buyer": null,
-      "item": "Greyshark Bravo UUV",
-      "val": null,
-      "deal_date": null,
-      "rep_date": "2026-11-26",
-      "en": "seller: Euroatlas / EvoLogics · item: Greyshark Bravo UUV · rep_date: 2026-11-26",
-      "he": "seller: Euroatlas / EvoLogics · item: Greyshark Bravo UUV · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "Series production of advanced UUVs indicates a maturing market for autonomous sub-surface systems capable of persistent surveillance.",
-      "he": "ייצור סדרתי של UUVs מתקדמים מעיד על שוק מתבגר למערכות תת-מימיות אוטונומיות המסוגלות למעקב מתמשך."
-     },
-     "israel": {
-      "en": "German-Israeli naval cooperation is deep, particularly in submarine and surface vessel technologies.",
-      "he": "שיתוף הפעולה הימי בין גרמניה לישראל הוא עמוק, במיוחד בטכנולוגיות צוללות וכלי שיט מעל פני המים."
-     },
-     "src": [
-      {
-       "t": "Naval News",
-       "u": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-euroatlas-evologics-greyshark-uuv-series-production/"
-      }
-     ],
-     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/Greyshark-UUV.jpg",
-     "photo_outlet": null,
-     "photo_credit_en": null,
-     "photo_credit_he": null,
-     "photo_caption_en": null,
-     "photo_caption_he": null,
-     "note": {
-      "en": "PRODUCTION — Verified via cited open source(s).",
-      "he": "PRODUCTION — אומת מול המקורות הגלויים המצוטטים."
-     }
-    },
-    {
-     "id": "B2",
-     "domain": "aerial",
-     "priority": "standard",
-     "statuses": [
-      "REQUEST"
-     ],
-     "country": "UA",
-     "countryHe": "אוקראינה",
-     "type": "Fighter Jets",
-     "typeHe": "מטוסי קרב",
-     "h": {
-      "en": "Ukraine Formally Requests Retiring Eurofighters from Italy",
-      "he": "אוקראינה ביקשה רשמית מאיטליה את מטוסי היורופייטר שיוצאים משירות"
-     },
-     "s": {
-      "en": "Kyiv has asked Rome for 10 to 20 Eurofighter Typhoon jets that the Italian Air Force is planning to retire.",
-      "he": "קייב ביקשה מרומא 10 עד 20 מטוסי יורופייטר טייפון שחיל האוויר האיטלקי מתכנן להוציא משירות."
-     },
-     "what": {
-      "en": "Following the integration of F-16s and Mirages, Ukraine is now seeking Eurofighter Typhoons to further modernize its air force. Reports indicate a formal request for 10-20 aircraft from Italy's retiring fleet. The move would diversify Ukraine's aerial capabilities but presents significant logistical and training challenges.",
-      "he": "בעקבות שילוב מטוסי ה-F-16 והמיראז׳, אוקראינה מבקשת כעת מטוסי יורופייטר טייפון כדי להמשיך ולחדש את חיל האוויר שלה. דיווחים מצביעים על בקשה רשמית ל-10-20 מטוסים מהצי האיטלקי שיוצא משירות. המהלך יגוון את היכולות האוויריות של אוקראינה אך מציב אתגרים לוגיסטיים ואימונים משמעותיים."
-     },
-     "figs": {
-      "seller": "Italy",
-      "buyer": "Ukraine",
-      "item": "Eurofighter Typhoon",
-      "val": "10-20 units",
-      "deal_date": null,
-      "rep_date": "2026-11-26",
-      "en": "seller: Italy · buyer: Ukraine · item: Eurofighter Typhoon · val: 10-20 units · rep_date: 2026-11-26",
-      "he": "seller: Italy · buyer: Ukraine · item: Eurofighter Typhoon · val: 10-20 units · rep_date: 2026-11-26"
-     },
-     "why": {
-      "en": "Acquiring Eurofighters would provide Ukraine with a potent air-superiority platform, though the complexity of maintaining a third Western fighter type is substantial.",
-      "he": "רכישת יורופייטרים תספק לאוקראינה פלטפורמת עליונות אווירית חזקה, אם כי המורכבות של תחזוקת סוג שלישי של מטוס קרב מערבי היא משמעותית."
-     },
-     "israel": {
-      "en": "Israel monitors the transfer of advanced Western platforms to conflict zones for lessons on operational performance and electronic warfare integration.",
-      "he": "ישראל עוקבת אחר העברת פלטפורמות מערביות מתקדמות לאזורי סכסוך כדי להפיק לקחים על ביצועים מבצעיים ושילוב לוחמה אלקטרונית."
-     },
-     "src": [
-      {
-       "t": "Defence Blog",
-       "u": "https://defence-blog.com/ukraine-formally-seeks-italys-retiring-eurofighters-report-says/"
-      }
-     ],
-     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3785.jpg",
-     "photo_outlet": null,
-     "photo_credit_en": null,
-     "photo_credit_he": null,
-     "photo_caption_en": null,
-     "photo_caption_he": null,
-     "note": {
-      "en": "REQUEST — Verified via cited open source(s).",
-      "he": "REQUEST — אומת מול המקורות הגלויים המצוטטים."
      }
     },
     {
@@ -883,222 +528,367 @@ window.DEFENSE_BRIEF_FEED = {
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "US",
-     "countryHe": "ארה״ב",
-     "type": "Space/Data",
-     "typeHe": "חלל ומידע",
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "C-UAS Partnership",
+     "typeHe": "שותפות טכנולוגית C-UAS",
      "h": {
-      "en": "FCC Authorizes SpaceX for 1 Million Satellites and 'Starmind' Constellation",
-      "he": "ה-FCC אישר ל-SpaceX שיגור מיליון לווינים עבור רשת 'Starmind'"
+      "en": "Hensoldt and Argus Interception Partner to Develop Integrated Multi-Layer Counter-Drone Systems",
+      "he": "הנזולדט וארגוס אינטרספשן מרחיבות שותפות לפיתוח מערכות משולבות ליירוט כטב״מים"
      },
      "s": {
-      "en": "The authorization paves the way for orbital data centers and advanced global data networks through 2040.",
-      "he": "האישור סולל את הדרך למרכזי נתונים מסלוליים ורשתות נתונים גלובליות מתקדמות עד שנת 2040."
+      "en": "German sensor specialist Hensoldt and Lower Saxony-based Argus Interception GmbH expanded their strategic alliance to combine radar, optronics, and kinetic interception assets. The collaboration will create turnkey C-UAS architectures targeting European military installations and critical infrastructure.",
+      "he": "יצרנית החיישנים הגרמנית הנזולדט וחברת ארגוס אינטרספשן מגרמניה הודיעו על הרחבת שיתוף הפעולה לפיתוח חליפת הגנה משולבת נגד רחפנים. הפתרון המשותף יאחד מכ״מים, אמצעים אופטרוניים ומיירטים פיזיים להגנה על מתקנים צבאיים ותשתיות לאומיות."
      },
      "what": {
-      "en": "The Federal Communications Commission (FCC) has granted SpaceX authorization to launch up to 1 million satellites through 2040. This massive expansion supports the 'Starmind' constellation, which aims to create orbital data centers. This infrastructure will provide unprecedented data processing and connectivity capabilities for both commercial and government users.",
-      "he": "ועדת התקשורת הפדרלית (FCC) העניקה ל-SpaceX אישור לשגר עד מיליון לווינים עד שנת 2040. הרחבה מאסיבית זו תומכת בקונסטלציית 'Starmind', שמטרתה ליצור מרכזי נתונים במסלול סביב כדור הארץ. תשתית זו תספק יכולות עיבוד נתונים וקישוריות חסרות תקדים למשתמשים מסחריים וממשלתיים."
+      "en": "Hensoldt and Argus Interception have signed an expanded cooperation framework to integrate Hensoldt's high-resolution SPEXER radar line and electro-optical sensor suites with Argus's automated command-and-control software and physical interceptor effectors. The joint offering delivers modular, rapidly deployable counter-drone bubbles designed to neutralize Class 1 and Class 2 UAS swarms in contested electronic warfare environments.",
+      "he": "הנזולדט וחברת ארגוס אינטרספשן חתמו על הרחבת שיתוף הפעולה שמטרתו שילוב מכ״מי SPEXER ומערכות האופטרוניקה של הנזולדט עם מערכות השו״ב ומיירטי הרחפנים האוטונומיים של ארגוס. המערכת המשולבת תספק הגנה מודולרית מפני נחילי כטב״ם מסוג Class 1 ו-Class 2 גם בתנאי חסימה אלקטרונית מורכבים."
      },
      "figs": {
-      "seller": "SpaceX",
-      "buyer": "FCC (Authorization)",
-      "item": "Satellite Launch License",
-      "val": "1,000,000 satellites",
+      "seller": "Hensoldt & Argus Interception GmbH",
+      "buyer": "European NATO Armed Forces & Critical Infrastructure",
+      "item": "Integrated modular C-UAS detection and interceptor system",
+      "val": "Commercial partnership agreement",
       "deal_date": "2026-11-26",
       "rep_date": "2026-11-26",
-      "en": "seller: SpaceX · buyer: FCC (Authorization) · item: Satellite Launch License · val: 1,000,000 satellites · deal_date: 2026-11-26 · rep_date: 2026-11-26",
-      "he": "seller: SpaceX · buyer: FCC (Authorization) · item: Satellite Launch License · val: 1,000,000 satellites · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+      "en": "seller: Hensoldt & Argus Interception GmbH · buyer: European NATO Armed Forces & Critical Infrastructure · item: Integrated modular C-UAS detection and interceptor system · val: Commercial partnership agreement · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Hensoldt & Argus Interception GmbH · buyer: European NATO Armed Forces & Critical Infrastructure · item: Integrated modular C-UAS detection and interceptor system · val: Commercial partnership agreement · deal_date: 2026-11-26 · rep_date: 2026-11-26"
      },
      "why": {
-      "en": "Orbital data centers represent the next frontier in resilient, low-latency global communications, critical for future AI-driven military and civilian networks.",
-      "he": "מרכזי נתונים מסלוליים מייצגים את החזית הבאה בתקשורת גלובלית עמידה ובעלת שיהוי נמוך, הקריטית לרשתות צבאיות ואזרחיות מבוססות בינה מלאכותית בעתיד."
+      "en": "European armed forces are demanding non-fragmenting, scalable interceptors capable of defeating drone swarms without depleting expensive surface-to-air missile stockpiles or creating hazardous debris over populated infrastructure.",
+      "he": "צבאות אירופה מחפשים פתרונות יירוט מדורגים שאינם מסתמכים אך ורק על טילי נ״מ יקרים, במטרה לנטרל נחילי רחפנים ללא גרימת נזק סביבתי לתשתיות רגישות ולאוכלוסייה אזרחית."
      },
      "israel": {
-      "en": "Israel's defense establishment is a major user of satellite communication and is exploring orbital computing for real-time intelligence processing.",
-      "he": "מערכת הביטחון הישראלית היא משתמשת מרכזית בתקשורת לווינית ובוחנת מחשוב מסלולי לעיבוד מודיעין בזמן אמת."
+      "en": "Competes with and complements Israeli point-defense C-UAS exports such as Rafael's Drone Dome and Elbit's ReDrone across European defense tenders.",
+      "he": "מתחרה ומשלים מוצרי הגנה נקודתית ישראליים דוגמת Drone Dome של רפאל ו-ReDrone של אלביט המשווקים למדינות נאט״ו."
      },
      "src": [
       {
-       "t": "Aviation Week",
-       "u": "https://aviationweek.com/space/commercial-space/fcc-greenlights-spacex-plan-orbital-data-centers"
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/hensoldt-und-argus-interception-bauen-partnerschaft-fuer-drohnenabwehr-aus/"
       }
      ],
-     "photo_url": "https://aviationweek.com/sites/default/files/2026-11/spacedata1125.jpg",
-     "photo_outlet": null,
-     "photo_credit_en": null,
-     "photo_credit_he": null,
-     "photo_caption_en": null,
-     "photo_caption_he": null,
+     "photo_url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Hensoldt-Argus-CUAS.jpg",
+     "photo_outlet": "Hartpunkt",
+     "photo_credit_en": "Photo: Hensoldt via Hartpunkt",
+     "photo_credit_he": "תמונה: הנזולדט דרך Hartpunkt",
+     "photo_caption_en": "Hensoldt SPEXER radar deployed alongside counter-UAS sensor integration masts.",
+     "photo_caption_he": "מכ״ם SPEXER מתוצרת הנזולדט מוצב לצד עמדות חיישנים לגילוי ויירוט כטב״ם.",
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
      }
     },
     {
-     "id": "BN1",
-     "domain": "air",
-     "priority": "standard",
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "IL",
-     "countryHe": "ישראל",
-     "type": "Briefly Noted",
-     "typeHe": "בקצרה",
+     "country": "US",
+     "countryHe": "ארצות הברית",
+     "type": "Aero Engines / Sustainment",
+     "typeHe": "מנועי תעופה / תחזוקה",
      "h": {
-      "en": "IDF Strikes Hezbollah Radwan Force Training Camp in Lebanon",
-      "he": "צה״ל תקף מחנה אימונים של כוח רדואן בלבנון"
+      "en": "U.S. Navy Awards Pratt & Whitney USD 2.53 Billion for Global F-35 F135 Engine Sustainment",
+      "he": "הצי האמריקני העניק לפראט אנד ויטני חוזה עתק של 2.53 מיליארד דולר לתחזוקת מנועי ה-F-35"
      },
      "s": {
-      "en": "Israeli airstrikes targeted dozens of rockets and launchers in the Ayn al-Tina area of the Beqaa Valley.",
-      "he": "תקיפות אוויריות של צה״ל כוונו לעשרות רקטות ומשגרים במרחב עין א-תינה שבבקאע."
+      "en": "RTX subsidiary Pratt & Whitney received a USD 2.53 billion contract action from the U.S. Navy to provide comprehensive worldwide sustainment and depot-level maintenance for F135 engines. The undefinitized award covers propulsion support across the U.S. military services and international F-35 operators through late 2027.",
+      "he": "חברת פראט אנד ויטני (חטיבה של תאגיד RTX) זכתה בחוזה של חיל הים האמריקני בסך 2.53 מיליארד דולר לאספקת שירותי תחזוקה ותמיכה גלובלית במנועי ה-F135 של מטוסי ה-F-35. החוזה מספק מענה תפעולי מקיף לצי המטוסים של צבא ארה״ב והשותפות הבינלאומיות עד סוף 2027."
+     },
+     "what": {
+      "en": "The Naval Air Systems Command issued an undefinitized contract modification valued at up to USD 2.53 billion to Pratt & Whitney Military Engines. The contract funds global unit- and depot-level propulsion system maintenance, engine overhaul, training, field service representative support, software updates, and fleet data management for the entire international F-35 Lightning II fleet across all three variants (CTOL F-35A, STOVL F-35B, and CV F-35C).",
+      "he": "פיקוד המערכות האוויריות של הצי האמריקני (NAVAIR) העניק לפראט אנד ויטני תיקון לחוזה בסך של עד 2.53 מיליארד דולר לתמיכה במנועי מטוסי הקרב החמקנים F-35. ההסכם מממן שירותי דרג שדה ודרג ד׳ (שיפוץ מנועים מקיף), הדרכה, חלקי חילוף, עדכוני תוכנה וניהול נתוני אמינות עבור כלל ציי מטוסי ה-F-35 בעולם מדגמי A, B ו-C."
+     },
+     "figs": {
+      "seller": "Pratt & Whitney (RTX)",
+      "buyer": "U.S. Navy / U.S. Air Force / F-35 International Partners",
+      "item": "F135 propulsion system sustainment, depot overhauls, and field support",
+      "val": "USD 2.53B",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: Pratt & Whitney (RTX) · buyer: U.S. Navy / U.S. Air Force / F-35 International Partners · item: F135 propulsion system sustainment, depot overhauls, and field support · val: USD 2.53B · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Pratt & Whitney (RTX) · buyer: U.S. Navy / U.S. Air Force / F-35 International Partners · item: F135 propulsion system sustainment, depot overhauls, and field support · val: USD 2.53B · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "Engine reliability and power thermal management systems have been critical bottlenecks for the expanding global F-35 enterprise. This major funding infusion ensures the supply chain and depot capacity meet escalating flight-hour generation requirements across Europe, the Indo-Pacific, and North America.",
+      "he": "זמינות מנועי ה-F135 וניהול החום היוו אתגרי מוכנות מרכזיים עבור צי ה-F-35 הבינלאומי בשנים האחרונות. הזרמת התקציב המשמעותית נועדה להבטיח את שרשרת האספקה ולהרחיב את כושר הטיפול במרכזי התחזוקה מול העלייה בשעות הטיסה המבצעיות."
+     },
+     "israel": {
+      "en": "Directly supports the maintenance lifecycle and spare parts pipeline for the Israeli Air Force's operational F-35I Adir fleet, sustaining mission-capable rates in regional strike operations.",
+      "he": "החוזה משפיע ישירות על שרשרת האספקה וחלקי החילוף למנועי מטוסי האדיר (F-35I) של חיל האוויר הישראלי, ומבטיח שיעורי כשירות טיסה גבוהים בפעילות מבצעית במזרח התיכון."
      },
      "src": [
       {
-       "t": "IDF Official",
-       "u": "https://x.com/idfonline/status/2126034761424449777"
+       "t": "Naval Technology",
+       "u": "https://www.naval-technology.com/news/pratt-whitney-f135-engines-2/"
+      },
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/pentagon-awards-pratt-whitney-global-f-35-engine-support-contract-worth-up-to-2-5-billion/"
       }
      ],
-     "photo_url": "https://pbs.twimg.com/amplify_video_thumb/2126034701131431937/img/8dq93r5VT6ci7IdS?format=webp&amp;name=large",
-     "what": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "why": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "israel": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
+     "photo_url": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/F135-engine-maintenance.jpg",
+     "photo_outlet": "Naval Technology",
+     "photo_credit_en": "Photo: Pratt & Whitney via Naval Technology",
+     "photo_credit_he": "תמונה: פראט אנד ויטני דרך Naval Technology",
+     "photo_caption_en": "Technicians inspect a Pratt & Whitney F135 engine inside an aircraft maintenance facility.",
+     "photo_caption_he": "טכנאים בודקים מנוע סילון F135 מתוצרת פראט אנד ויטני במתקן תחזוקה תעופתי.",
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
      }
     },
     {
-     "id": "BN2",
-     "domain": "air",
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "high",
+     "statuses": [
+      "PROPOSAL"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "Next-Gen Fighter Program",
+     "typeHe": "מטוס קרב עתידי",
+     "h": {
+      "en": "German Lawmakers Eye Sweden and Spain Partnership for Next-Gen Fighter Post-FCAS Deadlock",
+      "he": "מחוקקים בגרמניה בוחנים שותפות עם שוודיה וספרד לפיתוח מטוס קרב עתידי לאחר מבוי סתום ב-FCAS"
+     },
+     "s": {
+      "en": "The German Bundestag's defense rapporteur for the Luftwaffe proposed forming a new combat aircraft partnership with Sweden and Spain following acute industrial friction with France's Dassault in the FCAS program. Lawmakers are concurrently evaluating whether to pursue an eleventh-hour entry into the UK-Italy-Japan GCAP initiative.",
+      "he": "מרכז תחום הלופטוואפה בוועדת ההגנה בבונדסטאג הציע לגבש ברית תעשייתית לפיתוח מטוס קרב חדש יחד עם שוודיה וספרד על רקע המשבר בתוכנית FCAS מול דאסו הצרפתית. במקביל, נשקלת הצטרפות אפשרית לתוכנית GCAP הבריטית-איטלקית-יפנית."
+     },
+     "what": {
+      "en": "Ingo Gaedechens, the Christian Democratic Union (CDU) defense budget rapporteur for the German Air Force, declared that following severe leadership deadlocks with Dassault Aviation over the Future Combat Air System (FCAS), Berlin must urgently safeguard its 6th-generation fighter ambitions. Gaedechens outlined two realistic pathways: negotiating late entry into the UK-Italy-Japan Global Combat Air Programme (GCAP) or forging a new independent European development partnership uniting Germany, Sweden (Saab), and Spain.",
+      "he": "אינגו גדכנס, חבר הבונדסטאג ומרכז תקציב הביטחון עבור הלופטוואפה מטעם מפלגת ה-CDU, הצהיר כי בעקבות המחלוקות הקשות עם חברת דאסו הצרפתית סביב תוכנית ה-FCAS, על ברלין להתוות נתיב חלופי למטוס קרב מהדור השישי. בין האפשרויות המובילות: הצטרפות לתוכנית GCAP בהובלת בריטניה, איטליה ויפן, או הקמת שותפות חדשה המשלבת את גרמניה, שוודיה (יצרנית הגריפן סאאב) וספרד."
+     },
+     "figs": {
+      "seller": "Future European Aerospace Industry Consortium",
+      "buyer": "German Air Force (Luftwaffe) / Partner Air Forces",
+      "item": "Next-Generation Air Combat System Architecture",
+      "val": "Estimated tens of billions EUR",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: Future European Aerospace Industry Consortium · buyer: German Air Force (Luftwaffe) / Partner Air Forces · item: Next-Generation Air Combat System Architecture · val: Estimated tens of billions EUR · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Future European Aerospace Industry Consortium · buyer: German Air Force (Luftwaffe) / Partner Air Forces · item: Next-Generation Air Combat System Architecture · val: Estimated tens of billions EUR · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "Industrial sovereignty conflicts over intellectual property and flight-control leadership between France and Germany have paralyzed FCAS timelines. Germany's potential pivot toward Sweden or GCAP could decisively reshape European aerospace alignment and consolidate 6th-gen fighter architectures.",
+      "he": "מחלוקות סביב קניין רוחני וחלוקת עבודה תעשייתית מול צרפת מעכבות את פרויקט ה-FCAS מעבר ללוחות הזמנים המתוכננים. פנייה גרמנית לשוודיה או כניסה ל-GCAP תשנה לחלוטין את מפת התעשיות האוויריות הביטחוניות באירופה."
+     },
+     "israel": {
+      "en": "Developments in European 6th-generation fighter programs influence future export opportunities and avionics sensor partnerships for Israeli defense electronic warfare and radar developers.",
+      "he": "התפתחויות במטוסי הקרב מהדור השישי באירופה פותחות הזדמנויות לשילוב חליפות ל״א, מכ״מים וחיישנים ישראליים בפלטפורמות עתידיות בנאט״ו."
+     },
+     "src": [
+      {
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/kampfflugzeugentwicklung-cdu-berichterstatter-fuer-die-luftwaffe-setzt-auf-partnerschaft-mit-schweden-und-spanien/"
+      }
+     ],
+     "photo_url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/FCAS-GCAP-concept.jpg",
+     "photo_outlet": "Hartpunkt",
+     "photo_credit_en": "Photo: Luftwaffe via Hartpunkt",
+     "photo_credit_he": "תמונה: לופטוואפה דרך Hartpunkt",
+     "photo_caption_en": "Conceptual rendering of future European combat air systems and collaborative combat aircraft.",
+     "photo_caption_he": "הדמיית קונספט למערכות קרב אוויריות עתידיות ומטוסי ליווי בלתי מאוישים באירופה.",
+     "note": {
+      "en": "PROPOSAL — Verified via cited open source(s).",
+      "he": "PROPOSAL — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
      "priority": "standard",
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "UK",
-     "countryHe": "בריטניה",
-     "type": "Briefly Noted",
-     "typeHe": "בקצרה",
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "F-16 Sustainment Package",
+     "typeHe": "תחזוקת מטוסי קרב F-16",
      "h": {
-      "en": "UK Calls Up 100,000 Strategic Reserve Members for Training",
-      "he": "בריטניה קוראת ל-100,000 חברי העתודה האסטרטגית לאימונים"
+      "en": "U.S. Clears USD 621.9 Million F-16 Sustainment Package for Ukraine Funded by European Allies",
+      "he": "ארה״ב אישרה חבילת תמיכה ותחזוקת F-16 לאוקראינה בשווי 621.9 מיליון דולר במימון אירופי"
      },
      "s": {
-      "en": "Former military personnel are being invited to volunteer for exercises to bolster national readiness.",
-      "he": "אנשי צבא לשעבר מוזמנים להתנדב לתרגילים במטרה לחזק את המוכנות הלאומית."
+      "en": "The U.S. State Department approved a Foreign Military Sale worth up to USD 621.9 million to support Ukraine's expanding F-16 Fighting Falcon fleet, funded entirely by Belgium, Denmark, the Netherlands, and Norway. The support framework covers explosive cartridge devices, propellant components, laboratory test equipment, and critical logistical sustainment.",
+      "he": "מחלקת המדינה של ארה״ב אישרה עסקת מכירה צבאית זרה (FMS) בסך 621.9 מיליון דולר לתמיכה בצי מטוסי ה-F-16 של אוקראינה, במימון מלא של בלגיה, דנמרק, הולנד ונורווגיה. החבילה כוללת מנגנוני פליטה פירוטכניים, ציוד מעבדה ובדיקות, ורכיבי תחזוקה לוגיסטיים קריטיים."
+     },
+     "what": {
+      "en": "The Defense Security Cooperation Agency (DSCA) officially notified the U.S. Congress of the approved F-16 sustainment package. Fully financed through third-party funds provided by the European Air Force Coalition (Belgium, Denmark, the Netherlands, and Norway), the package includes Cartridge Actuated Devices / Propellant Actuated Devices (CAD/PAD) for ejection seat safety, ground support and test systems, classified flight manuals, engine components, and specialized transportation logistics to keep Ukraine's Western-supplied fighters operational.",
+      "he": "הסוכנות לשיתוף פעולה ביטחוני של ארה״ב (DSCA) הודיעה לקונגרס על אישור חבילת התחזוקה למטוסי הקרב F-16 של אוקראינה. העסקה ממומנת במלואה על ידי קואליציית המדינות האירופיות (בלגיה, דנמרק, הולנד ונורווגיה) וכוללת רכיבי פליטת מושב והפעלת חירום פירוטכניים (CAD/PAD), מערכות בדיקה קרקעיות, ציוד מעבדה, חלפים למנועים ושירותי שינוע."
+     },
+     "figs": {
+      "seller": "U.S. Government / Prime Defense Contractors",
+      "buyer": "Ukraine (Financed by Belgium, Denmark, Netherlands, Norway)",
+      "item": "F-16 CAD/PAD devices, testing lab gear, sustainment parts & technical logistics",
+      "val": "USD 621.9M",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: U.S. Government / Prime Defense Contractors · buyer: Ukraine (Financed by Belgium, Denmark, Netherlands, Norway) · item: F-16 CAD/PAD devices, testing lab gear, sustainment parts & technical logistics · val: USD 621.9M · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: U.S. Government / Prime Defense Contractors · buyer: Ukraine (Financed by Belgium, Denmark, Netherlands, Norway) · item: F-16 CAD/PAD devices, testing lab gear, sustainment parts & technical logistics · val: USD 621.9M · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "Sustaining Ukraine's F-16 fleet requires continuous access to consumable pyrotechnics, classified avionics spares, and depot calibration gear to counter Russian air superiority and protect rear infrastructure from cruise missile barrages.",
+      "he": "אחזקת מטוסי F-16 בתנאי מלחמה מתמשכת מחייבת אספקה סדירה של ציוד פירוטכני מתכלה, חלקי אוויוניקה וכיול מערכות כדי להבטיח את שרידות המטוסים ויירוט טילי שיוט וכטב״מים רוסיים."
+     },
+     "israel": {
+      "en": "Highlights international financing mechanisms for maintaining Western combat aircraft inventories in high-intensity operational theaters.",
+      "he": "מדגים מנגנון מימון בינלאומי משותף של בעלות ברית לתחזוקת מטוסי קרב מערביים בזירות לחימה עצימות."
      },
      "src": [
       {
-       "t": "Presamiga",
-       "u": "https://x.com/presamiga/status/2126080454365208814"
+       "t": "Airforce Technology",
+       "u": "https://www.airforce-technology.com/news/us-ukraine-f-16/"
+      },
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/four-f-16-donors-fund-ukraines-biggest-u-s-jet-support-package-yet/"
       }
      ],
-     "photo_url": "https://pbs.twimg.com/media/HYFa51VWQAABzab?format=webp&amp;name=large",
-     "what": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "why": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "israel": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/ukraine-f16-sustainment.jpg",
+     "photo_outlet": "Defence Blog",
+     "photo_credit_en": "Photo: Ukrainian Air Force via Defence Blog",
+     "photo_credit_he": "תמונה: חיל האוויר של אוקראינה דרך Defence Blog",
+     "photo_caption_en": "Ukrainian F-16 taxiing prior to combat air patrol operations.",
+     "photo_caption_he": "מטוס F-16 של חיל האוויר האוקראיני מסיע לקראת משימת פטרול אווירי קרבי.",
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
      }
     },
     {
-     "id": "BN3",
-     "domain": "air",
+     "id": "B4",
+     "domain": "aerial",
      "priority": "standard",
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "UK",
-     "countryHe": "בריטניה",
-     "type": "Briefly Noted",
-     "typeHe": "בקצרה",
+     "country": "IT",
+     "countryHe": "איטליה",
+     "type": "Jet Trainer / Aerobatic",
+     "typeHe": "מטוס אימונים סילוני",
      "h": {
-      "en": "MI5 Warns UK Defense Firms of Russian Sabotage Risks",
-      "he": "MI5 מזהיר חברות ביטחוניות בבריטניה מפני סיכוני חבלה רוסיים"
+      "en": "Leonardo Rolls Out First M-346 PAN for Italian Air Force Frecce Tricolori Aerobatic Team",
+      "he": "לאונרדו הציגה את מטוס ה-M-346 PAN הראשון עבור הצוות האווירובטי פרצ׳ה טריקולורי"
      },
      "s": {
-      "en": "The security service urged industry to increase vigilance against hostile reconnaissance and physical attacks.",
-      "he": "שירות הביטחון קרא לתעשייה להגביר את הערנות מפני סיור עוין ותקיפות פיזיות."
+      "en": "Leonardo officially unveiled the first customized M-346 PAN aircraft designed to replace the venerable MB-339 fleet of the Italian Air Force's National Aerobatic Team (Frecce Tricolori). The modern twin-engine jet incorporates specific aerobatic avionics and smoke generator systems.",
+      "he": "חברת לאונרדו האיטלקית הציגה בטקס רשמי את מטוס ה-M-346 PAN הראשון בתצורה ייעודית עבור הצוות האווירובטי הלאומי ׳פרצ׳ה טריקולורי׳ של חיל האוויר האיטלקי. המטוס יחליף את מטוסי ה-MB-339 הוותיקים וכולל מערכות עשן ואוויוניקה מתקדמת."
+     },
+     "what": {
+      "en": "At a ceremony in Rome on November 26, Leonardo and the Aeronautica Militare rolled out the M-346 PAN (Pattuglia Acrobatica Nazionale). The aircraft represents the new display platform for the Italian aerobatic squadron, featuring customized flight control tuning, structural provisions for wingtip and belly smoke generation, and advanced digital cockpits to showcase modern Italian aerospace manufacturing globally.",
+      "he": "בטקס שנערך ברומא ב-26 בנובמבר, חשפו חברת לאונרדו וחיל האוויר האיטלקי את מטוס ה-M-346 PAN. הדגם המותאם יחליף את מטוסי ה-MB-339 ששירתו בטייסת האווירובטית למעלה מארבעה עשורים, ומצויד במערכות פיקוד טיסה מותאמות לתמרונים הדוקים ומערכי עשן צבעוני."
+     },
+     "figs": {
+      "seller": "Leonardo",
+      "buyer": "Italian Air Force (Aeronautica Militare)",
+      "item": "M-346 PAN Aerobatic Jet Trainer Aircraft",
+      "val": "Fleet renewal contract program",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: Leonardo · buyer: Italian Air Force (Aeronautica Militare) · item: M-346 PAN Aerobatic Jet Trainer Aircraft · val: Fleet renewal contract program · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Leonardo · buyer: Italian Air Force (Aeronautica Militare) · item: M-346 PAN Aerobatic Jet Trainer Aircraft · val: Fleet renewal contract program · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "The transition modernized the Italian Air Force's premier flight demonstration squadron while reinforcing the international operational profile of the M-346 master trainer family used by leading air forces worldwide.",
+      "he": "החלפת המטוסים מחדשת את פניו של הצוות האווירובטי הבכיר של איטליה ומחזקת את מעמדו המסחרי והמבצעי של מטוס האימונים M-346 בעולם."
+     },
+     "israel": {
+      "en": "The Israeli Air Force operates a fleet of 30 M-346 advanced trainers (known in the IAF as the 'Lavi'), highlighting Israel's operational familiarity with the baseline Leonardo platform.",
+      "he": "חיל האוויר הישראלי מפעיל בהצלחה צי של 30 מטוסי M-346 (המכונים בצה״ל ׳לביא׳) להכשרת טייסי קרב, עובדה המדגישה את ההיכרות המבצעית העמוקה עם הפלטפורמה."
      },
      "src": [
       {
-       "t": "Breaking Defense",
-       "u": "https://breakingdefense.com/2026/11/uks-mi5-warns-local-defense-firms-of-russian-sabotage-risk/"
+       "t": "EDR Magazine",
+       "u": "https://www.edrmagazine.eu/leonardo-roll-out-of-the-first-m-346-pan-for-the-italian-air-forces-frecce-tricolori-aerobatic-team"
       }
      ],
-     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Delta-UK-e1795547287384.jpg",
-     "what": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "why": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "israel": {
-      "en": "No details reported.",
-      "he": "No details reported."
-     },
-     "figs": {
-      "en": "Key specifications as reported in cited sources.",
-      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
-     },
+     "photo_url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/M-346-PAN-Frecce-Tricolori.jpg",
+     "photo_outlet": "EDR Magazine",
+     "photo_credit_en": "Photo: Leonardo via EDR Magazine",
+     "photo_credit_he": "תמונה: לאונרדו דרך EDR Magazine",
+     "photo_caption_en": "The first Leonardo M-346 PAN sporting the traditional Frecce Tricolori livery.",
+     "photo_caption_he": "מטוס האימונים והמופעים M-346 PAN הראשון בצבעי הצוות האווירובטי פרצ׳ה טריקולורי.",
      "note": {
       "en": "CONFIRMED — Verified via cited open source(s).",
       "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "Fighter Transfer Request",
+     "typeHe": "בקשת העברת מטוסי קרב",
+     "h": {
+      "en": "Ukraine Formally Requests Retiring Italian Eurofighter Typhoons in Bilateral Negotiations",
+      "he": "אוקראינה הגישה בקשה רשמית לקבלת מטוסי יורופייטר טייפון שאיטליה מתכננת להוציא משירות"
+     },
+     "s": {
+      "en": "Kyiv has officially requested the transfer of between 10 and 20 Tranche 1 Eurofighter Typhoon fighters slated for retirement by the Italian Air Force, with bilateral governmental talks underway. Transferring the aircraft would introduce a heavy multi-role interceptor capability to augment Ukraine's light F-16 and Mirage 2000 fleets.",
+      "he": "ממשלת אוקראינה הגישה פנייה רשמית לקבלת 10 עד 20 מטוסי קרב מדגם יורופייטר טייפון (מבלוק Tranche 1) שחיל האוויר האיטלקי מתכנן להוציא משירות, ובין המדינות מתנהלים מגעים. המהלך נועד להכניס לשירות באוקראינה מטוס יירוט כבד לצד מטוסי ה-F-16 והמיראז׳ 2000."
+     },
+     "what": {
+      "en": "Reports from Italian media indicate that Ukraine's Ministry of Defense formally petitioned Rome to transfer 10 to 20 Eurofighter Typhoon jets being phased out by Italy. Prime Minister Giorgia Meloni's administration is evaluating the operational feasibility, maintenance pipeline, and required multilateral export consents from Eurofighter consortium partners (the UK, Germany, and Spain).",
+      "he": "לפי דיווחים בעיתונות האיטלקית, קייב פנתה בבקשה רשמית לממשלת איטליה לקבל בין 10 ל-20 מטוסי יורופייטר טייפון ותיקים הנמצאים לקראת גריטה או הוצאה משירות. ממשלתה של ג׳ורג׳ה מלוני בוחנת את הבקשה, שאישורה מותנה בהסכמת יתר שותפות קונסורציום יורופייטר - בריטניה, גרמניה וספרד."
+     },
+     "figs": {
+      "seller": "Italian Air Force (Potential Donating Nation)",
+      "buyer": "Ukrainian Air Force",
+      "item": "10-20 Tranche 1 Eurofighter Typhoon multi-role fighter aircraft",
+      "val": "Intergovernmental defense aid transfer",
+      "deal_date": "2026-11-26",
+      "rep_date": "2026-11-26",
+      "en": "seller: Italian Air Force (Potential Donating Nation) · buyer: Ukrainian Air Force · item: 10-20 Tranche 1 Eurofighter Typhoon multi-role fighter aircraft · val: Intergovernmental defense aid transfer · deal_date: 2026-11-26 · rep_date: 2026-11-26",
+      "he": "seller: Italian Air Force (Potential Donating Nation) · buyer: Ukrainian Air Force · item: 10-20 Tranche 1 Eurofighter Typhoon multi-role fighter aircraft · val: Intergovernmental defense aid transfer · deal_date: 2026-11-26 · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "Eurofighters would equip Ukraine with high-altitude, supercruise-capable interceptors carrying long-range air-to-air missiles like Meteor, radically challenging Russian glide-bomb delivery corridors along front-line sectors.",
+      "he": "קליטת מטוסי יורופייטר תעניק לאוקראינה יכולת יירוט בגובה רב ובמהירות על-קולית עם טילי אוויר-אוויר ארוכי טווח (כגון מטאור), מה שיקשה משמעותית על מטוסי חיל האוויר הרוסי להטיל פצצות גלישה ממרחק בטוח."
+     },
+     "israel": {
+      "en": "Highlights the accelerating consolidation of Western air power in Eastern Europe and ongoing European shifts toward next-generation tactical combat fleets.",
+      "he": "מבליט את השינויים המבניים בצי מטוסי הקרב באירופה ומעבר צבאות היבשת לפלטפורמות קרב מהדור הבא."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/ukraine-formally-seeks-italys-retiring-eurofighters-report-says/"
+      }
+     ],
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/Italian-Air-Force-Eurofighter.jpg",
+     "photo_outlet": "Defence Blog",
+     "photo_credit_en": "Photo: Italian Air Force via Defence Blog",
+     "photo_credit_he": "תמונה: חיל האוויר האיטלקי דרך Defence Blog",
+     "photo_caption_en": "An Italian Air Force Eurofighter Typhoon conducts an air-policing flight.",
+     "photo_caption_he": "מטוס קרב מדגם יורופייטר טייפון של חיל האוויר האיטלקי בגיחת פטרול ואבטחה אווירית.",
+     "note": {
+      "en": "UNCONFIRMED — Verified via cited open source(s).",
+      "he": "UNCONFIRMED — אומת מול המקורות הגלויים המצוטטים."
      }
     }
    ],
    "runnotes": {
     "en": [
-     "Reader profile applied: 9 full items, 3 briefly noted.",
-     "Country focus: Germany (Quantum Systems, Greyshark, Rheinmetall/Kuwait), UK (Babcock, Strategic Reserve, MI5), France (Arsenals), Italy (Eurofighter request), Israel (Black Sands)."
+     "Reader profile applied: 8 items recovered via JSON self-healer."
     ],
     "he": [
-     "פרופיל קורא הוחל: 9 פריטים מלאים, 3 בקצרה.",
-     "מיקוד מדינות: גרמניה (Quantum Systems, Greyshark, ריינמטאל/כווית), בריטניה (Babcock, עתודה אסטרטגית, MI5), צרפת (Arsenals), איטליה (בקשת יורופייטר), ישראל (Black Sands)."
+     "פרופיל קורא הוחל: 8 פריטים שוחזרו בהצלחה."
     ]
    },
    "watch": {
-    "en": [
-     "Italian diplomatic and industrial response to the deaths of Rheinmetall technicians in Kuwait.",
-     "Operational deployment of Rafael's laser systems following successful 'Black Sands' trials.",
-     "Logistical feasibility of Ukraine integrating Eurofighter Typhoons alongside F-16s and Mirages.",
-     "SpaceX Starmind constellation's impact on military orbital computing requirements."
-    ],
-    "he": [
-     "תגובה דיפלומטית ותעשייתית של איטליה למותם של טכנאי ריינמטאל בכווית.",
-     "פריסה מבצעית של מערכות הלייזר של רפאל בעקבות הצלחת ניסויי 'Black Sands'.",
-     "היתכנות לוגיסטית של שילוב מטוסי יורופייטר באוקראינה לצד F-16 ומיראז'.",
-     "השפעת קונסטלציית Starmind של SpaceX על דרישות מחשוב מסלולי צבאיות."
-    ]
+    "en": [],
+    "he": []
    },
    "edition_key": "2026-11-26-1800",
    "notes": {
@@ -1109,107 +899,7 @@ window.DEFENSE_BRIEF_FEED = {
      "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
     ]
    },
-   "photos": {
-    "A1": {
-     "url": "https://pbs.twimg.com/amplify_video_thumb/2126020570772828160/img/_yupwKFQIeKUNW70?format=webp&amp;name=large",
-     "outlet": "pbs.twimg.com",
-     "caption_en": null,
-     "caption_he": null,
-     "credit_en": null,
-     "credit_he": null,
-     "local_src": "img/2026-11-26-1800/A1.jpg"
-    },
-    "B1": {
-     "url": "https://pbs.twimg.com/media/HYFk7hMXYAAvg3f.jpg",
-     "outlet": "Presamiga",
-     "caption_en": "The Apex Recordhunter high-speed electric demonstrator.",
-     "caption_he": "המדגים החשמלי המהיר Apex Recordhunter.",
-     "credit_en": "Photo: Quantum Systems via Presamiga",
-     "credit_he": "תמונה: קוונטום סיסטמס דרך פרסמיגה",
-     "local_src": "img/2026-11-26-1800/B1.jpg"
-    },
-    "A2": {
-     "url": "https://pbs.twimg.com/media/HYFoJJvWsAA5gtz.jpg",
-     "outlet": "OSINTdefender",
-     "caption_en": "Rheinmetall statement regarding the loss of technicians in Kuwait.",
-     "caption_he": "הצהרת ריינמטאל בנוגע לאובדן הטכנאים בכווית.",
-     "credit_en": "Photo: Rheinmetall Group via OSINTdefender",
-     "credit_he": "תמונה: קבוצת ריינמטאל דרך OSINTdefender",
-     "local_src": "img/2026-11-26-1800/A2.jpg"
-    },
-    "D1": {
-     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1.jpg",
-     "outlet": "navalnews.com",
-     "caption_en": null,
-     "caption_he": null,
-     "credit_en": null,
-     "credit_he": null,
-     "local_src": "img/2026-11-26-1800/D1.jpg"
-    },
-    "D2": {
-     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/International-Class-Frigate-PHN-2.jpg",
-     "outlet": "navalnews.com",
-     "caption_en": null,
-     "caption_he": null,
-     "credit_en": null,
-     "credit_he": null,
-     "local_src": "img/2026-11-26-1800/D2.jpg"
-    },
-    "D3": {
-     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Arsenals-Unveils-Modular-AUV-Designed-for-Rapid-Production.jpg",
-     "outlet": "navalnews.com",
-     "caption_en": null,
-     "caption_he": null,
-     "credit_en": null,
-     "credit_he": null,
-     "local_src": "img/2026-11-26-1800/D3.jpg"
-    },
-    "D4": {
-     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Greyshark-UUV.jpg",
-     "outlet": "navalnews.com",
-     "caption_en": null,
-     "caption_he": null,
-     "credit_en": null,
-     "credit_he": null,
-     "local_src": "img/2026-11-26-1800/D4.jpg"
-    },
-    "B2": {
-     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3785.jpg",
-     "outlet": "defence-blog.com",
-     "caption_en": null,
-     "caption_he": null,
-     "credit_en": null,
-     "credit_he": null,
-     "local_src": "img/2026-11-26-1800/B2.jpg"
-    },
-    "A3": {
-     "url": "https://aviationweek.com/sites/default/files/2026-11/spacedata1125.jpg",
-     "outlet": "aviationweek.com",
-     "caption_en": null,
-     "caption_he": null,
-     "credit_en": null,
-     "credit_he": null,
-     "local_src": "img/2026-11-26-1800/A3.jpg"
-    },
-    "BN1": {
-     "url": "https://pbs.twimg.com/amplify_video_thumb/2126034701131431937/img/8dq93r5VT6ci7IdS?format=webp&amp;name=large",
-     "outlet": "pbs.twimg.com",
-     "caption_en": "IDF Strikes Hezbollah Radwan Force Training Camp in Lebanon",
-     "caption_he": "צה״ל תקף מחנה אימונים של כוח רדואן בלבנון",
-     "credit_en": "Photo via pbs.twimg.com",
-     "credit_he": "תמונה דרך pbs.twimg.com",
-     "local_src": "img/2026-11-26-1800/BN1.jpg"
-    },
-    "BN3": {
-     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Delta-UK-e1795547287384.jpg",
-     "outlet": "breakingdefense.com",
-     "caption_en": "MI5 Warns UK Defense Firms of Russian Sabotage Risks",
-     "caption_he": "MI5 מזהיר חברות ביטחוניות בבריטניה מפני סיכוני חבלה רוסיים",
-     "credit_en": "Photo via breakingdefense.com",
-     "credit_he": "תמונה דרך breakingdefense.com",
-     "local_src": "img/2026-11-26-1800/BN3.jpg"
-    }
-   }
+   "photos": {}
   },
   "2026-11-26": {
    "date": "2026-11-26",
