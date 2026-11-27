@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-26-evening",
+ "updated_at": "2026-11-27-0500",
  "dates": [
+  "2026-11-27-0500",
   "2026-11-26-evening",
   "2026-11-26",
   "2026-11-26-1130",
@@ -62,6 +63,598 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-27-0500": {
+   "date": "2026-11-27",
+   "slot": "0500",
+   "wstart": "2026-11-26T09:32:00Z",
+   "wend": "2026-11-27T01:43:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "The US Air Force awarded Boeing USD 2.8 billion for the final fixed-price batch of KC-46A tankers, bringing the total under contract to 203.",
+      "The UK Ministry of Defence signed a record GBP 8.7 billion 'Gateway Agreement' with Babcock for long-term submarine fleet support.",
+      "Ukraine has formally requested 10 to 20 retiring Eurofighter Typhoon jets from Italy to augment its growing Western-made fighter fleet.",
+      "A large-scale Ukrainian drone raid targeted the St. Petersburg and Leningrad regions, marking a significant expansion of long-range strikes."
+     ],
+     "he": [
+      "חיל האוויר האמריקאי העניק לבואינג חוזה בסך 2.8 מיליארד דולר עבור המנה האחרונה של מטוסי התדלוק KC-46A, מה שמביא את סך המטוסים בחוזה ל-203.",
+      "משרד ההגנה הבריטי חתם על ״הסכם שער״ (Gateway Agreement) שובר שיאים בסך 8.7 מיליארד פאונד עם חברת בבקוק לתמיכה ארוכת טווח בצי הצוללות.",
+      "אוקראינה הגישה בקשה רשמית לאיטליה לקבלת 10 עד 20 מטוסי יורופייטר טייפון שיוצאים משירות, במטרה לעבות את צי מטוסי הקרב המערביים שלה.",
+      "פשיטת כטב״מים אוקראינית נרחבת כוונה לעבר אזור סנט פטרסבורג ומחוז לנינגרד, מה שמסמן התרחבות משמעותית של התקיפות לטווח ארוך."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "CONFLICT"
+     ],
+     "country": "RU",
+     "countryHe": "רוסיה",
+     "type": "C-UAS/Strike",
+     "typeHe": "לוחמה בכטב״ם/תקיפה",
+     "h": {
+      "en": "Large-Scale Ukrainian Drone Attack Targets St. Petersburg and Leningrad Region",
+      "he": "מתקפת כטב״מים אוקראינית נרחבת לעבר סנט פטרסבורג ומחוז לנינגרד"
+     },
+     "s": {
+      "en": "Ukrainian long-range attack drones targeted vital infrastructure in the Leningrad region and St. Petersburg overnight. Local reports confirmed air raid alerts and explosions as Russian air defenses attempted to intercept the wave.",
+      "he": "כטב״מי תקיפה אוקראיניים לטווח ארוך כוונו לעבר תשתיות חיוניות במחוז לנינגרד ובסנט פטרסבורג במהלך הלילה. דיווחים מקומיים אישרו הפעלת התרעות ופיצוצים בעוד מערכות ההגנה האווירית הרוסיות ניסו ליירט את הגל."
+     },
+     "what": {
+      "en": "A major drone raid was launched into western Russia, with multiple drones detected heading toward targets in the Leningrad region. This follows a pattern of increasing Ukrainian pressure on Russian logistics and energy hubs far from the front lines. Explosions were reported near St. Petersburg, though official damage assessments are pending.",
+      "he": "פשיטת כטב״מים גדולה שוגרה לעבר מערב רוסיה, כאשר מספר כטב״מים זוהו בדרכם ליעדים במחוז לנינגרד. זאת בהמשך לדפוס של לחץ אוקראיני גובר על מרכזים לוגיסטיים ואנרגיה רוסיים הרחק מקווי החזית. פיצוצים דווחו ליד סנט פטרסבורג, אם כי הערכות נזק רשמיות טרם פורסמו."
+     },
+     "figs": {
+      "item": "Attack Drones",
+      "rep_date": "2026-11-27",
+      "en": "item: Attack Drones · rep_date: 2026-11-27",
+      "he": "item: Attack Drones · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The strike demonstrates Ukraine's sustained capability to penetrate deep into Russian airspace despite sophisticated air defense networks, forcing Russia to reallocate assets to protect domestic industrial centers.",
+      "he": "התקיפה מדגימה את היכולת המתמשכת של אוקראינה לחדור עמוק למרחב האווירי הרוסי למרות רשתות הגנה אווירית מתוחכמות, מה שמאלץ את רוסיה להקצות מחדש אמצעים להגנה על מרכזים תעשייתיים פנימיים."
+     },
+     "israel": {
+      "en": "The use of low-cost, long-range attrition drones is a primary threat vector also faced by Israel from Iranian-backed proxies, making these operational outcomes highly relevant for IDF/MAFAT analysis.",
+      "he": "השימוש בכטב״מי שחיקה זולים לטווח ארוך הוא וקטור איום מרכזי שאיתו מתמודדת גם ישראל מצד שלוחיה של איראן, מה שהופך את התוצאות המבצעיות הללו לרלוונטיות מאוד לניתוח של צה״ל ומפא״ת."
+     },
+     "src": [
+      {
+       "t": "Sentdefender",
+       "u": "https://x.com/sentdefender/status/2126127931634208780"
+      },
+      {
+       "t": "Osinttechnical",
+       "u": "https://x.com/Osinttechnical/status/2126127465047453983"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/profile_images/1505052393750384642/XNFUztL2_400x400.jpg",
+     "note": {
+      "en": "CONFLICT — Verified via cited open source(s).",
+      "he": "CONFLICT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "UPDATE"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Defense Budget",
+     "typeHe": "תקציב ביטחון",
+     "h": {
+      "en": "White House Seeks Funding Exemptions for 'Golden Dome' Air Defense and New Battleship",
+      "he": "הבית הלבן מבקש החרגות תקציביות עבור תוכניות ״כיפת הזהב״ ואוניית המערכה החדשה"
+     },
+     "s": {
+      "en": "The Trump administration is requesting 'anomalies' in the next funding stopgap to protect priority programs like the Golden Dome C-UAS shield. The move aims to prevent delays in munitions ramp-ups and critical defense redesigns during budget uncertainty.",
+      "he": "ממשל טראמפ מבקש ״החרגות״ (anomalies) בהסדר המימון הזמני הבא כדי להגן על תוכניות בעלות עדיפות גבוהה כמו מגן ״כיפת הזהב״ (Golden Dome) נגד כטב״מים. המהלך נועד למנוע עיכובים בהצטיידות בחימוש ובתכנון מחדש של מערכות הגנה קריטיות."
+     },
+     "what": {
+      "en": "The Pentagon is seeking exemptions from a long-term Continuing Resolution (CR) to ensure that the 'Golden Dome' national air defense initiative and the proposed 'Trump Battleship' remain on schedule. Without these anomalies, the ramp-up of key munitions production could face significant turmoil.",
+      "he": "הפנטגון מבקש החרגות מהחלטת מימון מתמשכת (CR) לטווח ארוך כדי להבטיח שיוזמת ההגנה האווירית הלאומית ״כיפת הזהב״ והצעה ל״אוניית המערכה של טראמפ״ יישארו בלוח הזמנים. ללא החרגות אלו, הגברת הייצור של חימושים מרכזיים עלולה להתמודד עם שיבושים משמעותיים."
+     },
+     "figs": {
+      "item": "Golden Dome C-UAS",
+      "rep_date": "2026-11-25",
+      "en": "item: Golden Dome C-UAS · rep_date: 2026-11-25",
+      "he": "item: Golden Dome C-UAS · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "This highlights the administration's focus on rapid C-UAS deployment and naval power projection as core pillars of its defense strategy, even amidst legislative budget gridlock.",
+      "he": "הדבר מדגיש את התמקדות הממשל בפריסה מהירה של מערכות נגד כטב״מים ובהקרנת עוצמה ימית כעמודי תווך של אסטרטגיית ההגנה שלו, גם בצל מבוי סתום תקציבי בבית המחוקקים."
+     },
+     "israel": {
+      "en": "The 'Golden Dome' concept is heavily influenced by Israel's multi-layered air defense architecture; its funding status directly impacts U.S.-Israel industrial cooperation on interceptor production.",
+      "he": "מושג ״כיפת הזהב״ מושפע רבות מארכיטקטורת ההגנה האווירית הרב-שכבתית של ישראל; מצבו התקציבי משפיע ישירות על שיתוף הפעולה התעשייתי בין ארה״ב לישראל בייצור מיירטים."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/white-house-seeks-funding-exemptions-for-golden-dome-trump-battleship-in-next-funding-stopgap/"
+      }
+     ],
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/12/251222_trump_battleship_announcement_GettyImages-2253189162-e1776806446429.jpg",
+     "note": {
+      "en": "UPDATE — Verified via cited open source(s).",
+      "he": "UPDATE — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Aerial Platforms",
+     "typeHe": "פלטפורמות אוויריות",
+     "h": {
+      "en": "US Air Force Awards Boeing USD 2.8B for Final Fixed-Price KC-46 Batch",
+      "he": "חיל האוויר האמריקאי מעניק לבואינג חוזה בסך 2.8 מיליארד דולר עבור המנה האחרונה של מטוסי KC-46"
+     },
+     "s": {
+      "en": "Boeing received a USD 2.8 billion award for additional KC-46A Pegasus tankers, bringing the total number of aircraft under contract to 203. This marks the final production batch under the program's original fixed-price agreement.",
+      "he": "בואינג קיבלה חוזה בסך 2.8 מיליארד דולר עבור מטוסי תדלוק נוספים מסוג KC-46A Pegasus, מה שמביא את מספר המטוסים הכולל בחוזה ל-203. זהו סבב הייצור האחרון תחת הסכם המחיר הקבוע המקורי של התוכנית."
+     },
+     "what": {
+      "en": "The U.S. Air Force exercised options for the latest lot of KC-46A tankers. Despite past technical challenges and financial losses for Boeing under the fixed-price structure, the program is now stabilizing as the fleet expands to meet global refueling requirements.",
+      "he": "חיל האוויר האמריקאי מימש אופציות עבור המנה האחרונה של מטוסי התדלוק KC-46A. למרות אתגרים טכניים בעבר והפסדים כספיים לבואינג תחת מבנה המחיר הקבוע, התוכנית מתייצבת כעת בעוד הצי מתרחב כדי לענות על דרישות התדלוק העולמיות."
+     },
+     "figs": {
+      "seller": "Boeing",
+      "buyer": "US Air Force",
+      "item": "KC-46A Pegasus",
+      "val": "USD 2.8B",
+      "rep_date": "2026-11-25",
+      "en": "seller: Boeing · buyer: US Air Force · item: KC-46A Pegasus · val: USD 2.8B · rep_date: 2026-11-25",
+      "he": "seller: Boeing · buyer: US Air Force · item: KC-46A Pegasus · val: USD 2.8B · rep_date: 2026-11-25"
+     },
+     "why": {
+      "en": "Securing the final batch of the original contract allows the Air Force to transition toward future tanker requirements (NGAS) while maintaining a modern backbone for long-range power projection.",
+      "he": "הבטחת המנה האחרונה של החוזה המקורי מאפשרת לחיל האוויר לעבור לדרישות התדלוק העתידיות (NGAS) תוך שמירה על עמוד שדרה מודרני להקרנת עוצמה לטווח ארוך."
+     },
+     "israel": {
+      "en": "Israel has ordered four KC-46A aircraft to replace its aging Re'em (Boeing 707) fleet; the stability of the U.S. production line is critical for the IAF's long-range strike capabilities.",
+      "he": "ישראל הזמינה ארבעה מטוסי KC-46A כדי להחליף את צי מטוסי ה״ראם״ (בואינג 707) המתיישן שלה; יציבות קו הייצור האמריקאי קריטית ליכולות התקיפה לטווח ארוך של חיל האוויר."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/air-force-issues-boeing-2-8-billion-for-more-kc-46s/"
+      }
+     ],
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/6990563-scaled-e1741031493269.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "UPDATE"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "Fighter Jets",
+     "typeHe": "מטוסי קרב",
+     "h": {
+      "en": "Ukraine Formally Requests 10-20 Retiring Eurofighter Jets from Italy",
+      "he": "אוקראינה מבקשת רשמית מאיטליה 10 עד 20 מטוסי יורופייטר שיוצאים משירות"
+     },
+     "s": {
+      "en": "Kyiv has officially approached the Italian government for a transfer of 10 to 20 Eurofighter Typhoon jets that Italy is currently retiring. This follows Ukraine's integration of F-16s and Mirage 2000s.",
+      "he": "קייב פנתה רשמית לממשלת איטליה בבקשה להעברת 10 עד 20 מטוסי יורופייטר טייפון שאיטליה מוציאה כעת משירות. זאת בהמשך לקליטת מטוסי ה-F-16 והמיראז׳ 2000 באוקראינה."
+     },
+     "what": {
+      "en": "According to Italian reports, Ukraine is seeking to diversify its air force with the Eurofighter to enhance its air defense and strike capabilities. Italy is in the process of phasing out older Tranche 1 Eurofighters, which could serve as a significant boost to Ukraine's multi-role fleet.",
+      "he": "לפי דיווחים באיטליה, אוקראינה מבקשת לגוון את חיל האוויר שלה עם היורופייטר כדי לשפר את יכולות ההגנה האווירית והתקיפה שלה. איטליה נמצאת בתהליך של הוצאה מהשירות של מטוסי יורופייטר ישנים מסוג Tranche 1, שיכולים להוות תוספת משמעותית לצי הרב-משימתי של אוקראינה."
+     },
+     "figs": {
+      "item": "Eurofighter Typhoon",
+      "val": "10-20 units",
+      "rep_date": "2026-11-26",
+      "en": "item: Eurofighter Typhoon · val: 10-20 units · rep_date: 2026-11-26",
+      "he": "item: Eurofighter Typhoon · val: 10-20 units · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "The addition of the Eurofighter would provide Ukraine with a high-performance interceptor capable of carrying advanced European munitions, further standardizing its force with NATO-compatible platforms.",
+      "he": "הוספת היורופייטר תספק לאוקראינה מיירט בעל ביצועים גבוהים המסוגל לשאת חימוש אירופי מתקדם, ותתרום לסטנדרטיזציה של כוחותיה עם פלטפורמות תואמות נאט״ו."
+     },
+     "israel": {
+      "en": "The transfer of advanced European fighters to the Ukrainian theater is monitored by Israel for its impact on global defense supply chains and regional air superiority precedents.",
+      "he": "העברת מטוסי קרב אירופיים מתקדמים לזירה האוקראינית מנוטרת על ידי ישראל בשל השפעתה על שרשראות האספקה הביטחוניות העולמיות ותקדימים של עליונות אווירית אזורית."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/ukraine-formally-seeks-italys-retiring-eurofighters-report-says/"
+      }
+     ],
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3785.jpg",
+     "note": {
+      "en": "UPDATE — Verified via cited open source(s).",
+      "he": "UPDATE — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Space Systems",
+     "typeHe": "מערכות חלל",
+     "h": {
+      "en": "FCC Authorizes SpaceX to Launch 1 Million Satellites for 'Starmind' Constellation",
+      "he": "ה-FCC מאשר לספייס-אקס לשגר מיליון לוויינים עבור קונסטלציית ״סטארמיינד״"
+     },
+     "s": {
+      "en": "The FCC has granted SpaceX authorization to launch up to 1 million satellites through 2040. This paves the way for the 'Starmind' constellation, designed to function as orbital data centers.",
+      "he": "ה-FCC העניק לספייס-אקס אישור לשגר עד מיליון לוויינים עד שנת 2040. המהלך סולל את הדרך לקונסטלציית ״סטארמיינד״ (Starmind), שנועדה לתפקד כמרכזי נתונים מסלוליים."
+     },
+     "what": {
+      "en": "SpaceX is expanding beyond traditional internet connectivity into orbital computing. The Starmind network will provide low-latency data processing in space, potentially serving both commercial and government/military users requiring secure, distributed cloud infrastructure.",
+      "he": "ספייס-אקס מתרחבת מעבר לקישוריות אינטרנט מסורתית למחשוב מסלולי. רשת סטארמיינד תספק עיבוד נתונים בשיהוי נמוך בחלל, ועשויה לשרת משתמשים מסחריים וממשלתיים/צבאיים הזקוקים לתשתית ענן מאובטחת ומבוזרת."
+     },
+     "figs": {
+      "item": "Satellites",
+      "val": "1,000,000 units",
+      "deal_date": "2026-11-26",
+      "en": "item: Satellites · val: 1,000,000 units · deal_date: 2026-11-26",
+      "he": "item: Satellites · val: 1,000,000 units · deal_date: 2026-11-26"
+     },
+     "why": {
+      "en": "Orbital data centers represent a paradigm shift in resilient communications and edge computing, reducing reliance on vulnerable terrestrial fiber networks for high-stakes military data.",
+      "he": "מרכזי נתונים מסלוליים מייצגים שינוי פרדיגמה בתקשורת עמידה ובמחשוב קצה, תוך הפחתת התלות ברשתות סיבים קרקעיות פגיעות עבור נתונים צבאיים רגישים."
+     },
+     "israel": {
+      "en": "Israel's defense establishment increasingly relies on satellite-based data; the emergence of orbital cloud services offers new opportunities for IDF intelligence processing and resilient C2.",
+      "he": "מערכת הביטחון הישראלית נשענת יותר ויותר על נתונים מבוססי לוויין; הופעת שירותי ענן מסלוליים מציעה הזדמנויות חדשות לעיבוד מודיעין של צה״ל ולפיקוד ושליטה עמידים."
+     },
+     "src": [
+      {
+       "t": "Aviation Week",
+       "u": "https://aviationweek.com/space/commercial-space/fcc-greenlights-spacex-plan-orbital-data-centers"
+      }
+     ],
+     "photo_url": "https://aviationweek.com/sites/default/files/2026-11/spacedata1125.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UK",
+     "countryHe": "בריטניה",
+     "type": "Naval Warfare",
+     "typeHe": "לוחמה ימית",
+     "h": {
+      "en": "UK MoD Signs Record GBP 8.7B Gateway Agreement with Babcock for Submarine Support",
+      "he": "משרד ההגנה הבריטי חותם על ״הסכם שער״ שובר שיאים בסך 8.7 מיליארד פאונד עם בבקוק"
+     },
+     "s": {
+      "en": "Babcock has secured a massive GBP 8.7 billion contract to provide long-term support for the UK's submarine fleet. The 'Gateway Agreement' succeeds the Future Maritime Support Programme.",
+      "he": "חברת בבקוק הבטיחה חוזה ענק בסך 8.7 מיליארד פאונד למתן תמיכה ארוכת טווח לצי הצוללות הבריטי. ״הסכם השער״ (Gateway Agreement) מחליף את תוכנית התמיכה הימית העתידית."
+     },
+     "what": {
+      "en": "The agreement covers the maintenance, repair, and overhaul of the Royal Navy's nuclear-powered submarine fleet. It is designed to ensure high availability and operational readiness for the UK's continuous at-sea deterrent and attack submarine capabilities.",
+      "he": "ההסכם מכסה את התחזוקה, התיקון והשיפוץ של צי הצוללות המונעות בגרעין של הצי המלכותי. הוא נועד להבטיח זמינות גבוהה ומוכנות מבצעית ליכולות ההרתעה והתקיפה של בריטניה בים."
+     },
+     "figs": {
+      "seller": "Babcock",
+      "buyer": "UK MoD",
+      "item": "Submarine Support Services",
+      "val": "GBP 8.7B",
+      "rep_date": "2026-11-26",
+      "en": "seller: Babcock · buyer: UK MoD · item: Submarine Support Services · val: GBP 8.7B · rep_date: 2026-11-26",
+      "he": "seller: Babcock · buyer: UK MoD · item: Submarine Support Services · val: GBP 8.7B · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "This record-breaking deal provides industrial certainty for the UK's naval defense sector and secures the critical infrastructure needed to sustain the submarine fleet for the next decade.",
+      "he": "עסקה שוברת שיאים זו מספקת ודאות תעשייתית למגזר ההגנה הימית של בריטניה ומבטיחה את התשתית הקריטית הדרושה לקיום צי הצוללות בעשור הקרוב."
+     },
+     "israel": {
+      "en": "Strategic naval maintenance frameworks are of high interest to the Israeli Navy as it manages the lifecycle of its Dolphin-II class and prepares for the future Dakar-class submarines.",
+      "he": "מסגרות תחזוקה ימיות אסטרטגיות מעוררות עניין רב בחיל הים הישראלי, המנהל את מחזור החיים של צוללות ה״דולפין 2״ ומתכונן לצוללות ה״דקר״ העתידיות."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/uk-mod-awards-babcock-record-8-7b-gateway-submarine-support-deal/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "Unmanned Systems",
+     "typeHe": "מערכות בלתי מאוישות",
+     "h": {
+      "en": "Euroatlas and EvoLogics Launch Series Production of Greyshark Bravo AUV",
+      "he": "יורואטלס ואבולוג׳יקס מתחילות בייצור סדרתי של הכטב״ם התת-ימי Greyshark Bravo"
+     },
+     "s": {
+      "en": "Euroatlas and EvoLogics have moved the battery-powered Greyshark Bravo autonomous underwater vehicle (AUV) into series production. First deliveries are scheduled for late 2026.",
+      "he": "החברות יורואטלס ואבולוג׳יקס העבירו את הכטב״ם התת-ימי האוטונומי (AUV) המונע בסוללות, Greyshark Bravo, לייצור סדרתי. משלוחים ראשונים מתוכננים לסוף 2026."
+     },
+     "what": {
+      "en": "Unveiled at Euronaval 2026, the Greyshark Bravo is a modular UUV designed for diverse maritime missions. The transition to series production indicates strong market demand for attritable, high-performance underwater drones.",
+      "he": "ה-Greyshark Bravo, שנחשף בתערוכת Euronaval 2026, הוא כטב״ם תת-ימי מודולרי המיועד למשימות ימיות מגוונות. המעבר לייצור סדרתי מעיד על ביקוש חזק בשוק לכטב״מים תת-ימיים זולים ובעלי ביצועים גבוהים."
+     },
+     "figs": {
+      "seller": "Euroatlas / EvoLogics",
+      "item": "Greyshark Bravo UUV",
+      "rep_date": "2026-11-26",
+      "en": "seller: Euroatlas / EvoLogics · item: Greyshark Bravo UUV · rep_date: 2026-11-26",
+      "he": "seller: Euroatlas / EvoLogics · item: Greyshark Bravo UUV · rep_date: 2026-11-26"
+     },
+     "why": {
+      "en": "The move toward series production of modular AUVs reflects the naval industry's shift toward autonomous, scalable, and cost-effective underwater surveillance and strike capabilities.",
+      "he": "המעבר לייצור סדרתי של כטב״מים תת-ימיים מודולריים משקף את המעבר של התעשייה הימית ליכולות מעקב ותקיפה תת-ימיות אוטונומיות, ניתנות להרחבה ומשתלמות כלכלית."
+     },
+     "israel": {
+      "en": "Israel is a global leader in AUV technology (e.g., Elbit's BlueWhale); the entry of European series-produced competitors like Greyshark is a key market development for Israeli firms.",
+      "he": "ישראל היא מובילה עולמית בטכנולוגיית כטב״מים תת-ימיים (למשל ה-BlueWhale של אלביט); כניסתם של מתחרים אירופיים בייצור סדרתי כמו ה-Greyshark היא התפתחות שוק מרכזית עבור חברות ישראליות."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-euroatlas-evologics-greyshark-uuv-series-production/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/Greyshark-UUV.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "tier": "brief",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Operational",
+     "typeHe": "מבצעי",
+     "h": {
+      "en": "Briefly noted: IDF strikes Hezbollah rocket launchers in Lebanon's Beqaa Valley",
+      "he": "בקצרה: צה״ל תקף משגרי רקטות של חיזבאללה בבקאע שבלבנון"
+     },
+     "s": {
+      "en": "The IDF confirmed airstrikes near Ayn al-Tina, targeting dozens of Hezbollah rockets and launchers at a Radwan Force training camp.",
+      "he": "צה״ל אישר תקיפות אוויריות ליד עין א-תינה, שכוונו לעשרות רקטות ומשגרים של חיזבאללה במחנה אימונים של כוח רדואן."
+     },
+     "src": [
+      {
+       "t": "IDF Official",
+       "u": "https://x.com/idfonline/status/2126034761424449777"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/amplify_video_thumb/2126034701131431937/img/8dq93r5VT6ci7IdS?format=webp&amp;name=large",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "israel": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D3",
+     "domain": "naval",
+     "tier": "brief",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "FR",
+     "countryHe": "צרפת",
+     "type": "Naval Exercise",
+     "typeHe": "תרגיל ימי",
+     "h": {
+      "en": "Briefly noted: French Navy conducts joint training with Philippine Coast Guard in Sulu Sea",
+      "he": "בקצרה: הצי הצרפתי ערך אימון משותף עם משמר החופים הפיליפיני בים סולו"
+     },
+     "s": {
+      "en": "The French Navy frigate BRP Diego Silang and Philippine patrol cutter BRP Sarangani conducted joint maneuvers to enhance regional maritime cooperation.",
+      "he": "הפריגטה של הצי הצרפתי BRP Diego Silang וספינת הסיור הפיליפינית BRP Sarangani ביצעו תמרונים משותפים לחיזוק שיתוף הפעולה הימי האזורי."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/french-navy-trains-with-philippine-coast-guard-ship-from-taiwan/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/BRP-Sarangani-scaled.webp",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "israel": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 7 full items, 2 briefly noted.",
+     "Country focus: Germany (D2), UK (D1), USA (A2, B1, B3), Ukraine (A1, B2), Italy (B2), France (D3)."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 7 פריטים מלאים, 2 בקצרה.",
+     "מיקוד מדינות: גרמניה (D2), בריטניה (D1), ארה״ב (A2, B1, B3), אוקראינה (A1, B2), איטליה (B2), צרפת (D3)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Italian government's formal response to Ukraine's Eurofighter request.",
+     "Implementation of the UK's GBP 8.7B submarine support framework under Babcock.",
+     "SpaceX's orbital data center deployment milestones for the Starmind constellation.",
+     "Impact of the Kerch Bridge and Sea of Azov blockade on Russian logistics in Crimea."
+    ],
+    "he": [
+     "תגובתה הרשמית של ממשלת איטליה לבקשת היורופייטר של אוקראינה.",
+     "יישום מסגרת התמיכה בצוללות של בריטניה בסך 8.7 מיליארד פאונד תחת בבקוק.",
+     "אבני דרך בפריסת מרכזי הנתונים המסלוליים של ספייס-אקס עבור קונסטלציית סטארמיינד.",
+     "השפעת המצור על גשר קרץ׳ וים אזוב על הלוגיסטיקה הרוסית בקרים."
+    ]
+   },
+   "edition_key": "2026-11-27-0500",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "A1": {
+     "url": "https://pbs.twimg.com/profile_images/1505052393750384642/XNFUztL2_400x400.jpg",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "Large-Scale Ukrainian Drone Attack Targets St. Petersburg and Leningrad Region",
+     "caption_he": "מתקפת כטב״מים אוקראינית נרחבת לעבר סנט פטרסבורג ומחוז לנינגרד",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-27-0500/A1.jpg"
+    },
+    "A2": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/12/251222_trump_battleship_announcement_GettyImages-2253189162-e1776806446429.jpg",
+     "outlet": "breakingdefense.com",
+     "caption_en": "White House Seeks Funding Exemptions for 'Golden Dome' Air Defense and New Battleship",
+     "caption_he": "הבית הלבן מבקש החרגות תקציביות עבור תוכניות ״כיפת הזהב״ ואוניית המערכה החדשה",
+     "credit_en": "Photo via breakingdefense.com",
+     "credit_he": "תמונה דרך breakingdefense.com",
+     "local_src": "img/2026-11-27-0500/A2.jpg"
+    },
+    "B1": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/6990563-scaled-e1741031493269.jpg",
+     "outlet": "breakingdefense.com",
+     "caption_en": "US Air Force Awards Boeing USD 2.8B for Final Fixed-Price KC-46 Batch",
+     "caption_he": "חיל האוויר האמריקאי מעניק לבואינג חוזה בסך 2.8 מיליארד דולר עבור המנה האחרונה של מטוסי KC-46",
+     "credit_en": "Photo via breakingdefense.com",
+     "credit_he": "תמונה דרך breakingdefense.com",
+     "local_src": "img/2026-11-27-0500/B1.jpg"
+    },
+    "B2": {
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3785.jpg",
+     "outlet": "defence-blog.com",
+     "caption_en": "Ukraine Formally Requests 10-20 Retiring Eurofighter Jets from Italy",
+     "caption_he": "אוקראינה מבקשת רשמית מאיטליה 10 עד 20 מטוסי יורופייטר שיוצאים משירות",
+     "credit_en": "Photo via defence-blog.com",
+     "credit_he": "תמונה דרך defence-blog.com",
+     "local_src": "img/2026-11-27-0500/B2.jpg"
+    },
+    "B3": {
+     "url": "https://aviationweek.com/sites/default/files/2026-11/spacedata1125.jpg",
+     "outlet": "aviationweek.com",
+     "caption_en": "FCC Authorizes SpaceX to Launch 1 Million Satellites for 'Starmind' Constellation",
+     "caption_he": "ה-FCC מאשר לספייס-אקס לשגר מיליון לוויינים עבור קונסטלציית ״סטארמיינד״",
+     "credit_en": "Photo via aviationweek.com",
+     "credit_he": "תמונה דרך aviationweek.com",
+     "local_src": "img/2026-11-27-0500/B3.jpg"
+    },
+    "D1": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/230025_05-1920x1040-1.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "UK MoD Signs Record GBP 8.7B Gateway Agreement with Babcock for Submarine Support",
+     "caption_he": "משרד ההגנה הבריטי חותם על ״הסכם שער״ שובר שיאים בסך 8.7 מיליארד פאונד עם בבקוק",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-27-0500/D1.jpg"
+    },
+    "D2": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Greyshark-UUV.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "Euroatlas and EvoLogics Launch Series Production of Greyshark Bravo AUV",
+     "caption_he": "יורואטלס ואבולוג׳יקס מתחילות בייצור סדרתי של הכטב״ם התת-ימי Greyshark Bravo",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-27-0500/D2.jpg"
+    },
+    "A3": {
+     "url": "https://pbs.twimg.com/amplify_video_thumb/2126034701131431937/img/8dq93r5VT6ci7IdS?format=webp&amp;name=large",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "Briefly noted: IDF strikes Hezbollah rocket launchers in Lebanon's Beqaa Valley",
+     "caption_he": "בקצרה: צה״ל תקף משגרי רקטות של חיזבאללה בבקאע שבלבנון",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-27-0500/A3.jpg"
+    },
+    "D3": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/BRP-Sarangani-scaled.webp",
+     "outlet": "navalnews.com",
+     "caption_en": "Briefly noted: French Navy conducts joint training with Philippine Coast Guard in Sulu Sea",
+     "caption_he": "בקצרה: הצי הצרפתי ערך אימון משותף עם משמר החופים הפיליפיני בים סולו",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-27-0500/D3.jpg"
+    }
+   }
+  },
   "2026-11-26-evening": {
    "date": "2026-11-26_evening",
    "doc_id": "2026-11-26-evening",
