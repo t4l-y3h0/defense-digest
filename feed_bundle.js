@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-27-1800",
+ "updated_at": "2026-11-27-2200",
  "dates": [
+  "2026-11-27-2200",
   "2026-11-27-1800",
   "2026-11-27",
   "2026-11-27-1130",
@@ -66,6 +67,472 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-27-2200": {
+   "date": "2026-11-27",
+   "slot": "2200",
+   "wstart": "2026-11-27T17:41:00Z",
+   "wend": "2026-11-27T17:47:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "Ukraine reports the first successful combat interception by its 'Blysk' air defense laser system.",
+      "India completes key trials for the Bhargavastra vehicle-mounted counter-swarm drone system.",
+      "Poland expands its 5th-generation fleet with the delivery of two additional F-35A Husarz fighters.",
+      "The U.S. approves a USD 621.9 million sustainment package for Ukraine's F-16 fleet, funded by European allies."
+     ],
+     "he": [
+      "אוקראינה מדווחת על יירוט מבצעי מוצלח ראשון של מערכת הלייזר להגנה אווירית ״בליסק״.",
+      "הודו השלימה ניסויים מרכזיים במערכת ״בהרגבסטרה״ המותקנת על רכב להגנה מפני נחילי כטב״מים.",
+      "פולין מרחיבה את צי הדור החמישי שלה עם קבלת שני מטוסי קרב נוספים מדגם F-35A ״הוסארז״.",
+      "ארה״ב אישרה חבילת תחזוקה בשווי 621.9 מיליון דולר לצי מטוסי ה-F-16 של אוקראינה, במימון בעלות ברית אירופיות."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "Directed Energy",
+     "typeHe": "נשק אנרגיה מכוונת",
+     "h": {
+      "en": "Ukraine's 'Blysk' Air Defense Laser Achieves First Combat Success",
+      "he": "הצלחה מבצעית ראשונה למערכת הלייזר להגנה אווירית ״בליסק״ של אוקראינה"
+     },
+     "s": {
+      "en": "Ukraine's domestic Blysk laser system successfully downed a Russian drone in its first combat engagement. The milestone was confirmed by presidential defense technology adviser Serhii 'Flash' Beskrestnov.",
+      "he": "מערכת הלייזר האוקראינית ״בליסק״ הפילה בהצלחה כטב״ם רוסי בעימות המבצעי הראשון שלה. ההישג אושר על ידי סרהי ׳פלאש׳ בסקרסטנוב, יועץ נשיאותי לטכנולוגיות הגנה."
+     },
+     "what": {
+      "en": "The Blysk (Flash) air defense laser system recorded its first successful interception of a Russian unmanned aerial vehicle. While technical specifications remain classified, the system is designed for short-range defense against low-cost loitering munitions and reconnaissance drones. This marks a significant step in Ukraine's effort to deploy cost-effective alternatives to expensive interceptor missiles.",
+      "he": "מערכת הלייזר להגנה אווירית ״בליסק״ (ברק) רשמה את היירוט המוצלח הראשון שלה נגד כלי טיס בלתי מאויש רוסי. בעוד שהמפרט הטכני נותר מסווג, המערכת תוכננה להגנה לטווח קצר מפני חימושים משוטטים זולים וכטב״מי איסוף. זהו צעד משמעותי במאמץ האוקראיני לפרוס חלופות חסכוניות לטילי יירוט יקרים."
+     },
+     "figs": {
+      "seller": "Ukrainian Industry",
+      "buyer": "Armed Forces of Ukraine",
+      "item": "Blysk Laser System",
+      "val": null,
+      "deal_date": null,
+      "rep_date": "2026-11-27",
+      "en": "seller: Ukrainian Industry · buyer: Armed Forces of Ukraine · item: Blysk Laser System · rep_date: 2026-11-27",
+      "he": "seller: Ukrainian Industry · buyer: Armed Forces of Ukraine · item: Blysk Laser System · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The successful combat use of a laser interceptor validates the shift toward directed energy weapons to counter the mass-production of cheap drones, reducing the 'cost-per-kill' ratio significantly.",
+      "he": "השימוש המבצעי המוצלח במיירט לייזר נותן תוקף למעבר לעבר נשק אנרגיה מכוונת כדי להתמודד עם ייצור המוני של כטב״מים זולים, תוך הפחתה משמעותית של יחס ״עלות מול הפלה״."
+     },
+     "israel": {
+      "en": "This development mirrors Israel's progress with the Rafael Iron Beam system, highlighting a global trend where Israel remains a primary pioneer in high-energy laser defense.",
+      "he": "פיתוח זה משקף את התקדמותה של ישראל עם מערכת ״מגן אור״ של רפאל, ומדגיש מגמה עולמית שבה ישראל נותרת חלוצה מרכזית בהגנת לייזר רבת-עוצמה."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/ukraine-reports-blysk-air-defence-laser-downed-a-russian-drone-in-its-first-combat-success/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2024/11/Blysk-laser.jpg",
+     "photo_outlet": "Defence Industry Europe",
+     "photo_credit_en": "Photo: via Defence Industry Europe",
+     "photo_credit_he": "תמונה: דרך Defence Industry Europe",
+     "photo_caption_en": "Ukraine's Blysk laser system is designed to counter small aerial threats.",
+     "photo_caption_he": "מערכת הלייזר האוקראינית ״בליסק״ נועדה להתמודד עם איומים אוויריים קטנים.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IN",
+     "countryHe": "הודו",
+     "type": "C-UAS",
+     "typeHe": "לוחמה בכטב״מים",
+     "h": {
+      "en": "India's Bhargavastra Counter-Swarm System Completes Key Trials",
+      "he": "מערכת ״בהרגבסטרה״ ההודית נגד נחילי כטב״מים השלימה ניסויים מרכזיים"
+     },
+     "s": {
+      "en": "Solar Defence and Aerospace Limited (SDAL) completed in-house trials of the Bhargavastra, a vehicle-mounted system designed to neutralize drone swarms, at the Pokhran ranges.",
+      "he": "חברת Solar Defence and Aerospace Limited (SDAL) השלימה ניסויים פנימיים במערכת ה״בהרגבסטרה״, מערכת המותקנת על רכב ונועדה לנטרל נחילי כטב״מים, בשטחי הניסוי בפוקראן."
+     },
+     "what": {
+      "en": "The Bhargavastra system utilizes a combination of electronic warfare and kinetic components to detect and engage multiple drone targets simultaneously. The recent trials at Pokhran focused on the system's ability to identify and track high-speed swarms in a desert environment. The system is intended for deployment along India's borders to counter cross-border drone incursions.",
+      "he": "מערכת ה״בהרגבסטרה״ משתמשת בשילוב של לוחמה אלקטרונית ורכיבים קינטיים כדי לזהות ולתקוף מספר מטרות כטב״ם בו-זמנית. הניסויים האחרונים בפוקראן התמקדו ביכולת המערכת לזהות ולעקוב אחר נחילים במהירות גבוהה בסביבה מדברית. המערכת מיועדת לפריסה לאורך גבולות הודו כדי לסכל חדירות כטב״מים חוצות גבול."
+     },
+     "figs": {
+      "seller": "Solar Defence and Aerospace Limited (SDAL)",
+      "buyer": "Indian Armed Forces (Potential)",
+      "item": "Bhargavastra C-UAS",
+      "val": null,
+      "deal_date": null,
+      "rep_date": "2026-11-27",
+      "en": "seller: Solar Defence and Aerospace Limited (SDAL) · buyer: Indian Armed Forces (Potential) · item: Bhargavastra C-UAS · rep_date: 2026-11-27",
+      "he": "seller: Solar Defence and Aerospace Limited (SDAL) · buyer: Indian Armed Forces (Potential) · item: Bhargavastra C-UAS · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "As swarm drone technology becomes more accessible, India is accelerating domestic development of integrated C-UAS solutions to protect critical infrastructure and border regions.",
+      "he": "ככל שטכנולוגיית נחילי הכטב״מים הופכת לנגישה יותר, הודו מאיצה את הפיתוח המקומי של פתרונות C-UAS משולבים להגנה על תשתיות קריטיות ואזורי גבול."
+     },
+     "israel": {
+      "en": "Indian defense firms frequently collaborate with Israeli companies like Elbit and IAI on C-UAS technology; the Bhargavastra represents India's growing 'Make in India' capability in this sector.",
+      "he": "חברות ביטחוניות הודיות משתפות פעולה לעיתים קרובות עם חברות ישראליות כמו אלביט ותע״א בטכנולוגיית C-UAS; ה״בהרגבסטרה״ מייצגת את היכולת הגוברת של הודו בייצור מקומי במגזר זה."
+     },
+     "src": [
+      {
+       "t": "Army Technology",
+       "u": "https://www.army-technology.com/news/india-bhagavastra-counter-dronetrial/"
+      }
+     ],
+     "photo_url": "https://www.army-technology.com/wp-content/uploads/sites/3/2024/11/India-drone.jpg",
+     "photo_outlet": "Army Technology",
+     "photo_credit_en": "Photo: SDAL via Army Technology",
+     "photo_credit_he": "תמונה: SDAL דרך Army Technology",
+     "photo_caption_en": "The Bhargavastra system mounted on a high-mobility vehicle during trials.",
+     "photo_caption_he": "מערכת ה״בהרגבסטרה״ מותקנת על רכב בעל עבירות גבוהה במהלך הניסויים.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "PL",
+     "countryHe": "פולין",
+     "type": "Fighter Aircraft",
+     "typeHe": "מטוסי קרב",
+     "h": {
+      "en": "Poland Takes Delivery of Two More Italian-Built F-35A Fighters",
+      "he": "פולין קיבלה שני מטוסי קרב נוספים מדגם F-35A ״הוסארז״ שנבנו באיטליה"
+     },
+     "s": {
+      "en": "Two additional Lockheed Martin F-35A Husarz fighters arrived in Poland, bringing the total number of delivered aircraft to 20 out of the 32 ordered.",
+      "he": "שני מטוסי קרב נוספים מדגם F-35A ״הוסארז״ של לוקהיד מרטין הגיעו לפולין, מה שמעלה את מספר המטוסים שנמסרו ל-20 מתוך 32 שהוזמנו."
+     },
+     "what": {
+      "en": "The two aircraft were manufactured at the Final Assembly and Check-Out (FACO) facility in Cameri, Italy. These 5th-generation stealth fighters are part of Poland's 'Harpia' program, aimed at replacing aging Soviet-era jets. The aircraft will undergo final integration into the Polish Air Force's command and control structure.",
+      "he": "שני המטוסים יוצרו במתקן ההרכבה והבדיקה הסופי (FACO) בקאמרי, איטליה. מטוסי הקרב החמקנים מהדור החמישי הם חלק מתוכנית ״הרפיה״ של פולין, שמטרתה להחליף מטוסים מיושנים מהעידן הסובייטי. המטוסים יעברו שילוב סופי במבנה הפיקוד והשליטה של חיל האוויר הפולני."
+     },
+     "figs": {
+      "seller": "Lockheed Martin / Leonardo (FACO Italy)",
+      "buyer": "Poland",
+      "item": "F-35A Husarz",
+      "val": null,
+      "deal_date": "2020-01-31",
+      "rep_date": "2026-11-27",
+      "en": "seller: Lockheed Martin / Leonardo (FACO Italy) · buyer: Poland · item: F-35A Husarz · deal_date: 2020-01-31 · rep_date: 2026-11-27",
+      "he": "seller: Lockheed Martin / Leonardo (FACO Italy) · buyer: Poland · item: F-35A Husarz · deal_date: 2020-01-31 · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The steady delivery of F-35s strengthens NATO's eastern flank and enhances Poland's ability to operate in highly contested environments alongside allied forces.",
+      "he": "האספקה העקבית של מטוסי F-35 מחזקת את האגף המזרחי של נאט״ו ומשפרת את יכולתה של פולין לפעול בסביבות מאוימות לצד כוחות בעלות הברית."
+     },
+     "israel": {
+      "en": "Israel was the first international partner to operate the F-35 (Adir), and Polish pilots have reportedly studied Israeli operational doctrine for the platform.",
+      "he": "ישראל הייתה השותפה הבינלאומית הראשונה שהפעילה את ה-F-35 (״אדיר״), וטייסים פולנים למדו על פי הדיווחים את דוקטרינת ההפעלה הישראלית עבור הפלטפורמה."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/poland-takes-delivery-of-two-more-italian-built-f-35a-fighters/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2024/11/Polish-F-35.jpg",
+     "photo_outlet": "Defence Industry Europe",
+     "photo_credit_en": "Photo: Polish MoD via Defence Industry Europe",
+     "photo_credit_he": "תמונה: משרד ההגנה הפולני דרך Defence Industry Europe",
+     "photo_caption_en": "The Polish F-35A 'Husarz' features a unique low-visibility insignia.",
+     "photo_caption_he": "ה-F-35A ״הוסארז״ הפולני כולל סמלים ייחודיים בעלי נראות נמוכה.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "EU",
+     "countryHe": "האיחוד האירופי",
+     "type": "Space Intelligence",
+     "typeHe": "מודיעין חללי",
+     "h": {
+      "en": "GomSpace Awarded USD 1.8M for EU SPIDER2 Space Intelligence Project",
+      "he": "גומספייס זכתה ב-1.8 מיליון דולר עבור פרויקט המודיעין החללי SPIDER2 של האיחוד האירופי"
+     },
+     "s": {
+      "en": "GomSpace was selected as a consortium partner for SPIDER2, a space-based intelligence project funded by the European Defence Fund (EDF).",
+      "he": "חברת גומספייס נבחרה כשותפה בקונסורציום עבור SPIDER2, פרויקט מודיעין מבוסס חלל הממומן על ידי קרן ההגנה האירופית (EDF)."
+     },
+     "what": {
+      "en": "The SPIDER2 project focuses on developing advanced satellite-based intelligence, surveillance, and reconnaissance (ISR) capabilities for European defense. GomSpace will contribute its expertise in nanosatellite technology and orbital maneuvers. The project aims to enhance the EU's autonomous space situational awareness and tactical intelligence gathering.",
+      "he": "פרויקט SPIDER2 מתמקד בפיתוח יכולות מודיעין, מעקב וסיור (ISR) מתקדמות מבוססות לוויין עבור ההגנה האירופית. גומספייס תתרום את מומחיותה בטכנולוגיית ננו-לוויינים ותמרונים מסלוליים. הפרויקט נועד לשפר את המודעות המצבית האוטונומית בחלל של האיחוד האירופי ואיסוף מודיעין טקטי."
+     },
+     "figs": {
+      "seller": "GomSpace",
+      "buyer": "European Defence Fund (EDF)",
+      "item": "SPIDER2 Consortium Participation",
+      "val": "USD 1.8M",
+      "deal_date": "2026-11-27",
+      "rep_date": "2026-11-27",
+      "en": "seller: GomSpace · buyer: European Defence Fund (EDF) · item: SPIDER2 Consortium Participation · val: USD 1.8M · deal_date: 2026-11-27 · rep_date: 2026-11-27",
+      "he": "seller: GomSpace · buyer: European Defence Fund (EDF) · item: SPIDER2 Consortium Participation · val: USD 1.8M · deal_date: 2026-11-27 · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "This award highlights the increasing reliance on small satellite constellations for military intelligence, providing a more resilient and cost-effective alternative to traditional large satellites.",
+      "he": "זכייה זו מדגישה את ההסתמכות הגוברת על קונסטלציות לוויינים קטנים למודיעין צבאי, המספקות חלופה עמידה וחסכונית יותר ללוויינים גדולים מסורתיים."
+     },
+     "israel": {
+      "en": "Israel's space industry, led by IAI, is a global leader in high-resolution small satellites (OPTSAT series), often competing or partnering with European firms in this domain.",
+      "he": "תעשיית החלל הישראלית, בהובלת תע״א, היא מובילה עולמית בלוויינים קטנים בעלי רזולוציה גבוהה (סדרת OPTSAT), ולעיתים קרובות מתחרה או משתפת פעולה עם חברות אירופיות בתחום זה."
+     },
+     "src": [
+      {
+       "t": "Airforce Technology",
+       "u": "https://www.airforce-technology.com/news/gomspace-spaceintelligence-project-eu/"
+      }
+     ],
+     "photo_url": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2024/11/GomSpace-Sat.jpg",
+     "photo_outlet": "Airforce Technology",
+     "photo_credit_en": "Photo: GomSpace via Airforce Technology",
+     "photo_credit_he": "תמונה: גומספייס דרך Airforce Technology",
+     "photo_caption_en": "GomSpace specializes in modular nanosatellite platforms for defense applications.",
+     "photo_caption_he": "גומספייס מתמחה בפלטפורמות ננו-לוויינים מודולריות ליישומים ביטחוניים.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "CZ",
+     "countryHe": "צ׳כיה",
+     "type": "Missile Production",
+     "typeHe": "ייצור טילים",
+     "h": {
+      "en": "CSG and Bochemie to Establish Missile Propellant Production in Czechia",
+      "he": "CSG ובוכמי יקימו מתקן לייצור דלק טילים מוצק בצ׳כיה"
+     },
+     "s": {
+      "en": "Czechoslovak Group (CSG) and Bochemie are forming a joint venture to produce ammonium perchlorate, a critical component for solid rocket motors, at a site in Bohumín.",
+      "he": "קבוצת צ׳כוסלובק (CSG) וחברת בוכמי מקימות מיזם משותף לייצור אמוניום פרכלורט, מרכיב קריטי למנועי רקטות מוצקים, באתר בבוהומין."
+     },
+     "what": {
+      "en": "The joint venture, with CSG Defence holding a 51% stake, will establish a production facility for ammonium perchlorate. This chemical is essential for the manufacturing of solid propellants used in missiles and space launch vehicles. The move is intended to reduce European dependence on non-EU suppliers for critical missile components.",
+      "he": "המיזם המשותף, שבו CSG Defence תחזיק ב-51%, יקים מתקן ייצור לאמוניום פרכלורט. כימיקל זה חיוני לייצור דלק מוצק המשמש בטילים וברכבי שיגור לחלל. המהלך נועד לצמצם את התלות האירופית בספקים מחוץ לאיחוד האירופי עבור רכיבי טילים קריטיים."
+     },
+     "figs": {
+      "seller": "CSG / Bochemie JV",
+      "buyer": "European Defense Industry",
+      "item": "Ammonium Perchlorate Production Facility",
+      "val": null,
+      "deal_date": "2026-11-27",
+      "rep_date": "2026-11-27",
+      "en": "seller: CSG / Bochemie JV · buyer: European Defense Industry · item: Ammonium Perchlorate Production Facility · deal_date: 2026-11-27 · rep_date: 2026-11-27",
+      "he": "seller: CSG / Bochemie JV · buyer: European Defense Industry · item: Ammonium Perchlorate Production Facility · deal_date: 2026-11-27 · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "Securing the supply chain for solid propellants is a strategic priority for Europe as it seeks to ramp up missile production in response to regional security threats.",
+      "he": "אבטחת שרשרת האספקה של דלק מוצק היא עדיפות אסטרטגית עבור אירופה, המבקשת להגביר את ייצור הטילים בתגובה לאיומים ביטחוניים אזוריים."
+     },
+     "israel": {
+      "en": "Israel's Tomer (state-owned rocket motor company) maintains advanced domestic production of similar propellants, ensuring independence for its Arrow and Shavit programs.",
+      "he": "חברת ״תומר״ הישראלית (חברה ממשלתית למנועים רקטיים) מקיימת ייצור מקומי מתקדם של דלקים דומים, מה שמבטיח עצמאות עבור תוכניות ה״חץ״ וה״שביט״."
+     },
+     "src": [
+      {
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/csg-und-bochemie-wollen-produktion-fuer-ammoniumperchlorat-in-tschechien-aufbauen/"
+      }
+     ],
+     "photo_url": "https://www.hartpunkt.de/wp-content/uploads/2024/11/CSG-Bochemie.jpg",
+     "photo_outlet": "Hartpunkt",
+     "photo_credit_en": "Photo: CSG via Hartpunkt",
+     "photo_credit_he": "תמונה: CSG דרך Hartpunkt",
+     "photo_caption_en": "The new facility will address the shortage of critical missile chemicals in Europe.",
+     "photo_caption_he": "המתקן החדש ייתן מענה למחסור בכימיקלים קריטיים לטילים באירופה.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UK",
+     "countryHe": "בריטניה",
+     "type": "UUV",
+     "typeHe": "כטב״ם תת-ימי",
+     "h": {
+      "en": "HII Awarded USD 186M for Royal Navy REMUS 620 Mine-Hunting Fleet",
+      "he": "חברת HII זכתה בחוזה של 186 מיליון דולר לאספקת כטב״מים תת-ימיים מדגם REMUS 620 לצי הבריטי"
+     },
+     "s": {
+      "en": "The UK's NAD Group awarded HII a contract to supply REMUS 620 Uncrewed Underwater Vehicles (UUVs) for the Royal Navy's Mine-Hunting Capability (MHC) program.",
+      "he": "קבוצת NAD הבריטית העניקה ל-HII חוזה לאספקת כלי שיט תת-ימיים בלתי מאוישים (UUV) מדגם REMUS 620 עבור תוכנית יכולת ציד המוקשים (MHC) של הצי המלכותי."
+     },
+     "what": {
+      "en": "The REMUS 620 is a medium-class UUV designed for long-endurance mine countermeasures (MCM), hydrographic surveys, and intelligence gathering. It features advanced synthetic aperture sonar and autonomous mission planning. The fleet will replace traditional crewed minehunters, allowing the Royal Navy to conduct operations from 'stand-off' distances.",
+      "he": "ה-REMUS 620 הוא כטב״ם תת-ימי מסוג בינוני המיועד למשימות נגד מוקשים (MCM) בעלות שהייה ארוכה, סקרים הידרוגרפיים ואיסוף מודיעין. הוא כולל סונאר מפתח סינתטי מתקדם ותכנון משימה אוטונומי. הצי יחליף ציידי מוקשים מאוישים מסורתיים, ויאפשר לצי המלכותי לבצע פעולות ממרחקי ביטחון."
+     },
+     "figs": {
+      "seller": "HII (Huntington Ingalls Industries)",
+      "buyer": "Royal Navy (via NAD Group)",
+      "item": "REMUS 620 UUVs",
+      "val": "USD 186M",
+      "deal_date": "2026-11-25",
+      "rep_date": "2026-11-27",
+      "en": "seller: HII (Huntington Ingalls Industries) · buyer: Royal Navy (via NAD Group) · item: REMUS 620 UUVs · val: USD 186M · deal_date: 2026-11-25 · rep_date: 2026-11-27",
+      "he": "seller: HII (Huntington Ingalls Industries) · buyer: Royal Navy (via NAD Group) · item: REMUS 620 UUVs · val: USD 186M · deal_date: 2026-11-25 · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The shift to uncrewed systems in mine warfare reduces risk to personnel and increases the speed and coverage of seabed mapping and threat detection.",
+      "he": "המעבר למערכות בלתי מאוישות בלוחמת מוקשים מפחית את הסיכון לכוח האדם ומגדיל את המהירות והכיסוי של מיפוי קרקעית הים וזיהוי איומים."
+     },
+     "israel": {
+      "en": "Israel's Elbit Systems offers the Seagull USV, which performs similar mine-hunting roles and has been tested by several European navies.",
+      "he": "אלביט מערכות הישראלית מציעה את ה-Seagull (״סייגאל״), כלי שיט בלתי מאויש המבצע תפקידי ציד מוקשים דומים ונבחן על ידי מספר ציים אירופיים."
+     },
+     "src": [
+      {
+       "t": "Naval Technology",
+       "u": "https://www.naval-technology.com/news/hii-royal-navy-remus-620/"
+      }
+     ],
+     "photo_url": "https://www.naval-technology.com/wp-content/uploads/sites/5/2024/11/REMUS-620.jpg",
+     "photo_outlet": "Naval Technology",
+     "photo_credit_en": "Photo: HII via Naval Technology",
+     "photo_credit_he": "תמונה: HII דרך Naval Technology",
+     "photo_caption_en": "The REMUS 620 provides high-resolution imaging of the ocean floor.",
+     "photo_caption_he": "ה-REMUS 620 מספק דימות ברזולוציה גבוהה של קרקעית האוקיינוס.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "tier": "brief",
+     "priority": "standard",
+     "statuses": [
+      "CONFLICT"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "Drone Strike",
+     "typeHe": "תקיפת כטב״ם",
+     "h": {
+      "en": "Briefly noted: Russian drone strikes in Kremenchuk and Dnipropetrovsk cause casualties",
+      "he": "בקצרה: תקיפות כטב״מים רוסיים בקרמנצ׳וק ובדניפרופטרובסק גרמו לנפגעים"
+     },
+     "s": {
+      "en": "Russian drone attacks on the Poltava and Dnipropetrovsk regions killed one civilian and injured several others, including a 17-year-old girl.",
+      "he": "תקיפות כטב״מים רוסיים במחוזות פולטבה ודניפרופטרובסק הרגו אזרח אחד ופצעו כמה אחרים, בהם נערה בת 17."
+     },
+     "src": [
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-ato/4189308-russian-drone-attack-on-kremenchuk-injures-two.html"
+      }
+     ],
+     "photo_url": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782200179-319.png",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "israel": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "CONFLICT — Verified via cited open source(s).",
+      "he": "CONFLICT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 6 full items, 1 briefly noted.",
+     "No new Israeli industry (IAI, Rafael, Elbit) contracts reported in this specific 6-minute window; focus shifted to high-priority European and Indian developments.",
+     "Country focus: India (Bhargavastra trials), Germany/Europe (CSG propellant production)."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 6 פריטים מלאים, 1 בקצרה.",
+     "לא דווחו חוזים חדשים של התעשיות הישראליות (תע״א, רפאל, אלביט) בחלון זמן ספציפי זה של 6 דקות; המיקוד עבר להתפתחויות בעלות עדיפות גבוהה באירופה ובהודו.",
+     "מיקוד מדינות: הודו (ניסויי בהרגבסטרה), גרמניה/אירופה (ייצור דלק טילים של CSG)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Performance of the Blysk laser system against larger drone swarms in winter conditions.",
+     "Integration timeline for the Polish F-35A fleet into NATO's integrated air defense.",
+     "Operational deployment of the Bhargavastra system along the Line of Control.",
+     "U.S. Congressional response to funding 'anomalies' for priority defense programs like Golden Dome."
+    ],
+    "he": [
+     "ביצועי מערכת הלייזר ״בליסק״ נגד נחילי כטב״מים גדולים בתנאי חורף.",
+     "לוח הזמנים לשילוב צי ה-F-35A הפולני במערך ההגנה האווירית המשולב של נאט״ו.",
+     "פריסה מבצעית של מערכת ה״בהרגבסטרה״ לאורך קו השליטה (LoC).",
+     "תגובת הקונגרס האמריקאי למימון ״חריגות״ עבור תוכניות הגנה בעלות עדיפות כמו ״כיפת זהב״."
+    ]
+   },
+   "edition_key": "2026-11-27-2200",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "A3": {
+     "url": "https://static.ukrinform.com/photos/2026_06/thumb_files/630_360_1782200179-319.png",
+     "outlet": "static.ukrinform.com",
+     "caption_en": "Briefly noted: Russian drone strikes in Kremenchuk and Dnipropetrovsk cause casualties",
+     "caption_he": "בקצרה: תקיפות כטב״מים רוסיים בקרמנצ׳וק ובדניפרופטרובסק גרמו לנפגעים",
+     "credit_en": "Photo via static.ukrinform.com",
+     "credit_he": "תמונה דרך static.ukrinform.com",
+     "local_src": "img/2026-11-27-2200/A3.jpg"
+    }
+   }
+  },
   "2026-11-27-1800": {
    "date": "2026-11-27",
    "slot": "1800",
