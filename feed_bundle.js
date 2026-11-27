@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-27-0500",
+ "updated_at": "2026-11-27-1130",
  "dates": [
+  "2026-11-27-1130",
   "2026-11-27-0500",
   "2026-11-26-evening",
   "2026-11-26",
@@ -63,6 +64,600 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-27-1130": {
+   "date": "2026-11-27",
+   "slot": "1130",
+   "wstart": "2026-11-27T01:43:00Z",
+   "wend": "2026-11-27T09:42:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "Rafael releases first operational footage of Iron Beam laser during joint U.S.-Israel 'Black Sands' trials, highlighting low cost-per-shot.",
+      "France delivers first homegrown GOBI Zep interceptor drones capable of 350 km/h kinetic ramming of enemy UAVs.",
+      "Romania expands its armored fleet with a EUR 738M order for 66 additional Rheinmetall Lynx combat vehicles."
+     ],
+     "he": [
+      "רפאל חושפת תיעוד מבצעי ראשון של מערכת הלייזר ״מגן אור״ במהלך ניסוי ״חולות שחורים״ המשותף לישראל וארה״ב.",
+      "צרפת מספקת כטב״מי יירוט ראשונים מתוצרת מקומית מדגם GOBI Zep, המסוגלים לנגוח בכטב״מי אויב במהירות של 350 קמ״ש.",
+      "רומניה מרחיבה את הצי המשוריין שלה עם הזמנה של 66 נגמ״שי לינקס נוספים מריינמטאל בשווי 738 מיליון אירו."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "UPDATE"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "tier": "full",
+     "type": "C-UAS",
+     "typeHe": "לוחמה בכטב״ם",
+     "h": {
+      "en": "Rafael Showcases Iron Beam Laser in Action During Joint U.S.-Israel Trials",
+      "he": "רפאל מציגה את מערכת הלייזר ״מגן אור״ בפעולה במהלך ניסוי משותף עם ארה״ב"
+     },
+     "s": {
+      "en": "Rafael released new footage of its Iron Beam laser system intercepting targets during the 'Black Sands' trials. Officials emphasized the system's cost-efficiency, noting each shot costs only a few dollars.",
+      "he": "חברת רפאל פרסמה תיעוד חדש של מערכת הלייזר ״מגן אור״ מיירטת מטרות במהלך ניסוי ״חולות שחורים״. גורמים רשמיים הדגישו את היעילות הכלכלית, כאשר כל ירייה עולה דולרים בודדים בלבד."
+     },
+     "what": {
+      "en": "Following the conclusion of the first 'Black Sands' counter-UAS trials held on Israeli soil, Rafael Advanced Defense Systems released video evidence of its high-energy laser weapon (HELW) successfully engaging drone threats. The trials involved approximately 20 different systems from both nations. The Iron Beam is designed to complement the Iron Dome by providing a low-cost, infinite-magazine solution for short-range threats, including UAVs, mortars, and rockets.",
+      "he": "עם סיום ניסוי ״חולות שחורים״ (Black Sands) הראשון ללוחמה בכטב״ם שנערך על אדמת ישראל, רפאל מערכות לחימה מתקדמות פרסמה תיעוד של נשק הלייזר רב-העוצמה שלה פוגע בהצלחה באיומי רחפנים. הניסוי כלל כ-20 מערכות שונות משתי המדינות. מערכת ״מגן אור״ נועדה להשלים את ״כיפת ברזל״ על ידי מתן פתרון בעלות נמוכה ומחסנית אינסופית לאיומים בטווח קצר, כולל כטב״מים, פצמ״רים ורקטות."
+     },
+     "figs": {
+      "seller": "Rafael",
+      "buyer": "IDF / U.S. Army (Trials)",
+      "item": "Iron Beam (HELW)",
+      "val": "Low cost-per-shot",
+      "rep_date": "2026-11-27",
+      "en": "seller: Rafael · buyer: IDF / U.S. Army (Trials) · item: Iron Beam (HELW) · val: Low cost-per-shot · rep_date: 2026-11-27",
+      "he": "seller: Rafael · buyer: IDF / U.S. Army (Trials) · item: Iron Beam (HELW) · val: Low cost-per-shot · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The release of operational footage signals the system's transition toward full deployment. The economic advantage of laser interception is critical for sustaining long-term defense against massed drone and rocket attacks.",
+      "he": "פרסום התיעוד המבצעי מסמן את מעבר המערכת לקראת פריסה מלאה. היתרון הכלכלי של יירוט בלייזר הוא קריטי לשימור הגנה ארוכת טווח מפני מתקפות כטב״מים ורקטות המוניות."
+     },
+     "israel": {
+      "en": "Developed by Rafael, Iron Beam is a cornerstone of Israel's future multi-layered air defense strategy.",
+      "he": "מערכת ״מגן אור״, שפותחה על ידי רפאל, מהווה אבן יסוד באסטרטגיית ההגנה האווירית הרב-שכבתית העתידית של ישראל."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/rafael-shows-its-laser-in-action-at-u-s-israel-drone-trials/"
+      }
+     ],
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3791.jpg",
+     "note": {
+      "en": "UPDATE — Verified via cited open source(s).",
+      "he": "UPDATE — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "FR",
+     "countryHe": "צרפת",
+     "tier": "full",
+     "type": "C-UAS",
+     "typeHe": "לוחמה בכטב״ם",
+     "h": {
+      "en": "French Armed Forces Receive First GOBI Zep Kinetic Interceptor Drones",
+      "he": "צבא צרפת מקבל כטב״מי יירוט קינטיים ראשונים מדגם GOBI Zep"
+     },
+     "s": {
+      "en": "The French DGA has delivered the first batch of homegrown interceptor drones designed to neutralize enemy UAVs via high-speed ramming. The drones can reach speeds of 350 km/h and do not carry explosives.",
+      "he": "מינהל הרכש הביטחוני הצרפתי (DGA) סיפק את המנה הראשונה של כטב״מי יירוט מתוצרת מקומית, שנועדו לנטרל כטב״מי אויב באמצעות נגיחה במהירות גבוהה. הכטב״מים מגיעים למהירות של 350 קמ״ש ואינם נושאים חומר נפץ."
+     },
+     "what": {
+      "en": "The French Directorate General of Armaments (DGA) officially delivered the first GOBI Zep interceptor drones to the military. These small, agile aircraft are designed to hunt down and physically collide with hostile drones. By utilizing kinetic energy at speeds up to 350 km/h (217 mph), they can disable targets without the need for explosive warheads, reducing collateral damage risks in sensitive environments.",
+      "he": "מינהל הרכש הביטחוני הצרפתי (DGA) סיפק רשמית את כטב״מי היירוט הראשונים מדגם GOBI Zep לצבא. כלי טיס קטנים וזריזים אלו נועדו לצוד ולהתנגש פיזית בכטב״מים עוינים. באמצעות שימוש באנרגיה קינטית במהירויות של עד 350 קמ״ש, הם יכולים לנטרל מטרות ללא צורך בראשי נפץ, מה שמפחית את הסיכון לנזק סביבתי בסביבות רגישות."
+     },
+     "figs": {
+      "seller": "French Industry",
+      "buyer": "French Armed Forces",
+      "item": "GOBI Zep Interceptor",
+      "val": "350 km/h speed",
+      "rep_date": "2026-11-27",
+      "en": "seller: French Industry · buyer: French Armed Forces · item: GOBI Zep Interceptor · val: 350 km/h speed · rep_date: 2026-11-27",
+      "he": "seller: French Industry · buyer: French Armed Forces · item: GOBI Zep Interceptor · val: 350 km/h speed · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "This represents a shift toward low-cost, reusable or simplified kinetic solutions for C-UAS, moving away from expensive missile-based interceptors for small drone threats.",
+      "he": "זהו ייצוג של המעבר לפתרונות קינטיים פשוטים וזולים ללוחמה בכטב״ם, תוך התרחקות ממיירטי טילים יקרים עבור איומי רחפנים קטנים."
+     },
+     "israel": {
+      "en": "Israel is also exploring kinetic and 'hard-kill' drone-on-drone interception technologies to supplement its electronic warfare and laser capabilities.",
+      "he": "ישראל בוחנת גם היא טכנולוגיות יירוט קינטיות של כטב״ם-מול-כטב״ם כדי להשלים את יכולות הלוחמה האלקטרונית והלייזר שלה."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/french-troops-get-first-homegrown-interceptor-drones/"
+      }
+     ],
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3787.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "BR",
+     "countryHe": "ברזיל",
+     "tier": "full",
+     "type": "Radar",
+     "typeHe": "מכ״ם",
+     "h": {
+      "en": "Embraer and Brazilian Army Conclude SABER M200 Vigilante Radar Development",
+      "he": "אמבראר וצבא ברזיל מסיימים את פיתוח מכ״ם ה-SABER M200 Vigilante"
+     },
+     "s": {
+      "en": "The development and operational validation of the SABER M200 Vigilante radar have been completed, reaching full technological maturity. The radar is designed for medium-range air defense and surveillance operations.",
+      "he": "פיתוח ותיקוף מבצעי של מכ״ם ה-SABER M200 Vigilante הושלמו, תוך הגעה לבשלות טכנולוגית מלאה. המכ״ם מיועד למשימות הגנה אווירית ובקרה לטווח בינוני."
+     },
+     "what": {
+      "en": "Embraer and the Brazilian Army have finalized the operational validation of the SABER M200 Vigilante radar. This multi-mission radar system utilizes advanced AESA (Active Electronically Scanned Array) technology. It has participated in major air defense exercises, proving its ability to track multiple targets simultaneously and integrate with anti-aircraft defense systems.",
+      "he": "חברת אמבראר וצבא ברזיל סיימו את התיקוף המבצעי של מכ״ם ה-SABER M200 Vigilante. מערכת מכ״ם רב-משימתית זו משתמשת בטכנולוגיית AESA מתקדמת. המכ״ם השתתף בתרגילי הגנה אווירית מרכזיים, והוכיח יכולת עקיבה אחר מספר מטרות במקביל ושילוב עם מערכות הגנה נגד מטוסים."
+     },
+     "figs": {
+      "seller": "Embraer",
+      "buyer": "Brazilian Army",
+      "item": "SABER M200 Vigilante",
+      "rep_date": "2026-11-27",
+      "en": "seller: Embraer · buyer: Brazilian Army · item: SABER M200 Vigilante · rep_date: 2026-11-27",
+      "he": "seller: Embraer · buyer: Brazilian Army · item: SABER M200 Vigilante · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The completion of this project strengthens Brazil's domestic defense industrial base and provides a modern, exportable AESA radar solution for the global market.",
+      "he": "סיום הפרויקט מחזק את הבסיס התעשייתי-ביטחוני המקומי של ברזיל ומספק פתרון מכ״ם AESA מודרני ובר-ייצוא לשוק העולמי."
+     },
+     "israel": {
+      "en": "Israeli firms like Elta (IAI) are global leaders in AESA technology and often compete or partner with Embraer in international defense tenders.",
+      "he": "חברות ישראליות כמו אלתא (תע״א) הן מובילות עולמיות בטכנולוגיית AESA ולעיתים קרובות מתחרות או משתפות פעולה עם אמבראר במכרזים בינלאומיים."
+     },
+     "src": [
+      {
+       "t": "EDR Magazine",
+       "u": "https://www.edrmagazine.eu/embraer-and-brazilian-army-conclude-development-and-operational-validation-of-the-saber-m200-vigilante-radar"
+      }
+     ],
+     "photo_url": "https://www.edrmagazine.eu/wp-content/uploads/2021/12/Embraer-Saber-M200-Vigilante.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "RU",
+     "countryHe": "רוסיה",
+     "tier": "full",
+     "type": "UAV",
+     "typeHe": "כטב״ם",
+     "h": {
+      "en": "New Russian Jet-Powered 'izdeliye K5' Drone Spotted in Ukraine",
+      "he": "כטב״ם סילוני רוסי חדש מדגם ״פריט K5״ זוהה באוקראינה"
+     },
+     "s": {
+      "en": "A new jet-powered Russian drone, preliminarily identified as 'izdeliye K5', has appeared on the front lines. The UAV features a tandem-wing design and significantly higher speed than propeller-driven models.",
+      "he": "כטב״ם רוסי חדש המונע בסילון, שזוהה ראשונית כ״פריט K5״, הופיע בקו החזית. הכטב״ם כולל עיצוב כנפי טנדם ומהירות גבוהה משמעותית מדגמים מונעי מדחף."
+     },
+     "what": {
+      "en": "Ukrainian defense technology advisers reported the appearance of a new Russian jet-powered UAV on the battlefield. Known as 'izdeliye K5' (Item K5), the drone features two sets of wings of similar size, one behind the other. The jet propulsion allows for faster transit to target areas and increased difficulty for traditional short-range air defenses to intercept compared to the slower Shahed-type drones.",
+      "he": "יועצים טכנולוגיים של מערכת הביטחון האוקראינית דיווחו על הופעת כטב״ם סילוני רוסי חדש בשדה הקרב. הכלי, המכונה ״פריט K5״, כולל שני סטים של כנפיים בגודל דומה, אחת מאחורי השנייה. הנעת הסילון מאפשרת הגעה מהירה יותר לאזור המטרה ומקשה על מערכות הגנה אווירית קצרות טווח ליירטו בהשוואה לכטב״מים איטיים מסוג שאהד."
+     },
+     "figs": {
+      "item": "izdeliye K5 Jet Drone",
+      "origin": "Russia",
+      "rep_date": "2026-11-27",
+      "en": "item: izdeliye K5 Jet Drone · origin: Russia · rep_date: 2026-11-27",
+      "he": "item: izdeliye K5 Jet Drone · origin: Russia · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The introduction of jet-powered loitering munitions or strike drones by Russia forces Ukraine to adapt its C-UAS tactics, as 'mobile fire groups' with machine guns may find these targets too fast to engage effectively.",
+      "he": "הכנסת חימושים משוטטים או כטב״מי תקיפה מונעי סילון על ידי רוסיה מאלצת את אוקראינה להתאים את טקטיקות הלוחמה בכטב״ם שלה, שכן ״חוליות אש ניידות״ עם מקלעים עשויות למצוא מטרות אלו מהירות מדי להעסקה יעילה."
+     },
+     "israel": {
+      "en": "Israel monitors Russian drone developments closely due to the potential for technology transfer to Iranian proxies in the Middle East.",
+      "he": "ישראל עוקבת מקרוב אחר פיתוחי הכטב״מים הרוסיים בשל הפוטנציאל להעברת טכנולוגיה לשלוחים איראניים במזרח התיכון."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/ukraine-spots-new-russian-jet-drone/"
+      }
+     ],
+     "photo_url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_collage_164.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "RO",
+     "countryHe": "רומניה",
+     "tier": "full",
+     "type": "AFV",
+     "typeHe": "רק״ם",
+     "h": {
+      "en": "Romania Orders 66 Additional Lynx Combat Vehicles for EUR 738M",
+      "he": "רומניה מזמינה 66 נגמ״שי לינקס נוספים בשווי 738 מיליון אירו"
+     },
+     "s": {
+      "en": "The Romanian Ministry of Defence has exercised an option for 66 more Lynx combat vehicles from Rheinmetall. This brings Romania's total planned fleet of the type to 298 units.",
+      "he": "משרד ההגנה הרומני מימש אופציה לרכישת 66 נגמ״שי לינקס נוספים מחברת ריינמטאל. בכך עולה סך הצי המתוכנן של רומניה מדגם זה ל-298 יחידות."
+     },
+     "what": {
+      "en": "Romania has expanded its framework agreement with Rheinmetall, calling off an additional 66 Lynx infantry fighting vehicles (IFVs). The deal is valued at approximately EUR 738 million. The Lynx is a modern, modular armored vehicle designed for high survivability and firepower, featuring the Lance turret and advanced sensor suites. This acquisition is part of Romania's broader military modernization effort in response to regional security shifts.",
+      "he": "רומניה הרחיבה את הסכם המסגרת שלה עם ריינמטאל והזמינה 66 נגמ״שי לינקס (Lynx) נוספים. שווי העסקה מוערך בכ-738 מיליון אירו. הלינקס הוא רק״ם מודרני ומודולרי שנועד לשרידות גבוהה וכוח אש משמעותי, הכולל את צריח ה-Lance ומערכות חיישנים מתקדמות. רכישה זו היא חלק ממאמץ המודרניזציה הרחב של רומניה בתגובה לשינויים בביטחון האזורי."
+     },
+     "figs": {
+      "seller": "Rheinmetall",
+      "buyer": "Romania",
+      "item": "Lynx Combat Vehicles",
+      "qty": "66",
+      "val": "EUR 738M",
+      "rep_date": "2026-11-27",
+      "en": "seller: Rheinmetall · buyer: Romania · item: Lynx Combat Vehicles · qty: 66 · val: EUR 738M · rep_date: 2026-11-27",
+      "he": "seller: Rheinmetall · buyer: Romania · item: Lynx Combat Vehicles · qty: 66 · val: EUR 738M · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "This order solidifies Rheinmetall's position in the Eastern European market and highlights the trend of NATO's eastern flank nations investing heavily in heavy armored capabilities.",
+      "he": "הזמנה זו מבצרת את מעמדה של ריינמטאל בשוק המזרח אירופי ומדגישה את המגמה של מדינות האגף המזרחי של נאט״ו להשקיע רבות ביכולות שריון כבדות."
+     },
+     "israel": {
+      "en": "Rheinmetall often integrates Israeli technology, such as Rafael's Spike missiles or Elbit's active protection systems, into its Lynx and Boxer platforms.",
+      "he": "ריינמטאל משלבת לעיתים קרובות טכנולוגיה ישראלית, כגון טילי ״ספייק״ של רפאל או מערכות הגנה אקטיבית של אלביט, בפלטפורמות הלינקס והבוקסר שלה."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/romania-orders-66-more-lynx-combat-vehicles-from-rheinmetall-under-a-e738-million-deal/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/07/RENK-and-Rheinmetall-extend-framework-agreement-for-KF41-Lynx-propulsion-systems-with-contract-value-above-E270-million.jpeg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "JP",
+     "countryHe": "יפן",
+     "tier": "full",
+     "type": "Naval Warfare",
+     "typeHe": "לוחמה ימית",
+     "h": {
+      "en": "Construction Progresses on Japan's Second ASEV Missile Defense Ship",
+      "he": "התקדמות בבניית ספינת ההגנה מטילים השנייה של יפן מדגם ASEV"
+     },
+     "s": {
+      "en": "New images from JMU's Isogo shipyard show a large hull section, believed to be the stern block of Japan's second Aegis System Equipped Vessel (ASEV).",
+      "he": "תמונות חדשות ממספנת Isogo של JMU מציגות מקטע גוף גדול, המזוהה כבלוק הירכתיים של ספינת ה-ASEV השנייה של יפן המצוידת במערכת איג׳יס."
+     },
+     "what": {
+      "en": "Recent photographs from Japan Marine United’s (JMU) shipyard in Yokohama reveal significant progress on the second of two planned ASEV ships. The visible hull block is identified as the stern section. These massive vessels, approximately 190 meters long, are designed specifically for ballistic missile defense (BMD) and will be equipped with the SPY-7 radar and SM-3 Block IIA/SM-6 missiles to counter North Korean and regional threats.",
+      "he": "צילומים אחרונים ממספנת Japan Marine United (JMU) ביוקוהמה חושפים התקדמות משמעותית בבניית הספינה השנייה מתוך שתיים מתוכננות מדגם ASEV. בלוק הגוף הנראה זוהה כמקטע הירכתיים. ספינות ענק אלו, באורך של כ-190 מטרים, תוכננו במיוחד להגנה מפני טילים בליסטיים (BMD) ויהיו מצוידות במכ״ם SPY-7 וטילי SM-3 Block IIA/SM-6 למענה לאיומים מצפון קוריאה והאזור."
+     },
+     "figs": {
+      "builder": "JMU",
+      "buyer": "Japan MSDF",
+      "item": "ASEV (Aegis System Equipped Vessel)",
+      "qty": "2nd of class",
+      "rep_date": "2026-11-27",
+      "en": "builder: JMU · buyer: Japan MSDF · item: ASEV (Aegis System Equipped Vessel) · qty: 2nd of class · rep_date: 2026-11-27",
+      "he": "builder: JMU · buyer: Japan MSDF · item: ASEV (Aegis System Equipped Vessel) · qty: 2nd of class · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The ASEV program is Japan's alternative to the cancelled Aegis Ashore project, providing a mobile, sea-based persistent missile defense shield.",
+      "he": "תוכנית ה-ASEV היא החלופה של יפן לפרויקט Aegis Ashore שבוטל, והיא מספקת מגן הגנה מטילים נייד ומבוסס ים בעל נוכחות מתמדת."
+     },
+     "israel": {
+      "en": "Israel's naval missile defense strategy, utilizing the C-Dome on Sa'ar 6 corvettes, shares the strategic goal of protecting critical infrastructure from advanced aerial threats.",
+      "he": "אסטרטגיית ההגנה הימית של ישראל, המשתמשת ב״כיפה ימית״ על ספינות הסער 6, חולקת את היעד האסטרטגי של הגנה על תשתיות קריטיות מפני איומים אוויריים מתקדמים."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/photos-apparent-stern-block-japans-second-asev/"
+      }
+     ],
+     "photo_url": "https://www.navalnews.com/wp-content/uploads/2026/11/Photo-1-1.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "MZ",
+     "countryHe": "מוזמביק",
+     "tier": "full",
+     "type": "Naval Warfare",
+     "typeHe": "לוחמה ימית",
+     "h": {
+      "en": "Mozambique to Receive Two Ex-Chinese Type 053H3 Frigates",
+      "he": "מוזמביק תקבל שתי פריגטות סיניות לשעבר מדגם Type 053H3"
+     },
+     "s": {
+      "en": "Mozambique is set to acquire two decommissioned Type 053H3 frigates from the Chinese People's Liberation Army Navy (PLAN), following a similar transfer pattern seen with Bangladesh.",
+      "he": "מוזמביק צפויה לרכוש שתי פריגטות שיצאו משירות מדגם Type 053H3 מהצי הסיני (PLAN), בעקבות דפוס העברה דומה שנראה בעבר עם בנגלדש."
+     },
+     "what": {
+      "en": "Reports indicate that Mozambique will receive two Type 053H3 (Jiangwei II class) frigates from China. These ships, built between the late 1990s and 2005, were recently decommissioned by the PLAN. The transfer highlights China's growing role as a primary defense supplier to African nations, providing used but capable naval platforms to enhance local maritime security and influence.",
+      "he": "דיווחים מצביעים על כך שמוזמביק תקבל שתי פריגטות מדגם Type 053H3 (סדרת Jiangwei II) מסין. ספינות אלו, שנבנו בין סוף שנות ה-90 ל-2005, הוצאו לאחרונה משירות בצי הסיני. ההעברה מדגישה את תפקידה הגובר של סין כספקית ביטחונית מרכזית למדינות אפריקה, תוך אספקת פלטפורמות ימיות משומשות אך בעלות יכולת לחיזוק הביטחון הימי המקומי וההשפעה הסינית."
+     },
+     "figs": {
+      "seller": "China (PLAN)",
+      "buyer": "Mozambique",
+      "item": "Type 053H3 Frigates",
+      "qty": "2",
+      "rep_date": "2026-11-27",
+      "en": "seller: China (PLAN) · buyer: Mozambique · item: Type 053H3 Frigates · qty: 2 · rep_date: 2026-11-27",
+      "he": "seller: China (PLAN) · buyer: Mozambique · item: Type 053H3 Frigates · qty: 2 · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "This transfer significantly boosts Mozambique's naval capabilities in the Indian Ocean, where it faces challenges from piracy and insurgency, while expanding China's strategic footprint in Southeast Africa.",
+      "he": "העברה זו משדרגת משמעותית את היכולות הימיות של מוזמביק באוקיינוס ההודי, שם היא מתמודדת עם אתגרי פיראטיות וטרור, תוך הרחבת טביעת הרגל האסטרטגית של סין בדרום-מזרח אפריקה."
+     },
+     "israel": {
+      "en": "Israel maintains defense ties with several African nations and monitors Chinese naval proliferation in the Indian Ocean and Red Sea corridors.",
+      "he": "ישראל מקיימת קשרים ביטחוניים עם מספר מדינות באפריקה ועוקבת אחר תפוצת כלי השיט הסיניים בנתיבי האוקיינוס ההודי והים האדום."
+     },
+     "src": [
+      {
+       "t": "Alex Luck (X)",
+       "u": "https://x.com/AlexLuck9/status/2126219086271259046"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/profile_images/1949848974778880000/W-Qhrqoo_400x400.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A4",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "tier": "brief",
+     "type": "Counter-Terror",
+     "typeHe": "לוחמה בטרור",
+     "h": {
+      "en": "Briefly noted: IDF eliminates four Hamas operatives in Gaza, including Oct 7 participant",
+      "he": "בקצרה: צה״ל חיסל ארבעה מחבלי חמאס בעזה, בהם מחבל שהשתתף בטבח ה-7 באוקטובר"
+     },
+     "s": {
+      "en": "Israeli strikes in central Gaza killed four Hamas members, including Yousef Aeidi, who was involved in the Oct 7 onslaught and the handover of hostages.",
+      "he": "תקיפות צה״ל במרכז רצועת עזה חיסלו ארבעה פעילי חמאס, בהם יוסף אעידי, שהיה מעורב בטבח ה-7 באוקטובר ובטקס מסירת חטופים."
+     },
+     "src": [
+      {
+       "t": "IDF Official",
+       "u": "https://x.com/idfonline/status/2126228884332917120"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/media/HYHh5beXwAA6FHd?format=webp&amp;name=large",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "israel": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C2",
+     "domain": "strike",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IL",
+     "countryHe": "ישראל",
+     "tier": "brief",
+     "type": "Counter-Terror",
+     "typeHe": "לוחמה בטרור",
+     "h": {
+      "en": "Briefly noted: IDF arrests three-man terror cell planning imminent attack in West Bank",
+      "he": "בקצרה: כוחות צה״ל עצרו חוליית טרור של שלושה מחבלים שתכננו פיגוע מיידי ביהודה ושומרון"
+     },
+     "s": {
+      "en": "Following Shin Bet intelligence, troops raided the village of Kaubar and arrested three suspects planning an immediate attack against Israelis.",
+      "he": "בעקבות מידע מודיעיני של השב״כ, פשטו כוחות על הכפר כובר ועצרו שלושה חשודים שתכננו לבצע פיגוע מיידי נגד ישראלים."
+     },
+     "src": [
+      {
+       "t": "IDF Official",
+       "u": "https://x.com/idfonline/status/2126242433163726984"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/profile_images/1458704548344832000/e5LpZaiT_400x400.jpg",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "israel": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 7 full items, 2 briefly noted.",
+     "Country focus: Germany (Lynx manufacturer), Japan (ASEV), Brazil (SABER M200)."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 7 פריטים מלאים, 2 בקצרה.",
+     "מיקוד מדינות: גרמניה (יצרנית הלינקס), יפן (ASEV), ברזיל (SABER M200)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Deployment timeline for Rafael's Iron Beam following Black Sands trials.",
+     "Operational performance of French GOBI Zep interceptors in real-world drone encounters.",
+     "Integration of SPY-7 radar on Japan's second ASEV hull.",
+     "Further Chinese naval transfers to African nations following the Mozambique deal."
+    ],
+    "he": [
+     "לוחות זמנים לפריסת ״מגן אור״ של רפאל בעקבות ניסוי ״חולות שחורים״.",
+     "ביצועים מבצעיים של מיירטי GOBI Zep הצרפתיים במפגשי כטב״ם בזמן אמת.",
+     "שילוב מכ״ם SPY-7 על גוף ספינת ה-ASEV השנייה של יפן.",
+     "העברות ימיות סיניות נוספות למדינות אפריקה בעקבות העסקה עם מוזמביק."
+    ]
+   },
+   "edition_key": "2026-11-27-1130",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "A1": {
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3791.jpg",
+     "outlet": "defence-blog.com",
+     "caption_en": "Rafael Showcases Iron Beam Laser in Action During Joint U.S.-Israel Trials",
+     "caption_he": "רפאל מציגה את מערכת הלייזר ״מגן אור״ בפעולה במהלך ניסוי משותף עם ארה״ב",
+     "credit_en": "Photo via defence-blog.com",
+     "credit_he": "תמונה דרך defence-blog.com",
+     "local_src": "img/2026-11-27-1130/A1.jpg"
+    },
+    "A2": {
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3787.jpg",
+     "outlet": "defence-blog.com",
+     "caption_en": "French Armed Forces Receive First GOBI Zep Kinetic Interceptor Drones",
+     "caption_he": "צבא צרפת מקבל כטב״מי יירוט קינטיים ראשונים מדגם GOBI Zep",
+     "credit_en": "Photo via defence-blog.com",
+     "credit_he": "תמונה דרך defence-blog.com",
+     "local_src": "img/2026-11-27-1130/A2.jpg"
+    },
+    "A3": {
+     "url": "https://www.edrmagazine.eu/wp-content/uploads/2021/12/Embraer-Saber-M200-Vigilante.jpg",
+     "outlet": "edrmagazine.eu",
+     "caption_en": "Embraer and Brazilian Army Conclude SABER M200 Vigilante Radar Development",
+     "caption_he": "אמבראר וצבא ברזיל מסיימים את פיתוח מכ״ם ה-SABER M200 Vigilante",
+     "credit_en": "Photo via edrmagazine.eu",
+     "credit_he": "תמונה דרך edrmagazine.eu",
+     "local_src": "img/2026-11-27-1130/A3.jpg"
+    },
+    "B1": {
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_collage_164.jpg",
+     "outlet": "defence-blog.com",
+     "caption_en": "New Russian Jet-Powered 'izdeliye K5' Drone Spotted in Ukraine",
+     "caption_he": "כטב״ם סילוני רוסי חדש מדגם ״פריט K5״ זוהה באוקראינה",
+     "credit_en": "Photo via defence-blog.com",
+     "credit_he": "תמונה דרך defence-blog.com",
+     "local_src": "img/2026-11-27-1130/B1.jpg"
+    },
+    "C1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/07/RENK-and-Rheinmetall-extend-framework-agreement-for-KF41-Lynx-propulsion-systems-with-contract-value-above-E270-million.jpeg",
+     "outlet": "defence-industry.eu",
+     "caption_en": "Romania Orders 66 Additional Lynx Combat Vehicles for EUR 738M",
+     "caption_he": "רומניה מזמינה 66 נגמ״שי לינקס נוספים בשווי 738 מיליון אירו",
+     "credit_en": "Photo via defence-industry.eu",
+     "credit_he": "תמונה דרך defence-industry.eu",
+     "local_src": "img/2026-11-27-1130/C1.jpg"
+    },
+    "D1": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Photo-1-1.jpg",
+     "outlet": "navalnews.com",
+     "caption_en": "Construction Progresses on Japan's Second ASEV Missile Defense Ship",
+     "caption_he": "התקדמות בבניית ספינת ההגנה מטילים השנייה של יפן מדגם ASEV",
+     "credit_en": "Photo via navalnews.com",
+     "credit_he": "תמונה דרך navalnews.com",
+     "local_src": "img/2026-11-27-1130/D1.jpg"
+    },
+    "D2": {
+     "url": "https://pbs.twimg.com/profile_images/1949848974778880000/W-Qhrqoo_400x400.jpg",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "Mozambique to Receive Two Ex-Chinese Type 053H3 Frigates",
+     "caption_he": "מוזמביק תקבל שתי פריגטות סיניות לשעבר מדגם Type 053H3",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-27-1130/D2.jpg"
+    },
+    "C2": {
+     "url": "https://pbs.twimg.com/profile_images/1458704548344832000/e5LpZaiT_400x400.jpg",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "Briefly noted: IDF arrests three-man terror cell planning imminent attack in West Bank",
+     "caption_he": "בקצרה: כוחות צה״ל עצרו חוליית טרור של שלושה מחבלים שתכננו פיגוע מיידי ביהודה ושומרון",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-27-1130/C2.jpg"
+    }
+   }
+  },
   "2026-11-27-0500": {
    "date": "2026-11-27",
    "slot": "0500",
