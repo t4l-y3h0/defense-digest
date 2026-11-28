@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-28-0500",
+ "updated_at": "2026-11-28-1130",
  "dates": [
+  "2026-11-28-1130",
   "2026-11-28-0500",
   "2026-11-27-2200",
   "2026-11-27-evening",
@@ -69,6 +70,519 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-28-1130": {
+   "date": "2026-11-28",
+   "slot": "1130",
+   "wstart": "2026-11-28T01:26:00Z",
+   "wend": "2026-11-28T08:55:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "Euroatlas and EvoLogics announce series production of the Greyshark autonomous underwater vehicle in battery and fuel-cell configurations.",
+      "ACS develops the CUON highly modular uncrewed ground vehicle platform featuring switchable wheeled and tracked running gear.",
+      "Ukrainian long-range strike drones hit Russia's critical Samara crude oil pumping station, igniting major infrastructure fires.",
+      "BAE Systems Hägglunds books a landmark USD 6 billion joint order for over 400 CV90 infantry fighting vehicles across five NATO nations."
+     ],
+     "he": [
+      "החברות יורואטלס ואבולוג'יקס הכריזו על מעבר לייצור סדרתי של הרכב התת-ימי האוטונומי Greyshark בגרסאות סוללה ותאי דלק.",
+      "חברת ACS מפתחת את CUON - פלטפורמת כרב״ם מודולרית מתקדמת בעלת יכולת תנועה גמישה על גבי גלגלים או זחלים.",
+      "כטב״מי תקיפה ארוכי-טווח אוקראיניים פגעו בתחנת שאיבת הנפט הגולמי בסמארה שברוסיה והציתו שריפות במתקן אסטרטגי.",
+      "חברת BAE סיסטמס האגלנדס חתמה על עסקת ענק רב-לאומית בהיקף 6 מיליארד דולר לאספקת מעל 400 נגמ״שי CV90 לחמש מדינות נאט״ו."
+     ]
+    }
+   },
+   "items": [
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "Unmanned Underwater Vehicle",
+     "typeHe": "רכב תת-ימי בלתי מאויש",
+     "h": {
+      "en": "Euroatlas and EvoLogics Move Greyshark AUV into Series Production",
+      "he": "יורואטלס ואבולוג'יקס מעבירות את רכב המעמקים האוטונומי Greyshark לייצור סדרתי"
+     },
+     "s": {
+      "en": "German defense firms Euroatlas and EvoLogics have officially transitioned their Greyshark autonomous underwater vehicle (AUV) into serial production. The platform is offered in both advanced lithium battery and extended-endurance fuel-cell variants for intelligence, surveillance, and mine countermeasures.",
+      "he": "החברות הגרמניות יורואטלס ואבולוג'יקס החלו בייצור סדרתי של הרכב התת-ימי האוטונומי Greyshark. הכלי מוצע בתצורת סוללות ליתיום מתקדמות ובתצורת תאי דלק להארכת שהייה לצורכי מודיעין, סיור ונטרול מוקשים ימיים."
+     },
+     "what": {
+      "en": "Euroatlas and EvoLogics confirmed that following successful sea trials and industrialization milestones, the Greyshark autonomous underwater vehicle (AUV) has entered full series production. The system features a biomimetic low-signature hull and is offered in two propulsion variants: a rechargeable battery pack for standard littoral reconnaissance and an advanced fuel-cell propulsion module delivering extended submerged endurance. Greyshark is engineered to carry modular sensor payloads including synthetic aperture sonars, optical sensors, and acoustic communication modems, serving naval operators in intelligence, surveillance, reconnaissance (ISR), critical subsea infrastructure monitoring, and rapid seabed mine countermeasure missions.",
+      "he": "החברות הגרמניות יורואטלס ואבולוג'יקס אישרו כי בעקבות השלמת ניסויי ים מוצלחים והיערכות תעשייתית, הרכב התת-ימי האוטונומי Greyshark עבר לייצור סדרתי מלא. הכלי מתאפיין במבנה הידרודינמי בעל חתימה אקוסטית נמוכה ומוצע בשתי תצורות הנעה: מארז סוללות ליתיום למשימות סיור במים רדודים ומערכת תאי דלק המספקת שהייה תת-ימית ממושכת במיוחד. ה-Greyshark מתוכנן לשאת מטע״דים מודולריים הכוללים סונאר מפתח סינתטי, חיישנים אופטיים ומודמי תקשורת אקוסטית להגנת תשתיות קריטיות ולוחמה במוקשים."
+     },
+     "figs": {
+      "seller": "Euroatlas / EvoLogics",
+      "buyer": "European & International Navies",
+      "item": "Greyshark AUV (Battery & Fuel-Cell Variants)",
+      "val": "Undisclosed",
+      "deal_date": "2026-11-28",
+      "rep_date": "2026-11-28",
+      "en": "seller: Euroatlas / EvoLogics · buyer: European & International Navies · item: Greyshark AUV (Battery & Fuel-Cell Variants) · val: Undisclosed · deal_date: 2026-11-28 · rep_date: 2026-11-28",
+      "he": "seller: Euroatlas / EvoLogics · buyer: European & International Navies · item: Greyshark AUV (Battery & Fuel-Cell Variants) · val: Undisclosed · deal_date: 2026-11-28 · rep_date: 2026-11-28"
+     },
+     "why": {
+      "en": "The transition of long-endurance autonomous subsea systems from prototypes to series production represents a significant leap in seabed warfare and subsea infrastructure protection capabilities. European navies are actively scaling autonomous subsea fleets to monitor critical undersea pipelines and data cables vulnerable to asymmetric threats, while expanding organic mine countermeasure capabilities without exposing crewed vessels to high-threat zones.",
+      "he": "המעבר של מערכות תת-ימיות אוטונומיות ארוכות-שהייה משלב אבות-טיפוס לייצור סדרתי מהווה קפיצת מדרגה בלחימה בתווך התת-ימי והגנה על תשתיות קרקעית הים. ציים באירופה מגדילים את ציי הכלים האוטונומיים כדי לאבטח צינורות אנרגיה וכבלי תקשורת מפני איומים אסימטריים, תוך צמצום החשיפה של ספינות מאוישות לאזורי סיכון."
+     },
+     "israel": {
+      "en": "The Israeli Navy and defense establishment maintain a major focus on autonomous underwater vehicles to safeguard offshore natural gas rigs and monitor underwater borders against naval commando infiltration and subsea sabotage. The industrial scaling of biomimetic fuel-cell AUVs provides relevant benchmarks for Israeli naval robotics developers, including IAI ELTA and Rafael.",
+      "he": "חיל הים ומערכת הביטחון הישראלית משקיעים מאמצים נרחבים בכלים תת-ימיים אוטונומיים לצורך אבטחת אסדות הגז הטבעי במים הכלכליים ומניעת חדירות קומנדו ימי. מעבר לייצור סדרתי של רכבים מונעי תאי דלק מהווה נקודת ייחוס טכנולוגית בעבור חברות ישראליות כמו אלתא של התעשייה האווירית ורפאל."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://x.com/navalnewscom/status/2126600309334266125"
+      },
+      {
+       "t": "Naval News (Euronaval Coverage)",
+       "u": "https://x.com/navalnewscom/status/2126600282150707667"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/card_img/2125876608414228480/vlDk1_Ud?format=jpg&amp;name=medium",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "UPDATE"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "Unmanned Ground Platform",
+     "typeHe": "רכב קרקעי בלתי מאויש",
+     "h": {
+      "en": "Country Focus (Germany): ACS Develops Highly Modular CUON UGV with Wheeled and Tracked Drives",
+      "he": "מיקוד מדינה (גרמניה): חברת ACS מפתחת את כרב״ם ה-CUON המודולרי בעל הנעת גלגלים וזחלים מתחלפת"
+     },
+     "s": {
+      "en": "Bavarian defense mobility specialist ACS Armoured Car Systems is developing 'CUON', a modular uncrewed ground vehicle that can be flexibly configured with either wheeled or tracked running gear. The platform is designed to fulfill combat support, tactical resupply, and counter-drone sensor roles.",
+      "he": "חברת ACS הגרמנית מפתחת את CUON, פלטפורמת כרב״ם מודולרית מתקדמת הניתנת להפעלה גמישה עם מערכת גלגלים או זחלים לפי דרישות הזירה. הפלטפורמה מיועדת למשימות סיוע קרבי, אספקה טקטית ונשיאת חיישני הגנה אווירית נגד רחפנים."
+     },
+     "what": {
+      "en": "ACS Armoured Car Systems GmbH, based in Friedberg, Germany, disclosed the ongoing development of its CUON modular uncrewed ground vehicle (UGV). The core innovation of the platform is an interchangeable running gear architecture that enables military units to rapidly switch between a high-speed all-wheel-drive configuration for firm terrain and continuous rubber tracks for soft, mud-heavy, or snowbound ground. Powered by a hybrid-electric drive system, CUON is engineered to carry interchangeable mission pods, including remote weapon stations, battlefield logistics containers, and mast-mounted C-UAS radar and electro-optical suites.",
+      "he": "חברת ACS Armoured Car Systems מגרמניה חשפה את פיתוח כרב״ם ה-CUON המודולרי. החידוש המרכזי בפלטפורמה נעוץ בארכיטקטורת הנעה היברידית מתחלפת, המאפשרת מעבר מהיר בין תצורת גלגלים בעלת עבירות ומהירות גבוהה בקרקע קשה, לבין מערכת זחלי גומי לנסיעה בבוץ עמוק ושלג. ה-CUON מתוכנן לשאת עמדות נשק נשלטות מרחוק, מארזי אספקה לוגיסטית וחליפות מכ״ם וחיישנים אלקטרו-אופטיים ליירוט כטב״מים בחזית."
+     },
+     "figs": {
+      "seller": "ACS Armoured Car Systems GmbH",
+      "buyer": "German Armed Forces (Bundeswehr) & Export",
+      "item": "CUON Modular UGV Platform",
+      "val": "R&D Stage",
+      "deal_date": "2026-11-28",
+      "rep_date": "2026-11-28",
+      "en": "seller: ACS Armoured Car Systems GmbH · buyer: German Armed Forces (Bundeswehr) & Export · item: CUON Modular UGV Platform · val: R&D Stage · deal_date: 2026-11-28 · rep_date: 2026-11-28",
+      "he": "seller: ACS Armoured Car Systems GmbH · buyer: German Armed Forces (Bundeswehr) & Export · item: CUON Modular UGV Platform · val: R&D Stage · deal_date: 2026-11-28 · rep_date: 2026-11-28"
+     },
+     "why": {
+      "en": "Modern ground operations require adaptable autonomous systems capable of keeping pace with mechanized brigades across varied European topography. CUON's convertible running gear reduces fleet logistical footprints by standardizing powerplants and avionics while allowing field units to configure platforms for specific cross-country operational profiles.",
+      "he": "הלחימה המודרנית מחייבת כלים אוטונומיים בעלי יכולת ליווי טקטית של כוחות ממוכנים בתנאי שטח אירופיים משתנים. היכולת להחליף בין גלגלים לזחלים על בסיס אותה שלדה מצמצמת את הנטל הלוגיסטי ומאפשרת התאמה מהירה לתנאי בוץ ומזג אוויר קיצוני."
+     },
+     "israel": {
+      "en": "Israeli ground robotics firms, led by Elbit Systems and IAI, are actively advancing autonomous UGVs for perimeter security, ISR, and frontline casualty evacuation. The German approach toward modular mobility running gear offers relevant concepts for Israeli forces deploying UGVs in diverse sandy, mountainous, and urban environments.",
+      "he": "חברות ישראליות כמו אלביט מערכות והתעשייה האווירית מובילות בפיתוח כרב״מים לאבטחת גבולות, מודיעין ופינוי נפגעים. הקונספט הגרמני של מערכת הנעה היברידית מתחלפת עשוי לעניין מפתחים בישראל בהתאמת כלים קרקעיים לתוואי סלעי בצפון לעומת תוואי חולי בדרום."
+     },
+     "src": [
+      {
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/cuon-acs-entwickelt-hochmodulares-ugv-mit-rad-und-kettenantrieb/"
+      }
+     ],
+     "photo_url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/ACS-CUON-UGV.jpg",
+     "note": {
+      "en": "UPDATE — Verified via cited open source(s).",
+      "he": "UPDATE — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "Long-Range Strike Drone",
+     "typeHe": "כטב״ם תקיפה ארוך-טווח",
+     "h": {
+      "en": "Ukrainian Strike Drones Target Russia's Samara Crude Oil Pumping Station",
+      "he": "כטב״מי תקיפה אוקראיניים פגעו בתחנת שאיבת הנפט הגולמי בסמארה שברוסיה"
+     },
+     "s": {
+      "en": "Ukrainian long-range uncrewed aerial vehicles struck the Samara crude oil pumping station in central Russia, igniting fires across the transport hub. The facility serves as a vital logistics node pumping crude from eastern extraction fields toward western refineries.",
+      "he": "כטב״מי תקיפה ארוכי-טווח של אוקראינה פגעו הבוקר בתחנת שאיבת הנפט הגולמי בסמארה שבמרכז רוסיה וגרמו לשריפות נרחבות. המתקן מהווה צומת לוגיסטי חיוני להזרמת נפט משדות המזרח לעבר בתי הזיקוק במערב רוסיה."
+     },
+     "what": {
+      "en": "On the morning of 28 November 2026, Ukrainian defense forces executed a coordinated deep-penetration drone strike against the Samara crude oil pumping facility in central Russia. Visual evidence and geolocated imagery confirmed multiple direct impacts on infrastructure installations, producing large fire plumes. The Samara station acts as a crucial routing artery connecting oil fields in the Urals and Siberia to refineries and export pipelines in western Russia. Despite deployed Russian short-range air defense batteries, several drones navigated electronic countermeasures to deliver precision warhead detonations.",
+      "he": "בבוקר 28 בנובמבר 2026 ביצעו כוחות אוקראינה תקיפת עומק מתואמת באמצעות כטב״מי נפץ נגד תחנת שאיבת הנפט הגולמי במחוז סמארה שברוסיה. תיעוד מהשטח מאשר מספר פגיעות ישירות במתקני התשתית אשר הציתו שריפות גדולות. תחנת סמארה משמשת עורק מעבר קריטי המחבר בין שדות הנפט באורל ובסיביר לבתי הזיקוק במערב רוסיה. על אף מערכות הגנה אווירית ולוחמה אלקטרונית שהוצבו סביב המתקן, הצליחו מספר כטב״מים לחדור ולפגוע ביעדיהם."
+     },
+     "figs": {
+      "seller": "Ukrainian Indigenous Defense Industry",
+      "buyer": "Armed Forces of Ukraine",
+      "item": "Long-Range Strike UAVs",
+      "val": "Operational Action",
+      "deal_date": "2026-11-28",
+      "rep_date": "2026-11-28",
+      "en": "seller: Ukrainian Indigenous Defense Industry · buyer: Armed Forces of Ukraine · item: Long-Range Strike UAVs · val: Operational Action · deal_date: 2026-11-28 · rep_date: 2026-11-28",
+      "he": "seller: Ukrainian Indigenous Defense Industry · buyer: Armed Forces of Ukraine · item: Long-Range Strike UAVs · val: Operational Action · deal_date: 2026-11-28 · rep_date: 2026-11-28"
+     },
+     "why": {
+      "en": "Ukraine's sustained asymmetric deep-strike campaign deliberately targets single-point-of-failure energy transport nodes rather than solely storage farms. By disabling high-pressure pumping stations, Kyiv degrades Russia's throughput capacity to feed its military refining apparatus and generates substantial operational friction deep within Russian rear echelons.",
+      "he": "מערכת תקיפות העומק הא-סימטרית של אוקראינה ממקדת פגיעות בצמתים קריטיים של הולכת אנרגיה ולא רק בחוות מיכלי דלק. שיתוק תחנות שאיבה מונע הזרמת דלק רציפה לבתי זיקוק המזינים את מכונת המלחמה הרוסית וגובה מחיר כלכלי ולוגיסטי כבד בעומק העורף הרוסי."
+     },
+     "israel": {
+      "en": "The operational persistence and navigational accuracy of low-cost one-way attack drones over 800+ kilometers against hardened infrastructure offer direct analytical relevance for Israeli air defenders anticipating coordinated long-range drone salvoes from Iranian-backed groups across the region.",
+      "he": "היכולת המבצעית של כטב״מי נפץ מוזלים לבצע טיסות דיוק למרחק של מאות קילומטרים ולחדור מערכי לוחמה אלקטרונית מהווה מוקד לימוד בעבור מערך ההגנה האווירית של צה״ל, המתמודד עם איומי כטב״מים ארוכי-טווח מזירות שונות באזור."
+     },
+     "src": [
+      {
+       "t": "Osinttechnical",
+       "u": "https://x.com/Osinttechnical/status/2126600402791743781"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/media/HYMzy8zW8AAdQPM.jpg",
+     "photo_outlet": "Osinttechnical",
+     "photo_credit_en": "Photo: Social Media via Osinttechnical",
+     "photo_credit_he": "תמונה: רשתות חברתיות דרך Osinttechnical",
+     "photo_caption_en": "Smoke rises from the Samara crude oil pumping station following Ukrainian drone strikes on November 28, 2026.",
+     "photo_caption_he": "עשן מיתמר מתחנת שאיבת הנפט בסמארה בעקבות תקיפת כטב״מים אוקראינית ב-28 בנובמבר 2026.",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "SE",
+     "countryHe": "שוודיה",
+     "type": "Infantry Fighting Vehicle Procurement",
+     "typeHe": "רכש נגמ״שי לחימה",
+     "h": {
+      "en": "BAE Systems Bags Record USD 6B Multi-Nation Contract for 400+ CV90 IFVs",
+      "he": "עסקת ענק: BAE סיסטמס זכתה בחוזה משותף בשווי 6 מיליארד דולר לאספקת מעל 400 נגמ״שי CV90"
+     },
+     "s": {
+      "en": "BAE Systems Hägglunds has finalized a landmark joint procurement contract valued at USD 6 billion with Finland, Lithuania, the Netherlands, Norway, and Sweden. The collective order covers more than 400 CV90 infantry fighting vehicles tailored with advanced active protection and sensor suites.",
+      "he": "חברת BAE סיסטמס האגלנדס חתמה על חוזה רכש רב-לאומי חסר תקדים בסך 6 מיליארד דולר עם פינלנד, ליטא, הולנד, נורווגיה ושוודיה. העסקה כוללת אספקת יותר מ-400 נגמ״שי לחימה מדגם CV90 המשולבים במערכות הגנה אקטיבית וחיישנים מתקדמים."
+     },
+     "what": {
+      "en": "Under a collective procurement framework established to streamline acquisition and interoperability along NATO's northern and eastern flanks, five European nations signed binding contracts totaling USD 6 billion (EUR 5.5 billion) for over 400 CV90 MkIV infantry fighting vehicles. The coalition comprises Finland, Lithuania, the Netherlands, Norway, and Sweden. The vehicles will be delivered in standardized 'Nordic Edition' configurations, featuring high-output powerplants, modular 30mm/35mm/50mm autocannon turrets, integrated anti-tank guided missile launchers, and plug-and-play active protection systems (APS) designed to defeat incoming rockets and anti-tank munitions.",
+      "he": "במסגרת הסכם רכש משותף ראשון מסוגו שנועד לייעל עלויות תמיכה ולחזק את האגף המזרחי של נאט״ו, חתמו חמש מדינות אירופיות (פינלנד, ליטא, הולנד, נורווגיה ושוודיה) על חוזה בהיקף של 6 מיליארד דולר לרכש של יותר מ-400 נגמ״שי CV90 MkIV. הכלים יסופקו בתצורת 'Nordic Edition' הכוללת מנועים משודרגים, צריחי תותחים מודולריים, משגרי טילי נ״ט מובנים וממשקי הגנה אקטיבית להגנה מפני רקטות וטילי נ״ט."
+     },
+     "figs": {
+      "seller": "BAE Systems Hägglunds",
+      "buyer": "Finland, Lithuania, Netherlands, Norway, Sweden",
+      "item": "400+ CV90 MkIV Infantry Fighting Vehicles",
+      "val": "USD 6.0B (EUR 5.5B)",
+      "deal_date": "2026-11-27",
+      "rep_date": "2026-11-28",
+      "en": "seller: BAE Systems Hägglunds · buyer: Finland, Lithuania, Netherlands, Norway, Sweden · item: 400+ CV90 MkIV Infantry Fighting Vehicles · val: USD 6.0B (EUR 5.5B) · deal_date: 2026-11-27 · rep_date: 2026-11-28",
+      "he": "seller: BAE Systems Hägglunds · buyer: Finland, Lithuania, Netherlands, Norway, Sweden · item: 400+ CV90 MkIV Infantry Fighting Vehicles · val: USD 6.0B (EUR 5.5B) · deal_date: 2026-11-27 · rep_date: 2026-11-28"
+     },
+     "why": {
+      "en": "This deal marks the largest unified ground armored vehicle acquisition contract in contemporary European defense history. Joint contracting drastically lowers unit costs, pools spare parts logistics across five armies, and establishes a formidable armored combat vehicle baseline across northern and Baltic defense corridors facing Russian mechanized threats.",
+      "he": "מדובר בעסקת הרכש המאוחדת הגדולה ביותר של רק״ם מתקדם באירופה בעשורים האחרונים. הרכש המשותף מוזיל דרמטית את עלויות הייצור לכל כלי, מאחד קווי אספקה ותחזוקה בין חמישה צבאות ומבסס כוח ממוכן אחיד ומתקדם מול האיום הרוסי באגף המזרחי של נאט״ו."
+     },
+     "israel": {
+      "en": "The CV90 platform is intimately linked to Israeli defense technology, with several European operators (notably the Netherlands) integrating Elbit Systems' Iron Fist active protection system (APS) and advanced optronics onto their CV90 fleets. Substantial expansions in the European CV90 fleet open expanded opportunities for Israeli tier-1 survivability and sensor sub-contractors.",
+      "he": "פלטפורמת ה-CV90 מקושרת באופן הדוק לתעשיות הביטחון בישראל: צבא הולנד ומדינות נוספות בחרו לשלב בנגמ״שים אלו את מערכת ההגנה האקטיבית 'חץ דורבן' (Iron Fist) ומערכות אלקטרו-אופטיקה של אלביט מערכות. הרחבת צי ה-CV90 באירופה פותחת הזדמנויות עסקיות משמעותיות לחברות ביטחוניות ישראליות."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations/"
+      },
+      {
+       "t": "The War Zone",
+       "u": "https://www.twz.com/land/europe-bets-big-on-cv90-armored-fighting-vehicle"
+      },
+      {
+       "t": "EDR Magazine",
+       "u": "https://www.edrmagazine.eu/bae-systems-hagglunds-finland-lithuania-the-netherlands-norway-and-sweden-sign-the-contract-for-400-cv9035-mkiv-infantry-combat-vehicles"
+      }
+     ],
+     "photo_url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/cv90-jonas-1-good-scaled-e1795807504446.jpeg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "IT",
+     "countryHe": "איטליה",
+     "type": "Naval Auxiliary",
+     "typeHe": "ספינת אספקה ותמיכה לוגיסטית",
+     "h": {
+      "en": "Fincantieri and Leonardo Sign USD 549M Contract for Third Italian Navy Logistic Support Ship",
+      "he": "פינקנטיירי ולאונרדו חתמו על חוזה בסך 549 מיליון דולר לבניית ספינת אספקה שלישית עבור חיל הים האיטלקי"
+     },
+     "s": {
+      "en": "Fincantieri and Leonardo, via the temporary consortium arrangement with OCCAR, secured a contract amendment worth USD 549 million to build a third Logistic Support Ship (LSS) for the Italian Navy. The vessel expands blue-water sustainment and multi-mission humanitarian support capabilities.",
+      "he": "החברות פינקנטיירי ולאונרדו, באמצעות ארגון הרכש האירופי OCCAR, חתמו על הרחבת חוזה בשווי 549 מיליון דולר לבניית ספינת תמיכה לוגיסטית (LSS) שלישית עבור הצי האיטלקי. הספינה תחזק את יכולות התספוק בלב ים ומשימות הומניטריות רב-ממדיות."
+     },
+     "what": {
+      "en": "European defense procurement organization OCCAR, acting on behalf of the Italian Ministry of Defence, finalized a contract modification valued at approximately EUR 520 million (USD 549 million) with the temporary industrial consortium consisting of Fincantieri and Leonardo. The agreement funds the construction and integration of a third Vulcano-class Logistic Support Ship (LSS) for the Italian Navy (Marina Militare). Leonardo will provide state-of-the-art combat management systems, naval sensors, and self-defense electronic warfare suites, while Fincantieri builds the hull and dual-fuel propulsion machinery designed for underway replenishment of fuel, ammunition, spare parts, and medical facilities.",
+      "he": "ארגון הרכש האירופי OCCAR, הפועל מטעם משרד ההגנה האיטלקי, חתם על תוספת חוזה בשווי של כ-520 מיליון אירו (549 מיליון דולר) מול הקונסורציום של פינקנטיירי ולאונרדו. ההסכם מממן את בנייתה של ספינת תמיכה ואספקה שלישית מסדרת Vulcano עבור הצי האיטלקי. לאונרדו תספק את מערכת ניהול הקרב, המכ״מים ומערכות ההגנה העצמית, בעוד פינקנטיירי תבנה את גוף הספינה ומערכות ההנעה הכפולות המיועדות לתספוק דלק, תחמושת וציוד בלב ים לצד מתקני בית חולים צף."
+     },
+     "figs": {
+      "seller": "Fincantieri & Leonardo Consortium",
+      "buyer": "OCCAR / Italian Navy (Marina Militare)",
+      "item": "Third Vulcano-class Logistic Support Ship (LSS)",
+      "val": "USD 549M (EUR 520M)",
+      "deal_date": "2026-11-27",
+      "rep_date": "2026-11-28",
+      "en": "seller: Fincantieri & Leonardo Consortium · buyer: OCCAR / Italian Navy (Marina Militare) · item: Third Vulcano-class Logistic Support Ship (LSS) · val: USD 549M (EUR 520M) · deal_date: 2026-11-27 · rep_date: 2026-11-28",
+      "he": "seller: Fincantieri & Leonardo Consortium · buyer: OCCAR / Italian Navy (Marina Militare) · item: Third Vulcano-class Logistic Support Ship (LSS) · val: USD 549M (EUR 520M) · deal_date: 2026-11-27 · rep_date: 2026-11-28"
+     },
+     "why": {
+      "en": "Fleet replenishment ships are the critical enabler of sustained expeditionary naval task groups. By securing a third LSS, Italy bolsters its naval projection across the wider Mediterranean and Indo-Pacific theaters, aligning its fleet logistics with NATO high-readiness carrier strike requirements.",
+      "he": "ספינות תספוק הן מרכיב מכריע ביכולת הפעלת כוחות ימיים במרחקים גדולים. הזמנת הספינה השלישית מספקת לצי האיטלקי רציפות מבצעית במרחבי הים התיכון והאוקיינוס ההודי-השקט, ומאפשרת תמיכה ממושכת בכוחות משימה ונושאות מטוסים של נאט״ו."
+     },
+     "israel": {
+      "en": "The expansion of NATO naval logistics in the central and eastern Mediterranean directly enhances maritime domain awareness and stability along vital sea lanes connecting Israel to European trade corridors, supporting regional maritime security frameworks.",
+      "he": "חיזוק היכולות הלוגיסטיות של ציי נאט״ו במרכז ומזרח הים התיכון תורם ישירות לביטחון נתיבי הסחר הימיים החיוניים לישראל ומסייע לשמירה על יציבות מרחבית ושיתוף פעולה ימי מול אתגרים אסימטריים."
+     },
+     "src": [
+      {
+       "t": "Naval Technology",
+       "u": "https://www.naval-technology.com/news/fincantieri-leonardo-italy-lss/"
+      }
+     ],
+     "photo_url": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/Italian-Navy-LSS.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "US",
+     "countryHe": "ארצות הברית",
+     "type": "Industrial Base & Drone Supply Chain",
+     "typeHe": "בסיס תעשייתי ושרשרת אספקה לכטב״מים",
+     "h": {
+      "en": "Pentagon Explores Auto-Manufacturing Lines with Ford, GM, and Magna for Mass Drone Production",
+      "he": "הפנטגון מקיים מגעים מוקדמים עם פורד, GM ומאגנה לרתימת קווי רכב לייצור המוני של כטב״מים"
+     },
+     "s": {
+      "en": "The U.S. Department of War has initiated preliminary talks with automotive giants Ford, General Motors, and Canada's Magna International to evaluate using automotive tooling and supply chains to rapidly manufacture components for low-cost attritable military drones.",
+      "he": "מחלקת ההגנה של ארצות הברית החלה בשיחות ראשוניות עם ענקיות הרכב פורד, ג'נרל מוטורס ומאגנה הקנדית כדי לבחון שימוש בפסי ייצור מעולם הרכב לייצור המוני של רכיבים עבור כטב״מים צבאיים מוזלים."
+     },
+     "what": {
+      "en": "Defense officials confirmed early-stage exploratory discussions between the Pentagon and major North American automotive manufacturers, specifically Ford, General Motors, and tier-1 supplier Magna International. The initiative aims to tap commercial automotive stamping, composite molding, electric motor, and battery pack manufacturing capabilities to overcome chronic aerospace bottlenecking. The strategic concept focuses on enabling high-volume output of structural sub-assemblies, wiring harnesses, and propulsion pods for low-cost, attritable autonomous uncrewed aircraft (UAVs) required by massed reconnaissance and strike formations in potential large-scale conflicts.",
+      "he": "בכירים אמריקאים אישרו מגעים מוקדמים בין הפנטגון לחברות הרכב המובילות פורד, ג'נרל מוטורס וספקית החלפים מאגנה הבינלאומית. היוזמה נועדה לרתום את פסי הייצור ההמוניים, יכולות עיבוד הפח והחומרים המרוכבים, ומערכות ההנעה החשמליות של תעשיית הרכב לטובת ייצור מהיר של כטב״מים מוזלים. המהלך נועד לפתור את צווארי הבקבוק בתעשייה האווירונאוטית המסורתית ולייצר עשרות אלפי פלטפורמות בלתי מאוישות לתרחישי עימות בעצימות גבוהה."
+     },
+     "figs": {
+      "seller": "Ford, General Motors, Magna International",
+      "buyer": "U.S. Department of War (Pentagon)",
+      "item": "Automotive Production Feasibility for Drone Parts",
+      "val": "Exploratory Framework",
+      "deal_date": "2026-11-27",
+      "rep_date": "2026-11-28",
+      "en": "seller: Ford, General Motors, Magna International · buyer: U.S. Department of War (Pentagon) · item: Automotive Production Feasibility for Drone Parts · val: Exploratory Framework · deal_date: 2026-11-27 · rep_date: 2026-11-28",
+      "he": "seller: Ford, General Motors, Magna International · buyer: U.S. Department of War (Pentagon) · item: Automotive Production Feasibility for Drone Parts · val: Exploratory Framework · deal_date: 2026-11-27 · rep_date: 2026-11-28"
+     },
+     "why": {
+      "en": "The war in Ukraine and rising Indo-Pacific tension have demonstrated that traditional aerospace primes cannot scale airframe production rapidly enough to sustain high-attrition drone warfare. Mobilizing the automotive sector's advanced automation, high-speed robotics, and vast sub-tier supply networks represents a structural pivot toward true wartime industrial surge capacity.",
+      "he": "הלקחים ממלחמת אוקראינה וההיערכות לאפשרות של עימות באזור האינדו-פסיפי הוכיחו כי התעשייה הביטחונית המסורתית אינה מסוגלת לייצר כטב״מים בקצב הנדרש להחלפת אבדות מהירה. שילוב תעשיית הרכב וקווי הייצור הרובוטיים המהירים שלה מהווה שינוי פרדיגמה ביכולת הגיוס התעשייתי לשעת חירום."
+     },
+     "israel": {
+      "en": "Israel is actively pursuing scalable low-cost drone and interceptor production to counter regional saturation threats. Adapting civilian automated assembly techniques to uncrewed aerospace components mirrors domestic efforts by Israeli defense primes looking to civilian commercial manufacturing partners for rapid mass production of tactical systems.",
+      "he": "בישראל גובר הצורך בייצור המוני ומהיר של כטב״מים ומיירטים טקטיים בעלויות נמוכות להתמודדות עם איומי רוויה. אימוץ שיטות ייצור אוטומטיות מעולם הרכב האזרחי תואם תהליכים דומים הנבחנים בישראל לשילוב ספקים אזרחיים בהרכבת פלטפורמות קרב רובוטיות."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/u-s-department-of-war-in-early-talks-with-ford-and-gm-over-parts-for-low-cost-military-drones/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/11/U.S.-Department-of-War-in-early-talks-with-Ford-and-GM-over-parts-for-low-cost-military-drones.jpeg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "DK",
+     "countryHe": "דנמרק",
+     "type": "Training Systems",
+     "typeHe": "מערכות אימון וסימולטורים",
+     "h": {
+      "en": "Briefly noted: BAE Systems Awarded USD 90M for Danish CV90 MkIIIC Simulators",
+      "he": "בקצרה: BAE סיסטמס זכתה בחוזה בסך 90 מיליון דולר לסימולטורי CV90 MkIIIC לדנמרק"
+     },
+     "s": {
+      "en": "The Danish Defence Acquisition and Logistics Organisation (DALO) awarded BAE Systems a USD 90 million contract to supply advanced CV90 MkIIIC vehicle training simulators for the Danish Armed Forces.",
+      "he": "ארגון הרכש והלוגיסטיקה של משרד ההגנה הדני (DALO) העניק ל-BAE סיסטמס חוזה בשווי 90 מיליון דולר לאספקת סימולטורים מתקדמים לנגמ״שי CV90 MkIIIC."
+     },
+     "what": {
+      "en": "The Danish Defence Acquisition and Logistics Organisation (DALO) has signed a USD 90 million contract with BAE Systems for the delivery of high-fidelity CV90 MkIIIC training simulators to prepare Danish mechanized crews for high-intensity warfare.",
+      "he": "ארגון הרכש הדני DALO חתם על עסקה בשווי 90 מיליון דולר עם BAE סיסטמס לאספקת סימולטורי נהיגה ותותחנות מתקדמים עבור נגמ״שי CV90 MkIIIC של צבא דנמרק."
+     },
+     "figs": {
+      "seller": "BAE Systems",
+      "buyer": "DALO (Denmark)",
+      "item": "CV90 MkIIIC Mission Simulators",
+      "val": "USD 90M",
+      "deal_date": "2026-11-27",
+      "rep_date": "2026-11-28",
+      "en": "seller: BAE Systems · buyer: DALO (Denmark) · item: CV90 MkIIIC Mission Simulators · val: USD 90M · deal_date: 2026-11-27 · rep_date: 2026-11-28",
+      "he": "seller: BAE Systems · buyer: DALO (Denmark) · item: CV90 MkIIIC Mission Simulators · val: USD 90M · deal_date: 2026-11-27 · rep_date: 2026-11-28"
+     },
+     "why": {
+      "en": "Modern vehicle simulators allow mechanized units to train extensively on tactical coordination and active defense operations without incurring heavy wear-and-tear costs on operational armored vehicle fleets.",
+      "he": "סימולטורים מודרניים מאפשרים לצוותי רק״ם להתאמן בתרחישי קרב מורכבים והפעלת מערכות הגנה אקטיבית תוך חיסכון משמעותי בשעות מנוע ובלאי של הכלים המבצעיים."
+     },
+     "israel": {
+      "en": "Israeli simulator leaders such as Elbit Systems operate extensively in the European ground vehicle simulation market, competing and cooperating in training environments across NATO armored forces.",
+      "he": "חברות ישראליות כמו אלביט מערכות הן מובילות עולמיות בתחום מאמני הרק״ם והסימולטורים הטקטיים, ומשלבות מערכות אימון רבות בצבאות נאט״ו באירופה."
+     },
+     "src": [
+      {
+       "t": "Army Technology",
+       "u": "https://www.army-technology.com/news/bae-systems-denmark-cv90-simulators/"
+      }
+     ],
+     "photo_url": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/11/Denmark-CV90.jpg",
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    }
+   ],
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 5 full items, 1 briefly noted item.",
+     "Strict deduplication verified: excluded all previous stories including the U.S. strike on M/V Pacific Archer, Terra Drone deliveries, MSF-affiliated strike, and older KC-46 lots.",
+     "Live URLs verified from input tweet leads and defense media releases."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 5 פריטים מלאים, פריט 1 בקצרה.",
+     "בוצעה הקפדה על מניעת כפילויות: הוחרגו אירועי עבר כולל יירוט הספינה Pacific Archer, כטב״מי טרה דרון, ותקיפת פעילי הטרור בעזה.",
+     "כל הקישורים אומתו במדויק מול מאגר המקורות שנאסף בחלון הזמן."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Follow-up on industrial supply agreements between the Pentagon and Ford/GM for automotive drone part manufacturing lines.",
+     "Monitoring international naval reactions and procurement evaluations for the newly series-produced Greyshark fuel-cell AUV.",
+     "Assessing Russian refinery output and logistic rerouting after Ukrainian drone impacts on the Samara pumping station.",
+     "Tracking sub-contractor allocations for the USD 6B multinational CV90 MkIV contract, including active protection system selection."
+    ],
+    "he": [
+     "מעקב אחר הבשלת הסכמים תעשייתיים בין הפנטגון לחברות הרכב פורד ו-GM להסבת פסי ייצור לחלקי כטב״מים.",
+     "בחינת התעניינות בינלאומית והזמנות ראשונות לרכב התת-ימי Greyshark בגרסת תאי דלק שנכנס לייצור סדרתי.",
+     "מעקב אחר הפגיעה בתפוקת הנפט והלוגיסטיקה הרוסית בעקבות תקיפת תחנת השאיבה המרכזית בסמארה.",
+     "מעקב אחר חלוקת חוזי קבלנות המשנה בעסקת ה-CV90 בסך 6 מיליארד דולר, ובפרט שילוב מערכות הגנה אקטיבית ישראליות."
+    ]
+   },
+   "edition_key": "2026-11-28-1130",
+   "notes": {
+    "en": [
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
+    ],
+    "he": [
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
+    ]
+   },
+   "photos": {
+    "D1": {
+     "url": "https://pbs.twimg.com/card_img/2125876608414228480/vlDk1_Ud?format=jpg&amp;name=medium",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "Euroatlas and EvoLogics Move Greyshark AUV into Series Production",
+     "caption_he": "יורואטלס ואבולוג'יקס מעבירות את רכב המעמקים האוטונומי Greyshark לייצור סדרתי",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-28-1130/D1.jpg"
+    },
+    "A1": {
+     "url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/ACS-CUON-UGV.jpg",
+     "outlet": "hartpunkt.de",
+     "caption_en": "Country Focus (Germany): ACS Develops Highly Modular CUON UGV with Wheeled and Tracked Drives",
+     "caption_he": "מיקוד מדינה (גרמניה): חברת ACS מפתחת את כרב״ם ה-CUON המודולרי בעל הנעת גלגלים וזחלים מתחלפת",
+     "credit_en": "Photo via hartpunkt.de",
+     "credit_he": "תמונה דרך hartpunkt.de",
+     "local_src": "img/2026-11-28-1130/A1.jpg"
+    },
+    "C1": {
+     "url": "https://pbs.twimg.com/media/HYMzy8zW8AAdQPM.jpg",
+     "outlet": "Osinttechnical",
+     "caption_en": "Smoke rises from the Samara crude oil pumping station following Ukrainian drone strikes on November 28, 2026.",
+     "caption_he": "עשן מיתמר מתחנת שאיבת הנפט בסמארה בעקבות תקיפת כטב״מים אוקראינית ב-28 בנובמבר 2026.",
+     "credit_en": "Photo: Social Media via Osinttechnical",
+     "credit_he": "תמונה: רשתות חברתיות דרך Osinttechnical",
+     "local_src": "img/2026-11-28-1130/C1.jpg"
+    },
+    "A2": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/cv90-jonas-1-good-scaled-e1795807504446.jpeg",
+     "outlet": "breakingdefense.com",
+     "caption_en": "BAE Systems Bags Record USD 6B Multi-Nation Contract for 400+ CV90 IFVs",
+     "caption_he": "עסקת ענק: BAE סיסטמס זכתה בחוזה משותף בשווי 6 מיליארד דולר לאספקת מעל 400 נגמ״שי CV90",
+     "credit_en": "Photo via breakingdefense.com",
+     "credit_he": "תמונה דרך breakingdefense.com",
+     "local_src": "img/2026-11-28-1130/A2.jpg"
+    },
+    "D2": {
+     "url": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/Italian-Navy-LSS.jpg",
+     "outlet": "naval-technology.com",
+     "caption_en": "Fincantieri and Leonardo Sign USD 549M Contract for Third Italian Navy Logistic Support Ship",
+     "caption_he": "פינקנטיירי ולאונרדו חתמו על חוזה בסך 549 מיליון דולר לבניית ספינת אספקה שלישית עבור חיל הים האיטלקי",
+     "credit_en": "Photo via naval-technology.com",
+     "credit_he": "תמונה דרך naval-technology.com",
+     "local_src": "img/2026-11-28-1130/D2.jpg"
+    },
+    "B1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/U.S.-Department-of-War-in-early-talks-with-Ford-and-GM-over-parts-for-low-cost-military-drones.jpeg",
+     "outlet": "defence-industry.eu",
+     "caption_en": "Pentagon Explores Auto-Manufacturing Lines with Ford, GM, and Magna for Mass Drone Production",
+     "caption_he": "הפנטגון מקיים מגעים מוקדמים עם פורד, GM ומאגנה לרתימת קווי רכב לייצור המוני של כטב״מים",
+     "credit_en": "Photo via defence-industry.eu",
+     "credit_he": "תמונה דרך defence-industry.eu",
+     "local_src": "img/2026-11-28-1130/B1.jpg"
+    },
+    "A3": {
+     "url": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/11/Denmark-CV90.jpg",
+     "outlet": "army-technology.com",
+     "caption_en": "Briefly noted: BAE Systems Awarded USD 90M for Danish CV90 MkIIIC Simulators",
+     "caption_he": "בקצרה: BAE סיסטמס זכתה בחוזה בסך 90 מיליון דולר לסימולטורי CV90 MkIIIC לדנמרק",
+     "credit_en": "Photo via army-technology.com",
+     "credit_he": "תמונה דרך army-technology.com",
+     "local_src": "img/2026-11-28-1130/A3.jpg"
+    }
+   }
+  },
   "2026-11-28-0500": {
    "date": "2026-11-28",
    "slot": "0500",
