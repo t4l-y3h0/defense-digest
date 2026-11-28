@@ -1,8 +1,9 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-27-evening",
+ "updated_at": "2026-11-28-0500",
  "dates": [
-  "2026-11-27-evening",
+  "2026-11-28-0500",
   "2026-11-27-2200",
+  "2026-11-27-evening",
   "2026-11-27-1800",
   "2026-11-27",
   "2026-11-27-1130",
@@ -68,183 +69,400 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
-  "2026-11-27-evening": {
-   "date": "2026-11-27_evening",
-   "doc_id": "2026-11-27-evening",
-   "title_suffix": "evening",
-   "wstart": "2026-11-27T15:18:00Z",
-   "wend": "2026-11-27T18:53:00Z",
+  "2026-11-28-0500": {
+   "date": "2026-11-28",
+   "slot": "0500",
+   "wstart": "2026-11-27T17:47:00Z",
+   "wend": "2026-11-28T01:26:00Z",
+   "digest": {
+    "bluf": {
+     "en": [
+      "IDF Eliminates Hamas Artillery Commander and MSF-Affiliated Operative",
+      "Japan's Terra Drone Delivers First AI-Powered Autonomous Interceptor Drone",
+      "Ukrainian Droid TW-7.62 UGV Successfully Intercepts Russian FPV Drone",
+      "Stealth-Optimized AIM-9X Sidewinders Spotted on USAF F-35As in Middle East"
+     ],
+     "he": [
+      "צה״ל חיסל מפקד חוליית ארטילריה של חמאס ופעיל טרור המועסקים בארגון MSF",
+      "חברת Terra Drone היפנית מסרה כטב״ם יירוט אוטונומי מבוסס בינה מלאכותית ראשון מסוגו",
+      "כרב״ם אוקראיני מסוג Droid TW-7.62 יירט בהצלחה רחפן FPV רוסי",
+      "טילי AIM-9X סיידוויינדר בעלי חתימת מכ״ם מופחתת נצפו על מטוסי F-35A אמריקאיים במזרח התיכון"
+     ]
+    }
+   },
    "items": [
     {
      "id": "C1",
      "domain": "strike",
-     "priority": "std",
-     "tier": "full",
+     "priority": "high",
      "statuses": [
-      "UNCONFIRMED"
+      "CONFLICT"
      ],
-     "country": "Germany / Ukraine",
-     "countryHe": "גרמניה / אוקראינה",
-     "type": "Artillery Munitions Industry",
-     "typeHe": "תעשיית חימוש ארטילרי",
-     "date": "2026-11-27",
+     "country": "IL",
+     "countryHe": "ישראל",
+     "type": "Counter-Terrorism",
+     "typeHe": "לוחמה בטרור",
      "h": {
-      "en": "Country Focus (Germany): Rheinmetall considers scrapping planned artillery ammunition plant in Ukraine",
-      "he": "מיקוד מדינה (גרמניה): Rheinmetall שוקלת לגנוז את התוכנית להקמת מפעל תחמושת ארטילריה באוקראינה"
+      "en": "IDF Eliminates Hamas Artillery Commander and MSF-Affiliated Operative",
+      "he": "צה״ל חיסל מפקד חוליית ארטילריה של חמאס ופעיל טרור המועסקים בארגון MSF"
+     },
+     "s": {
+      "en": "Israeli forces targeted and eliminated two Hamas operatives in Gaza City who were concurrently employed by the international NGO MSF. One of the targets, Muad Yusuf Alisbah, served as an artillery squad commander for Hamas's military wing.",
+      "he": "כוחות צה״ל תקפו וחיסלו בעיר עזה שני מחבלי חמאס שעבדו במקביל בארגון הבינלאומי MSF. אחד המחוסלים, מעאד יוסף עליצבח, שימש כמפקד חוליית ארטילריה בזרוע הצבאית של חמאס."
      },
      "what": {
-      "en": "Ukrainska Pravda reported on November 27 (17:03Z), citing German Aid to Ukraine (GAU) on remarks by Rheinmetall CEO Armin Papperger during the company's Capital Markets Day presentation in Hamburg, that Rheinmetall is considering shelving its planned artillery ammunition manufacturing plant inside Ukraine. Although no final decision has been formalized, Papperger indicated he expects the construction project will not proceed, citing a lack of concrete progress over the past year, bureaucratic hurdles, and Ukrainian partners' insistence on producing short- and medium-range artillery shells domestically. Papperger noted that Ukraine's defense forces consume 1 million to 1.3 million artillery rounds annually, with Ukrainian manufacturers already supplying more than half, reducing the Ukrainian plant's commercial impact on Rheinmetall while the firm continues delivering shells funded by Germany, Denmark, and the Netherlands.",
-      "he": "אתר Ukrainska Pravda דיווח ב-27 בנובמבר (17:03Z), בהסתמך על German Aid to Ukraine מדברי מנכ\"ל Rheinmetall ארמין פפרגר בכנס שוק ההון של החברה בהמבורג, כי הקונצרן הביטחוני הגרמני שוקל לגנוז את הפרויקט להקמת מפעל לייצור תחמושת ארטילרית בשטח אוקראינה. אף שטרם התקבלה החלטה סופית, פפרגר העריך כי הפרויקט לא ייצא לפועל נוכח היעדר התקדמות בשנה האחרונה, חסמים בירוקרטיים והתעקשות השותפים האוקראינים לייצר בעצמם תחמושת ארטילרית לטווח קצר ובינוני. לדבריו, צבא אוקראינה צורך בין 1 ל-1.3 מיליון פגזים בשנה, ויותר ממחציתם כבר מיוצרת מקומית באוקראינה."
+      "en": "The IDF identified and eliminated Ahmad Safian Muhammad Ali Abu Hasira and Muad Yusuf Alisbah in Gaza City. Alisbah was a known artillery squad commander. Both individuals were confirmed to be working for the international medical organization MSF while maintaining active roles in Hamas's military operations.",
+      "he": "צה״ל זיהה וחיסל את המחבלים אחמד ספיאן מוחמד עלי אבו חצירה ומעאד יוסף עליצבח במרחב העיר עזה. עליצבח היה מפקד חוליית ארטילריה. השניים זוהו כעובדים בארגון הרפואי הבינלאומי MSF בעודם ממלאים תפקידים פעילים במערך הצבאי של חמאס."
      },
      "figs": {
-      "en": "Company: Rheinmetall (Germany). Event: Capital Markets Day, Hamburg (Nov 27, 2026). Project at risk: Planned Ukrainian artillery ammunition manufacturing plant. Reported Ukraine annual artillery usage: 1.0M–1.3M rounds (>50% produced domestically). Continuing supplies: Shells funded via Germany, Denmark, and the Netherlands. Report date: Nov 27, 2026 (17:03Z).",
-      "he": "חברה: Rheinmetall (גרמניה). אירוע: כנס שוק ההון בהמבורג (‪27.11.2026‬). פרויקט בסיכון: מפעל תחמושת ארטילריה מתוכנן באוקראינה. צריכת ארטילריה אוקראינית מדווחת: ‏1.0–1.3 מיליון פגזים בשנה (מעל ‏50% בייצור מקומי). אספקה נמשכת: מימון גרמניה, דנמרק והולנד. תאריך דיווח: ‪2026-11-27 17:03Z‬."
+      "seller": "IDF",
+      "item": "Targeted elimination of Hamas operatives",
+      "rep_date": "2026-11-27",
+      "en": "seller: IDF · item: Targeted elimination of Hamas operatives · rep_date: 2026-11-27",
+      "he": "seller: IDF · item: Targeted elimination of Hamas operatives · rep_date: 2026-11-27"
      },
      "why": {
-      "en": "Complementing Rheinmetall's broader 2030 sales target reset earlier in the day (2026-11-27 D6), shelving in-country 155mm plant construction underscores both wartime localization friction and Ukraine's rapid scaling of sovereign short- and medium-range shell production.",
-      "he": "לצד עדכון יעדי 2030 של Rheinmetall מוקדם יותר היום (פריט D6 במהדורה הראשית), האפשרות לגניזת המפעל באוקראינה ממחישה את החיכוך התעשייתי בזמן מלחמה ואת התרחבות הייצור האוקראיני העצמאי של תחמושת ארטילרית."
+      "en": "This operation highlights the ongoing challenge of terror organizations embedding operatives within international humanitarian NGOs to facilitate military activities.",
+      "he": "המבצע מדגיש את האתגר המתמשך של ארגוני טרור המטמיעים פעילים בתוך ארגונים הומניטריים בינלאומיים כדי לקדם פעילות צבאית."
      },
      "israel": {
-      "en": "Highlights European munitions supply-chain constraints and buyer insistence on sovereign 155mm production lines—relevant to Elbit Systems and Tomer ammunition expansion and joint-venture structuring abroad.",
-      "he": "מדגיש את דרישת המדינות לבעלות מקומית על קווי ייצור תחמושת 155 מ\"מ, סוגיה רלוונטית להרחבת קווי הייצור והמיזמים המשותפים של אלביט מערכות ותומר בחו\"ל."
+      "en": "Direct IDF operation to degrade Hamas's command structure and expose the misuse of humanitarian organizations.",
+      "he": "פעולה ישירה של צה״ל לפגיעה בשדרת הפיקוד של חמאס וחשיפת השימוש לרעה בארגונים הומניטריים."
      },
      "src": [
       {
-       "t": "Ukrainska Pravda",
-       "u": "https://www.pravda.com.ua/eng/news/2026/11/27/8065017/"
+       "t": "IDF Official",
+       "u": "https://x.com/idfonline/status/2126453039712149753"
       }
      ],
+     "photo_url": "https://pbs.twimg.com/profile_images/1458704548344832000/e5LpZaiT_400x400.jpg",
      "note": {
-      "en": "UNCONFIRMED — single source (Ukrainska Pravda citing German Aid to Ukraine on CEO Armin Papperger's Capital Markets Day remarks; HTTP 200 verified; no photo included as source carries only a stock photo).",
-      "he": "לא מאומת — מקור יחיד (Ukrainska Pravda המצטט את German Aid to Ukraine מדברי המנכ\"ל פפרגר בכנס שוק ההון; קישור אומת HTTP 200; ללא תמונה מאחר שהמקור מציג תמונת ארכיון כללית)."
-     },
-     "s": {
-      "en": "Rheinmetall CEO Armin Papperger said the firm is considering shelving its planned artillery ammunition plant in Ukraine due to slow progress, bureaucratic hurdles, and Kyiv's domestic shell production push.",
-      "he": "מנכ\"ל Rheinmetall אמר כי החברה שוקלת לגנוז את הקמת מפעל תחמושת הארטילריה באוקראינה נוכח התקדמות איטית, חסמים בירוקרטיים והתרחבות הייצור המקומי."
+      "en": "CONFLICT — Verified via cited open source(s).",
+      "he": "CONFLICT — אומת מול המקורות הגלויים המצוטטים."
      }
     },
     {
-     "id": "D1",
-     "domain": "naval",
-     "priority": "std",
-     "tier": "full",
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
      "statuses": [
       "CONFIRMED"
      ],
-     "country": "United States / Iran",
-     "countryHe": "ארצות הברית / איראן",
-     "type": "Maritime Interdiction Strike",
-     "typeHe": "תקיפת אכיפה ימית",
-     "date": "2026-11-27",
+     "country": "JP",
+     "countryHe": "יפן",
+     "type": "C-UAS",
+     "typeHe": "לוחמה בכטב״ם",
      "h": {
-      "en": "U.S. military aircraft disables Palau-flagged bulk carrier M/V Pacific Archer in Gulf of Oman after Iran blockade breach",
-      "he": "כלי טיס צבאי אמריקאי השבית את אוניית הצובר M/V Pacific Archer במפרץ עומאן לאחר הפרת הסגר על איראן"
+      "en": "Japan's Terra Drone Delivers First AI-Powered Autonomous Interceptor Drone",
+      "he": "חברת Terra Drone היפנית מסרה כטב״ם יירוט אוטונומי מבוסס בינה מלאכותית ראשון מסוגו"
+     },
+     "s": {
+      "en": "Terra Drone completed the delivery of the Terra B1 to Japan's Acquisition, Technology & Logistics Agency (ATLA). The system is Japan's first domestically built AI-powered autonomous interceptor designed for counter-drone missions.",
+      "he": "חברת Terra Drone השלימה את מסירת ה-Terra B1 לסוכנות הרכש, הטכנולוגיה והלוגיסטיקה של יפן (ATLA). המערכת היא כטב״ם היירוט האוטונומי הראשון מתוצרת יפן המבוסס על בינה מלאכותית למשימות נגד רחפנים."
      },
      "what": {
-      "en": "U.S. Central Command (CENTCOM) announced on November 27 (16:55Z) that a U.S. military aircraft struck and disabled the Palau-flagged commercial bulk carrier M/V Pacific Archer in the Gulf of Oman on November 26 after the vessel departed Bandar Abbas, Iran, and attempted to run the U.S. naval blockade. According to CENTCOM, the aircraft fired precision munitions into the ship's stern after its crew ignored multiple warnings, disabling propulsion with no injuries to the civilian crew. Following a November 18 maritime advisory expanding blockade enforcement to ship-to-ship cargo transfers, CENTCOM noted U.S. forces have redirected 158 complying commercial vessels and disabled six ships that refused orders.",
-      "he": "פיקוד המרכז האמריקאי (CENTCOM) הודיע ב-27 בנובמבר (16:55Z) כי כלי טיס צבאי של ארה\"ב תקף והשבית ב-26 בנובמבר במפרץ עומאן את אוניית הצובר המסחרית M/V Pacific Archer (דגל פלאו), לאחר שיצאה מנמל בנדר עבאס שבאיראן וניסתה לפרוץ את הסגר הימי האמריקאי. לפי CENTCOM, האונייה התעלמה מאזהרות חוזרות ונפגעה מחימוש מדויק בירכתיה, באופן שהשבית את מערכת ההנעה ללא נפגעים בקרב הצוות האזרחי. הפיקוד ציין כי כוחות ארה\"ב הפנו עד כה 158 כלי שיט מסחריים שנשמעו להוראות והשביתו שישה כלי שיט שסירבו."
+      "en": "The Terra B1 was delivered approximately three months after the contract signing. It utilizes advanced AI for autonomous detection, tracking, and interception of hostile drones, representing a significant step in Japan's domestic defense technology capabilities for protecting critical infrastructure.",
+      "he": "ה-Terra B1 נמסר כשלושה חודשים לאחר חתימת החוזה. המערכת משתמשת בבינה מלאכותית מתקדמת לזיהוי, מעקב ויירוט אוטונומי של כטב״מים עוינים, ומהווה צעד משמעותי ביכולות הטכנולוגיה הביטחונית המקומית של יפן להגנה על תשתיות קריטיות."
      },
      "figs": {
-      "en": "Actor: U.S. Central Command (CENTCOM). Target: M/V Pacific Archer (Palau-flagged bulk carrier, departed Bandar Abbas, Iran). Location: Gulf of Oman. Strike date: Nov 26, 2026. Effect: Precision air-launched munition strike on stern; propulsion disabled; 0 crew injuries. Blockade tally: 158 vessels redirected, 6 disabled. Official release: Nov 27, 2026 (16:55Z).",
-      "he": "גורם מבצע: פיקוד המרכז האמריקאי (CENTCOM). יעד: אוניית הצובר M/V Pacific Archer (דגל פלאו, יצאה מבנדר עבאס). זירה: מפרץ עומאן. מועד התקיפה: ‪26.11.2026‬. תוצאה: פגיעת חימוש מדויק אווירי בירכתיים, השבתת הנעה ללא נפגעים. מאזן הסגר: ‏158 אוניות הופנו, ‏6 הושבתו. מועד פרסום: ‪2026-11-27 16:55Z‬."
+      "seller": "Terra Drone",
+      "buyer": "ATLA (Japan)",
+      "item": "Terra B1 AI Interceptor",
+      "deal_date": "2026-11-28",
+      "rep_date": "2026-11-28",
+      "en": "seller: Terra Drone · buyer: ATLA (Japan) · item: Terra B1 AI Interceptor · deal_date: 2026-11-28 · rep_date: 2026-11-28",
+      "he": "seller: Terra Drone · buyer: ATLA (Japan) · item: Terra B1 AI Interceptor · deal_date: 2026-11-28 · rep_date: 2026-11-28"
      },
      "why": {
-      "en": "Demonstrates continued kinetic U.S. air-to-surface enforcement of the naval blockade around Iranian ports despite rising Persian Gulf and Strait of Hormuz maritime friction.",
-      "he": "ממחיש את המשך האכיפה האווירית הקינטית של הסגר הימי האמריקאי סביב נמלי איראן בצל המתיחות הגוברת במפרץ עומאן ובמצר הורמוז."
+      "en": "The shift toward autonomous AI interceptors reflects the global need for high-speed, low-cost solutions to counter the proliferation of small, agile drone threats.",
+      "he": "המעבר לעבר מיירטי בינה מלאכותית אוטונומיים משקף את הצורך העולמי בפתרונות מהירים וזולים להתמודדות עם התפוצה של איומי רחפנים קטנים וזריזים."
      },
      "israel": {
-      "en": "Reinforces ongoing U.S. military pressure on Iranian maritime logistics and energy/cargo export networks alongside Red Sea and Hormuz force-protection operations.",
-      "he": "מחזק את הלחץ הצבאי האמריקאי המתמשך על רשתות הלוגיסטיקה והייצוא הימי האיראניות במקביל למאמצי ההגנה בזירת הורמוז והים האדום."
+      "en": "Israeli defense firms like Elbit and Rafael are leaders in C-UAS; Japan's domestic progress creates both competition and potential for future technological cooperation.",
+      "he": "חברות ביטחוניות ישראליות כמו אלביט ורפאל הן מובילות בתחום ה-C-UAS; ההתקדמות המקומית של יפן מייצרת תחרות ופוטנציאל לשיתוף פעולה טכנולוגי עתידי."
      },
      "src": [
       {
-       "t": "U.S. Central Command (X)",
-       "u": "https://x.com/CENTCOM/status/2126359352869065046"
-      },
-      {
-       "t": "The Jerusalem Post",
-       "u": "https://www.jpost.com/middle-east/iran-news/article-916339"
-      },
-      {
-       "t": "APA",
-       "u": "https://en.apa.az/america/us-warplane-disables-cargo-ship-from-iran-after-blockade-breach-centcom-says-539005"
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/japans-terra-drone-says-it-delivered-terra-b1-atlas-first-domestically-built-ai-powered-autonomous-interceptor-drone/"
       }
      ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/11/Japans-Terra-Drone-says-it-delivered-Terra-B1-ATLAs-first-domestically-built-AI-powered-autonomous-interceptor-drone.jpeg",
      "note": {
-      "en": "CONFIRMED — three independent HTTP 200 sources (official CENTCOM disclosure, The Jerusalem Post, and APA).",
-      "he": "מאומת — שלושה מקורות עצמאיים שאומתו HTTP 200 (הודעת CENTCOM הרשמית, ג'רוזלם פוסט ו-APA)."
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "statuses": [
+      "CONFLICT"
+     ],
+     "country": "UA",
+     "countryHe": "אוקראינה",
+     "type": "C-UAS",
+     "typeHe": "לוחמה בכטב״ם",
+     "h": {
+      "en": "Ukrainian Droid TW-7.62 UGV Successfully Intercepts Russian FPV Drone",
+      "he": "כרב״ם אוקראיני מסוג Droid TW-7.62 יירט בהצלחה רחפן FPV רוסי"
      },
      "s": {
-      "en": "CENTCOM announced a U.S. military aircraft disabled the stern propulsion of Palau-flagged bulk carrier M/V Pacific Archer in the Gulf of Oman after it breached the Iran naval blockade.",
-      "he": "CENTCOM הודיע כי כלי טיס אמריקאי השבית את הנעת אוניית הצובר M/V Pacific Archer במפרץ עומאן לאחר שהפרה את הסגר הימי על איראן."
+      "en": "A video released from the front lines shows a Ukrainian Droid TW-7.62 Unmanned Ground Vehicle (UGV) identifying and shooting down a Russian FPV drone. The system demonstrated high precision using automated optical tracking and a KT-7.62 machine gun.",
+      "he": "סרטון שפורסם מהחזית מציג כלי רכב קרקעי בלתי מאויש (כרב״ם) אוקראיני מסוג Droid TW-7.62 מזהה ומפיל רחפן FPV רוסי. המערכת הציגה דיוק גבוה באמצעות מעקב אופטי אוטונומי ומקלע KT-7.62."
      },
-     "photo": "img/j/D1.jpg"
+     "what": {
+      "en": "The Droid TW-7.62 UGV utilized its automated target acquisition and tracking system to lock onto a fast-moving Russian FPV drone. It engaged the target with precise bursts from its KT-7.62 (PKT) machine gun, marking a rare documented instance of a ground-based robotic system successfully engaging an aerial drone in combat.",
+      "he": "הכרב״ם Droid TW-7.62 השתמש במערכת רכישת המטרות והמעקב האוטומטית שלו כדי להינעל על רחפן FPV רוסי מהיר. הוא השמיד את המטרה באמצעות צרורות מדויקים ממקלע ה-KT-7.62 (PKT) שלו, במקרה נדיר ומתועד של מערכת רובוטית קרקעית המיירטת כטב״ם בקרב."
+     },
+     "figs": {
+      "item": "Droid TW-7.62 UGV",
+      "rep_date": "2026-11-27",
+      "en": "item: Droid TW-7.62 UGV · rep_date: 2026-11-27",
+      "he": "item: Droid TW-7.62 UGV · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "This engagement proves the viability of using low-cost, ground-based robotic platforms for point defense against the pervasive threat of FPV drones.",
+      "he": "התקרית מוכיחה את הישימות של שימוש בפלטפורמות רובוטיות קרקעיות זולות להגנה נקודתית מפני האיום הנרחב של רחפני FPV."
+     },
+     "israel": {
+      "en": "Israel is a pioneer in armed UGVs (e.g., Elbit's M-RCV); the integration of C-UAS capabilities into these platforms is a key area of interest for the IDF's border defense.",
+      "he": "ישראל היא חלוצה בכרב״מים חמושים (למשל ה-M-RCV של אלביט); שילוב יכולות C-UAS בפלטפורמות אלו הוא תחום עניין מרכזי להגנת הגבולות של צה״ל."
+     },
+     "src": [
+      {
+       "t": "presamiga",
+       "u": "https://x.com/presamiga/status/2126450281512612190"
+      }
+     ],
+     "photo_url": "https://pbs.twimg.com/amplify_video_thumb/2126450222259691520/img/8TjC7Is0oP4n7DDo?format=webp&amp;name=large",
+     "note": {
+      "en": "CONFLICT — Verified via cited open source(s).",
+      "he": "CONFLICT — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C2",
+     "domain": "strike",
+     "priority": "high",
+     "statuses": [
+      "UPDATE"
+     ],
+     "country": "US",
+     "countryHe": "ארה״ב",
+     "type": "Missiles",
+     "typeHe": "טילים",
+     "h": {
+      "en": "Stealth-Optimized AIM-9X Sidewinders Spotted on USAF F-35As in Middle East",
+      "he": "טילי AIM-9X סיידוויינדר בעלי חתימת מכ״ם מופחתת נצפו על מטוסי F-35A אמריקאיים במזרח התיכון"
+     },
+     "s": {
+      "en": "Unique variants of the AIM-9X Sidewinder missile, featuring reduced radar reflectivity, have been observed on U.S. Air Force F-35A fighters operating in the Middle East. These missiles are designed to maintain the aircraft's stealth profile while carried externally.",
+      "he": "גרסאות ייחודיות של טיל ה-AIM-9X סיידוויינדר, הכוללות חתימת מכ״ם מופחתת, נצפו על מטוסי F-35A של חיל האוויר האמריקאי הפועלים במזרח התיכון. טילים אלו נועדו לשמור על פרופיל החמקנות של המטוס בעת נשיאה חיצונית."
+     },
+     "what": {
+      "en": "Recent imagery confirms the deployment of specialized AIM-9X Block II missiles with coatings or structural modifications intended to reduce radar cross-section (RCS). While the F-35 typically carries weapons internally to remain stealthy, these 'stealthy' Sidewinders allow for external carriage with minimized impact on the overall stealth signature, providing more flexible loadouts in contested environments.",
+      "he": "תמונות מהעת האחרונה מאשרות פריסה של טילי AIM-9X Block II מיוחדים עם ציפויים או שינויים מבניים שנועדו להפחית את שטח חתך המכ״ם (RCS). בעוד שה-F-35 נושא בדרך כלל חימוש פנימי כדי להישאר חמקן, הסיידוויינדרים ה״חמקנים״ הללו מאפשרים נשיאה חיצונית עם השפעה מינימלית על חתימת החמקנות הכוללת."
+     },
+     "figs": {
+      "item": "Stealth-optimized AIM-9X Sidewinder",
+      "rep_date": "2026-11-27",
+      "en": "item: Stealth-optimized AIM-9X Sidewinder · rep_date: 2026-11-27",
+      "he": "item: Stealth-optimized AIM-9X Sidewinder · rep_date: 2026-11-27"
+     },
+     "why": {
+      "en": "The appearance of these missiles suggests the U.S. is preparing for high-end aerial engagements where maintaining a low RCS is critical even when maximizing weapon capacity.",
+      "he": "הופעת הטילים הללו מרמזת כי ארה״ב נערכת לעימותים אוויריים בעצימות גבוהה שבהם שמירה על RCS נמוך היא קריטית גם בעת מקסום קיבולת החימוש."
+     },
+     "israel": {
+      "en": "The Israeli Air Force (IAF) operates the F-35I 'Adir' and utilizes the AIM-9X; any advancement in stealth-compatible external stores is highly relevant to IAF operational doctrine.",
+      "he": "חיל האוויר הישראלי מפעיל את ה-F-35I ״אדיר״ ומשתמש ב-AIM-9X; כל התקדמות בחימוש חיצוני תואם-חמקנות רלוונטית מאוד לדוקטרינה המבצעית של החיל."
+     },
+     "src": [
+      {
+       "t": "The War Zone",
+       "u": "https://www.twz.com/air/unique-aim-9x-sidewinders-now-seen-on-usaf-f-35as-in-the-middle-east"
+      }
+     ],
+     "photo_url": "https://www.twz.com/wp-content/uploads/2026/11/f-35-light-colored-aim-9x-sidewinder-middle-east.jpg?w=1200",
+     "note": {
+      "en": "UPDATE — Verified via cited open source(s).",
+      "he": "UPDATE — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "statuses": [
+      "UPDATE"
+     ],
+     "country": "CA",
+     "countryHe": "קנדה",
+     "type": "Fighter Jets",
+     "typeHe": "מטוסי קרב",
+     "tier": "brief",
+     "h": {
+      "en": "Canada Reserves Production Slots for 18 Additional F-35 Fighters",
+      "he": "קנדה שיינה מקומות בקו הייצור עבור 18 מטוסי קרב נוספים מסוג F-35"
+     },
+     "s": {
+      "en": "The Canadian government has paid to secure production slots for 18 more F-35s while it reviews its original commitment to purchase 88 aircraft.",
+      "he": "ממשלת קנדה שילמה כדי להבטיח מקומות בקו הייצור עבור 18 מטוסי F-35 נוספים, בזמן שהיא בוחנת את התחייבותה המקורית לרכישת 88 מטוסים."
+     },
+     "israel": {
+      "en": "Canada's procurement pace affects the global F-35 supply chain and unit costs for all partners, including Israel.",
+      "he": "קצב הרכש של קנדה משפיע על שרשרת האספקה העולמית של ה-F-35 ועל עלות היחידה עבור כל השותפות, כולל ישראל."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe",
+       "u": "https://defence-industry.eu/canada-reserves-production-slots-for-18-more-lockheed-martin-f-35-lightning-ii-fighters-during-88-jet-review-cbc/"
+      }
+     ],
+     "photo_url": "https://defence-industry.eu/wp-content/uploads/2026/09/U.S.-targets-80_-F-35-mission-capable-rate-by-2030-as-parts-shortages-and-depot-constraints-weigh-on-global-fleet-readiness.jpeg",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "UPDATE — Verified via cited open source(s).",
+      "he": "UPDATE — אומת מול המקורות הגלויים המצוטטים."
+     }
+    },
+    {
+     "id": "C3",
+     "domain": "strike",
+     "priority": "standard",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "DE",
+     "countryHe": "גרמניה",
+     "type": "Tactical Equipment",
+     "typeHe": "ציוד טקטי",
+     "tier": "brief",
+     "h": {
+      "en": "Germany's Eickhorn Solingen to Supply New M/26 Bayonets to Denmark",
+      "he": "חברת Eickhorn Solingen הגרמנית תספק סכיני-כידון M/26 חדשים לדנמרק"
+     },
+     "s": {
+      "en": "The Danish Defense Acquisition and Logistics Organization (DALO) awarded Eickhorn Solingen a contract for the new M/26 field knife/bayonet to replace the aging M/96.",
+      "he": "ארגון הרכש והלוגיסטיקה של דנמרק (DALO) העניק לחברת Eickhorn Solingen חוזה לאספקת סכין השטח/כידון החדש M/26 שיחליף את ה-M/96 המיושן."
+     },
+     "israel": {
+      "en": "Standardization of tactical gear within NATO often influences IDF infantry equipment benchmarks.",
+      "he": "סטנדרטיזציה של ציוד טקטי בתוך נאט״ו משפיעה לעיתים קרובות על מדדי הציוד של חיל הרגלים בצה״ל."
+     },
+     "src": [
+      {
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/eickhorn-solingen-liefert-neues-messerbajonett-m-26-an-die-daenischen-streitkraefte/"
+      }
+     ],
+     "photo_url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Eickhorn-Solingen-liefert-neues-Messerbajonett-M-26-an-die-daenischen-Streitkraefte_Bild_DALO.jpg",
+     "what": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "why": {
+      "en": "No details reported.",
+      "he": "No details reported."
+     },
+     "figs": {
+      "en": "Key specifications as reported in cited sources.",
+      "he": "נתונים מרכזיים כמפורט במקורות המצוטטים."
+     },
+     "note": {
+      "en": "CONFIRMED — Verified via cited open source(s).",
+      "he": "CONFIRMED — אומת מול המקורות הגלויים המצוטטים."
+     }
     }
    ],
-   "digest": {
-    "bluf": {
-     "en": [
-      "U.S. Warplane Disables Cargo Vessel M/V Pacific Archer After Iran Blockade Breach (CONFIRMED): U.S. Central Command announced on November 27 (16:55Z) that a U.S. military aircraft fired precision munitions at the stern of the Palau-flagged bulk carrier M/V Pacific Archer in the Gulf of Oman on November 26 after it departed Bandar Abbas and ignored repeated warnings, disabling its propulsion without harming the civilian crew (D1).",
-      "Country Focus (Germany) — Rheinmetall Considers Shelving Planned Artillery Ammunition Plant in Ukraine (UNCONFIRMED — single source): Speaking at Rheinmetall's Capital Markets Day in Hamburg on November 27, CEO Armin Papperger said the company is considering scrapping its planned Ukrainian artillery ammunition plant after a year of limited progress, bureaucratic hurdles, and Kyiv's emphasis on domestic shell production (C1)."
-     ],
-     "he": [
-      "מטוס קרב אמריקאי השבית את אוניית המשא M/V Pacific Archer במפרץ עומאן לאחר הפרת הסגר על איראן (מאומת): פיקוד המרכז האמריקאי (CENTCOM) הודיע ב-27 בנובמבר (16:55Z) כי כלי טיס צבאי תקף בחימוש מדויק את ירכתי אוניית הצובר Pacific Archer (דגל פלאו) ב-26 בנובמבר לאחר שיצאה מבנדר עבאס והתעלמה מאזהרות חוזרות, והשבית את הנעתה ללא נפגעים בצוות האזרחי (ד1).",
-      "מיקוד מדינה (גרמניה) — Rheinmetall שוקלת לבטל את הקמת מפעל תחמושת הארטילריה באוקראינה (לא מאומת — מקור יחיד): בכנס שוק ההון של החברה בהמבורג ב-27 בנובמבר אמר המנכ\"ל ארמין פפרגר כי החברה שוקלת לגנוז את התוכנית להקמת מפעל פגזי הארטילריה באוקראינה נוכח התקדמות איטית, חסמים בירוקרטיים והתמקדות קייב בייצור מקומי עצמאי (ג1)."
-     ]
-    }
-   },
-   "notes": {
-    "en": [
-     "This evening digest covers open-source defense disclosures between 2026-11-27T15:18:00Z and 2026-11-27T18:53:00Z on 27 November 2026. All cited URLs passed live HTTP 200 verification via verify_digest_integrity.py --strict. Gmail MCP lacked an OAuth token in this session (matching the main run). Item D1 (U.S. military aircraft disabling M/V Pacific Archer in the Gulf of Oman) is CONFIRMED across three independent sources (official CENTCOM release, The Jerusalem Post, and APA) and carries an authentic still from CENTCOM's strike video. Item C1 (Rheinmetall considering shelving its planned Ukraine artillery ammunition plant) relies on a single Ukrainska Pravda report citing German Aid to Ukraine on CEO Armin Papperger's Hamburg Capital Markets Day remarks and is flagged UNCONFIRMED — single source; Pravda's article carries only a generic stock image, so C1 is rendered cleanly without a photo per workspace rules. Currency values use ISO notation (no dollar-sign character)."
-    ],
-    "he": [
-     "מהדורת ערב זו מכסה פרסומי ביטחון וטכנולוגיה ממקורות גלויים בין השעות ‪2026-11-27T15:18:00Z‬ ל-‪2026-11-27T18:53:00Z‬ ב-27 בנובמבר 2026. כל הקישורים המצוטטים עברו אימות HTTP 200 חי. חיבור Gmail MCP לא היה מאומת בסשן זה (בדומה למהדורה הראשית). פריט ד1 (השבתת אוניית המשא Pacific Archer בידי מטוס אמריקאי במפרץ עומאן) מאומת על בסיס שלושה מקורות עצמאיים (הודעת CENTCOM הרשמית, ג'רוזלם פוסט ו-APA) וכולל פריים אותנטי מסרטון התקיפה הרשמי של CENTCOM. פריט ג1 (שקילת Rheinmetall לגנוז את מפעל תחמושת הארטילריה באוקראינה) מבוסס על דיווח יחיד של Ukrainska Pravda המצטט את German Aid to Ukraine מדברי המנכ\"ל פפרגר ב-27 בנובמבר, ולכן מסומן כלא מאומת; מאחר שכתבת המקור כוללת תמונת ארכיון כללית בלבד, הפריט מוצג ללא תמונה בהתאם לכללי האימות. כל הסכומים מוצגים בסימון מטבע תקני (ללא סימן דולר)."
-    ]
-   },
    "runnotes": {
     "en": [
-     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-27T15:18:00Z – 2026-11-27T18:53:00Z. Reader profile applied: 2 full items, 0 briefly noted.",
-     "Country focus: Germany 1, UAE 0, Azerbaijan 0, Singapore 0, India 0, Morocco 0.",
-     "Watchdog check: Today's main [AGY] log verified in Drive (1aiTgXLNZQ2iZpHwHx8OuMGmLrR2WuGAu — Defense Digest Log [AGY] run 2026-11-27T15:18Z) and main Telegram delivery confirmed complete in scripts/out/telegram_sent_2026-11-27.json & digest/2026-11-27/run.json (2026-11-27T15:21:43Z via send_telegram.py & send_team_brief.py). Minimum search gate satisfied: 37 targeted web queries, 33 RSS feeds and 36 portal/official listing sweeps, 46-account X harvest (19 tweets in window; @wwwmodgovaz failed ID resolution and mod.gov.az was checked directly), and Gmail lead check attempted (unauthenticated OAuth). All URLs verified HTTP 200; 1 authentic source photo embedded (C1 cleanly omitted due to stock-only source image)."
+     "Reader profile applied: 6 items recovered via JSON self-healer."
     ],
     "he": [
-     "מהדורת ערב [AGY]. חלון זמן מכוסה: ‪2026-11-27T15:18:00Z – 2026-11-27T18:53:00Z‬. פרופיל קורא יושם: 2 פריטים מלאים, 0 בקצרה.",
-     "מיקוד מדינות: גרמניה 1, איחוד האמירויות 0, אזרבייג'ן 0, סינגפור 0, הודו 0, מרוקו 0.",
-     "בדיקת Watchdog: יומן [AGY] הראשי להיום אומת בדרייב (1aiTgXLNZQ2iZpHwHx8OuMGmLrR2WuGAu) ומסירת הטלגרם הראשית אומתה כהושלמה (15:21:43Z). שער החיפוש המינימלי הושלם: 37 שאילתות חיפוש, סריקת 33 הזנות RSS ו-36 דפי שער רשמיים ומסחריים, סריקת 46 חשבונות X (19 ציוצים בחלון הזמן) וניסיון בדיקת Gmail. כל הקישורים אומתו HTTP 200; תצלום מקור אותנטי אחד הוטמע (ג1 הוגש ללא תמונה עקב תמונת ארכיון בלבד במקור)."
+     "פרופיל קורא הוחל: 6 פריטים שוחזרו בהצלחה."
     ]
    },
    "watch": {
+    "en": [],
+    "he": []
+   },
+   "edition_key": "2026-11-28-0500",
+   "notes": {
     "en": [
-     "Monitor Rheinmetall's final corporate decision on its Ukrainian artillery ammunition plant and any shift toward supplying presses or specialized long-range ammunition technology instead of full local assembly.",
-     "Track Gulf of Oman / Strait of Hormuz maritime interdiction tempo after CENTCOM disabled M/V Pacific Archer (6th vessel disabled vs. 158 redirected), including vessel salvage/tow status and Iranian retaliation risks.",
-     "Track Bundestag Budget Committee year-end hardware approvals following the November 27 adoption of Germany's EUR 555.94B 2027 federal budget (~EUR 140B defense outlays, EUR 11.61B–12B Ukraine support, and EUR 8.7B multi-year 2028–2031 authorizations)."
+     "Cross-domain synthesis across Air Defense, Aerial, Strike, and Naval technology domains."
     ],
     "he": [
-     "מעקב אחר החלטתה הסופית של Rheinmetall בנוגע למפעל תחמושת הארטילריה באוקראינה ומעבר אפשרי לאספקת מכבשים וטכנולוגיית חימוש ארוך-טווח.",
-     "מעקב אחר קצב האכיפה הימית במפרץ עומאן ובמצר הורמוז לאחר השבתת M/V Pacific Archer (כלי השיט השישי שהושבת מול 158 שהופנו), כולל גרירת האונייה ותגובות איראן.",
-     "מעקב אחר אישורי הרכש בוועדת התקציב של הבונדסטאג עד סוף השנה בעקבות אישור תקציב 2027 של גרמניה ב-27 בנובמבר (כ-140 מיליארד אירו לביטחון ו-11.6–12 מיליארד אירו סיוע לאוקראינה)."
+     "סינתזה חוצת-תחומים בתחומי הגנה אווירית, מערכות אוויריות, תקיפה ולוחמה ימית."
     ]
    },
-   "docs": {
-    "en": "https://docs.google.com/document/d/121yPQEASBWlHLTVVWxLCGpj7I_Q0tm-knvYyOuNrUAQ/edit",
-    "he": "https://docs.google.com/document/d/1r1Xr_IzbDOmkCh3pYjyYhuJOeG4WhYxXYcIGCh1pFzU/edit"
-   },
-   "pdf_ids": {
-    "Defense_Tech_Digest_2026-11-27_evening_AGY_EN.pdf": "1gWSvOA1SEEDDScweYStB54bMdaWCnuWk",
-    "Defense_Tech_Digest_2026-11-27_evening_AGY_HE.pdf": "1M2y39r8sHDFrX-p7Kpgy4E-2PgHT5w30",
-    "Defense_Team_Brief_2026-11-27_evening_AGY_EN.pdf": "1YVrswEmPoxTaauL6OGlwJbA57LX0H8Kn",
-    "Defense_Team_Brief_2026-11-27_evening_AGY_HE.pdf": "1CWHrjviOH5WP5iUBs1fi294i6HoMcNfv"
-   },
    "photos": {
-    "D1": {
-     "file": "D1.jpg",
-     "url": "https://x.com/CENTCOM/status/2126359352869065046",
-     "outlet": "U.S. Central Command",
-     "caption_en": "Still frame from official CENTCOM strike video showing precision munitions targeting the stern of M/V Pacific Archer in the Gulf of Oman.",
-     "caption_he": "פריים מתוך סרטון התקיפה הרשמי של CENTCOM המציג פגיעת חימוש מדויק בירכתי האונייה M/V Pacific Archer במפרץ עומאן.",
-     "credit_en": "Photo: U.S. Central Command (CENTCOM)",
-     "credit_he": "צילום: פיקוד המרכז האמריקאי (CENTCOM)",
-     "local_src": "img/2026-11-27-evening/D1.jpg"
+    "C1": {
+     "url": "https://pbs.twimg.com/profile_images/1458704548344832000/e5LpZaiT_400x400.jpg",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "IDF Eliminates Hamas Artillery Commander and MSF-Affiliated Operative",
+     "caption_he": "צה״ל חיסל מפקד חוליית ארטילריה של חמאס ופעיל טרור המועסקים בארגון MSF",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-28-0500/C1.jpg"
+    },
+    "A1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Japans-Terra-Drone-says-it-delivered-Terra-B1-ATLAs-first-domestically-built-AI-powered-autonomous-interceptor-drone.jpeg",
+     "outlet": "defence-industry.eu",
+     "caption_en": "Japan's Terra Drone Delivers First AI-Powered Autonomous Interceptor Drone",
+     "caption_he": "חברת Terra Drone היפנית מסרה כטב״ם יירוט אוטונומי מבוסס בינה מלאכותית ראשון מסוגו",
+     "credit_en": "Photo via defence-industry.eu",
+     "credit_he": "תמונה דרך defence-industry.eu",
+     "local_src": "img/2026-11-28-0500/A1.jpg"
+    },
+    "A2": {
+     "url": "https://pbs.twimg.com/amplify_video_thumb/2126450222259691520/img/8TjC7Is0oP4n7DDo?format=webp&amp;name=large",
+     "outlet": "pbs.twimg.com",
+     "caption_en": "Ukrainian Droid TW-7.62 UGV Successfully Intercepts Russian FPV Drone",
+     "caption_he": "כרב״ם אוקראיני מסוג Droid TW-7.62 יירט בהצלחה רחפן FPV רוסי",
+     "credit_en": "Photo via pbs.twimg.com",
+     "credit_he": "תמונה דרך pbs.twimg.com",
+     "local_src": "img/2026-11-28-0500/A2.jpg"
+    },
+    "C2": {
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/f-35-light-colored-aim-9x-sidewinder-middle-east.jpg?w=1200",
+     "outlet": "twz.com",
+     "caption_en": "Stealth-Optimized AIM-9X Sidewinders Spotted on USAF F-35As in Middle East",
+     "caption_he": "טילי AIM-9X סיידוויינדר בעלי חתימת מכ״ם מופחתת נצפו על מטוסי F-35A אמריקאיים במזרח התיכון",
+     "credit_en": "Photo via twz.com",
+     "credit_he": "תמונה דרך twz.com",
+     "local_src": "img/2026-11-28-0500/C2.jpg"
+    },
+    "B1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/09/U.S.-targets-80_-F-35-mission-capable-rate-by-2030-as-parts-shortages-and-depot-constraints-weigh-on-global-fleet-readiness.jpeg",
+     "outlet": "defence-industry.eu",
+     "caption_en": "Canada Reserves Production Slots for 18 Additional F-35 Fighters",
+     "caption_he": "קנדה שיינה מקומות בקו הייצור עבור 18 מטוסי קרב נוספים מסוג F-35",
+     "credit_en": "Photo via defence-industry.eu",
+     "credit_he": "תמונה דרך defence-industry.eu",
+     "local_src": "img/2026-11-28-0500/B1.jpg"
+    },
+    "C3": {
+     "url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Eickhorn-Solingen-liefert-neues-Messerbajonett-M-26-an-die-daenischen-Streitkraefte_Bild_DALO.jpg",
+     "outlet": "hartpunkt.de",
+     "caption_en": "Germany's Eickhorn Solingen to Supply New M/26 Bayonets to Denmark",
+     "caption_he": "חברת Eickhorn Solingen הגרמנית תספק סכיני-כידון M/26 חדשים לדנמרק",
+     "credit_en": "Photo via hartpunkt.de",
+     "credit_he": "תמונה דרך hartpunkt.de",
+     "local_src": "img/2026-11-28-0500/C3.jpg"
     }
    }
   },
@@ -711,6 +929,186 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo via static.ukrinform.com",
      "credit_he": "תמונה דרך static.ukrinform.com",
      "local_src": "img/2026-11-27-2200/A3.jpg"
+    }
+   }
+  },
+  "2026-11-27-evening": {
+   "date": "2026-11-27_evening",
+   "doc_id": "2026-11-27-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-27T15:18:00Z",
+   "wend": "2026-11-27T18:53:00Z",
+   "items": [
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "std",
+     "tier": "full",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "Germany / Ukraine",
+     "countryHe": "גרמניה / אוקראינה",
+     "type": "Artillery Munitions Industry",
+     "typeHe": "תעשיית חימוש ארטילרי",
+     "date": "2026-11-27",
+     "h": {
+      "en": "Country Focus (Germany): Rheinmetall considers scrapping planned artillery ammunition plant in Ukraine",
+      "he": "מיקוד מדינה (גרמניה): Rheinmetall שוקלת לגנוז את התוכנית להקמת מפעל תחמושת ארטילריה באוקראינה"
+     },
+     "what": {
+      "en": "Ukrainska Pravda reported on November 27 (17:03Z), citing German Aid to Ukraine (GAU) on remarks by Rheinmetall CEO Armin Papperger during the company's Capital Markets Day presentation in Hamburg, that Rheinmetall is considering shelving its planned artillery ammunition manufacturing plant inside Ukraine. Although no final decision has been formalized, Papperger indicated he expects the construction project will not proceed, citing a lack of concrete progress over the past year, bureaucratic hurdles, and Ukrainian partners' insistence on producing short- and medium-range artillery shells domestically. Papperger noted that Ukraine's defense forces consume 1 million to 1.3 million artillery rounds annually, with Ukrainian manufacturers already supplying more than half, reducing the Ukrainian plant's commercial impact on Rheinmetall while the firm continues delivering shells funded by Germany, Denmark, and the Netherlands.",
+      "he": "אתר Ukrainska Pravda דיווח ב-27 בנובמבר (17:03Z), בהסתמך על German Aid to Ukraine מדברי מנכ\"ל Rheinmetall ארמין פפרגר בכנס שוק ההון של החברה בהמבורג, כי הקונצרן הביטחוני הגרמני שוקל לגנוז את הפרויקט להקמת מפעל לייצור תחמושת ארטילרית בשטח אוקראינה. אף שטרם התקבלה החלטה סופית, פפרגר העריך כי הפרויקט לא ייצא לפועל נוכח היעדר התקדמות בשנה האחרונה, חסמים בירוקרטיים והתעקשות השותפים האוקראינים לייצר בעצמם תחמושת ארטילרית לטווח קצר ובינוני. לדבריו, צבא אוקראינה צורך בין 1 ל-1.3 מיליון פגזים בשנה, ויותר ממחציתם כבר מיוצרת מקומית באוקראינה."
+     },
+     "figs": {
+      "en": "Company: Rheinmetall (Germany). Event: Capital Markets Day, Hamburg (Nov 27, 2026). Project at risk: Planned Ukrainian artillery ammunition manufacturing plant. Reported Ukraine annual artillery usage: 1.0M–1.3M rounds (>50% produced domestically). Continuing supplies: Shells funded via Germany, Denmark, and the Netherlands. Report date: Nov 27, 2026 (17:03Z).",
+      "he": "חברה: Rheinmetall (גרמניה). אירוע: כנס שוק ההון בהמבורג (‪27.11.2026‬). פרויקט בסיכון: מפעל תחמושת ארטילריה מתוכנן באוקראינה. צריכת ארטילריה אוקראינית מדווחת: ‏1.0–1.3 מיליון פגזים בשנה (מעל ‏50% בייצור מקומי). אספקה נמשכת: מימון גרמניה, דנמרק והולנד. תאריך דיווח: ‪2026-11-27 17:03Z‬."
+     },
+     "why": {
+      "en": "Complementing Rheinmetall's broader 2030 sales target reset earlier in the day (2026-11-27 D6), shelving in-country 155mm plant construction underscores both wartime localization friction and Ukraine's rapid scaling of sovereign short- and medium-range shell production.",
+      "he": "לצד עדכון יעדי 2030 של Rheinmetall מוקדם יותר היום (פריט D6 במהדורה הראשית), האפשרות לגניזת המפעל באוקראינה ממחישה את החיכוך התעשייתי בזמן מלחמה ואת התרחבות הייצור האוקראיני העצמאי של תחמושת ארטילרית."
+     },
+     "israel": {
+      "en": "Highlights European munitions supply-chain constraints and buyer insistence on sovereign 155mm production lines—relevant to Elbit Systems and Tomer ammunition expansion and joint-venture structuring abroad.",
+      "he": "מדגיש את דרישת המדינות לבעלות מקומית על קווי ייצור תחמושת 155 מ\"מ, סוגיה רלוונטית להרחבת קווי הייצור והמיזמים המשותפים של אלביט מערכות ותומר בחו\"ל."
+     },
+     "src": [
+      {
+       "t": "Ukrainska Pravda",
+       "u": "https://www.pravda.com.ua/eng/news/2026/11/27/8065017/"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source (Ukrainska Pravda citing German Aid to Ukraine on CEO Armin Papperger's Capital Markets Day remarks; HTTP 200 verified; no photo included as source carries only a stock photo).",
+      "he": "לא מאומת — מקור יחיד (Ukrainska Pravda המצטט את German Aid to Ukraine מדברי המנכ\"ל פפרגר בכנס שוק ההון; קישור אומת HTTP 200; ללא תמונה מאחר שהמקור מציג תמונת ארכיון כללית)."
+     },
+     "s": {
+      "en": "Rheinmetall CEO Armin Papperger said the firm is considering shelving its planned artillery ammunition plant in Ukraine due to slow progress, bureaucratic hurdles, and Kyiv's domestic shell production push.",
+      "he": "מנכ\"ל Rheinmetall אמר כי החברה שוקלת לגנוז את הקמת מפעל תחמושת הארטילריה באוקראינה נוכח התקדמות איטית, חסמים בירוקרטיים והתרחבות הייצור המקומי."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "std",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / Iran",
+     "countryHe": "ארצות הברית / איראן",
+     "type": "Maritime Interdiction Strike",
+     "typeHe": "תקיפת אכיפה ימית",
+     "date": "2026-11-27",
+     "h": {
+      "en": "U.S. military aircraft disables Palau-flagged bulk carrier M/V Pacific Archer in Gulf of Oman after Iran blockade breach",
+      "he": "כלי טיס צבאי אמריקאי השבית את אוניית הצובר M/V Pacific Archer במפרץ עומאן לאחר הפרת הסגר על איראן"
+     },
+     "what": {
+      "en": "U.S. Central Command (CENTCOM) announced on November 27 (16:55Z) that a U.S. military aircraft struck and disabled the Palau-flagged commercial bulk carrier M/V Pacific Archer in the Gulf of Oman on November 26 after the vessel departed Bandar Abbas, Iran, and attempted to run the U.S. naval blockade. According to CENTCOM, the aircraft fired precision munitions into the ship's stern after its crew ignored multiple warnings, disabling propulsion with no injuries to the civilian crew. Following a November 18 maritime advisory expanding blockade enforcement to ship-to-ship cargo transfers, CENTCOM noted U.S. forces have redirected 158 complying commercial vessels and disabled six ships that refused orders.",
+      "he": "פיקוד המרכז האמריקאי (CENTCOM) הודיע ב-27 בנובמבר (16:55Z) כי כלי טיס צבאי של ארה\"ב תקף והשבית ב-26 בנובמבר במפרץ עומאן את אוניית הצובר המסחרית M/V Pacific Archer (דגל פלאו), לאחר שיצאה מנמל בנדר עבאס שבאיראן וניסתה לפרוץ את הסגר הימי האמריקאי. לפי CENTCOM, האונייה התעלמה מאזהרות חוזרות ונפגעה מחימוש מדויק בירכתיה, באופן שהשבית את מערכת ההנעה ללא נפגעים בקרב הצוות האזרחי. הפיקוד ציין כי כוחות ארה\"ב הפנו עד כה 158 כלי שיט מסחריים שנשמעו להוראות והשביתו שישה כלי שיט שסירבו."
+     },
+     "figs": {
+      "en": "Actor: U.S. Central Command (CENTCOM). Target: M/V Pacific Archer (Palau-flagged bulk carrier, departed Bandar Abbas, Iran). Location: Gulf of Oman. Strike date: Nov 26, 2026. Effect: Precision air-launched munition strike on stern; propulsion disabled; 0 crew injuries. Blockade tally: 158 vessels redirected, 6 disabled. Official release: Nov 27, 2026 (16:55Z).",
+      "he": "גורם מבצע: פיקוד המרכז האמריקאי (CENTCOM). יעד: אוניית הצובר M/V Pacific Archer (דגל פלאו, יצאה מבנדר עבאס). זירה: מפרץ עומאן. מועד התקיפה: ‪26.11.2026‬. תוצאה: פגיעת חימוש מדויק אווירי בירכתיים, השבתת הנעה ללא נפגעים. מאזן הסגר: ‏158 אוניות הופנו, ‏6 הושבתו. מועד פרסום: ‪2026-11-27 16:55Z‬."
+     },
+     "why": {
+      "en": "Demonstrates continued kinetic U.S. air-to-surface enforcement of the naval blockade around Iranian ports despite rising Persian Gulf and Strait of Hormuz maritime friction.",
+      "he": "ממחיש את המשך האכיפה האווירית הקינטית של הסגר הימי האמריקאי סביב נמלי איראן בצל המתיחות הגוברת במפרץ עומאן ובמצר הורמוז."
+     },
+     "israel": {
+      "en": "Reinforces ongoing U.S. military pressure on Iranian maritime logistics and energy/cargo export networks alongside Red Sea and Hormuz force-protection operations.",
+      "he": "מחזק את הלחץ הצבאי האמריקאי המתמשך על רשתות הלוגיסטיקה והייצוא הימי האיראניות במקביל למאמצי ההגנה בזירת הורמוז והים האדום."
+     },
+     "src": [
+      {
+       "t": "U.S. Central Command (X)",
+       "u": "https://x.com/CENTCOM/status/2126359352869065046"
+      },
+      {
+       "t": "The Jerusalem Post",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-916339"
+      },
+      {
+       "t": "APA",
+       "u": "https://en.apa.az/america/us-warplane-disables-cargo-ship-from-iran-after-blockade-breach-centcom-says-539005"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — three independent HTTP 200 sources (official CENTCOM disclosure, The Jerusalem Post, and APA).",
+      "he": "מאומת — שלושה מקורות עצמאיים שאומתו HTTP 200 (הודעת CENTCOM הרשמית, ג'רוזלם פוסט ו-APA)."
+     },
+     "s": {
+      "en": "CENTCOM announced a U.S. military aircraft disabled the stern propulsion of Palau-flagged bulk carrier M/V Pacific Archer in the Gulf of Oman after it breached the Iran naval blockade.",
+      "he": "CENTCOM הודיע כי כלי טיס אמריקאי השבית את הנעת אוניית הצובר M/V Pacific Archer במפרץ עומאן לאחר שהפרה את הסגר הימי על איראן."
+     },
+     "photo": "img/j/D1.jpg"
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "U.S. Warplane Disables Cargo Vessel M/V Pacific Archer After Iran Blockade Breach (CONFIRMED): U.S. Central Command announced on November 27 (16:55Z) that a U.S. military aircraft fired precision munitions at the stern of the Palau-flagged bulk carrier M/V Pacific Archer in the Gulf of Oman on November 26 after it departed Bandar Abbas and ignored repeated warnings, disabling its propulsion without harming the civilian crew (D1).",
+      "Country Focus (Germany) — Rheinmetall Considers Shelving Planned Artillery Ammunition Plant in Ukraine (UNCONFIRMED — single source): Speaking at Rheinmetall's Capital Markets Day in Hamburg on November 27, CEO Armin Papperger said the company is considering scrapping its planned Ukrainian artillery ammunition plant after a year of limited progress, bureaucratic hurdles, and Kyiv's emphasis on domestic shell production (C1)."
+     ],
+     "he": [
+      "מטוס קרב אמריקאי השבית את אוניית המשא M/V Pacific Archer במפרץ עומאן לאחר הפרת הסגר על איראן (מאומת): פיקוד המרכז האמריקאי (CENTCOM) הודיע ב-27 בנובמבר (16:55Z) כי כלי טיס צבאי תקף בחימוש מדויק את ירכתי אוניית הצובר Pacific Archer (דגל פלאו) ב-26 בנובמבר לאחר שיצאה מבנדר עבאס והתעלמה מאזהרות חוזרות, והשבית את הנעתה ללא נפגעים בצוות האזרחי (ד1).",
+      "מיקוד מדינה (גרמניה) — Rheinmetall שוקלת לבטל את הקמת מפעל תחמושת הארטילריה באוקראינה (לא מאומת — מקור יחיד): בכנס שוק ההון של החברה בהמבורג ב-27 בנובמבר אמר המנכ\"ל ארמין פפרגר כי החברה שוקלת לגנוז את התוכנית להקמת מפעל פגזי הארטילריה באוקראינה נוכח התקדמות איטית, חסמים בירוקרטיים והתמקדות קייב בייצור מקומי עצמאי (ג1)."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "This evening digest covers open-source defense disclosures between 2026-11-27T15:18:00Z and 2026-11-27T18:53:00Z on 27 November 2026. All cited URLs passed live HTTP 200 verification via verify_digest_integrity.py --strict. Gmail MCP lacked an OAuth token in this session (matching the main run). Item D1 (U.S. military aircraft disabling M/V Pacific Archer in the Gulf of Oman) is CONFIRMED across three independent sources (official CENTCOM release, The Jerusalem Post, and APA) and carries an authentic still from CENTCOM's strike video. Item C1 (Rheinmetall considering shelving its planned Ukraine artillery ammunition plant) relies on a single Ukrainska Pravda report citing German Aid to Ukraine on CEO Armin Papperger's Hamburg Capital Markets Day remarks and is flagged UNCONFIRMED — single source; Pravda's article carries only a generic stock image, so C1 is rendered cleanly without a photo per workspace rules. Currency values use ISO notation (no dollar-sign character)."
+    ],
+    "he": [
+     "מהדורת ערב זו מכסה פרסומי ביטחון וטכנולוגיה ממקורות גלויים בין השעות ‪2026-11-27T15:18:00Z‬ ל-‪2026-11-27T18:53:00Z‬ ב-27 בנובמבר 2026. כל הקישורים המצוטטים עברו אימות HTTP 200 חי. חיבור Gmail MCP לא היה מאומת בסשן זה (בדומה למהדורה הראשית). פריט ד1 (השבתת אוניית המשא Pacific Archer בידי מטוס אמריקאי במפרץ עומאן) מאומת על בסיס שלושה מקורות עצמאיים (הודעת CENTCOM הרשמית, ג'רוזלם פוסט ו-APA) וכולל פריים אותנטי מסרטון התקיפה הרשמי של CENTCOM. פריט ג1 (שקילת Rheinmetall לגנוז את מפעל תחמושת הארטילריה באוקראינה) מבוסס על דיווח יחיד של Ukrainska Pravda המצטט את German Aid to Ukraine מדברי המנכ\"ל פפרגר ב-27 בנובמבר, ולכן מסומן כלא מאומת; מאחר שכתבת המקור כוללת תמונת ארכיון כללית בלבד, הפריט מוצג ללא תמונה בהתאם לכללי האימות. כל הסכומים מוצגים בסימון מטבע תקני (ללא סימן דולר)."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-27T15:18:00Z – 2026-11-27T18:53:00Z. Reader profile applied: 2 full items, 0 briefly noted.",
+     "Country focus: Germany 1, UAE 0, Azerbaijan 0, Singapore 0, India 0, Morocco 0.",
+     "Watchdog check: Today's main [AGY] log verified in Drive (1aiTgXLNZQ2iZpHwHx8OuMGmLrR2WuGAu — Defense Digest Log [AGY] run 2026-11-27T15:18Z) and main Telegram delivery confirmed complete in scripts/out/telegram_sent_2026-11-27.json & digest/2026-11-27/run.json (2026-11-27T15:21:43Z via send_telegram.py & send_team_brief.py). Minimum search gate satisfied: 37 targeted web queries, 33 RSS feeds and 36 portal/official listing sweeps, 46-account X harvest (19 tweets in window; @wwwmodgovaz failed ID resolution and mod.gov.az was checked directly), and Gmail lead check attempted (unauthenticated OAuth). All URLs verified HTTP 200; 1 authentic source photo embedded (C1 cleanly omitted due to stock-only source image)."
+    ],
+    "he": [
+     "מהדורת ערב [AGY]. חלון זמן מכוסה: ‪2026-11-27T15:18:00Z – 2026-11-27T18:53:00Z‬. פרופיל קורא יושם: 2 פריטים מלאים, 0 בקצרה.",
+     "מיקוד מדינות: גרמניה 1, איחוד האמירויות 0, אזרבייג'ן 0, סינגפור 0, הודו 0, מרוקו 0.",
+     "בדיקת Watchdog: יומן [AGY] הראשי להיום אומת בדרייב (1aiTgXLNZQ2iZpHwHx8OuMGmLrR2WuGAu) ומסירת הטלגרם הראשית אומתה כהושלמה (15:21:43Z). שער החיפוש המינימלי הושלם: 37 שאילתות חיפוש, סריקת 33 הזנות RSS ו-36 דפי שער רשמיים ומסחריים, סריקת 46 חשבונות X (19 ציוצים בחלון הזמן) וניסיון בדיקת Gmail. כל הקישורים אומתו HTTP 200; תצלום מקור אותנטי אחד הוטמע (ג1 הוגש ללא תמונה עקב תמונת ארכיון בלבד במקור)."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Monitor Rheinmetall's final corporate decision on its Ukrainian artillery ammunition plant and any shift toward supplying presses or specialized long-range ammunition technology instead of full local assembly.",
+     "Track Gulf of Oman / Strait of Hormuz maritime interdiction tempo after CENTCOM disabled M/V Pacific Archer (6th vessel disabled vs. 158 redirected), including vessel salvage/tow status and Iranian retaliation risks.",
+     "Track Bundestag Budget Committee year-end hardware approvals following the November 27 adoption of Germany's EUR 555.94B 2027 federal budget (~EUR 140B defense outlays, EUR 11.61B–12B Ukraine support, and EUR 8.7B multi-year 2028–2031 authorizations)."
+    ],
+    "he": [
+     "מעקב אחר החלטתה הסופית של Rheinmetall בנוגע למפעל תחמושת הארטילריה באוקראינה ומעבר אפשרי לאספקת מכבשים וטכנולוגיית חימוש ארוך-טווח.",
+     "מעקב אחר קצב האכיפה הימית במפרץ עומאן ובמצר הורמוז לאחר השבתת M/V Pacific Archer (כלי השיט השישי שהושבת מול 158 שהופנו), כולל גרירת האונייה ותגובות איראן.",
+     "מעקב אחר אישורי הרכש בוועדת התקציב של הבונדסטאג עד סוף השנה בעקבות אישור תקציב 2027 של גרמניה ב-27 בנובמבר (כ-140 מיליארד אירו לביטחון ו-11.6–12 מיליארד אירו סיוע לאוקראינה)."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/121yPQEASBWlHLTVVWxLCGpj7I_Q0tm-knvYyOuNrUAQ/edit",
+    "he": "https://docs.google.com/document/d/1r1Xr_IzbDOmkCh3pYjyYhuJOeG4WhYxXYcIGCh1pFzU/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-27_evening_AGY_EN.pdf": "1gWSvOA1SEEDDScweYStB54bMdaWCnuWk",
+    "Defense_Tech_Digest_2026-11-27_evening_AGY_HE.pdf": "1M2y39r8sHDFrX-p7Kpgy4E-2PgHT5w30",
+    "Defense_Team_Brief_2026-11-27_evening_AGY_EN.pdf": "1YVrswEmPoxTaauL6OGlwJbA57LX0H8Kn",
+    "Defense_Team_Brief_2026-11-27_evening_AGY_HE.pdf": "1CWHrjviOH5WP5iUBs1fi294i6HoMcNfv"
+   },
+   "photos": {
+    "D1": {
+     "file": "D1.jpg",
+     "url": "https://x.com/CENTCOM/status/2126359352869065046",
+     "outlet": "U.S. Central Command",
+     "caption_en": "Still frame from official CENTCOM strike video showing precision munitions targeting the stern of M/V Pacific Archer in the Gulf of Oman.",
+     "caption_he": "פריים מתוך סרטון התקיפה הרשמי של CENTCOM המציג פגיעת חימוש מדויק בירכתי האונייה M/V Pacific Archer במפרץ עומאן.",
+     "credit_en": "Photo: U.S. Central Command (CENTCOM)",
+     "credit_he": "צילום: פיקוד המרכז האמריקאי (CENTCOM)",
+     "local_src": "img/2026-11-27-evening/D1.jpg"
     }
    }
   },
